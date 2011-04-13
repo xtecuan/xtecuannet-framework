@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: com.xtesoft.xtecuannet.framework.libs
+OpenIDE-Module-Layer: com/xtesoft/xtecuannet/framework/libs/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/xtesoft/xtecuannet/framework/libs/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.1
+
