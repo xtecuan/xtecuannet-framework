@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="org-netbeans-api-project-libraries">
+        <folder name="Libraries">
+            <file name="apache-commons.xml" url="apache-commons.xml"/>
+            <file name="groovy-all-1.7.5.xml" url="groovy-all-1.7.5.xml"/>
+            <file name="iText-2.1.7.xml" url="iText-2.1.7.xml"/>
+            <file name="jasperreports-3.7.6.xml" url="jasperreports-3.7.6.xml"/>
+            <file name="jdt-compiler-3.1.1.xml" url="jdt-compiler-3.1.1.xml"/>
+            <file name="log4j-1.2.15.xml" url="log4j-1.2.15.xml"/>
+            <file name="poi-3.6-20091214.xml" url="poi-3.6-20091214.xml"/>
+            <file name="primefaces-3.0.0.xml" url="primefaces-3.0.0.xml"/>
+            <file name="spring-framework-3.0.0.xml" url="spring-framework-3.0.0.xml"/>
+            <file name="xtecuannet-framework.xml" url="xtecuannet-framework.xml"/>
+        </folder>
+    </folder>
+</filesystem>
