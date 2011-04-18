@@ -122,6 +122,10 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
     private void init() {
         
         this.filloutList${entityName}();
+        <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
+        this.filloutItems${i.type.simpleName}();
+        </#if>
+        </#list>
         
 
     }
@@ -132,8 +136,11 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
 
     <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
     private void filloutItems${i.type.simpleName}() {
-        
-        this.items${i.type.simpleName} = this.getFacade${entityName}().findAll();
+        <#if currentService =="${appModelPackage}.${appModelPservices}.${i.type.simpleName}Service">
+        this.items${i.type.simpleName} = this.getFacade${i.type.simpleName}().findAll();
+        <#else>
+        this.items${i.type.simpleName} = this.getFacade${i.type.simpleName}().findAll();
+        </#if>
     }
     </#if></#list>
 
