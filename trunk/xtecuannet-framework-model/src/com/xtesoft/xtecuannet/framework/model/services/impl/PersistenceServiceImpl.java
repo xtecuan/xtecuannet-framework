@@ -503,4 +503,48 @@ public class PersistenceServiceImpl implements PersistenceService {
 
         return respuesta;
     }
+
+    @Override
+    public <T> List hacerNamedQueryVariosRegistrosDTO(String query, Map paramMap, Class<T> dto) {
+        List<?> respuesta = null;
+
+        try {
+
+            logger.debug("Iniciando operación "
+                    + "hacerNamedQueryVariosRegistros(String query, = \n"
+                    + query + " " + "Map paramMap, = \n" + paramMap + ")");
+
+            Query querySQL = getEm().createNamedQuery(query);
+
+            JavaBeanResult.setQueryResultClass(querySQL, dto);
+
+            if (!paramMap.isEmpty()) {
+                for (Iterator<String> iterator = paramMap.keySet().iterator();
+                        iterator.hasNext();) {
+                    String name = iterator.next();
+
+                    querySQL.setParameter(name, paramMap.get(name));
+
+
+                }
+            }
+
+
+
+            respuesta = querySQL.getResultList();
+
+
+            logger.debug("Terminando operación "
+                    + "hacerNamedQueryVariosRegistrosDTO(String query, = \n"
+                    + query + " " + "Map paramMap, = \n" + paramMap + ")");
+
+        } catch (Exception e) {
+
+            logger.error("Exception en la operación "
+                    + "hacerNamedQueryVariosRegistrosDTO(String query, = \n"
+                    + query + " " + "Map paramMap, = \n" + paramMap + ")"
+                    + e);
+        }
+        return respuesta;
+    }
 }

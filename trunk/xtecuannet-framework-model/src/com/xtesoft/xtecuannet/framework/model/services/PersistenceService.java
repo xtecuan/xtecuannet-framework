@@ -43,4 +43,6 @@ public interface PersistenceService extends Serializable {
     public Object executeFunction(String sql, Object[] params);
 
     public <T> List executeProcedureWithResults(String sql, Object[] params, Class<T> pojo);
+
+    public <T> List hacerNamedQueryVariosRegistrosDTO(String query, Map paramMap,Class<T> dto);
 }
