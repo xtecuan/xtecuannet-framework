@@ -42,6 +42,8 @@ public class GeneratorConfig implements Serializable {
     private String mysqlUrl;
     private File templatesPath;
     private String basicTemplate;
+    private String appWebBaseBean;
+    private String appWebViewUtils;
 
     public GeneratorConfig() {
         this.readConfig(null);
@@ -284,11 +286,28 @@ public class GeneratorConfig implements Serializable {
         this.basicTemplate = basicTemplate;
     }
 
+    public String getAppWebBaseBean() {
+        return appWebBaseBean;
+    }
+
+    public void setAppWebBaseBean(String appWebBaseBean) {
+        this.appWebBaseBean = appWebBaseBean;
+    }
+
+    public String getAppWebViewUtils() {
+        return appWebViewUtils;
+    }
+
+    public void setAppWebViewUtils(String appWebViewUtils) {
+        this.appWebViewUtils = appWebViewUtils;
+    }
+
+    
+
     @Override
     public String toString() {
         return "GeneratorConfig{" + "activeConnection=" + activeConnection + "\nappName=" + appName + "\nappEarPath=" + appEarPath + "\nappModelName=" + appModelName + "\nappModelPath=" + appModelPath + "\nappModelPackage=" + appModelPackage + "\nappModelPentities=" + appModelPentities + "\nappModelPservices=" + appModelPservices + "\nappModelPservicesimpl=" + appModelPservicesimpl + "\nappModelSpringfilename=" + appModelSpringfilename + "\nappWebName=" + appWebName + "\nappWebPath=" + appWebPath + "\nappWebPackage=" + appWebPackage + "\nappWebPagesPath=" + appWebPagesPath + "\nappWebPagesGenerated=" + appWebPagesGenerated + "\nappWebSpringfilename=" + appWebSpringfilename + "\npostgresqlUser=" + postgresqlUser + "\npostgresqlPass=" + postgresqlPass + "\npostgresqlUrl=" + postgresqlUrl + "\nmysqlUser=" + mysqlUser + "\nmysqlPass=" + mysqlPass + "\nmysqlUrl=" + mysqlUrl + "\ntemplatesPath=" + templatesPath + "\nbasicTemplate=" + basicTemplate + '}';
     }
-
 //    public static void main(String[] args) {
 //
 //        GeneratorConfig instance = new GeneratorConfig();

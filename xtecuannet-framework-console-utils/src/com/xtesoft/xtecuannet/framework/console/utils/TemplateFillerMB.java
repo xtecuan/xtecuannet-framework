@@ -4,7 +4,6 @@
  */
 package com.xtesoft.xtecuannet.framework.console.utils;
 
-import com.xtesoft.xtecuannet.framework.model.entities.SecMenu;
 import freemarker.template.Configuration;
 import freemarker.template.DefaultObjectWrapper;
 import freemarker.template.Template;
@@ -18,6 +17,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import sv.edu.ues.siaarafia.modelo.entidades.Tblescuela;
+import sv.edu.ues.siaarafia.modelo.entidades.Tblestudiante;
+import sv.edu.ues.siaarafia.modelo.entidades.Tblinscripcion;
 
 /**
  *
@@ -39,15 +41,15 @@ public class TemplateFillerMB {
         root.put("appWebPackage", c.getAppWebPackage());
         root.put("appModelPackage", c.getAppModelPackage());
         root.put("appModelPentities", c.getAppModelPentities());
-        root.put("entityName", "SecMenu");
+        root.put("entityName", "Tblestudiante");
         root.put("appModelPservices", c.getAppModelPservices());
         root.put("userName", System.getProperty("user.name"));
         root.put("entityNameId", "MenuId");
         root.put("ClassUtils", TemplateFillerGridPage.getModelFor("com.xtesoft.xtecuannet.framework.console.utils.ClassUtils"));
-        Field[] fields = SecMenu.class.getDeclaredFields();
+        Field[] fields = Tblestudiante.class.getDeclaredFields();
         root.put("columnNames", fields);
 
-        Writer out = new FileWriter(new File("/home/xtecuan/SecMenuBean.java"));
+        Writer out = new FileWriter(new File("/home/xtecuan/TblestudianteBean.java"));
         temp.process(root, out);
 
         out.flush();

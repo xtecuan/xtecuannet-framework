@@ -1,10 +1,17 @@
 /*
+ * =======${entityName}Bean.java=======
  * Xtecuannet-framework-console-utils v${version}
  * Managed Bean generator ${currentDatetime}
  */
 package ${appWebPackage};
 
 import ${appModelPackage}.${appModelPentities}.${entityName};
+<#assign currentEntity="${appModelPackage}.${appModelPentities}.${entityName}">
+<#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
+<#if currentEntity!="${appModelPackage}.${appModelPentities}.${i.type.simpleName}">
+import ${appModelPackage}.${appModelPentities}.${i.type.simpleName};
+</#if>
+</#if></#list>
 import ${appModelPackage}.${appModelPservices}.${entityName}Service;
 <#assign currentService="${appModelPackage}.${appModelPservices}.${entityName}Service">
 <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
@@ -18,10 +25,16 @@ import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.context.FacesContext;
 import javax.faces.event.ActionEvent;
+<#assign counter=0>
 <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
+<#if counter==0>
 import javax.faces.model.SelectItem;
+<#assign counter=1>
+</#if>
 </#if></#list>
 import org.springframework.beans.factory.annotation.Autowired;
+import ${appWebViewUtils};
+import ${appWebBaseBean};
 
 
 /**
@@ -71,6 +84,9 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
     public ${entityName} getCurrent${entityName}() {
         if (this.current${entityName} == null) {
             this.current${entityName} = new ${entityName}();
+            <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
+            this.current${entityName}.set${i.name?cap_first}(new ${i.type.simpleName?cap_first}());
+            </#if></#list>
         }
         return current${entityName};
     }
@@ -133,13 +149,24 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
     private void filloutList${entityName}() {
         this.list${entityName} = this.getFacade${entityName}().findAll();
     }
-
+    <#list columnNames as i>
+    <#if ClassUtils.isSimplePKField(i)>
+    <#assign pk="${i.name}">
+    <#elseif ClassUtils.isEmbeddedIdField(i)>
+    <#assign pk="${i.name}">
+    </#if>
+    </#list>
     <#list columnNames as i><#if ClassUtils.isManyToOneField(i)>
+    <#list i.type.declaredFields as j>
+        <#if ClassUtils.isSimplePKField(j)>
+                <#assign pk1="${j.name}">
+        </#if>
+    </#list>
     private void filloutItems${i.type.simpleName}() {
         <#if currentService =="${appModelPackage}.${appModelPservices}.${i.type.simpleName}Service">
-        this.items${i.type.simpleName} = this.getFacade${i.type.simpleName}().findAll();
+        this.items${i.type.simpleName} = ViewUtils.fromListToSelectItem(this.getFacade${i.type.simpleName}().findAll(), "${pk1}", "${pk1}");
         <#else>
-        this.items${i.type.simpleName} = this.getFacade${i.type.simpleName}().findAll();
+        this.items${i.type.simpleName} = ViewUtils.fromListToSelectItem(this.getFacade${i.type.simpleName}().findAll(), "${pk1}", "${pk1}");
         </#if>
     }
     </#if></#list>
@@ -159,7 +186,8 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
         if (this.getCurrent${entityName}() != null) {
 
             this.getFacade${entityName}().remove(this.getCurrent${entityName}());
-            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_delete", new Object[]{this.getCurrent${entityName}().get${entityNameId}()}));
+            
+            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_delete", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
             this.filloutList${entityName}();
             FacesContext.getCurrentInstance().renderResponse();
 
@@ -183,8 +211,8 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
 
 
             ${entityName} salida = this.getFacade${entityName}().create(this.getCurrent${entityName}());
-            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_save", new Object[]{this.getCurrent${entityName}().get${entityNameId}()}));
-            this.getSession().setAttribute("outMessage", "${entityName} created with id: " + getCurrent${entityName}().get${entityNameId}());
+            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_save", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
+            this.getSession().setAttribute("outMessage", "${entityName} created with id: " + getCurrent${entityName}().get${pk?cap_first}());
             
         } else {
             this.getLogger().info("no entro por lo tanto no guardo");
@@ -201,8 +229,8 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
         if (this.getCurrent${entityName}() != null) {
 
             ${entityName} salida = this.getFacade${entityName}().edit(this.getCurrent${entityName}());
-            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_edit", new Object[]{this.getCurrent${entityName}().get${entityNameId}()}));
-            this.getSession().setAttribute("outMessage", "${entityName} updated Id: " + this.getCurrent${entityName}().get${entityNameId}());
+            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_edit", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
+            this.getSession().setAttribute("outMessage", "${entityName} updated Id: " + this.getCurrent${entityName}().get${pk?cap_first}());
 
         }
         this.getSession().removeAttribute("current${entityName}");

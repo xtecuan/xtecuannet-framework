@@ -20,6 +20,7 @@ import java.lang.reflect.Field;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.log4j.Logger;
+import sv.edu.ues.siaarafia.modelo.entidades.Tblescuela;
 
 /**
  *
@@ -39,7 +40,7 @@ public class TemplateFillerGridPage {
         Map root = new HashMap();
         root.put("title", "Sample Title");
 
-        Field[] fields = SecMenu.class.getDeclaredFields();
+        Field[] fields = Tblescuela.class.getDeclaredFields();
 
 
 //        Field id = ClassUtils.getSimplePKFieldFromEntity(SecMenu.class);
@@ -50,7 +51,7 @@ public class TemplateFillerGridPage {
 
         root.put("columnNames", fields);
         root.put("ClassUtils", getModelFor("com.xtesoft.xtecuannet.framework.console.utils.ClassUtils"));
-        root.put("entityName", "SecMenu");
+        root.put("entityName", "Tblescuela");
         root.put("basicTemplate", c.getBasicTemplate());
 
 
@@ -58,12 +59,12 @@ public class TemplateFillerGridPage {
 
 
 
-        Writer out = new FileWriter(new File("/home/xtecuan/SecMenu.xhtml"));
+        Writer out = new FileWriter(new File("/home/xtecuan/Tblescuela.xhtml"));
         temp.process(root, out);
         out.flush();
 
         Template temp1 = cfg.getTemplate("formPage.ftl");
-        Writer out1 = new FileWriter(new File("/home/xtecuan/SecMenu_form.xhtml"));
+        Writer out1 = new FileWriter(new File("/home/xtecuan/Tblescuela_form.xhtml"));
         temp1.process(root, out1);
         out1.flush();
 

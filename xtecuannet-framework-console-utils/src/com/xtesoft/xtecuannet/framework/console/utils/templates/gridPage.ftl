@@ -70,8 +70,15 @@
                                             <h:outputText value="${r"#{"}bundle.${entityName}_jsf_${i.name}${r"}"}" />
                                         </f:facet>
 
-                                        <h:outputText value="${r"#{"}${entityName}Var.${i.name}${r"}"}" />
+                                        
 
+                                        <#if i.type.name=='java.util.Date'>
+                                            <h:outputText value="${r"#{"}${entityName}Var.${i.name}${r"}"}">
+                                                <f:convertDateTime pattern="dd/MM/yyyy"/>
+                                            </h:outputText>
+                                        <#else>
+                                            <h:outputText value="${r"#{"}${entityName}Var.${i.name}${r"}"}"/>
+                                        </#if>
 
                                     </p:column>
 

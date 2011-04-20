@@ -7,6 +7,7 @@ package com.xtesoft.xtecuannet.framework.console.utils;
 import com.xtesoft.xtecuannet.framework.model.entities.SecMenu;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import javax.persistence.EmbeddedId;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
@@ -136,6 +137,16 @@ public final class ClassUtils {
         salida = field.isAnnotationPresent(ManyToOne.class);
 
         return salida;
+    }
+
+    public static boolean isEmbeddedIdField(Field field) {
+
+        boolean salida = false;
+
+        salida = field.isAnnotationPresent(EmbeddedId.class);
+
+        return salida;
+
     }
 
     public static void main(String[] args) {
