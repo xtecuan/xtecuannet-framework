@@ -50,6 +50,8 @@
     <bean id="ReportsService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ReportsServiceImpl" autowire="byType">
         <property name="dataSource" ref="dataSource"/>
     </bean>
+    <!--POI-EXCEL SERVICES-->
+    <bean id="ExcelService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ExcelServiceImpl" autowire="byType"/>
 
  
 </beans>
