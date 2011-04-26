@@ -94,15 +94,15 @@ public class TemplateFillerManagedBeans {
 //
 //                out.flush();
 
-//                Template temp2 = cfg.getTemplate("bundle.ftl");
-//                Writer out2 = new FileWriter(new File(c.getAppWebPath(), "src" + File.separator + "java" + File.separator + entityName + "Bean.generated"));
-//                temp2.process(root, out2);
-//                out2.flush();
+                Template temp2 = cfg.getTemplate("bundle.ftl");
+                Writer out2 = new FileWriter(new File(c.getAppWebPath(), "src" + File.separator + "java" + File.separator + entityName + "Bean.generated"));
+                temp2.process(root, out2);
+                out2.flush();
 
-                Template temp3 = cfg.getTemplate("gridPage.ftl");
-                Writer out3 = new FileWriter(new File(c.getAppWebPath(), c.getAppWebPagesGenerated() + entityName + ".xhtml"));
-                temp3.process(root, out3);
-                out3.flush();
+//                Template temp3 = cfg.getTemplate("gridPage.ftl");
+//                Writer out3 = new FileWriter(new File(c.getAppWebPath(), c.getAppWebPagesGenerated() + entityName + ".xhtml"));
+//                temp3.process(root, out3);
+//                out3.flush();
 
 
             }

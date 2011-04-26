@@ -62,7 +62,7 @@
                                             </#list>
                                             <h:outputLabel value="${r"#{"}bundle.${entityName}_jsf_${i.name}${r"}"}" for="f_${i.name}"/>
                                             <h:selectOneMenu id="f_${i.name}" title="${r"#{"}bundle.${entityName}_jsf_${i.name}${r"}"}" value="${r"#{"}current${entityName}.${i.name}.${combopk}${r"}"}">
-                                                <f:selectItem itemLabel="${r"#{"}bundle.framework_combo_select${r"}"}" itemValue=""/>
+                                                <f:selectItem itemLabel="${r"#{"}bundle.${entityName}_jsf_combo_select${r"}"}" itemValue=""/>
                                                 <f:selectItems value="${"#{"}${entityName}Bean.items${i.type.simpleName}${"}"}"/>
                                             </h:selectOneMenu>
                                           <#else>
@@ -78,6 +78,7 @@
                                 </#if>
                             </#list> 
                             <f:facet name="footer">
+                                <h:panelGrid id="display1" columns="3" cellpadding="4">
                                 <p:commandButton value="${r"#{"}bundle.${entityName}_jsf_btn_save${r"}"}"
                                                  action="${r"#{"}${entityName}Bean.save${entityName}${r"}"}" rendered="${r"#{"}insert${r"}"}"/>
 
@@ -85,6 +86,8 @@
                                                  action="${r"#{"}${entityName}Bean.edit${entityName}${r"}"}"
 
                                                  rendered="${r"#{"}not insert${r"}"}"/>
+                                <p:commandButton value="${"#{"}bundle.${entityName}_jsf_btn_cancel${"}"}" ajax="false" immediate="true" action="${entityName}?faces-redirect=true"/>
+                                </h:panelGrid>
                             </f:facet>
 
                         </h:panelGrid>

@@ -15,3 +15,5 @@ ${entityName}_jsf_btn_edit=Editar
 ${entityName}_jsf_btn_delete=Eliminar
 ${entityName}_jsf_btn_save=Guardar
 ${entityName}_jsf_btn_edit=Actualizar
+${entityName}_jsf_btn_cancel=Cancelar
+${entityName}_jsf_combo_select=Seleccione
