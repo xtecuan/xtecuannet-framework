@@ -5,17 +5,19 @@ and open the template in the editor.
 -->
 <!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
 <library version="1.0">
-    <name>xtecuannet-framework</name>
+    <name>apache-commons-exec-1.1</name>
     <type>j2se</type>
     <localizing-bundle>com.xtesoft.xtecuannet.framework.libs.Bundle</localizing-bundle>
     <volume>
         <type>classpath</type>
-        <resource>jar:nbinst://com.xtesoft.xtecuannet.framework.libs/libs/xtecuannet-framework-model.jar!/</resource>
+        <resource>jar:nbinst://com.xtesoft.xtecuannet.framework.libs/libs/commons-exec-1.1.jar!/</resource>
     </volume>
     <volume>
         <type>src</type>
+        <resource>jar:nbinst://com.xtesoft.xtecuannet.framework.libs/sources/commons-exec-1.1-sources.jar!/</resource>
     </volume>
     <volume>
         <type>javadoc</type>
+        <resource>jar:nbinst://com.xtesoft.xtecuannet.framework.libs/docs/commons-exec-1.1-javadoc.jar!/</resource>
     </volume>
 </library>
