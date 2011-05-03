@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
 <filesystem>
+    <folder name="Services">
+        <folder name="AutoupdateType">
+            <file name="com_xtesoft_xtecuannet_framework_libs_update_center.instance">
+                <attr name="displayName" bundlevalue="com.xtesoft.xtecuannet.framework.libs.Bundle#Services/AutoupdateType/com_xtesoft_xtecuannet_framework_libs_update_center.instance"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" bundlevalue="com.xtesoft.xtecuannet.framework.libs.Bundle#com_xtesoft_xtecuannet_framework_libs_update_center"/>
+            </file>
+        </folder>
+    </folder>
     <folder name="org-netbeans-api-project-libraries">
         <folder name="Libraries">
+            <file name="apache-commons-exec-1.1.xml" url="apache-commons-exec-1.1.xml"/>
             <file name="apache-commons.xml" url="apache-commons.xml"/>
             <file name="groovy-all-1.7.5.xml" url="groovy-all-1.7.5.xml"/>
             <file name="iText-2.1.7.xml" url="iText-2.1.7.xml"/>
@@ -12,7 +24,6 @@
             <file name="poi-3.6-20091214.xml" url="poi-3.6-20091214.xml"/>
             <file name="primefaces-3.0.0.xml" url="primefaces-3.0.0.xml"/>
             <file name="spring-framework-3.0.0.xml" url="spring-framework-3.0.0.xml"/>
-            <file name="xtecuannet-framework.xml" url="xtecuannet-framework.xml"/>
         </folder>
     </folder>
 </filesystem>
