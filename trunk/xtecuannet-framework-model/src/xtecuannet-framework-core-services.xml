@@ -52,6 +52,8 @@
     </bean>
     <!--POI-EXCEL SERVICES-->
     <bean id="ExcelService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ExcelServiceImpl" autowire="byType"/>
+    
+    <bean id="CommandExecServiceImpl" class="com.xtesoft.xtecuannet.framework.model.services.impl.CommandExecServiceImpl" autowire="byType"/>
 
  
 </beans>

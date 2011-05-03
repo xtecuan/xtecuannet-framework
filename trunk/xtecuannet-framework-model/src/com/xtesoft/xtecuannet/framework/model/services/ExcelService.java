@@ -5,6 +5,7 @@
 package com.xtesoft.xtecuannet.framework.model.services;
 
 import java.io.File;
+import java.io.InputStream;
 import java.util.List;
 import org.apache.poi.hssf.usermodel.HSSFCellStyle;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -44,4 +45,13 @@ public interface ExcelService {
      * @return 
      */
     public List<?> getExcelData(File excelFile, int[] fromRow, Class pojo);
+
+    /**
+     * 
+     * @param excelStream
+     * @param fromRow
+     * @param pojo
+     * @return 
+     */
+    public List<?> getExcelData(InputStream excelStream, int[] fromRow, Class pojo);
 }

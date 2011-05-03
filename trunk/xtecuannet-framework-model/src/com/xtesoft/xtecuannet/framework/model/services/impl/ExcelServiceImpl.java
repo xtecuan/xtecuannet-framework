@@ -209,4 +209,94 @@ public class ExcelServiceImpl implements ExcelService {
         return salida;
 
     }
+
+    public List<?> getExcelData(InputStream excelStream, int[] fromRow, Class pojo) {
+        List<Object> salida = new ArrayList<Object>(0);
+
+        HSSFWorkbook myWorkBook = null;
+
+        try {
+//            InputStream is = new FileInputStream(excelFile);
+            POIFSFileSystem myFileSystem = new POIFSFileSystem(excelStream);
+            myWorkBook = new HSSFWorkbook(myFileSystem);
+
+            int sheets = myWorkBook.getNumberOfSheets();
+
+            for (int i = 0; i < sheets; i++) {
+
+                HSSFSheet mySheet = myWorkBook.getSheetAt(i);
+
+                int firstRowIndex = mySheet.getFirstRowNum();
+
+//                logger.info(firstRowIndex);
+
+                HSSFRow firstRow = mySheet.getRow(firstRowIndex);
+
+                short lastCell = firstRow.getLastCellNum();
+
+                List<String> colNames = new ArrayList<String>(0);
+
+                for (int j = 0; j < lastCell; j++) {
+                    int currentCell = j;
+
+//                    logger.info(firstRow.getCell(currentCell));
+                    colNames.add(firstRow.getCell(currentCell).toString());
+                }
+
+                int lastRowNumIndex = mySheet.getLastRowNum();
+
+//                logger.info(lastRowNumIndex);
+
+                logger.info(fromRow[i] + "----" + lastRowNumIndex);
+                for (int k = fromRow[i]; k <= lastRowNumIndex; k++) {
+
+                    HSSFRow currentRow = mySheet.getRow(k);
+
+                    Object instance = pojo.newInstance();
+
+                    for (int x = 0; x < colNames.size(); x++) {
+                        String columnName = colNames.get(x);
+                        HSSFCell cell = currentRow.getCell(x);
+
+                        //logger.info(cell);
+
+                        int cellType = cell.getCellType();
+
+                        if (cellType == Cell.CELL_TYPE_STRING) {
+
+                            if (cell.getStringCellValue() != null) {
+
+                                ClassUtils.setPropertyToInstance(instance, columnName, cell.getStringCellValue());
+                            }
+                        } else if (cellType == Cell.CELL_TYPE_NUMERIC) {
+                            if (cell.toString() != null) {
+                                ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
+                            }
+                        } else if (cellType == Cell.CELL_TYPE_BOOLEAN) {
+                            if (cell.toString() != null) {
+                                ClassUtils.setPropertyToInstance(instance, columnName, Boolean.valueOf(cell.getBooleanCellValue()));
+                            }
+                        }
+
+
+
+                    }
+
+                    salida.add(instance);
+                }
+
+
+
+            }
+
+
+
+
+        } catch (Exception e) {
+
+            logger.info("Error reading Excel File: ", e);
+        }
+
+        return salida;
+    }
 }
