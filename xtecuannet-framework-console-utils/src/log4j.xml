@@ -18,6 +18,9 @@
     <logger name="com.xtesoft.xtecuannet.framework.console.utils">
         <level  value="info"/>
     </logger>
+    <logger name="com.xtesoft.xtecuannet.framework.console.utils.single">
+        <level  value="info"/>
+    </logger>
     <!--
     <logger name="org.xtecuan.jsicomnb.netkernel.beans.delegate">
         <level  value="info"/>
