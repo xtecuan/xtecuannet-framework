@@ -25,6 +25,7 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
 import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.DateUtil;
 
 /**
  *
@@ -178,8 +179,20 @@ public class ExcelServiceImpl implements ExcelService {
                                 ClassUtils.setPropertyToInstance(instance, columnName, cell.getStringCellValue());
                             }
                         } else if (cellType == Cell.CELL_TYPE_NUMERIC) {
-                            if (cell.toString() != null) {
-                                ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
+
+                            if (DateUtil.isCellDateFormatted(cell)) {
+
+                                if (cell.toString() != null) {
+
+                                    ClassUtils.setPropertyToInstance(instance, columnName, cell.getDateCellValue());
+                                }
+
+                            } else {
+
+                                if (cell.toString() != null) {
+                                    ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
+                                }
+
                             }
                         } else if (cellType == Cell.CELL_TYPE_BOOLEAN) {
                             if (cell.toString() != null) {
@@ -269,9 +282,23 @@ public class ExcelServiceImpl implements ExcelService {
                                 ClassUtils.setPropertyToInstance(instance, columnName, cell.getStringCellValue());
                             }
                         } else if (cellType == Cell.CELL_TYPE_NUMERIC) {
-                            if (cell.toString() != null) {
-                                ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
+
+                            if (DateUtil.isCellDateFormatted(cell)) {
+
+                                if (cell.toString() != null) {
+
+                                    ClassUtils.setPropertyToInstance(instance, columnName, cell.getDateCellValue());
+                                }
+
+                            } else {
+
+                                if (cell.toString() != null) {
+                                    ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
+                                }
+
                             }
+
+
                         } else if (cellType == Cell.CELL_TYPE_BOOLEAN) {
                             if (cell.toString() != null) {
                                 ClassUtils.setPropertyToInstance(instance, columnName, Boolean.valueOf(cell.getBooleanCellValue()));

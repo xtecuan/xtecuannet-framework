@@ -55,10 +55,14 @@ public final class ClassUtils {
 
         Object salida = null;
         try {
+            
+            Class[] array1 = null;
 
-            Method method = instance.getClass().getMethod(generateGetterName(name), null);
+            Method method = instance.getClass().getMethod(generateGetterName(name), array1);
 
-            salida = method.invoke(instance, null);
+            Object[] array = null;
+
+            salida = method.invoke(instance, array);
         } catch (Exception ex) {
 
             logger.error("Error getting the property: " + name, ex);
@@ -148,7 +152,6 @@ public final class ClassUtils {
         return salida;
 
     }
-
 //    public static void main(String[] args) {
 //
 //        Field[] fields = SecMenu.class.getDeclaredFields();
