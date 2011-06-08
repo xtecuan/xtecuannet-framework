@@ -283,6 +283,7 @@ public class ExcelServiceImpl implements ExcelService {
                             }
                         } else if (cellType == Cell.CELL_TYPE_NUMERIC) {
 
+
                             if (DateUtil.isCellDateFormatted(cell)) {
 
                                 if (cell.toString() != null) {
@@ -295,6 +296,7 @@ public class ExcelServiceImpl implements ExcelService {
                                 if (cell.toString() != null) {
                                     ClassUtils.setPropertyToInstance(instance, columnName, new BigDecimal(cell.getNumericCellValue()));
                                 }
+
 
                             }
 
