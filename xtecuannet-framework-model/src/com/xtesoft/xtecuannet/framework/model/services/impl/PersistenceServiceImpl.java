@@ -4,7 +4,6 @@
  */
 package com.xtesoft.xtecuannet.framework.model.services.impl;
 
-
 import com.xtesoft.xtecuannet.framework.model.constants.FrameworkConstants;
 import com.xtesoft.xtecuannet.framework.model.services.PersistenceService;
 import java.lang.reflect.Field;
@@ -12,6 +11,7 @@ import java.math.BigDecimal;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.sql.Types;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -455,11 +455,18 @@ public class PersistenceServiceImpl implements PersistenceService {
     public <T> List executeProcedureWithResults(String sql, Object[] params, Class<T> pojo) {
         List<Object> respuesta = new ArrayList<Object>(0);
 
+        Connection conn = null;
+        CallableStatement cstmt = null;
+
         try {
 
 
-            Connection conn = dataSource.getConnection();
-            CallableStatement cstmt = conn.prepareCall(sql);
+            conn = dataSource.getConnection();
+            conn.setHoldability(ResultSet.HOLD_CURSORS_OVER_COMMIT);
+
+            cstmt = conn.prepareCall(sql);
+
+
             if (params != null) {
                 for (int i = 0; i < params.length; i++) {
                     Object param = params[i];
@@ -470,6 +477,8 @@ public class PersistenceServiceImpl implements PersistenceService {
 
 
             ResultSet rset = cstmt.getResultSet();
+
+
 
             while (rset.next()) {
 
@@ -492,13 +501,37 @@ public class PersistenceServiceImpl implements PersistenceService {
 
             }
 
-            rset.close();
+            //rset.close();
             cstmt.close();
+            cstmt = null;
             conn.close();
+            conn = null;
 
 
         } catch (Exception ex) {
-            logger.info("Error al ejecutar el procedimiento almacenado con resultado: ", ex);
+            logger.error("Error al ejecutar el procedimiento almacenado con resultado: ", ex);
+        } finally {
+            if (cstmt != null) {
+
+                try {
+                    cstmt.close();
+                } catch (SQLException e) {
+                    logger.error("Error al cerrar el callable statement ", e);
+                }
+
+                cstmt = null;
+            }
+
+            if (conn != null) {
+
+                try {
+                    conn.close();
+                } catch (SQLException e) {
+
+                    logger.error("Error al cerrar la conexión ", e);
+                }
+                conn = null;
+            }
         }
 
         return respuesta;
@@ -546,5 +579,42 @@ public class PersistenceServiceImpl implements PersistenceService {
                     + e);
         }
         return respuesta;
+    }
+
+    public <T> Object hacerQueryNativoSingleResult(String query, Map<String, Object> params, Class<T> clase) {
+        Object salida = null;
+
+        List<T> lista = (List<T>) this.hacerQueryNativo(query, params);
+
+        salida = lista.get(0);
+
+        return salida;
+    }
+
+    public int executeSQLUpdateQuery(String query, Map<String, Object> params) {
+
+        int result = -1;
+
+        try {
+
+            Query q = this.getEm().createNativeQuery(query);
+
+            if (!params.isEmpty()) {
+
+                for (String key : params.keySet()) {
+                    q.setParameter(key, params.get(key));
+                }
+
+            }
+
+            result = q.executeUpdate();
+
+
+        } catch (Exception e) {
+
+            logger.error("Error al ejecutar el update con query: " + query + " params: " + params, e);
+        }
+
+        return result;
     }
 }
