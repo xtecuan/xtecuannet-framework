@@ -74,6 +74,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         return dataSource;
     }
 
+    /**
+     * 
+     * @param entidad
+     * @return 
+     */
     public Object guardarEntidad(Object entidad) {
         try {
 
@@ -90,6 +95,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         return entidad;
     }
 
+    /**
+     * 
+     * @param entidad
+     * @return 
+     */
     public Object actualizarEntidad(Object entidad) {
         try {
 
@@ -106,6 +116,13 @@ public class PersistenceServiceImpl implements PersistenceService {
         return entidad;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param tipoEntity
+     * @param pkEntity
+     * @return 
+     */
     public <T> Object hacerBorradoEntidad(Class<T> tipoEntity,
             Object pkEntity) {
 
@@ -133,6 +150,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         return "";
     }
 
+    /**
+     * 
+     * @param query
+     * @return 
+     */
     public List hacerNamedQueryVariosRegistros(String query) {
 
         List<?> respuesta = null;
@@ -164,6 +186,12 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param query
+     * @param paramMap
+     * @return 
+     */
     public List hacerNamedQueryVariosRegistros(String query,
             Map paramMap) {
         List<?> respuesta = null;
@@ -208,6 +236,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param tamanio
+     * @param query 
+     */
     private void verificarTamanio(Integer tamanio,
             Query query) {
         if (tamanio <= FrameworkConstants.DEFAULT_PAG) {
@@ -219,6 +252,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         }
     }
 
+    /**
+     * 
+     * @param sql
+     * @param params 
+     */
     public void executeProcedure(String sql,
             Object[] params) {
         Connection conn;
@@ -240,6 +278,11 @@ public class PersistenceServiceImpl implements PersistenceService {
         }
     }
 
+    /**
+     * 
+     * @param param
+     * @return 
+     */
     private int resolveType(Object param) {
         int sqlType = Types.VARCHAR;
         if (param == null) {
@@ -271,6 +314,12 @@ public class PersistenceServiceImpl implements PersistenceService {
         return sqlType;
     }
 
+    /**
+     * 
+     * @param query
+     * @param paramMap
+     * @return 
+     */
     public Object hacerNamedQueryUnRegistro(String query, Map paramMap) {
         Object respuesta = null;
 
@@ -310,6 +359,14 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param params
+     * @param entity
+     * @return 
+     */
     public <T> List hacerQueryNativo(String query, Map<String, Object> params, Class<T> entity) {
         List<?> respuesta = null;
 
@@ -345,6 +402,13 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param entity
+     * @return 
+     */
     @Override
     public <T> List hacerQueryNativo(String query, Class<T> entity) {
         Map map = new HashMap();
@@ -352,6 +416,13 @@ public class PersistenceServiceImpl implements PersistenceService {
         return this.hacerQueryNativo(query, map, entity);
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param params
+     * @return 
+     */
     @Override
     public <T> List hacerQueryNativo(String query, Map<String, Object> params) {
 
@@ -381,6 +452,14 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param params
+     * @param javabean
+     * @return 
+     */
     public <T> List doNativeQueryWithPojo(String query, Map<String, Object> params, Class<T> javabean) {
 
         List<?> respuesta = null;
@@ -413,6 +492,12 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param sql
+     * @param params
+     * @return 
+     */
     public Object executeFunction(String sql, Object[] params) {
         Object outPut = null;
         try {
@@ -451,6 +536,14 @@ public class PersistenceServiceImpl implements PersistenceService {
 
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param sql
+     * @param params
+     * @param pojo
+     * @return 
+     */
     @Override
     public <T> List executeProcedureWithResults(String sql, Object[] params, Class<T> pojo) {
         List<Object> respuesta = new ArrayList<Object>(0);
@@ -537,6 +630,14 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param paramMap
+     * @param dto
+     * @return 
+     */
     @Override
     public <T> List hacerNamedQueryVariosRegistrosDTO(String query, Map paramMap, Class<T> dto) {
         List<?> respuesta = null;
@@ -581,6 +682,14 @@ public class PersistenceServiceImpl implements PersistenceService {
         return respuesta;
     }
 
+    /**
+     * 
+     * @param <T>
+     * @param query
+     * @param params
+     * @param clase
+     * @return 
+     */
     public <T> Object hacerQueryNativoSingleResult(String query, Map<String, Object> params, Class<T> clase) {
         Object salida = null;
 
@@ -591,6 +700,12 @@ public class PersistenceServiceImpl implements PersistenceService {
         return salida;
     }
 
+    /**
+     * 
+     * @param query
+     * @param params
+     * @return 
+     */
     public int executeSQLUpdateQuery(String query, Map<String, Object> params) {
 
         int result = -1;

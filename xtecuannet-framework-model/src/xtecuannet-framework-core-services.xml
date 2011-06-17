@@ -18,7 +18,10 @@
    <!--JNDI DATASOURCE LOOKUP-->
 
     <jee:jndi-lookup id="dataSource" jndi-name="${dataSource.jndi}"/>
+    
+    <!--JNDI MAIL SESSION LOOKUP-->
 
+    <jee:jndi-lookup id="mailSession" jndi-name="${mailSession.jndi}"/>
 
     <!--JNDI PERSISTENCE UNIT LOOKUP-->
 
@@ -54,6 +57,10 @@
     <bean id="ExcelService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ExcelServiceImpl" autowire="byType"/>
     
     <bean id="CommandExecServiceImpl" class="com.xtesoft.xtecuannet.framework.model.services.impl.CommandExecServiceImpl" autowire="byType"/>
+    
+    <bean id="MailerService" class="com.xtesoft.xtecuannet.framework.model.services.impl.MailerServiceImpl" autowire="byType">
+        <property name="mailSession" ref="mailSession"/>
+    </bean>
 
  
 </beans>
