@@ -27,6 +27,13 @@ public class CommandExecServiceImpl implements CommandExecService {
 
     public static final Logger logger = Logger.getLogger(CommandExecServiceImpl.class);
 
+    /**
+     * 
+     * @param commandOnly
+     * @param arguments
+     * @param argVals
+     * @return 
+     */
     public int executeCommand(String commandOnly, List<String> arguments, Map<String, Object> argVals) {
         int result = -1;
 
@@ -67,6 +74,10 @@ public class CommandExecServiceImpl implements CommandExecService {
         return result;
     }
 
+    /**
+     * 
+     * @param args 
+     */
     public static void main(String[] args) {
 
         CommandExecServiceImpl impl = new CommandExecServiceImpl();

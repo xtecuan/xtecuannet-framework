@@ -52,6 +52,11 @@ public class ExcelServiceImpl implements ExcelService {
 
     }
 
+    /**
+     * 
+     * @param myWorkBook (HSSFWorkbook)
+     * @return 
+     */
     public HSSFCellStyle createCellStyle(HSSFWorkbook myWorkBook) {
         HSSFCellStyle style = myWorkBook.createCellStyle();
         style.setBorderBottom(HSSFCellStyle.BORDER_THIN);
@@ -65,6 +70,13 @@ public class ExcelServiceImpl implements ExcelService {
         return style;
     }
 
+    /**
+     * 
+     * @param templateName
+     * @param datos
+     * @param fromRow
+     * @return 
+     */
     public HSSFWorkbook generateWorkbook(String templateName, List<List<Object[]>> datos, int[] fromRow) {
         HSSFWorkbook myWorkBook = null;
         try {
@@ -120,6 +132,13 @@ public class ExcelServiceImpl implements ExcelService {
         return myWorkBook;
     }
 
+    /**
+     * 
+     * @param excelFile
+     * @param fromRow
+     * @param pojo
+     * @return 
+     */
     public List<?> getExcelData(File excelFile, int[] fromRow, Class pojo) {
         List<Object> salida = new ArrayList<Object>(0);
 
@@ -223,6 +242,13 @@ public class ExcelServiceImpl implements ExcelService {
 
     }
 
+    /**
+     * 
+     * @param excelStream
+     * @param fromRow
+     * @param pojo
+     * @return 
+     */
     public List<?> getExcelData(InputStream excelStream, int[] fromRow, Class pojo) {
         List<Object> salida = new ArrayList<Object>(0);
 

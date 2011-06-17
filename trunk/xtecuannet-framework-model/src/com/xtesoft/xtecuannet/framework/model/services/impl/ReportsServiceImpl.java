@@ -262,6 +262,13 @@ public class ReportsServiceImpl implements ReportsService {
         return salida;
     }
 
+    /**
+     * 
+     * @param nombre
+     * @param extension
+     * @param data
+     * @return 
+     */
     @Override
     public byte[] generarReporteSinParametros(String nombre, String extension, Collection data) {
         byte[] salida = null;
@@ -281,6 +288,14 @@ public class ReportsServiceImpl implements ReportsService {
         return salida;
     }
 
+    /**
+     * 
+     * @param nombre
+     * @param extension
+     * @param pParametrosReporte
+     * @param data
+     * @return 
+     */
     @Override
     public byte[] generarReporteConParametros(String nombre, String extension, Map pParametrosReporte, Collection data) {
         byte[] salida = null;

@@ -4,7 +4,6 @@
  */
 package com.xtesoft.xtecuannet.framework.model.services.impl;
 
-
 import com.xtesoft.xtecuannet.framework.model.services.GenericService;
 import com.xtesoft.xtecuannet.framework.model.services.PersistenceService;
 import java.util.List;
@@ -47,16 +46,30 @@ public class GenericServiceImpl<T> implements GenericService<T> {
         return logger;
     }
 
+    /**
+     * 
+     * @param entity
+     * @return 
+     */
     public T create(T entity) {
         getEm().persist(entity);
         return entity;
     }
 
+    /**
+     * 
+     * @param entity
+     * @return 
+     */
     public T edit(T entity) {
         getEm().merge(entity);
         return entity;
     }
 
+    /**
+     * 
+     * @param entity 
+     */
     public void remove(Object entity) {
         /*getEm().remove(getEm().find(this.getClazz(),
         entity));*/
@@ -70,10 +83,19 @@ public class GenericServiceImpl<T> implements GenericService<T> {
         //getEm().remove(this.persistenceBean.getEm().merge(entity));
     }
 
+    /**
+     * 
+     * @param entityId
+     * @return 
+     */
     public T find(Object entityId) {
         return getEm().find(this.getClazz(), entityId);
     }
 
+    /**
+     * 
+     * @return 
+     */
     public List<T> findAll() {
         EntityManager em1 = this.getEm().getEntityManagerFactory().createEntityManager();
         CriteriaQuery cq = em1.getCriteriaBuilder().createQuery();
@@ -81,6 +103,11 @@ public class GenericServiceImpl<T> implements GenericService<T> {
         return em1.createQuery(cq).getResultList();
     }
 
+    /**
+     * 
+     * @param range
+     * @return 
+     */
     public List<T> findRange(int[] range) {
 
         EntityManager em1 = this.getEm().getEntityManagerFactory().createEntityManager();
@@ -92,6 +119,10 @@ public class GenericServiceImpl<T> implements GenericService<T> {
         return q.getResultList();
     }
 
+    /**
+     * 
+     * @return 
+     */
     public int count() {
         EntityManager em1 = this.getEm().getEntityManagerFactory().createEntityManager();
         CriteriaQuery cq = em1.getCriteriaBuilder().createQuery();
@@ -118,6 +149,10 @@ public class GenericServiceImpl<T> implements GenericService<T> {
         this.clazz = clazz;
     }
 
+    /**
+     * 
+     * @return 
+     */
     public String sayHello() {
         return HELLO_FROM + this.getClazz().getCanonicalName();
     }
