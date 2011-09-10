@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: ch.ethz.ssh2.ganymed
+OpenIDE-Module-Layer: ch/ethz/ssh2/ganymed/layer.xml
+OpenIDE-Module-Localizing-Bundle: ch/ethz/ssh2/ganymed/Bundle.properties
+OpenIDE-Module-Specification-Version: 0.0.1
+
