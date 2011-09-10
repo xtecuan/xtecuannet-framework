@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Services">
+        <folder name="AutoupdateType">
+            <file name="org_xtecuan_xconfigurator_utils_update_center.instance">
+                <attr name="displayName" bundlevalue="org.xtecuan.xconfigurator.utils.Bundle#Services/AutoupdateType/org_xtecuan_xconfigurator_utils_update_center.instance"/>
+                <attr name="enabled" boolvalue="true"/>
+                <attr name="instanceCreate" methodvalue="org.netbeans.modules.autoupdate.updateprovider.AutoupdateCatalogFactory.createUpdateProvider"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.spi.autoupdate.UpdateProvider"/>
+                <attr name="url" bundlevalue="org.xtecuan.xconfigurator.utils.Bundle#org_xtecuan_xconfigurator_utils_update_center"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="org-netbeans-api-project-libraries">
+        <folder name="Libraries">
+            <file name="XConfiguratorApache-libs-support.xml" url="XConfiguratorApache-libs-support.xml"/>
+        </folder>
+    </folder>
+</filesystem>

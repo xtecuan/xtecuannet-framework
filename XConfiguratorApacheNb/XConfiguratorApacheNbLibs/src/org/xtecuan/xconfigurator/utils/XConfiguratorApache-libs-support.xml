@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+    <name>XConfiguratorApache-libs-support</name>
+    <type>j2se</type>
+    <localizing-bundle>org.xtecuan.xconfigurator.utils.Bundle</localizing-bundle>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/XConfiguratorApache-0.0.2.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/log4j-1.2.15.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/commons-configuration-1.7.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/commons-lang-2.6.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/commons-logging-api.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/commons-logging.jar!/</resource>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/libs/commons-collections-3.1.jar!/</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/sources/XConfiguratorApache-0.0.1-src.zip!/</resource>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>jar:nbinst://org.xtecuan.xconfigurator.utils/docs/XConfiguratorApache-0.0.1-javadoc.zip!/</resource>
+    </volume>
+</library>
