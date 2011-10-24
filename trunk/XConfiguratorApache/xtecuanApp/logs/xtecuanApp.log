@@ -1,1 +1,3 @@
-###ApacheConfig log file for Application: xtecuanApp.log
+2011-10-17 14:03:37,379 [main] INFO - 200 jdbc/as400con
+2011-10-17 15:28:43,107 [main] INFO - 200 jdbc/as400con
+2011-10-17 15:29:38,703 [main] INFO - 200 jdbc/as400con
