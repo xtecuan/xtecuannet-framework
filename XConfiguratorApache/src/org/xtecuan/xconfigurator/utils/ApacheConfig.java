@@ -8,10 +8,15 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Serializable;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
 import org.apache.commons.configuration.reloading.FileChangedReloadingStrategy;
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.xtecuan.xconfigurator.utils.enums.LogConfigType;
 
 /**
  *
@@ -25,6 +30,22 @@ public final class ApacheConfig implements Serializable {
     private static final String PROPERTIES = ".properties";
     private static final String LOG_FOLDER = "logs";
     private static final String LOG = ".log";
+    private static final String XML = ".xml";
+    private static final String AppConsoleAppender_template = "AppConsoleAppender.xml";
+    private static final String AppExternalFile_template = "AppExternalFile.xml";
+    private static final String LOGFILE_KEY = "${log_filename_and_path}";
+    private static final String BASE_PACKAGE_KEY = "${base_package}";
+
+    public static PropertiesConfiguration getPropertiesConfig(String myAppName, String packageName, LogConfigType type) throws ConfigurationException {
+        createLocations(myAppName, packageName, type);
+        PropertiesConfiguration out = new PropertiesConfiguration(getFile(myAppName));
+
+        out.setReloadingStrategy(new FileChangedReloadingStrategy());
+
+        logger.debug(out.getPath() + " cargado!!!");
+
+        return out;
+    }
 
     /**
      * Método que sirve para obtener un objeto de configuración de Apache commons
@@ -40,7 +61,7 @@ public final class ApacheConfig implements Serializable {
 
         out.setReloadingStrategy(new FileChangedReloadingStrategy());
 
-        logger.info(out.getPath() + " cargado!!!");
+        logger.debug(out.getPath() + " cargado!!!");
 
         return out;
     }
@@ -80,6 +101,49 @@ public final class ApacheConfig implements Serializable {
     }
 
     /**
+     * Devuelve El Nombre del archivo de configuración del Log
+     * @param myAppName Aquí se escribe el nombre de la aplicación a configurar
+     * @return El nombre del archivo de configuaración del log de la aplicación
+     */
+    public static String getLogConfigFile(String myAppName) {
+
+        String path = getPath(myAppName);
+        String out = path + File.separator + myAppName + XML;
+        return out;
+
+    }
+
+    /**
+     * Crea las carpetas de configuración si no existen de manera vacia para configurar
+     * @param myAppName Aquí se escribe el nombre de la aplicación a configurar
+     * @param packageName el nombre del paquete por default de la aplicación
+     * @param type Tipo de configuración de log
+     */
+    public static void createLocations(String myAppName, String packageName, LogConfigType type) {
+
+        createLocations(myAppName);
+        String configlog = getLogConfigFile(myAppName);
+        File fclog = new File(configlog);
+        if (fclog.getParentFile().exists()) {
+            logger.debug("La carpeta de log ya existe: " + fclog.getParentFile().getName());
+            if (fclog.exists()) {
+                logger.debug("El Archivo de log: " + fclog.getPath() + " ya existe");
+            } else {
+                touchLogConfigFile(fclog, packageName, type, myAppName);
+            }
+        } else {
+            logger.debug("Creando la carpeta: " + fclog.getParentFile().getName());
+            boolean result = fclog.getParentFile().mkdirs();
+            if (result) {
+                logger.debug(fclog.getParentFile().getName() + " creada ...[done]");
+                touchLogConfigFile(fclog, packageName, type, myAppName);
+            }
+        }
+
+
+    }
+
+    /**
      * Crea las carpetas de configuración si no existen de manera vacia para configurar
      * y le da touch a los archivos de configuración y de log de la aplicación
      * 
@@ -88,59 +152,38 @@ public final class ApacheConfig implements Serializable {
     public static void createLocations(String myAppName) {
 
         String path = getPath(myAppName);
-
         String config = getFile(myAppName);
-
         String log = getLogFile(myAppName);
-
         File f = new File(config);
         File fpath = new File(path);
         File flog = new File(log);
-
         if (fpath.exists()) {
-
-            logger.info("La carpeta ya existe: " + fpath.getName());
-
+            logger.debug("La carpeta ya existe: " + fpath.getName());
             if (f.exists()) {
-
-                logger.info("El Archivo: " + f.getPath() + " ya existe");
+                logger.debug("El Archivo: " + f.getPath() + " ya existe");
             } else {
-
                 touchCfgFile(f);
             }
-
         } else {
-
-            logger.info("Creando la carpeta: " + fpath.getName());
+            logger.debug("Creando la carpeta: " + fpath.getName());
             boolean result = fpath.mkdirs();
-
             if (result) {
-
-                logger.info(fpath.getName() + " creada ...[done]");
+                logger.debug(fpath.getName() + " creada ...[done]");
                 touchCfgFile(f);
-
             }
-
         }
-
         if (flog.getParentFile().exists()) {
-            logger.info("La carpeta de log ya existe: " + flog.getParentFile().getName());
+            logger.debug("La carpeta de log ya existe: " + flog.getParentFile().getName());
             if (flog.exists()) {
-
-                logger.info("El Archivo de log: " + flog.getPath() + " ya existe");
+                logger.debug("El Archivo de log: " + flog.getPath() + " ya existe");
             } else {
-
                 touchLogFile(flog);
             }
-
         } else {
-
-            logger.info("Creando la carpeta: " + flog.getParentFile().getName());
+            logger.debug("Creando la carpeta: " + flog.getParentFile().getName());
             boolean result = flog.getParentFile().mkdirs();
-
             if (result) {
-
-                logger.info(flog.getParentFile().getName() + " creada ...[done]");
+                logger.debug(flog.getParentFile().getName() + " creada ...[done]");
                 touchLogFile(flog);
 
             }
@@ -156,7 +199,7 @@ public final class ApacheConfig implements Serializable {
         try {
             FileWriter fw = new FileWriter(config);
             fw.write("###ApacheConfig generated config file for Application: " + config.getName());
-            logger.info("Archivo: " + config.getName() + " creado!!!");
+            logger.debug("Archivo: " + config.getName() + " creado!!!");
             fw.flush();
             fw.close();
 
@@ -174,7 +217,7 @@ public final class ApacheConfig implements Serializable {
         try {
             FileWriter fw = new FileWriter(flog);
             fw.write("###ApacheConfig log file for Application: " + flog.getName());
-            logger.info("Archivo: " + flog.getName() + " creado!!!");
+            logger.debug("Archivo: " + flog.getName() + " creado!!!");
             fw.flush();
             fw.close();
 
@@ -183,21 +226,72 @@ public final class ApacheConfig implements Serializable {
         }
 
     }
-//    public static void main(String[] args) {
+
+    /**
+     * Creación de archivo de configuración 
+     * @param fclog
+     * @param packageName
+     * @param type 
+     */
+    private static void touchLogConfigFile(File fclog, String packageName, LogConfigType type, String myAppName) {
+
+        try {
+            URL url = LoggerUtilPlus.getUrl(type.getTemplate());
+
+            logger.info(url);
+            
+            
+            File template = FileUtils.toFile(url);
+
+            List linesTemplate = FileUtils.readLines(template);
+            List linesConfig = new ArrayList<String>(0);
+
+            for (Object current : linesTemplate) {
+                String str = (String) current;
+                if (type.getCod().intValue() == 1) {
+                    String salida = str.replace(LOGFILE_KEY, getLogFile(myAppName));
+                    salida = salida.replace(BASE_PACKAGE_KEY, packageName);
+                    linesConfig.add(salida);
+                } else if (type.getCod().intValue() == 2) {
+                    String salida = str.replace(BASE_PACKAGE_KEY, packageName);
+                    linesConfig.add(salida);
+                }
+            }
+
+            FileUtils.writeLines(fclog, linesConfig);
+
+        } catch (Exception ex) {
+            logger.error("Error al dar touch al archivo: " + fclog.getPath(), ex);
+        }
+    }
+
+    public static void main(String[] args) {
+
+        PropertiesConfiguration c;
+        try {
+            c = ApacheConfig.getPropertiesConfig("xtecuanApp", "org.xtecuan.xconfigurator", LogConfigType.AppFileAppender);
+            int pool = c.getInt("pool.size");
+
+            String ss = c.getString("datasource.sample");
+
+            Logger log1 = LoggerUtilPlus.getLogger(ApacheConfig.class, new File(getLogConfigFile("xtecuanApp")));
+
+            log1.info(pool + " " + ss);
+        } catch (ConfigurationException ex) {
+            logger.error("Error al crear la configuracion: ", ex);
+        }
+        
+        //touchLogConfigFile(new File(getLogConfigFile("xtecuanApp")), "sample", LogConfigType.AppFileAppender  ,"xtecuanApp");
+
+
+    }
 //
-//        PropertiesConfiguration c;
-//        try {
-//            c = ApacheConfig.getPropertiesConfig("xtecuanApp");
-//            int pool = c.getInt("pool.size");
+//    public static void main2(String[] args) {
+//        Logger log = LoggerUtilPlus.getLogger(ApacheConfig.class, "xtecuanApp.xml");
 //
-//            String ss = c.getString("datasource.sample");
+//        for (int i = 0; i < 1000; i++) {
+//            logger.info("item: " + (i + 1));
 //
-//
-//            logger.info(pool + " " + ss);
-//        } catch (ConfigurationException ex) {
-//            logger.error("Error al crear la configuracion: ", ex);
 //        }
-//
-//
 //    }
 }
