@@ -1,0 +1,825 @@
+2011-12-05 11:13:21,971 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 11:13:22,000 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 11:13:22,002 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 11:13:22,006 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 11:13:32,512 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioService.java
+2011-12-05 11:13:32,569 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,766 [AWT-EventQueue-0] INFO - Creating: DetalleterceroService.java
+2011-12-05 11:13:32,772 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,774 [AWT-EventQueue-0] INFO - Creating: TipocasaService.java
+2011-12-05 11:13:32,779 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,780 [AWT-EventQueue-0] INFO - Creating: SeguimientoService.java
+2011-12-05 11:13:32,784 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,785 [AWT-EventQueue-0] INFO - Creating: TerceroService.java
+2011-12-05 11:13:32,789 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,790 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoService.java
+2011-12-05 11:13:32,794 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,795 [AWT-EventQueue-0] INFO - Creating: RelacionService.java
+2011-12-05 11:13:32,799 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,804 [AWT-EventQueue-0] INFO - Creating: TipodeingresoService.java
+2011-12-05 11:13:32,808 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,875 [AWT-EventQueue-0] INFO - Creating: PadecimientoService.java
+2011-12-05 11:13:32,878 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,949 [AWT-EventQueue-0] INFO - Creating: TipobeneficioService.java
+2011-12-05 11:13:32,952 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:32,998 [AWT-EventQueue-0] INFO - Creating: BeneficiarioService.java
+2011-12-05 11:13:33,002 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: service.ftl
+
+Expression user is undefined on line 18, column 14 in service.ftl.
+The problematic instruction:
+----------
+==> ${user} [on line 18, column 12 in service.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression user is undefined on line 18, column 14 in service.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ServiceFiller.filloutTemplate(ServiceFiller.java:50)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.jButton1ActionPerformed(Templater.java:100)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$200(Templater.java:25)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$2.actionPerformed(Templater.java:56)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6288)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6053)
+	at java.awt.Container.processEvent(Container.java:2041)
+	at java.awt.Component.dispatchEventImpl(Component.java:4651)
+	at java.awt.Container.dispatchEventImpl(Container.java:2099)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
+	at java.awt.Container.dispatchEventImpl(Container.java:2085)
+	at java.awt.Window.dispatchEventImpl(Window.java:2478)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:602)
+	at java.awt.EventQueue$1.run(EventQueue.java:600)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:616)
+	at java.awt.EventQueue$2.run(EventQueue.java:614)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2011-12-05 11:13:51,432 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 11:15:48,603 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 11:15:48,606 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 11:15:48,606 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 11:15:48,606 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 11:15:54,654 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioService.java
+2011-12-05 11:15:54,667 [AWT-EventQueue-0] INFO - Creating: DetalleterceroService.java
+2011-12-05 11:15:54,668 [AWT-EventQueue-0] INFO - Creating: TipocasaService.java
+2011-12-05 11:15:54,668 [AWT-EventQueue-0] INFO - Creating: SeguimientoService.java
+2011-12-05 11:15:54,669 [AWT-EventQueue-0] INFO - Creating: TerceroService.java
+2011-12-05 11:15:54,669 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoService.java
+2011-12-05 11:15:54,670 [AWT-EventQueue-0] INFO - Creating: RelacionService.java
+2011-12-05 11:15:54,670 [AWT-EventQueue-0] INFO - Creating: TipodeingresoService.java
+2011-12-05 11:15:54,671 [AWT-EventQueue-0] INFO - Creating: PadecimientoService.java
+2011-12-05 11:15:54,671 [AWT-EventQueue-0] INFO - Creating: TipobeneficioService.java
+2011-12-05 11:15:54,672 [AWT-EventQueue-0] INFO - Creating: BeneficiarioService.java
+2011-12-05 11:18:07,151 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 14:29:16,032 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 14:29:16,033 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 14:29:16,033 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 14:29:16,033 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:29:25,558 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioServiceImpl.java
+2011-12-05 14:29:25,577 [AWT-EventQueue-0] INFO - Creating: DetalleterceroServiceImpl.java
+2011-12-05 14:29:25,578 [AWT-EventQueue-0] INFO - Creating: TipocasaServiceImpl.java
+2011-12-05 14:29:25,578 [AWT-EventQueue-0] INFO - Creating: SeguimientoServiceImpl.java
+2011-12-05 14:29:25,579 [AWT-EventQueue-0] INFO - Creating: TerceroServiceImpl.java
+2011-12-05 14:29:25,580 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoServiceImpl.java
+2011-12-05 14:29:25,580 [AWT-EventQueue-0] INFO - Creating: RelacionServiceImpl.java
+2011-12-05 14:29:25,581 [AWT-EventQueue-0] INFO - Creating: TipodeingresoServiceImpl.java
+2011-12-05 14:29:25,582 [AWT-EventQueue-0] INFO - Creating: PadecimientoServiceImpl.java
+2011-12-05 14:29:25,582 [AWT-EventQueue-0] INFO - Creating: TipobeneficioServiceImpl.java
+2011-12-05 14:29:25,583 [AWT-EventQueue-0] INFO - Creating: BeneficiarioServiceImpl.java
+2011-12-05 14:29:33,665 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 14:34:39,002 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 14:34:39,003 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 14:34:39,004 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 14:34:39,004 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:34:39,004 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:40:24,321 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 14:41:12,655 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 14:41:12,656 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 14:41:12,656 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 14:41:12,656 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:41:12,657 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:41:22,705 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 14:42:21,525 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 14:42:21,528 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 14:42:21,528 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 14:42:21,528 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:42:21,528 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:42:21,529 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
+2011-12-05 14:42:39,489 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 14:43:28,526 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 14:43:28,526 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 14:43:28,526 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 14:43:28,527 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 14:43:28,527 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
+2011-12-05 14:43:28,527 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
+2011-12-05 14:43:37,426 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioServiceImpl.java
+2011-12-05 14:43:37,441 [AWT-EventQueue-0] INFO - Creating: DetalleterceroServiceImpl.java
+2011-12-05 14:43:37,442 [AWT-EventQueue-0] INFO - Creating: TipocasaServiceImpl.java
+2011-12-05 14:43:37,443 [AWT-EventQueue-0] INFO - Creating: SeguimientoServiceImpl.java
+2011-12-05 14:43:37,443 [AWT-EventQueue-0] INFO - Creating: TerceroServiceImpl.java
+2011-12-05 14:43:37,444 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoServiceImpl.java
+2011-12-05 14:43:37,445 [AWT-EventQueue-0] INFO - Creating: RelacionServiceImpl.java
+2011-12-05 14:43:37,445 [AWT-EventQueue-0] INFO - Creating: TipodeingresoServiceImpl.java
+2011-12-05 14:43:37,446 [AWT-EventQueue-0] INFO - Creating: PadecimientoServiceImpl.java
+2011-12-05 14:43:37,447 [AWT-EventQueue-0] INFO - Creating: TipobeneficioServiceImpl.java
+2011-12-05 14:43:37,447 [AWT-EventQueue-0] INFO - Creating: BeneficiarioServiceImpl.java
+2011-12-05 14:43:43,665 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 15:46:53,046 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 15:46:53,048 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 15:46:53,048 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 15:46:53,048 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 15:46:53,048 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
+2011-12-05 15:46:53,049 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
+2011-12-05 15:46:58,760 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioService.java
+2011-12-05 15:46:58,761 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/DetallebeneficiarioService.java already exists!!!
+2011-12-05 15:46:58,761 [AWT-EventQueue-0] INFO - Creating: DetalleterceroService.java
+2011-12-05 15:46:58,761 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/DetalleterceroService.java already exists!!!
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - Creating: TipocasaService.java
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/TipocasaService.java already exists!!!
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - Creating: SeguimientoService.java
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/SeguimientoService.java already exists!!!
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - Creating: TerceroService.java
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/TerceroService.java already exists!!!
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoService.java
+2011-12-05 15:46:58,762 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/TiposeguimientoService.java already exists!!!
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - Creating: RelacionService.java
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/RelacionService.java already exists!!!
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - Creating: TipodeingresoService.java
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/TipodeingresoService.java already exists!!!
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - Creating: PadecimientoService.java
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/PadecimientoService.java already exists!!!
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - Creating: TipobeneficioService.java
+2011-12-05 15:46:58,763 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/TipobeneficioService.java already exists!!!
+2011-12-05 15:46:58,764 [AWT-EventQueue-0] INFO - Creating: BeneficiarioService.java
+2011-12-05 15:46:58,764 [AWT-EventQueue-0] INFO - File: /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/BeneficiarioService.java already exists!!!
+2011-12-05 15:48:49,169 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-05 15:49:08,102 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-05 15:49:08,103 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-05 15:49:08,104 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-05 15:49:08,104 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-05 15:49:08,104 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
+2011-12-05 15:49:08,104 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
+2011-12-05 15:49:12,109 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioService.java
+2011-12-05 15:49:12,111 [AWT-EventQueue-0] INFO - File: DetallebeneficiarioService.java already exists!!!
+2011-12-05 15:49:12,113 [AWT-EventQueue-0] INFO - Creating: DetalleterceroService.java
+2011-12-05 15:49:12,115 [AWT-EventQueue-0] INFO - File: DetalleterceroService.java already exists!!!
+2011-12-05 15:49:12,117 [AWT-EventQueue-0] INFO - Creating: TipocasaService.java
+2011-12-05 15:49:12,117 [AWT-EventQueue-0] INFO - File: TipocasaService.java already exists!!!
+2011-12-05 15:49:12,117 [AWT-EventQueue-0] INFO - Creating: SeguimientoService.java
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - File: SeguimientoService.java already exists!!!
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - Creating: TerceroService.java
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - File: TerceroService.java already exists!!!
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoService.java
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - File: TiposeguimientoService.java already exists!!!
+2011-12-05 15:49:12,118 [AWT-EventQueue-0] INFO - Creating: RelacionService.java
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - File: RelacionService.java already exists!!!
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - Creating: TipodeingresoService.java
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - File: TipodeingresoService.java already exists!!!
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - Creating: PadecimientoService.java
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - File: PadecimientoService.java already exists!!!
+2011-12-05 15:49:12,119 [AWT-EventQueue-0] INFO - Creating: TipobeneficioService.java
+2011-12-05 15:49:12,120 [AWT-EventQueue-0] INFO - File: TipobeneficioService.java already exists!!!
+2011-12-05 15:49:12,120 [AWT-EventQueue-0] INFO - Creating: BeneficiarioService.java
+2011-12-05 15:49:12,120 [AWT-EventQueue-0] INFO - File: BeneficiarioService.java already exists!!!
+2011-12-05 15:49:17,183 [AWT-EventQueue-0] INFO - Creating: DetallebeneficiarioServiceImpl.java
+2011-12-05 15:49:17,183 [AWT-EventQueue-0] INFO - File: DetallebeneficiarioServiceImpl.java already exists!!!
+2011-12-05 15:49:17,183 [AWT-EventQueue-0] INFO - Creating: DetalleterceroServiceImpl.java
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - File: DetalleterceroServiceImpl.java already exists!!!
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - Creating: TipocasaServiceImpl.java
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - File: TipocasaServiceImpl.java already exists!!!
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - Creating: SeguimientoServiceImpl.java
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - File: SeguimientoServiceImpl.java already exists!!!
+2011-12-05 15:49:17,184 [AWT-EventQueue-0] INFO - Creating: TerceroServiceImpl.java
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - File: TerceroServiceImpl.java already exists!!!
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - Creating: TiposeguimientoServiceImpl.java
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - File: TiposeguimientoServiceImpl.java already exists!!!
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - Creating: RelacionServiceImpl.java
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - File: RelacionServiceImpl.java already exists!!!
+2011-12-05 15:49:17,185 [AWT-EventQueue-0] INFO - Creating: TipodeingresoServiceImpl.java
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - File: TipodeingresoServiceImpl.java already exists!!!
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - Creating: PadecimientoServiceImpl.java
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - File: PadecimientoServiceImpl.java already exists!!!
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - Creating: TipobeneficioServiceImpl.java
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - File: TipobeneficioServiceImpl.java already exists!!!
+2011-12-05 15:49:17,186 [AWT-EventQueue-0] INFO - Creating: BeneficiarioServiceImpl.java
+2011-12-05 15:49:17,187 [AWT-EventQueue-0] INFO - File: BeneficiarioServiceImpl.java already exists!!!
+2011-12-05 15:49:28,401 [AWT-EventQueue-0] INFO - Closing Application!!!

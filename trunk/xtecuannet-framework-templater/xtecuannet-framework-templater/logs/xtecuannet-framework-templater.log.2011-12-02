@@ -1,0 +1,260 @@
+2011-12-02 01:13:41,177 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 01:13:41,252 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 01:13:41,253 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/src/${toPath(com.xtesoft.sscsj.model.entities)}
+2011-12-02 01:13:41,253 [AWT-EventQueue-0] INFO - com/xtesoft/sample
+2011-12-02 01:18:26,392 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 01:19:44,679 [main] INFO - ${toPath(com.xtesoft.sscsj.model.entities)
+2011-12-02 01:20:17,549 [main] INFO - {toPath(com.xtesoft.sscsj.model.entities)
+2011-12-02 01:20:37,035 [main] INFO - toPath(com.xtesoft.sscsj.model.entities)
+2011-12-02 01:21:05,246 [main] INFO - toPath(com.xtesoft.sscsj.model.entities)
+2011-12-02 01:22:07,739 [main] INFO - toPath
+2011-12-02 01:25:51,022 [main] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 01:37:04,897 [main] INFO - com/xtesoft/sscsj/model/entities
+2011-12-02 01:37:55,437 [main] INFO - com/xtesoft/sscsj/model/entities
+2011-12-02 01:41:52,474 [main] INFO - /home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/src/$com/xtesoft/sscsj/model/entities
+2011-12-02 01:42:16,901 [main] INFO - /home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/src/com/xtesoft/sscsj/model/entities
+2011-12-02 01:44:06,427 [main] INFO - /home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/src/com/xtesoft/sscsj/model/entities
+2011-12-02 01:44:45,074 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 01:45:57,806 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 01:45:57,816 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 01:45:57,817 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 01:45:57,818 [AWT-EventQueue-0] INFO - com/xtesoft/sample
+2011-12-02 01:46:11,937 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 01:47:01,085 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 01:47:01,098 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 01:47:01,099 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 01:47:01,100 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 01:47:01,100 [AWT-EventQueue-0] INFO - com/xtesoft/sample
+2011-12-02 01:48:23,097 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 11:30:56,817 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:30:56,819 [main] INFO - [private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 11:32:01,313 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:32:01,314 [main] INFO - [public static final java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.SAMPLE_CONSTANT, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 11:33:12,193 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:33:12,196 [main] INFO - public static final
+2011-12-02 11:33:12,196 [main] INFO - private
+2011-12-02 11:33:12,197 [main] INFO - private
+2011-12-02 11:33:12,197 [main] INFO - private
+2011-12-02 11:33:12,197 [main] INFO - private
+2011-12-02 11:33:12,197 [main] INFO - private
+2011-12-02 11:33:12,198 [main] INFO - private
+2011-12-02 11:33:12,198 [main] INFO - private
+2011-12-02 11:33:12,198 [main] INFO - private
+2011-12-02 11:33:12,199 [main] INFO - private
+2011-12-02 11:33:12,199 [main] INFO - private
+2011-12-02 11:33:12,199 [main] INFO - [public static final java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.SAMPLE_CONSTANT, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 11:34:00,230 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:34:00,231 [main] INFO - public static final-25
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,232 [main] INFO - private-2
+2011-12-02 11:34:00,233 [main] INFO - private-2
+2011-12-02 11:34:00,233 [main] INFO - private-2
+2011-12-02 11:34:00,233 [main] INFO - private-2
+2011-12-02 11:34:00,233 [main] INFO - private-2
+2011-12-02 11:34:00,233 [main] INFO - [public static final java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.SAMPLE_CONSTANT, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 11:39:15,771 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:39:15,774 [main] INFO - private static-10
+2011-12-02 11:39:15,774 [main] INFO - public static final-25
+2011-12-02 11:39:15,774 [main] INFO - private-2
+2011-12-02 11:39:15,775 [main] INFO - private-2
+2011-12-02 11:39:15,775 [main] INFO - private-2
+2011-12-02 11:39:15,775 [main] INFO - private-2
+2011-12-02 11:39:15,775 [main] INFO - private-2
+2011-12-02 11:39:15,776 [main] INFO - private-2
+2011-12-02 11:39:15,776 [main] INFO - private-2
+2011-12-02 11:39:15,776 [main] INFO - private-2
+2011-12-02 11:39:15,777 [main] INFO - private-2
+2011-12-02 11:39:15,777 [main] INFO - private-2
+2011-12-02 11:39:15,777 [main] INFO - [private static org.apache.log4j.Logger com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.logger, public static final java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.SAMPLE_CONSTANT, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 11:41:21,444 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 11:41:21,446 [main] INFO - private static-10
+2011-12-02 11:41:21,447 [main] INFO - public static final-25
+2011-12-02 11:41:21,447 [main] INFO - private-2
+2011-12-02 11:41:21,447 [main] INFO - private-2
+2011-12-02 11:41:21,447 [main] INFO - private-2
+2011-12-02 11:41:21,447 [main] INFO - private-2
+2011-12-02 11:41:21,448 [main] INFO - private-2
+2011-12-02 11:41:21,448 [main] INFO - private-2
+2011-12-02 11:41:21,448 [main] INFO - private-2
+2011-12-02 11:41:21,448 [main] INFO - private-2
+2011-12-02 11:41:21,448 [main] INFO - private-2
+2011-12-02 11:41:21,449 [main] INFO - private-2
+2011-12-02 11:41:21,449 [main] INFO - [private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 12:31:28,113 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 12:31:28,171 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 12:31:28,172 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,173 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,174 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,174 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,174 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,174 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,174 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,175 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,176 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,177 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 12:31:28,178 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 12:38:50,198 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 14:10:29,739 [main] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 14:10:29,741 [main] INFO - private static-10
+2011-12-02 14:10:29,741 [main] INFO - public static final-25
+2011-12-02 14:10:29,742 [main] INFO - private-2
+2011-12-02 14:10:29,742 [main] INFO - private-2
+2011-12-02 14:10:29,742 [main] INFO - private-2
+2011-12-02 14:10:29,742 [main] INFO - private-2
+2011-12-02 14:10:29,742 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - private-2
+2011-12-02 14:10:29,743 [main] INFO - [private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.pathApp, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.basePkg, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesName, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.entitiesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPkg, private java.io.File com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.servicesPath, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.parentService, private java.lang.String com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig.serviceSuffixName]
+2011-12-02 16:17:39,471 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:17:39,504 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,505 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,506 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,506 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,506 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,507 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,508 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,508 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,508 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,508 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:39,508 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:17:44,989 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:17:44,989 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,990 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,991 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,991 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,991 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,993 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:17:44,994 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:17:44,994 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,994 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,996 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,996 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,997 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,998 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:17:44,999 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,901 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:18:00,901 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:18:00,901 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,901 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,901 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,902 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,903 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:18:00,903 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:18:00,903 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,903 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,904 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,905 [AWT-EventQueue-0] INFO - private static-10
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - public static final-25
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,906 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,907 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,907 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:00,907 [AWT-EventQueue-0] INFO - private-2
+2011-12-02 16:18:05,173 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:19:36,447 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:19:36,467 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:19:36,471 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:19:36,473 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:19:55,061 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:22:22,843 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:22:22,845 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:22:22,845 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:22:22,846 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:22:51,437 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:23:05,724 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:23:05,726 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:23:05,726 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:23:05,727 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:23:36,309 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:23:50,980 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:23:50,981 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:23:50,981 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-modelm/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:23:50,982 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-modelm/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:24:23,806 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:24:26,653 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:24:26,655 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:24:26,655 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:24:26,656 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:24:36,445 [AWT-EventQueue-0] INFO - Closing Application!!!
+2011-12-02 16:26:16,137 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2011-12-02 16:26:16,139 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2011-12-02 16:26:16,139 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2011-12-02 16:26:16,139 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2011-12-02 16:26:31,894 [AWT-EventQueue-0] INFO - Closing Application!!!
