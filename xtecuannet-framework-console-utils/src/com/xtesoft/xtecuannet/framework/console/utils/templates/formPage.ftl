@@ -27,6 +27,9 @@
 
                 <h:form>
 
+                    
+                    <p:panel id="forma">
+
                     <p:ajaxStatus style="width:16px;height:16px;">
                         <f:facet name="start">
                             <h:graphicImage value="/design/ajaxloading.gif" />
@@ -40,16 +43,14 @@
                     <p:growl id="growl" showDetail="true"/>
                     <p:messages/>
 
-                    <p:panel>
-
                         <h:panelGrid id="display" columns="2" cellpadding="4">
                              <#list columnNames as i>
                                 <#if i.name!="serialVersionUID" && i.type.name !="java.util.List">                                    
 
-                                    <#if ClassUtils.isSimplePKField(i) && ClassUtils.isSimplePKFieldGenerated(i)>
+                                    <#if ClassUtils.isSimplePKField(i)>
 
-                                        <h:outputLabel value="${r"#{"}bundle.${entityName}_jsf_${i.name}${r"}"}" for="f_${i.name}" rendered="false"/>
-                                        <h:inputHidden id="f_${i.name}" value="${r"#{"}current${entityName}.${i.name}${r"}"}"/>
+                                        <h:outputLabel value="${r"#{"}bundle.${entityName}_jsf_${i.name}${r"}"}" for="f_${i.name}"/>
+                                        <h:inputText id="f_${i.name}" value="${"#{"}current${entityName}.${i.name}${"}"}" title="${"#{"}bundle.${entityName}_jsf_${i.name}${"}"}" disabled ="${"#{"}not insert${"}"}"/>
 
                                     <#else>                                        
                                           <#if ClassUtils.isManyToOneField(i)>
@@ -79,7 +80,7 @@
                             </#list> 
                             <f:facet name="footer">
                                 <h:panelGrid id="display1" columns="3" cellpadding="4">
-                                <p:commandButton value="${r"#{"}bundle.${entityName}_jsf_btn_save${r"}"}"
+                                <p:commandButton update="forma" value="${r"#{"}bundle.${entityName}_jsf_btn_save${r"}"}"
                                                  action="${r"#{"}${entityName}Bean.save${entityName}${r"}"}" rendered="${r"#{"}insert${r"}"}"/>
 
                                 <p:commandButton value="${r"#{"}bundle.${entityName}_jsf_btn_edit${r"}"}"

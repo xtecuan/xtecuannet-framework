@@ -89,20 +89,20 @@ public class TemplateFillerFormGenerator {
                 root.put("columnNames", fields);
                 root.put("entityName", entityName);
 
-//                Writer out = new FileWriter(new File(beansPath, entityName + "Bean.java"));
-//                temp.process(root, out);
-//
-//                out.flush();
+                Writer out = new FileWriter(new File(beansPath, entityName + "Bean.java"));
+                temp.process(root, out);
+
+                out.flush();
 
 //                Template temp2 = cfg.getTemplate("bundle.ftl");
 //                Writer out2 = new FileWriter(new File(c.getAppWebPath(), "src" + File.separator + "java" + File.separator + entityName + "Bean.generated"));
 //                temp2.process(root, out2);
 //                out2.flush();
 
-                Template temp3 = cfg.getTemplate("formPage.ftl");
-                Writer out3 = new FileWriter(new File(c.getAppWebPath(), c.getAppWebPagesGenerated() + entityName + "_form.xhtml"));
-                temp3.process(root, out3);
-                out3.flush();
+//                Template temp3 = cfg.getTemplate("formPage.ftl");
+//                Writer out3 = new FileWriter(new File(c.getAppWebPath(), c.getAppWebPagesGenerated() + entityName + "_form.xhtml"));
+//                temp3.process(root, out3);
+//                out3.flush();
 
 
             }

@@ -185,11 +185,24 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
         this.insert = Boolean.TRUE;
         if (this.getCurrent${entityName}() != null) {
 
-            this.getFacade${entityName}().remove(this.getCurrent${entityName}());
-            
-            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_delete", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
-            this.filloutList${entityName}();
-            FacesContext.getCurrentInstance().renderResponse();
+            List<String> errors = this.getFacade${entityName}().verifyForChildsFKs(this.getCurrent${entityName}(), "Este registro esta asociado a una entidad de tipo: ");
+
+            if (errors.isEmpty()) {
+
+                this.getFacade${entityName}().remove(this.getCurrent${entityName}());            
+                this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_delete", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
+                this.filloutList${entityName}();
+                FacesContext.getCurrentInstance().renderResponse();
+
+            } else {
+
+                this.getLogger().info("Children Children !!!!");
+                for (String error : errors) {
+                    this.addMessage(error);
+                }
+                FacesContext.getCurrentInstance().renderResponse();
+
+            }
 
         } else {
 
@@ -206,20 +219,31 @@ public class ${entityName}Bean extends XBaseBean implements Serializable {
     }
 
     public String save${entityName}() {
+        String outcome = null;
         this.current${entityName} = (${entityName}) this.getSession().getAttribute("current${entityName}");
         if (this.getCurrent${entityName}() != null) {
 
+           
+            ${entityName} object${entityName} = this.getFacade${entityName}().find(this.getCurrent${entityName}().get${pk?cap_first}());
+           
+            if (object${entityName} == null) {
 
-            ${entityName} salida = this.getFacade${entityName}().create(this.getCurrent${entityName}());
-            this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_save", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
-            this.getSession().setAttribute("outMessage", "${entityName} created with id: " + getCurrent${entityName}().get${pk?cap_first}());
+                ${entityName} salida = this.getFacade${entityName}().create(this.getCurrent${entityName}());
+                this.addMessage(this.obtenerMensajeBundle("${entityName}_jsf_msg_save", new Object[]{this.getCurrent${entityName}().get${pk?cap_first}()}));
+                this.getSession().setAttribute("outMessage", "${entityName} created with id: " + getCurrent${entityName}().get${pk?cap_first}());
+                outcome="${entityName}?faces-redirect=true";
+            } else {
+                this.getLogger().info("No se guardo porque existe llave primaria repetida");
+                this.addMessage("Ya existe un registro con ${pk}="+this.getCurrent${entityName}().get${pk?cap_first}());
+                FacesContext.getCurrentInstance().renderResponse();
+            }
             
         } else {
             this.getLogger().info("no entro por lo tanto no guardo");
         }
         this.getSession().removeAttribute("currentMenu");
 
-        return "${entityName}?faces-redirect=true";
+        return outcome;
 
 
     }
