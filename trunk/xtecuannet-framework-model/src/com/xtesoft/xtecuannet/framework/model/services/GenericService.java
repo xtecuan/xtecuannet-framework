@@ -6,6 +6,7 @@ package com.xtesoft.xtecuannet.framework.model.services;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
@@ -29,5 +30,6 @@ public interface GenericService<T> extends Serializable {
 
     public String sayHello();
 
+    public List<String> verifyForChildsFKs(Object entity, String errorMessage);
 //    public List findByExample(Object entity,String[] excludeProperties);
 }

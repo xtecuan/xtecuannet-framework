@@ -6,6 +6,9 @@ package com.xtesoft.xtecuannet.framework.model.services.impl;
 
 import com.xtesoft.xtecuannet.framework.model.services.GenericService;
 import com.xtesoft.xtecuannet.framework.model.services.PersistenceService;
+import com.xtesoft.xtecuannet.framework.utils.ClassUtils;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
 import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -171,4 +174,47 @@ public class GenericServiceImpl<T> implements GenericService<T> {
 //
 //        return this.persistenceBean.getEm().createQuery(cq).getResultList();
 //    }
+
+    public List<String> verifyForChildsFKs(Object entity, String errorMessage) {
+
+        List<String> salida = new ArrayList<String>(0);
+
+        Class clazz1 = entity.getClass();
+
+        Field[] fields = clazz1.getDeclaredFields();
+
+        for (int i = 0; i < fields.length; i++) {
+            Field field = fields[i];
+            boolean oneToMany = ClassUtils.isOneToManyField(field);
+
+
+
+            if (oneToMany) {
+
+                logger.info("Field: " + field.getName() + " is one to many processing......");
+                int size = 0;
+                List<?> list = (List<?>) ClassUtils.getPropertyFromInstance(entity, field.getName());
+
+                size = list.size();
+
+                if (size > 0) {
+
+                    Object first = list.get(0);
+
+                    Class forList = first.getClass();
+
+                    salida.add(errorMessage + " " + forList.getSimpleName());
+
+                }
+
+
+            } else {
+
+                logger.info("Field: " + field.getName() + " is not one to many skipping");
+            }
+        }
+
+
+        return salida;
+    }
 }
