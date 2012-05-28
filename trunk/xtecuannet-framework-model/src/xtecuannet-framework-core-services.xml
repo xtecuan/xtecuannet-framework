@@ -61,6 +61,12 @@
     <bean id="MailerService" class="com.xtesoft.xtecuannet.framework.model.services.impl.MailerServiceImpl" autowire="byType">
         <property name="mailSession" ref="mailSession"/>
     </bean>
+       
+    <bean id="PersistenceServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.PersistenceServiceNoAudImpl" autowire="byType">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>   
+    
+    <bean id="GenericServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.GenericServiceNoAudImpl" autowire="byType"/>
 
  
 </beans>
