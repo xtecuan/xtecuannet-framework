@@ -51,7 +51,7 @@ ${r"<!--"}Created on ${aDateTime?iso_local}${r"-->"}
     <context-param>
         <description>contextConfigLocation de Spring-Framework</description>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:/xtecuannet-framework-core-services.xml  ${springframeworkConfigFiles} classpath:/xtecuannet-framework-core-web.xml</param-value>
+        <param-value>classpath:/xtecuannet-framework-core-services.xml  ${springframeworkConfigFiles}</param-value>
     </context-param>
     <listener>
         <description>Listener Spring</description>

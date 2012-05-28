@@ -24,3 +24,4 @@ postgres_port=${pgsqlPort}
 XListBean_entities_pkg=${xlistBeanEntitiesPkg}
 XListBean_enums_pkg=${xlistBeanEnumPkg}
 mailSession.jndi=${mailSessionJndi}
+bundleBaseFile=${bundleName}

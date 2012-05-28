@@ -1,342 +1,368 @@
-2011-12-12 09:43:55,059 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 09:43:55,063 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 09:43:55,064 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 09:43:55,064 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 09:43:55,064 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 09:43:55,064 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 09:43:59,765 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
-2011-12-12 09:43:59,766 [AWT-EventQueue-0] INFO - File: faces-config.xml already exists!!!
-2011-12-12 09:44:09,554 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 09:45:57,960 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 09:45:57,961 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 09:45:57,962 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 09:45:57,962 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 09:45:57,962 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 09:45:57,962 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 09:46:01,821 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
-2011-12-12 09:46:01,822 [AWT-EventQueue-0] INFO - File: faces-config.xml already exists!!!
-2011-12-12 09:46:40,185 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 12:48:45,283 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 12:48:45,284 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 12:48:45,284 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 12:48:45,285 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 12:48:45,285 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 12:48:45,285 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 12:48:49,590 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 12:48:49,591 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 12:48:49,631 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
-
-Expression facesUrlPattern is undefined on line 35, column 24 in webXml.ftl.
-The problematic instruction:
-----------
-==> ${facesUrlPattern} [on line 35, column 22 in webXml.ftl]
-----------
-
-Java backtrace for programmers:
-----------
-freemarker.core.InvalidReferenceException: Expression facesUrlPattern is undefined on line 35, column 24 in webXml.ftl.
-	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
-	at freemarker.core.Expression.getStringValue(Expression.java:118)
-	at freemarker.core.Expression.getStringValue(Expression.java:93)
-	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.MixedContent.accept(MixedContent.java:92)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.Environment.process(Environment.java:199)
-	at freemarker.template.Template.process(Template.java:237)
-	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:50)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:226)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:31)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:118)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-	at java.awt.Component.processMouseEvent(Component.java:6288)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-	at java.awt.Component.processEvent(Component.java:6053)
-	at java.awt.Container.processEvent(Container.java:2041)
-	at java.awt.Component.dispatchEventImpl(Component.java:4651)
-	at java.awt.Container.dispatchEventImpl(Container.java:2099)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
-	at java.awt.Container.dispatchEventImpl(Container.java:2085)
-	at java.awt.Window.dispatchEventImpl(Window.java:2478)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
-	at java.awt.EventQueue.access$000(EventQueue.java:84)
-	at java.awt.EventQueue$1.run(EventQueue.java:602)
-	at java.awt.EventQueue$1.run(EventQueue.java:600)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-	at java.awt.EventQueue$2.run(EventQueue.java:616)
-	at java.awt.EventQueue$2.run(EventQueue.java:614)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-2011-12-12 12:49:58,171 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 12:50:02,775 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 12:50:02,776 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 12:50:02,777 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 12:50:02,777 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 12:50:02,777 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 12:50:02,777 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 12:50:05,905 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 12:50:05,906 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 12:50:05,911 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
-java.io.IOException: Destination '/home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-war/web/WEB-INF/web.xml.orig' already exists
-	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1811)
-	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:45)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:226)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:31)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:118)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-	at java.awt.Component.processMouseEvent(Component.java:6288)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-	at java.awt.Component.processEvent(Component.java:6053)
-	at java.awt.Container.processEvent(Container.java:2041)
-	at java.awt.Component.dispatchEventImpl(Component.java:4651)
-	at java.awt.Container.dispatchEventImpl(Container.java:2099)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
-	at java.awt.Container.dispatchEventImpl(Container.java:2085)
-	at java.awt.Window.dispatchEventImpl(Window.java:2478)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
-	at java.awt.EventQueue.access$000(EventQueue.java:84)
-	at java.awt.EventQueue$1.run(EventQueue.java:602)
-	at java.awt.EventQueue$1.run(EventQueue.java:600)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-	at java.awt.EventQueue$2.run(EventQueue.java:616)
-	at java.awt.EventQueue$2.run(EventQueue.java:614)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-2011-12-12 12:50:40,307 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 12:51:23,891 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 12:51:23,892 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 12:51:23,893 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 12:51:23,893 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 12:51:23,893 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 12:51:23,893 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 12:51:26,096 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 12:51:26,096 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 12:51:26,138 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
-
-Expression exposeRemoteSpringServices is undefined on line 60, column 10 in webXml.ftl.
-The problematic instruction:
-----------
-==> if exposeRemoteSpringServices==true [on line 60, column 5 in webXml.ftl]
-----------
-
-Java backtrace for programmers:
-----------
-freemarker.core.InvalidReferenceException: Expression exposeRemoteSpringServices is undefined on line 60, column 10 in webXml.ftl.
-	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
-	at freemarker.core.ComparisonExpression.isTrue(ComparisonExpression.java:121)
-	at freemarker.core.ConditionalBlock.accept(ConditionalBlock.java:77)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.MixedContent.accept(MixedContent.java:92)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.Environment.process(Environment.java:199)
-	at freemarker.template.Template.process(Template.java:237)
-	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:50)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:226)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:31)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:118)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-	at java.awt.Component.processMouseEvent(Component.java:6288)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-	at java.awt.Component.processEvent(Component.java:6053)
-	at java.awt.Container.processEvent(Container.java:2041)
-	at java.awt.Component.dispatchEventImpl(Component.java:4651)
-	at java.awt.Container.dispatchEventImpl(Container.java:2099)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
-	at java.awt.Container.dispatchEventImpl(Container.java:2085)
-	at java.awt.Window.dispatchEventImpl(Window.java:2478)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
-	at java.awt.EventQueue.access$000(EventQueue.java:84)
-	at java.awt.EventQueue$1.run(EventQueue.java:602)
-	at java.awt.EventQueue$1.run(EventQueue.java:600)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-	at java.awt.EventQueue$2.run(EventQueue.java:616)
-	at java.awt.EventQueue$2.run(EventQueue.java:614)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-2011-12-12 12:55:05,883 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 12:55:50,876 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 12:55:50,877 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 12:55:50,878 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 12:55:50,878 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 12:55:50,878 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 12:55:50,878 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 12:56:00,995 [AWT-EventQueue-0] INFO - true
-2011-12-12 12:56:01,320 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 12:56:01,321 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 12:56:01,326 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
-java.io.IOException: Destination '/home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-war/web/WEB-INF/web.xml.orig' already exists
-	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1811)
-	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:45)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:227)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:31)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:118)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-	at java.awt.Component.processMouseEvent(Component.java:6288)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-	at java.awt.Component.processEvent(Component.java:6053)
-	at java.awt.Container.processEvent(Container.java:2041)
-	at java.awt.Component.dispatchEventImpl(Component.java:4651)
-	at java.awt.Container.dispatchEventImpl(Container.java:2099)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
-	at java.awt.Container.dispatchEventImpl(Container.java:2085)
-	at java.awt.Window.dispatchEventImpl(Window.java:2478)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
-	at java.awt.EventQueue.access$000(EventQueue.java:84)
-	at java.awt.EventQueue$1.run(EventQueue.java:602)
-	at java.awt.EventQueue$1.run(EventQueue.java:600)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-	at java.awt.EventQueue$2.run(EventQueue.java:616)
-	at java.awt.EventQueue$2.run(EventQueue.java:614)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-2011-12-12 12:58:56,163 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 13:01:19,870 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 13:01:19,873 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 13:01:19,874 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 13:01:19,874 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 13:01:19,874 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 13:01:19,874 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 13:01:31,947 [AWT-EventQueue-0] INFO - true
-2011-12-12 13:01:32,159 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 13:01:32,159 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 13:01:32,183 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
-
-Expression guestPreferences is undefined on line 90, column 24 in webXml.ftl.
-The problematic instruction:
-----------
-==> #{guestPreferences.theme} [on line 90, column 22 in webXml.ftl]
-----------
-
-Java backtrace for programmers:
-----------
-freemarker.core.InvalidReferenceException: Expression guestPreferences is undefined on line 90, column 24 in webXml.ftl.
-	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
-	at freemarker.core.TemplateObject.invalidTypeException(TemplateObject.java:135)
-	at freemarker.core.Dot._getAsTemplateModel(Dot.java:78)
-	at freemarker.core.Expression.getAsTemplateModel(Expression.java:89)
-	at freemarker.core.EvaluationUtil.getNumber(EvaluationUtil.java:91)
-	at freemarker.core.NumericalOutput.accept(NumericalOutput.java:91)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.MixedContent.accept(MixedContent.java:92)
-	at freemarker.core.Environment.visit(Environment.java:221)
-	at freemarker.core.Environment.process(Environment.java:199)
-	at freemarker.template.Template.process(Template.java:237)
-	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:50)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:227)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:31)
-	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:118)
-	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
-	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
-	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
-	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
-	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
-	at java.awt.Component.processMouseEvent(Component.java:6288)
-	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
-	at java.awt.Component.processEvent(Component.java:6053)
-	at java.awt.Container.processEvent(Container.java:2041)
-	at java.awt.Component.dispatchEventImpl(Component.java:4651)
-	at java.awt.Container.dispatchEventImpl(Container.java:2099)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4577)
-	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4238)
-	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4168)
-	at java.awt.Container.dispatchEventImpl(Container.java:2085)
-	at java.awt.Window.dispatchEventImpl(Window.java:2478)
-	at java.awt.Component.dispatchEvent(Component.java:4481)
-	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:643)
-	at java.awt.EventQueue.access$000(EventQueue.java:84)
-	at java.awt.EventQueue$1.run(EventQueue.java:602)
-	at java.awt.EventQueue$1.run(EventQueue.java:600)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
-	at java.awt.EventQueue$2.run(EventQueue.java:616)
-	at java.awt.EventQueue$2.run(EventQueue.java:614)
-	at java.security.AccessController.doPrivileged(Native Method)
-	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
-	at java.awt.EventQueue.dispatchEvent(EventQueue.java:613)
-	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
-	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
-	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
-	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
-	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
-2011-12-12 13:01:58,443 [AWT-EventQueue-0] INFO - Closing Application!!!
-2011-12-12 13:03:34,603 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2011-12-12 13:03:34,604 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2011-12-12 13:03:34,604 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2011-12-12 13:03:34,604 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2011-12-12 13:03:34,604 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2011-12-12 13:03:34,605 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2011-12-12 13:03:36,219 [AWT-EventQueue-0] INFO - true
-2011-12-12 13:03:36,549 [AWT-EventQueue-0] INFO - Creating: web.xml
-2011-12-12 13:03:36,550 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
-2011-12-12 13:03:42,683 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-05-08 14:59:09,211 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-05-08 14:59:09,327 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-05-08 14:59:09,327 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-05-08 14:59:09,330 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-05-08 14:59:09,330 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-05-08 14:59:09,331 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-05-08 14:59:22,224 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiService.java
+2012-05-08 14:59:22,224 [AWT-EventQueue-0] INFO - File: CatOficinasCjiService.java already exists!!!
+2012-05-08 14:59:22,225 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaService.java
+2012-05-08 14:59:22,225 [AWT-EventQueue-0] INFO - File: SusSolicitudesSalaService.java already exists!!!
+2012-05-08 14:59:22,225 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadService.java
+2012-05-08 14:59:22,225 [AWT-EventQueue-0] INFO - File: CatEnfermedadService.java already exists!!!
+2012-05-08 14:59:22,225 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoService.java
+2012-05-08 14:59:22,226 [AWT-EventQueue-0] INFO - File: CatEscalaMaltratoService.java already exists!!!
+2012-05-08 14:59:22,226 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersService.java
+2012-05-08 14:59:22,226 [AWT-EventQueue-0] INFO - File: SigjuPatcherUsersService.java already exists!!!
+2012-05-08 14:59:22,226 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherOptionsService.java
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesService.java
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - File: SegAplicacionesService.java already exists!!!
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresService.java
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - File: CatEstadosFamiliaresService.java already exists!!!
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - Creating: CatOficinasService.java
+2012-05-08 14:59:22,300 [AWT-EventQueue-0] INFO - File: CatOficinasService.java already exists!!!
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosService.java
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - File: EqmEstudiosService.java already exists!!!
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - Creating: SalSalasService.java
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - File: SalSalasService.java already exists!!!
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasService.java
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - File: CatTiposDiligenciasService.java already exists!!!
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesService.java
+2012-05-08 14:59:22,301 [AWT-EventQueue-0] INFO - File: SegUsuarioRolesService.java already exists!!!
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasService.java
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - File: SusDetaSolSalasService.java already exists!!!
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionService.java
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - File: AccTiposactoscomunicacionService.java already exists!!!
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccService.java
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - File: SusEstadosSolAccService.java already exists!!!
+2012-05-08 14:59:22,302 [AWT-EventQueue-0] INFO - Creating: RecEstadosService.java
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - File: RecEstadosService.java already exists!!!
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - Creating: SegRolesService.java
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - File: SegRolesService.java already exists!!!
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesService.java
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - File: SigjuPatcherRolesService.java already exists!!!
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesService.java
+2012-05-08 14:59:22,303 [AWT-EventQueue-0] INFO - File: SegOpcionesRolesService.java already exists!!!
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - Creating: AccZonasService.java
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - File: AccZonasService.java already exists!!!
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesService.java
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - File: SusEtapasProcesalesService.java already exists!!!
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilService.java
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - File: EqmDetSolInfantilService.java already exists!!!
+2012-05-08 14:59:22,304 [AWT-EventQueue-0] INFO - Creating: CatCjiService.java
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - File: CatCjiService.java already exists!!!
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - Creating: CatJuecesService.java
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - File: CatJuecesService.java already exists!!!
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoService.java
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - File: CatClaseProcesoService.java already exists!!!
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresService.java
+2012-05-08 14:59:22,305 [AWT-EventQueue-0] INFO - File: SusAsignColaboradoresService.java already exists!!!
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - Creating: CatAccionesService.java
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - File: CatAccionesService.java already exists!!!
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesService.java
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - File: CatTiposOrientacionesService.java already exists!!!
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesService.java
+2012-05-08 14:59:22,306 [AWT-EventQueue-0] INFO - File: SigjuPatcherUserRolesService.java already exists!!!
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposService.java
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - File: SusDetSolEquiposService.java already exists!!!
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosService.java
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - File: CatMunicipiosService.java already exists!!!
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasService.java
+2012-05-08 14:59:22,307 [AWT-EventQueue-0] INFO - File: EqmEspecialistasService.java already exists!!!
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaService.java
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - File: CatResidenciaVictimaService.java already exists!!!
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadService.java
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - File: CatNivelEscolaridadService.java already exists!!!
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - Creating: SegOpcionesService.java
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - File: SegOpcionesService.java already exists!!!
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudService.java
+2012-05-08 14:59:22,308 [AWT-EventQueue-0] INFO - File: AccNotificacionessolicitudService.java already exists!!!
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoService.java
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - File: CatTipoEventoService.java already exists!!!
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiService.java
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - File: SusSolEquiposMultiService.java already exists!!!
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresService.java
+2012-05-08 14:59:22,309 [AWT-EventQueue-0] INFO - File: CatClasificadoresService.java already exists!!!
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - Creating: AccRutasService.java
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - File: AccRutasService.java already exists!!!
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesService.java
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - File: SusTiposResolucionesService.java already exists!!!
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosService.java
+2012-05-08 14:59:22,310 [AWT-EventQueue-0] INFO - File: CatTiposUsuariosService.java already exists!!!
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - Creating: CatPaisesService.java
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - File: CatPaisesService.java already exists!!!
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresService.java
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - File: CatColaboradoresService.java already exists!!!
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - Creating: RecExpedientesService.java
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - File: RecExpedientesService.java already exists!!!
+2012-05-08 14:59:22,311 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaService.java
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - File: CatLugaresHechosViolenciaService.java already exists!!!
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - Creating: SegUrlService.java
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - File: SegUrlService.java already exists!!!
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - Creating: SegUsuariosService.java
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - File: SegUsuariosService.java already exists!!!
+2012-05-08 14:59:22,312 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosService.java
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - File: CatProfesionesOficiosService.java already exists!!!
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - Creating: RecEscritosService.java
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - File: RecEscritosService.java already exists!!!
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteService.java
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - File: CueMovExpedienteService.java already exists!!!
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - Creating: SusResolucionesService.java
+2012-05-08 14:59:22,313 [AWT-EventQueue-0] INFO - File: SusResolucionesService.java already exists!!!
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - Creating: SusSolActosService.java
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - File: SusSolActosService.java already exists!!!
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionService.java
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - File: VigCentroDetencionService.java already exists!!!
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - Creating: AccColoniasService.java
+2012-05-08 14:59:22,314 [AWT-EventQueue-0] INFO - File: AccColoniasService.java already exists!!!
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - Creating: SegModulosService.java
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - File: SegModulosService.java already exists!!!
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalService.java
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - File: CatCondEmocionalService.java already exists!!!
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosService.java
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - File: CatDoctoEscritosService.java already exists!!!
+2012-05-08 14:59:22,315 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherOptRolService.java
+2012-05-08 14:59:22,316 [AWT-EventQueue-0] INFO - Creating: SalComparecientesService.java
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - File: SalComparecientesService.java already exists!!!
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - Creating: OacServiciosService.java
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - File: OacServiciosService.java already exists!!!
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - Creating: SusActuacionesService.java
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - File: SusActuacionesService.java already exists!!!
+2012-05-08 14:59:22,317 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasService.java
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - File: OacAsistenciasbrindasService.java already exists!!!
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaService.java
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - File: SusTipoAudienciaService.java already exists!!!
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - Creating: SegMenusService.java
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - File: SegMenusService.java already exists!!!
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasService.java
+2012-05-08 14:59:22,318 [AWT-EventQueue-0] INFO - File: OacAsistenciasJuridicasService.java already exists!!!
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorService.java
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - File: CatEstadoColaboradorService.java already exists!!!
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosService.java
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - File: RecEscritosDoctosService.java already exists!!!
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - Creating: CatMateriasService.java
+2012-05-08 14:59:22,319 [AWT-EventQueue-0] INFO - File: CatMateriasService.java already exists!!!
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilService.java
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - File: EqmSolInfantilService.java already exists!!!
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaService.java
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - File: CatTipoViolenciaService.java already exists!!!
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesService.java
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - File: CatCalidadIntervinientesService.java already exists!!!
+2012-05-08 14:59:22,320 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpService.java
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - File: SusActuacionesExpService.java already exists!!!
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosService.java
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - File: CatDepartamentosService.java already exists!!!
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionService.java
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - File: AccMediosComunicacionService.java already exists!!!
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - Creating: SalAudienciasService.java
+2012-05-08 14:59:22,321 [AWT-EventQueue-0] INFO - File: SalAudienciasService.java already exists!!!
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesService.java
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - File: CatTiposInstitucionesService.java already exists!!!
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorService.java
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - File: CatEstadoAgresorService.java already exists!!!
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - Creating: RecPartesService.java
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - File: RecPartesService.java already exists!!!
+2012-05-08 14:59:22,322 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosService.java
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - File: SegCjiUsuariosService.java already exists!!!
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - Creating: CatInstanciasService.java
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - File: CatInstanciasService.java already exists!!!
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioService.java
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - File: EqmTiposEstudioService.java already exists!!!
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesService.java
+2012-05-08 14:59:22,323 [AWT-EventQueue-0] INFO - File: SusOtrasAccionesService.java already exists!!!
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosService.java
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - File: CatTipoJuzgadosService.java already exists!!!
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerService.java
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - File: SigjuPatcherLoggerService.java already exists!!!
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadService.java
+2012-05-08 14:59:22,324 [AWT-EventQueue-0] INFO - File: CatEqmEspecialidadService.java already exists!!!
+2012-05-08 14:59:22,325 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosService.java
+2012-05-08 14:59:22,325 [AWT-EventQueue-0] INFO - File: CatJuzgadosService.java already exists!!!
+2012-05-08 14:59:22,325 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiService.java
+2012-05-08 14:59:22,325 [AWT-EventQueue-0] INFO - File: CatJuzgadosCjiService.java already exists!!!
+2012-05-08 14:59:29,407 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiServiceImpl.java
+2012-05-08 14:59:29,407 [AWT-EventQueue-0] INFO - File: CatOficinasCjiServiceImpl.java already exists!!!
+2012-05-08 14:59:29,407 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaServiceImpl.java
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - File: SusSolicitudesSalaServiceImpl.java already exists!!!
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadServiceImpl.java
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - File: CatEnfermedadServiceImpl.java already exists!!!
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoServiceImpl.java
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - File: CatEscalaMaltratoServiceImpl.java already exists!!!
+2012-05-08 14:59:29,408 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersServiceImpl.java
+2012-05-08 14:59:29,409 [AWT-EventQueue-0] INFO - File: SigjuPatcherUsersServiceImpl.java already exists!!!
+2012-05-08 14:59:29,409 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherOptionsServiceImpl.java
+2012-05-08 14:59:29,410 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesServiceImpl.java
+2012-05-08 14:59:29,410 [AWT-EventQueue-0] INFO - File: SegAplicacionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,410 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresServiceImpl.java
+2012-05-08 14:59:29,410 [AWT-EventQueue-0] INFO - File: CatEstadosFamiliaresServiceImpl.java already exists!!!
+2012-05-08 14:59:29,410 [AWT-EventQueue-0] INFO - Creating: CatOficinasServiceImpl.java
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - File: CatOficinasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosServiceImpl.java
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - File: EqmEstudiosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - Creating: SalSalasServiceImpl.java
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - File: SalSalasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasServiceImpl.java
+2012-05-08 14:59:29,411 [AWT-EventQueue-0] INFO - File: CatTiposDiligenciasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesServiceImpl.java
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - File: SegUsuarioRolesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasServiceImpl.java
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - File: SusDetaSolSalasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionServiceImpl.java
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - File: AccTiposactoscomunicacionServiceImpl.java already exists!!!
+2012-05-08 14:59:29,412 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccServiceImpl.java
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - File: SusEstadosSolAccServiceImpl.java already exists!!!
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - Creating: RecEstadosServiceImpl.java
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - File: RecEstadosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - Creating: SegRolesServiceImpl.java
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - File: SegRolesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,413 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesServiceImpl.java
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - File: SigjuPatcherRolesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesServiceImpl.java
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - File: SegOpcionesRolesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - Creating: AccZonasServiceImpl.java
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - File: AccZonasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesServiceImpl.java
+2012-05-08 14:59:29,414 [AWT-EventQueue-0] INFO - File: SusEtapasProcesalesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilServiceImpl.java
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - File: EqmDetSolInfantilServiceImpl.java already exists!!!
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - Creating: CatCjiServiceImpl.java
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - File: CatCjiServiceImpl.java already exists!!!
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - Creating: CatJuecesServiceImpl.java
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - File: CatJuecesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,415 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoServiceImpl.java
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - File: CatClaseProcesoServiceImpl.java already exists!!!
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresServiceImpl.java
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - File: SusAsignColaboradoresServiceImpl.java already exists!!!
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - Creating: CatAccionesServiceImpl.java
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - File: CatAccionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,416 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesServiceImpl.java
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - File: CatTiposOrientacionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesServiceImpl.java
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - File: SigjuPatcherUserRolesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposServiceImpl.java
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - File: SusDetSolEquiposServiceImpl.java already exists!!!
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosServiceImpl.java
+2012-05-08 14:59:29,417 [AWT-EventQueue-0] INFO - File: CatMunicipiosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasServiceImpl.java
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - File: EqmEspecialistasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaServiceImpl.java
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - File: CatResidenciaVictimaServiceImpl.java already exists!!!
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadServiceImpl.java
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - File: CatNivelEscolaridadServiceImpl.java already exists!!!
+2012-05-08 14:59:29,418 [AWT-EventQueue-0] INFO - Creating: SegOpcionesServiceImpl.java
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - File: SegOpcionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudServiceImpl.java
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - File: AccNotificacionessolicitudServiceImpl.java already exists!!!
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoServiceImpl.java
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - File: CatTipoEventoServiceImpl.java already exists!!!
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiServiceImpl.java
+2012-05-08 14:59:29,419 [AWT-EventQueue-0] INFO - File: SusSolEquiposMultiServiceImpl.java already exists!!!
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresServiceImpl.java
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - File: CatClasificadoresServiceImpl.java already exists!!!
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - Creating: AccRutasServiceImpl.java
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - File: AccRutasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesServiceImpl.java
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - File: SusTiposResolucionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,420 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosServiceImpl.java
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - File: CatTiposUsuariosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - Creating: CatPaisesServiceImpl.java
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - File: CatPaisesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresServiceImpl.java
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - File: CatColaboradoresServiceImpl.java already exists!!!
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - Creating: RecExpedientesServiceImpl.java
+2012-05-08 14:59:29,421 [AWT-EventQueue-0] INFO - File: RecExpedientesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaServiceImpl.java
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - File: CatLugaresHechosViolenciaServiceImpl.java already exists!!!
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - Creating: SegUrlServiceImpl.java
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - File: SegUrlServiceImpl.java already exists!!!
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - Creating: SegUsuariosServiceImpl.java
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - File: SegUsuariosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,422 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosServiceImpl.java
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - File: CatProfesionesOficiosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - Creating: RecEscritosServiceImpl.java
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - File: RecEscritosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteServiceImpl.java
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - File: CueMovExpedienteServiceImpl.java already exists!!!
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - Creating: SusResolucionesServiceImpl.java
+2012-05-08 14:59:29,423 [AWT-EventQueue-0] INFO - File: SusResolucionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - Creating: SusSolActosServiceImpl.java
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - File: SusSolActosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionServiceImpl.java
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - File: VigCentroDetencionServiceImpl.java already exists!!!
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - Creating: AccColoniasServiceImpl.java
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - File: AccColoniasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,424 [AWT-EventQueue-0] INFO - Creating: SegModulosServiceImpl.java
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - File: SegModulosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalServiceImpl.java
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - File: CatCondEmocionalServiceImpl.java already exists!!!
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosServiceImpl.java
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - File: CatDoctoEscritosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,425 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherOptRolServiceImpl.java
+2012-05-08 14:59:29,426 [AWT-EventQueue-0] INFO - Creating: SalComparecientesServiceImpl.java
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - File: SalComparecientesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - Creating: OacServiciosServiceImpl.java
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - File: OacServiciosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - Creating: SusActuacionesServiceImpl.java
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - File: SusActuacionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasServiceImpl.java
+2012-05-08 14:59:29,427 [AWT-EventQueue-0] INFO - File: OacAsistenciasbrindasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaServiceImpl.java
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - File: SusTipoAudienciaServiceImpl.java already exists!!!
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - Creating: SegMenusServiceImpl.java
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - File: SegMenusServiceImpl.java already exists!!!
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasServiceImpl.java
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - File: OacAsistenciasJuridicasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,428 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorServiceImpl.java
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - File: CatEstadoColaboradorServiceImpl.java already exists!!!
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosServiceImpl.java
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - File: RecEscritosDoctosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - Creating: CatMateriasServiceImpl.java
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - File: CatMateriasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilServiceImpl.java
+2012-05-08 14:59:29,429 [AWT-EventQueue-0] INFO - File: EqmSolInfantilServiceImpl.java already exists!!!
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaServiceImpl.java
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - File: CatTipoViolenciaServiceImpl.java already exists!!!
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesServiceImpl.java
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - File: CatCalidadIntervinientesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpServiceImpl.java
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - File: SusActuacionesExpServiceImpl.java already exists!!!
+2012-05-08 14:59:29,430 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosServiceImpl.java
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - File: CatDepartamentosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionServiceImpl.java
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - File: AccMediosComunicacionServiceImpl.java already exists!!!
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - Creating: SalAudienciasServiceImpl.java
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - File: SalAudienciasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesServiceImpl.java
+2012-05-08 14:59:29,431 [AWT-EventQueue-0] INFO - File: CatTiposInstitucionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorServiceImpl.java
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - File: CatEstadoAgresorServiceImpl.java already exists!!!
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - Creating: RecPartesServiceImpl.java
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - File: RecPartesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosServiceImpl.java
+2012-05-08 14:59:29,432 [AWT-EventQueue-0] INFO - File: SegCjiUsuariosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - Creating: CatInstanciasServiceImpl.java
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - File: CatInstanciasServiceImpl.java already exists!!!
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioServiceImpl.java
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - File: EqmTiposEstudioServiceImpl.java already exists!!!
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesServiceImpl.java
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - File: SusOtrasAccionesServiceImpl.java already exists!!!
+2012-05-08 14:59:29,433 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosServiceImpl.java
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - File: CatTipoJuzgadosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerServiceImpl.java
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - File: SigjuPatcherLoggerServiceImpl.java already exists!!!
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadServiceImpl.java
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - File: CatEqmEspecialidadServiceImpl.java already exists!!!
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosServiceImpl.java
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - File: CatJuzgadosServiceImpl.java already exists!!!
+2012-05-08 14:59:29,434 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiServiceImpl.java
+2012-05-08 14:59:29,435 [AWT-EventQueue-0] INFO - File: CatJuzgadosCjiServiceImpl.java already exists!!!
+2012-05-08 14:59:35,081 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-05-08 15:01:30,074 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-05-08 15:01:30,076 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-05-08 15:01:30,077 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-05-08 15:01:30,077 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-05-08 15:01:30,077 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-05-08 15:01:30,077 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-05-08 15:01:32,902 [AWT-EventQueue-0] INFO - Creating: applicationContext-services.xml
+2012-05-08 15:01:32,902 [AWT-EventQueue-0] INFO - File: applicationContext-services.xml already exists!!!
+2012-05-08 15:01:39,889 [AWT-EventQueue-0] INFO - Closing Application!!!
