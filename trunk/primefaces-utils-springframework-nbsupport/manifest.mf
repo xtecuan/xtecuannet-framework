@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.primefaces.utils.spring
+OpenIDE-Module-Layer: org/primefaces/utils/spring/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/primefaces/utils/spring/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.1.1
+
