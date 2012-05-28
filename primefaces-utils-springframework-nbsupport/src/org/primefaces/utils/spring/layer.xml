@@ -3,7 +3,7 @@
 <filesystem>
     <folder name="org-netbeans-api-project-libraries">
         <folder name="Libraries">
-            <file name="primafaces-utils-springframework-1.1.xml" url="primafaces-utils-springframework-1.1.xml"/>
+            <file name="primafaces-utils-springframework.xml" url="primafaces-utils-springframework.xml"/>
         </folder>
     </folder>
 </filesystem>

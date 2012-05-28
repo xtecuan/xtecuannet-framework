@@ -5,12 +5,12 @@ and open the template in the editor.
 -->
 <!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
 <library version="1.0">
-    <name>primafaces-utils-springframework-1.1</name>
+    <name>primafaces-utils-springframework-nbsupport</name>
     <type>j2se</type>
     <localizing-bundle>org.primefaces.utils.spring.Bundle</localizing-bundle>
     <volume>
         <type>classpath</type>
-        <resource>jar:nbinst://org.primefaces.utils.spring/libs/primefaces-utils-springframework-1.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.utils.spring/libs/primefaces-utils-springframework.jar!/</resource>
     </volume>
     <volume>
         <type>src</type>
