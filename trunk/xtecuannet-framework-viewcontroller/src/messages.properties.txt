@@ -1,0 +1,23 @@
+#Mensajes generales
+w_message=Bienvenido a Aplicaci\u00f3n de Equipos
+r_copyleft=Copyleft Xtesoft Inc.
+app_title=Aplicaci\u00f3n de Equipos
+
+#menues
+menu_componente=Componentes
+menu_componente_url=/app/componente.jsf
+
+
+#componente.xhtml
+comp_title=Mantenimiento de Componentes
+comp_header=Mantenimiento de Componentes
+comp_panel_header=Ingrese los datos
+comp_tipo=Tipo M\u00e1quina
+comp_segui=Id. Seguimiento
+comp_marca=Marca
+comp_modelo=Modelo
+comp_serie=Serie
+comp_estado=Estado
+comp_guardar=Guardar
+comp_editar=Actualizar
+comp_select=Seleccione
