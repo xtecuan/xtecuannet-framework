@@ -1,0 +1,273 @@
+2012-04-17 16:08:05,256 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-04-17 16:08:05,282 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
+2012-04-17 16:08:05,282 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
+2012-04-17 16:08:05,282 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
+2012-04-17 16:08:05,282 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
+2012-04-17 16:08:05,282 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
+2012-04-17 16:08:16,615 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-04-17 23:44:50,568 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-04-17 23:44:50,623 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-04-17 23:44:50,623 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-04-17 23:44:50,623 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-04-17 23:44:50,624 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-04-17 23:44:50,624 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-04-17 23:45:01,783 [AWT-EventQueue-0] INFO - Creating: persistence.xml
+2012-04-17 23:45:01,783 [AWT-EventQueue-0] INFO - Creating file: persistence.xml
+2012-04-17 23:45:01,784 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: persistenceXmlEnhancer.ftl
+java.io.FileNotFoundException: /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/META-INF/persistence.xml (No existe el fichero o el directorio)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:212)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:165)
+	at java.io.FileWriter.<init>(FileWriter.java:90)
+	at com.xtesoft.xtecuannet.framework.templater.filler.PersistenceXmlEnhancerFiller.filloutTemplate(PersistenceXmlEnhancerFiller.java:53)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonOptimizarPersistenceXmlActionPerformed(Templater.java:216)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$700(Templater.java:31)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$7.actionPerformed(Templater.java:104)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2713)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:707)
+	at java.awt.EventQueue.access$000(EventQueue.java:101)
+	at java.awt.EventQueue$3.run(EventQueue.java:666)
+	at java.awt.EventQueue$3.run(EventQueue.java:664)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:680)
+	at java.awt.EventQueue$4.run(EventQueue.java:678)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:677)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:211)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2012-04-17 23:45:13,178 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-04-17 23:49:43,748 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-04-17 23:49:43,886 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-04-17 23:49:43,886 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-04-17 23:49:43,886 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-04-17 23:49:43,888 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-04-17 23:49:43,888 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-04-17 23:49:47,025 [AWT-EventQueue-0] INFO - Creating: persistence.xml
+2012-04-17 23:49:47,026 [AWT-EventQueue-0] INFO - File: persistence.xml already exists!!!
+2012-04-17 23:49:47,026 [AWT-EventQueue-0] INFO - Backing up file: persistence.xml
+2012-04-17 23:49:55,019 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services created
+2012-04-17 23:49:55,028 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiService.java
+2012-04-17 23:49:55,048 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaService.java
+2012-04-17 23:49:55,048 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadService.java
+2012-04-17 23:49:55,049 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoService.java
+2012-04-17 23:49:55,050 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersService.java
+2012-04-17 23:49:55,062 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesService.java
+2012-04-17 23:49:55,063 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresService.java
+2012-04-17 23:49:55,063 [AWT-EventQueue-0] INFO - Creating: CatOficinasService.java
+2012-04-17 23:49:55,064 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosService.java
+2012-04-17 23:49:55,065 [AWT-EventQueue-0] INFO - Creating: SalSalasService.java
+2012-04-17 23:49:55,066 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasService.java
+2012-04-17 23:49:55,066 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesService.java
+2012-04-17 23:49:55,067 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasService.java
+2012-04-17 23:49:55,068 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionService.java
+2012-04-17 23:49:55,068 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccService.java
+2012-04-17 23:49:55,069 [AWT-EventQueue-0] INFO - Creating: RecEstadosService.java
+2012-04-17 23:49:55,070 [AWT-EventQueue-0] INFO - Creating: SegRolesService.java
+2012-04-17 23:49:55,071 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesService.java
+2012-04-17 23:49:55,071 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesService.java
+2012-04-17 23:49:55,072 [AWT-EventQueue-0] INFO - Creating: AccZonasService.java
+2012-04-17 23:49:55,073 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesService.java
+2012-04-17 23:49:55,074 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilService.java
+2012-04-17 23:49:55,074 [AWT-EventQueue-0] INFO - Creating: CatCjiService.java
+2012-04-17 23:49:55,075 [AWT-EventQueue-0] INFO - Creating: CatJuecesService.java
+2012-04-17 23:49:55,076 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoService.java
+2012-04-17 23:49:55,076 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresService.java
+2012-04-17 23:49:55,079 [AWT-EventQueue-0] INFO - Creating: CatAccionesService.java
+2012-04-17 23:49:55,080 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesService.java
+2012-04-17 23:49:55,080 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesService.java
+2012-04-17 23:49:55,081 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposService.java
+2012-04-17 23:49:55,081 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosService.java
+2012-04-17 23:49:55,082 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasService.java
+2012-04-17 23:49:55,082 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaService.java
+2012-04-17 23:49:55,083 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadService.java
+2012-04-17 23:49:55,083 [AWT-EventQueue-0] INFO - Creating: SegOpcionesService.java
+2012-04-17 23:49:55,084 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudService.java
+2012-04-17 23:49:55,085 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoService.java
+2012-04-17 23:49:55,085 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiService.java
+2012-04-17 23:49:55,086 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresService.java
+2012-04-17 23:49:55,088 [AWT-EventQueue-0] INFO - Creating: AccRutasService.java
+2012-04-17 23:49:55,088 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesService.java
+2012-04-17 23:49:55,089 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosService.java
+2012-04-17 23:49:55,090 [AWT-EventQueue-0] INFO - Creating: CatPaisesService.java
+2012-04-17 23:49:55,091 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresService.java
+2012-04-17 23:49:55,091 [AWT-EventQueue-0] INFO - Creating: RecExpedientesService.java
+2012-04-17 23:49:55,092 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaService.java
+2012-04-17 23:49:55,093 [AWT-EventQueue-0] INFO - Creating: SegUrlService.java
+2012-04-17 23:49:55,094 [AWT-EventQueue-0] INFO - Creating: SegUsuariosService.java
+2012-04-17 23:49:55,094 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosService.java
+2012-04-17 23:49:55,095 [AWT-EventQueue-0] INFO - Creating: RecEscritosService.java
+2012-04-17 23:49:55,096 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteService.java
+2012-04-17 23:49:55,097 [AWT-EventQueue-0] INFO - Creating: SusResolucionesService.java
+2012-04-17 23:49:55,097 [AWT-EventQueue-0] INFO - Creating: SusSolActosService.java
+2012-04-17 23:49:55,098 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionService.java
+2012-04-17 23:49:55,099 [AWT-EventQueue-0] INFO - Creating: AccColoniasService.java
+2012-04-17 23:49:55,099 [AWT-EventQueue-0] INFO - Creating: SegModulosService.java
+2012-04-17 23:49:55,100 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalService.java
+2012-04-17 23:49:55,101 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosService.java
+2012-04-17 23:49:55,101 [AWT-EventQueue-0] INFO - Creating: SalComparecientesService.java
+2012-04-17 23:49:55,102 [AWT-EventQueue-0] INFO - Creating: OacServiciosService.java
+2012-04-17 23:49:55,103 [AWT-EventQueue-0] INFO - Creating: SusActuacionesService.java
+2012-04-17 23:49:55,103 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasService.java
+2012-04-17 23:49:55,104 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaService.java
+2012-04-17 23:49:55,105 [AWT-EventQueue-0] INFO - Creating: SegMenusService.java
+2012-04-17 23:49:55,105 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasService.java
+2012-04-17 23:49:55,106 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorService.java
+2012-04-17 23:49:55,107 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosService.java
+2012-04-17 23:49:55,107 [AWT-EventQueue-0] INFO - Creating: CatMateriasService.java
+2012-04-17 23:49:55,108 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilService.java
+2012-04-17 23:49:55,109 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaService.java
+2012-04-17 23:49:55,109 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesService.java
+2012-04-17 23:49:55,110 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpService.java
+2012-04-17 23:49:55,111 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosService.java
+2012-04-17 23:49:55,111 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionService.java
+2012-04-17 23:49:55,112 [AWT-EventQueue-0] INFO - Creating: SalAudienciasService.java
+2012-04-17 23:49:55,113 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesService.java
+2012-04-17 23:49:55,113 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorService.java
+2012-04-17 23:49:55,114 [AWT-EventQueue-0] INFO - Creating: RecPartesService.java
+2012-04-17 23:49:55,115 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosService.java
+2012-04-17 23:49:55,115 [AWT-EventQueue-0] INFO - Creating: CatInstanciasService.java
+2012-04-17 23:49:55,116 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioService.java
+2012-04-17 23:49:55,117 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesService.java
+2012-04-17 23:49:55,117 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosService.java
+2012-04-17 23:49:55,118 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerService.java
+2012-04-17 23:49:55,118 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadService.java
+2012-04-17 23:49:55,119 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosService.java
+2012-04-17 23:49:55,119 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiService.java
+2012-04-17 23:49:58,645 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl created
+2012-04-17 23:49:58,654 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiServiceImpl.java
+2012-04-17 23:49:58,655 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaServiceImpl.java
+2012-04-17 23:49:58,655 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadServiceImpl.java
+2012-04-17 23:49:58,656 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoServiceImpl.java
+2012-04-17 23:49:58,657 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersServiceImpl.java
+2012-04-17 23:49:58,658 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesServiceImpl.java
+2012-04-17 23:49:58,659 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresServiceImpl.java
+2012-04-17 23:49:58,660 [AWT-EventQueue-0] INFO - Creating: CatOficinasServiceImpl.java
+2012-04-17 23:49:58,660 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosServiceImpl.java
+2012-04-17 23:49:58,661 [AWT-EventQueue-0] INFO - Creating: SalSalasServiceImpl.java
+2012-04-17 23:49:58,662 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasServiceImpl.java
+2012-04-17 23:49:58,663 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesServiceImpl.java
+2012-04-17 23:49:58,663 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasServiceImpl.java
+2012-04-17 23:49:58,664 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionServiceImpl.java
+2012-04-17 23:49:58,665 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccServiceImpl.java
+2012-04-17 23:49:58,666 [AWT-EventQueue-0] INFO - Creating: RecEstadosServiceImpl.java
+2012-04-17 23:49:58,667 [AWT-EventQueue-0] INFO - Creating: SegRolesServiceImpl.java
+2012-04-17 23:49:58,667 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesServiceImpl.java
+2012-04-17 23:49:58,668 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesServiceImpl.java
+2012-04-17 23:49:58,669 [AWT-EventQueue-0] INFO - Creating: AccZonasServiceImpl.java
+2012-04-17 23:49:58,670 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesServiceImpl.java
+2012-04-17 23:49:58,671 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilServiceImpl.java
+2012-04-17 23:49:58,671 [AWT-EventQueue-0] INFO - Creating: CatCjiServiceImpl.java
+2012-04-17 23:49:58,672 [AWT-EventQueue-0] INFO - Creating: CatJuecesServiceImpl.java
+2012-04-17 23:49:58,673 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoServiceImpl.java
+2012-04-17 23:49:58,674 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresServiceImpl.java
+2012-04-17 23:49:58,675 [AWT-EventQueue-0] INFO - Creating: CatAccionesServiceImpl.java
+2012-04-17 23:49:58,676 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesServiceImpl.java
+2012-04-17 23:49:58,678 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesServiceImpl.java
+2012-04-17 23:49:58,678 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposServiceImpl.java
+2012-04-17 23:49:58,679 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosServiceImpl.java
+2012-04-17 23:49:58,680 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasServiceImpl.java
+2012-04-17 23:49:58,681 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaServiceImpl.java
+2012-04-17 23:49:58,682 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadServiceImpl.java
+2012-04-17 23:49:58,683 [AWT-EventQueue-0] INFO - Creating: SegOpcionesServiceImpl.java
+2012-04-17 23:49:58,684 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudServiceImpl.java
+2012-04-17 23:49:58,685 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoServiceImpl.java
+2012-04-17 23:49:58,686 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiServiceImpl.java
+2012-04-17 23:49:58,687 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresServiceImpl.java
+2012-04-17 23:49:58,688 [AWT-EventQueue-0] INFO - Creating: AccRutasServiceImpl.java
+2012-04-17 23:49:58,689 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesServiceImpl.java
+2012-04-17 23:49:58,689 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosServiceImpl.java
+2012-04-17 23:49:58,690 [AWT-EventQueue-0] INFO - Creating: CatPaisesServiceImpl.java
+2012-04-17 23:49:58,691 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresServiceImpl.java
+2012-04-17 23:49:58,692 [AWT-EventQueue-0] INFO - Creating: RecExpedientesServiceImpl.java
+2012-04-17 23:49:58,692 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaServiceImpl.java
+2012-04-17 23:49:58,693 [AWT-EventQueue-0] INFO - Creating: SegUrlServiceImpl.java
+2012-04-17 23:49:58,694 [AWT-EventQueue-0] INFO - Creating: SegUsuariosServiceImpl.java
+2012-04-17 23:49:58,695 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosServiceImpl.java
+2012-04-17 23:49:58,695 [AWT-EventQueue-0] INFO - Creating: RecEscritosServiceImpl.java
+2012-04-17 23:49:58,696 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteServiceImpl.java
+2012-04-17 23:49:58,697 [AWT-EventQueue-0] INFO - Creating: SusResolucionesServiceImpl.java
+2012-04-17 23:49:58,698 [AWT-EventQueue-0] INFO - Creating: SusSolActosServiceImpl.java
+2012-04-17 23:49:58,698 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionServiceImpl.java
+2012-04-17 23:49:58,699 [AWT-EventQueue-0] INFO - Creating: AccColoniasServiceImpl.java
+2012-04-17 23:49:58,700 [AWT-EventQueue-0] INFO - Creating: SegModulosServiceImpl.java
+2012-04-17 23:49:58,702 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalServiceImpl.java
+2012-04-17 23:49:58,703 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosServiceImpl.java
+2012-04-17 23:49:58,703 [AWT-EventQueue-0] INFO - Creating: SalComparecientesServiceImpl.java
+2012-04-17 23:49:58,704 [AWT-EventQueue-0] INFO - Creating: OacServiciosServiceImpl.java
+2012-04-17 23:49:58,705 [AWT-EventQueue-0] INFO - Creating: SusActuacionesServiceImpl.java
+2012-04-17 23:49:58,706 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasServiceImpl.java
+2012-04-17 23:49:58,706 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaServiceImpl.java
+2012-04-17 23:49:58,707 [AWT-EventQueue-0] INFO - Creating: SegMenusServiceImpl.java
+2012-04-17 23:49:58,708 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasServiceImpl.java
+2012-04-17 23:49:58,709 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorServiceImpl.java
+2012-04-17 23:49:58,710 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosServiceImpl.java
+2012-04-17 23:49:58,715 [AWT-EventQueue-0] INFO - Creating: CatMateriasServiceImpl.java
+2012-04-17 23:49:58,716 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilServiceImpl.java
+2012-04-17 23:49:58,717 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaServiceImpl.java
+2012-04-17 23:49:58,718 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesServiceImpl.java
+2012-04-17 23:49:58,718 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpServiceImpl.java
+2012-04-17 23:49:58,719 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosServiceImpl.java
+2012-04-17 23:49:58,719 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionServiceImpl.java
+2012-04-17 23:49:58,720 [AWT-EventQueue-0] INFO - Creating: SalAudienciasServiceImpl.java
+2012-04-17 23:49:58,720 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesServiceImpl.java
+2012-04-17 23:49:58,721 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorServiceImpl.java
+2012-04-17 23:49:58,722 [AWT-EventQueue-0] INFO - Creating: RecPartesServiceImpl.java
+2012-04-17 23:49:58,722 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosServiceImpl.java
+2012-04-17 23:49:58,723 [AWT-EventQueue-0] INFO - Creating: CatInstanciasServiceImpl.java
+2012-04-17 23:49:58,723 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioServiceImpl.java
+2012-04-17 23:49:58,724 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesServiceImpl.java
+2012-04-17 23:49:58,725 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosServiceImpl.java
+2012-04-17 23:49:58,725 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerServiceImpl.java
+2012-04-17 23:49:58,726 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadServiceImpl.java
+2012-04-17 23:49:58,727 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosServiceImpl.java
+2012-04-17 23:49:58,728 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiServiceImpl.java
+2012-04-17 23:50:02,650 [AWT-EventQueue-0] INFO - Creating: applicationContext-services.xml
+2012-04-17 23:50:05,050 [AWT-EventQueue-0] INFO - Creating: configuration.properties
+2012-04-17 23:50:08,965 [AWT-EventQueue-0] INFO - Creating: log4j.xml
+2012-04-17 23:50:11,306 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
+2012-04-17 23:50:11,363 [AWT-EventQueue-0] INFO - Creating :faces-config.xml
+2012-04-17 23:50:12,826 [AWT-EventQueue-0] INFO - true
+2012-04-17 23:50:12,896 [AWT-EventQueue-0] INFO - Creating: web.xml
+2012-04-17 23:50:12,898 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2012-04-17 23:50:16,690 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-04-17 23:52:44,357 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-04-17 23:52:44,404 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-04-17 23:52:44,404 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-04-17 23:52:44,404 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-04-17 23:52:44,404 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-04-17 23:52:44,405 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-04-17 23:52:49,239 [AWT-EventQueue-0] INFO - Creating: configuration.properties
+2012-04-17 23:52:49,239 [AWT-EventQueue-0] INFO - File: configuration.properties already exists!!!
+2012-04-17 23:52:52,386 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-04-17 23:53:20,435 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-04-17 23:53:20,436 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-04-17 23:53:20,436 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-04-17 23:53:20,436 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-04-17 23:53:20,437 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-04-17 23:53:20,437 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-04-17 23:53:27,312 [AWT-EventQueue-0] INFO - Creating: configuration.properties
+2012-04-17 23:53:31,194 [AWT-EventQueue-0] INFO - Closing Application!!!
