@@ -1,0 +1,7 @@
+2012-06-21 12:30:13,020 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-06-21 12:30:13,022 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.entities
+2012-06-21 12:30:13,022 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/entities
+2012-06-21 12:30:13,023 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services
+2012-06-21 12:30:13,023 [AWT-EventQueue-0] INFO - /home/xtecuan/Work/SigjuPatcher/SigjuPatcher/SigjuPatcher-model/src/sv/gob/oj/sigju/model/services/impl
+2012-06-21 12:30:13,023 [AWT-EventQueue-0] INFO - sv.gob.oj.sigju.model.services.impl
+2012-06-21 12:30:27,684 [AWT-EventQueue-0] INFO - Closing Application!!!

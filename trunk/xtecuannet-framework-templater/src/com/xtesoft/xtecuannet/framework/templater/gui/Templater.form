@@ -42,6 +42,7 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="backingbeansButton" max="32767" attributes="0"/>
                   <Component id="bundleButton" max="32767" attributes="0"/>
+                  <Component id="buttonRemotingServlet" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -67,7 +68,10 @@
                   <Component id="bundleButton" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="buttonCreateConfigProps" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonCreateConfigProps" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonRemotingServlet" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="buttonCrearLog4jConsoleAppenderConfig" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -158,6 +162,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bundleButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonRemotingServlet">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Spring Remoting Servlet Config"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonRemotingServletActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

@@ -49,6 +49,7 @@ public class Templater extends javax.swing.JFrame {
         buttonCrearWebXml = new javax.swing.JButton();
         backingbeansButton = new javax.swing.JButton();
         bundleButton = new javax.swing.JButton();
+        buttonRemotingServlet = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -130,6 +131,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonRemotingServlet.setText("Spring Remoting Servlet Config");
+        buttonRemotingServlet.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonRemotingServletActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -148,7 +156,8 @@ public class Templater extends javax.swing.JFrame {
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -168,7 +177,9 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonCrearServicesConfigSpring)
                     .addComponent(bundleButton))
                 .addGap(18, 18, 18)
-                .addComponent(buttonCreateConfigProps)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(buttonCreateConfigProps)
+                    .addComponent(buttonRemotingServlet))
                 .addGap(18, 18, 18)
                 .addComponent(buttonCrearLog4jConsoleAppenderConfig)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -256,6 +267,11 @@ public class Templater extends javax.swing.JFrame {
         new EmptyBundleFiller().filloutTemplate();
     }//GEN-LAST:event_bundleButtonActionPerformed
 
+    private void buttonRemotingServletActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonRemotingServletActionPerformed
+        // TODO add your handling code here:
+        new RemotingServletConfigFiller().filloutTemplate();
+    }//GEN-LAST:event_buttonRemotingServletActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -308,6 +324,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonCrearWebXml;
     private javax.swing.JButton buttonCreateConfigProps;
     private javax.swing.JButton buttonOptimizarPersistenceXml;
+    private javax.swing.JButton buttonRemotingServlet;
     // End of variables declaration//GEN-END:variables
     private static final Logger logger = LoggerUtilPlus.getLogger(Templater.class, Constants.LOG_CONFIG);
     private TemplaterConfig config = new TemplaterConfig();
