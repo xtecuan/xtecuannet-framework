@@ -43,6 +43,8 @@
                   <Component id="backingbeansButton" max="32767" attributes="0"/>
                   <Component id="bundleButton" max="32767" attributes="0"/>
                   <Component id="buttonRemotingServlet" alignment="0" max="32767" attributes="0"/>
+                  <Component id="buttonClasspathModel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="buttonClasspathWeb" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -72,12 +74,22 @@
                   <Component id="buttonCreateConfigProps" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="buttonRemotingServlet" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="buttonCrearLog4jConsoleAppenderConfig" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="buttonCrearFacesConfig" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="buttonCrearWebXml" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="buttonCrearLog4jConsoleAppenderConfig" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="buttonCrearFacesConfig" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="buttonCrearWebXml" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="buttonClasspathModel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonClasspathWeb" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
               <EmptySpace pref="36" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -170,6 +182,22 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonRemotingServletActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonClasspathModel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classpath Modelo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClasspathModelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonClasspathWeb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Classpath Web"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClasspathWebActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

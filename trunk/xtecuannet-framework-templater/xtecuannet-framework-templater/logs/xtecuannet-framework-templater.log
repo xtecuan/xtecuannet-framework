@@ -1,0 +1,124 @@
+2012-07-12 10:15:24,339 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 10:15:24,370 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 10:15:24,370 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 10:15:24,370 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 10:15:24,370 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 10:15:24,370 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 10:15:29,805 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 10:43:55,683 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 10:43:55,684 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 10:43:55,684 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 10:43:55,684 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 10:43:55,684 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 10:43:55,684 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 10:44:04,985 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 10:48:46,610 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 10:48:46,610 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 10:48:46,611 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 10:48:46,611 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 10:48:46,611 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 10:48:46,611 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 10:49:09,256 [AWT-EventQueue-0] ERROR - Error: 
+java.io.IOException: Destination '/home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/nbproject/project.properties.orig' already exists
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1811)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectModelClasspathFiller.patchProjectProperties(ProjectModelClasspathFiller.java:48)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonClasspathModelActionPerformed(Templater.java:291)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1300(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$13.actionPerformed(Templater.java:145)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 10:49:14,663 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 10:51:39,608 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 10:51:39,609 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 10:51:39,609 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 10:51:39,609 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 10:51:39,609 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 10:51:39,609 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 10:51:42,235 [AWT-EventQueue-0] INFO - Archivo: /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/nbproject/project.properties
+2012-07-12 10:53:23,030 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 10:53:27,940 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 10:53:27,941 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 10:53:27,941 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 10:53:27,941 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 10:53:27,941 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 10:53:27,941 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 10:53:33,062 [AWT-EventQueue-0] INFO - Archivo: /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/nbproject/project.properties
+2012-07-12 10:53:35,685 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 11:31:31,263 [main] INFO - javac.classpath=\
+    ${libs.apache-commons.classpath}:\
+    ${libs.primefaces-3.0.0.classpath}:\
+    ${libs.jasperreports-3.7.6.classpath}:\
+    ${libs.poi-3.6-20091214.classpath}:\
+    ${libs.log4j-1.2.15.classpath}:\
+    ${libs.apache-commons-exec-1.1.classpath}:\
+    ${libs.xtecuannet-framework.classpath}:\
+    ${libs.groovy-all-1.7.5.classpath}:\
+    ${libs.jdt-compiler-3.1.1.classpath}:\
+    ${libs.jfreechart-10.1.12.classpath}:\
+    ${libs.spring-framework-3.0.6.RELEASE-lib.classpath}:\
+    ${libs.Jackson-2.0.classpath}:\
+    ${libs.xtecuannet-framework-viewcontroller-services.classpath}:\
+    ${libs.iText-2.1.7.classpath}:\
+    ${reference.EjemploXtecuannet-model.jar}:\
+    ${libs.primafaces-utils-springframework-nbsupport.classpath}
+2012-07-12 11:32:25,796 [main] INFO - javac.classpath=\
+    ${libs.apache-commons.classpath}:\
+    ${libs.primefaces-3.0.0.classpath}:\
+    ${libs.jasperreports-3.7.6.classpath}:\
+    ${libs.poi-3.6-20091214.classpath}:\
+    ${libs.log4j-1.2.15.classpath}:\
+    ${libs.apache-commons-exec-1.1.classpath}:\
+    ${libs.xtecuannet-framework.classpath}:\
+    ${libs.groovy-all-1.7.5.classpath}:\
+    ${libs.jdt-compiler-3.1.1.classpath}:\
+    ${libs.jfreechart-10.1.12.classpath}:\
+    ${libs.spring-framework-3.0.6.RELEASE-lib.classpath}:\
+    ${libs.Jackson-2.0.classpath}:\
+    ${libs.xtecuannet-framework-viewcontroller-services.classpath}:\
+    ${libs.iText-2.1.7.classpath}:\
+    ${reference.EjemploXtecuannet-model.jar}:\
+    ${libs.primafaces-utils-springframework-nbsupport.classpath}
+2012-07-12 11:32:25,796 [main] INFO - project.EjemploXtecuannet-model=../EjemploXtecuannet-model
+2012-07-12 11:32:25,797 [main] INFO - reference.EjemploXtecuannet-model.jar=${project.EjemploXtecuannet-model}/dist/EjemploXtecuannet-model.jar
+2012-07-12 11:36:06,290 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 11:36:09,451 [AWT-EventQueue-0] INFO - Archivo: /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-war/nbproject/project.properties
+2012-07-12 11:36:14,637 [AWT-EventQueue-0] INFO - Closing Application!!!
