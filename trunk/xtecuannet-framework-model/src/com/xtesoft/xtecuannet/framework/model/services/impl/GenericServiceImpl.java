@@ -50,9 +50,9 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
+     *
      * @param entity
-     * @return 
+     * @return
      */
     public T create(T entity) {
         getEm().persist(entity);
@@ -60,9 +60,9 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
+     *
      * @param entity
-     * @return 
+     * @return
      */
     public T edit(T entity) {
         getEm().merge(entity);
@@ -70,12 +70,13 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
-     * @param entity 
+     *
+     * @param entity
      */
     public void remove(Object entity) {
-        /*getEm().remove(getEm().find(this.getClazz(),
-        entity));*/
+        /*
+         * getEm().remove(getEm().find(this.getClazz(), entity));
+         */
         try {
             getEm().remove(getEm().merge(entity));
         } catch (Exception ex) {
@@ -87,17 +88,17 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
+     *
      * @param entityId
-     * @return 
+     * @return
      */
     public T find(Object entityId) {
         return getEm().find(this.getClazz(), entityId);
     }
 
     /**
-     * 
-     * @return 
+     *
+     * @return
      */
     public List<T> findAll() {
         EntityManager em1 = this.getEm().getEntityManagerFactory().createEntityManager();
@@ -107,9 +108,9 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
+     *
      * @param range
-     * @return 
+     * @return
      */
     public List<T> findRange(int[] range) {
 
@@ -123,8 +124,8 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
-     * @return 
+     *
+     * @return
      */
     public int count() {
         EntityManager em1 = this.getEm().getEntityManagerFactory().createEntityManager();
@@ -153,8 +154,8 @@ public class GenericServiceImpl<T> implements GenericService<T> {
     }
 
     /**
-     * 
-     * @return 
+     *
+     * @return
      */
     public String sayHello() {
         return HELLO_FROM + this.getClazz().getCanonicalName();
@@ -216,5 +217,25 @@ public class GenericServiceImpl<T> implements GenericService<T> {
 
 
         return salida;
+    }
+
+    public List<T> findSomeRange(int first, int pageSize) {
+
+        Query q = getEm().createQuery("SELECT a FROM " + this.getClazz().getSimpleName()+" a ");
+
+
+        if (first == 0) {
+            q.setFirstResult(first);
+            q.setMaxResults(pageSize);
+        } else {
+            if (first > 0) {
+                q.setFirstResult(first);
+            }
+
+            if (pageSize > 0) {
+                q.setMaxResults(pageSize);
+            }
+        }
+        return q.getResultList();
     }
 }

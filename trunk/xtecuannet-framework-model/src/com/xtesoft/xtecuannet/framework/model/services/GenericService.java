@@ -32,4 +32,6 @@ public interface GenericService<T> extends Serializable {
 
     public List<String> verifyForChildsFKs(Object entity, String errorMessage);
 //    public List findByExample(Object entity,String[] excludeProperties);
+
+    public List<T> findSomeRange(int first, int pageSize);
 }
