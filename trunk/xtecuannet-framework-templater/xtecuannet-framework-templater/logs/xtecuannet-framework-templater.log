@@ -122,3 +122,329 @@ java.io.IOException: Destination '/home/lcordero/NetBeansProjects/EjemploXtecuan
 2012-07-12 11:36:06,291 [AWT-EventQueue-0] INFO - modelo.servicios.impl
 2012-07-12 11:36:09,451 [AWT-EventQueue-0] INFO - Archivo: /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-war/nbproject/project.properties
 2012-07-12 11:36:14,637 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 12:11:31,166 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 12:11:31,166 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 12:11:31,166 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 12:11:31,167 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 12:11:31,167 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 12:11:31,167 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 12:11:34,174 [AWT-EventQueue-0] ERROR - Error al obtener el template de la aplicacion
+freemarker.core.ParseException: Encountered "0" at line 19, column 49 in project.ftl.
+Was expecting one of:
+    "false" ...
+    "true" ...
+    <LESS_THAN> ...
+    <LESS_THAN_EQUALS> ...
+    <ESCAPED_GT> ...
+    <ESCAPED_GTE> ...
+    "*" ...
+    "**" ...
+    "in" ...
+    "as" ...
+    "using" ...
+    <ID> ...
+    
+	at freemarker.core.FMParser.generateParseException(FMParser.java:4697)
+	at freemarker.core.FMParser.jj_consume_token(FMParser.java:4568)
+	at freemarker.core.FMParser.DotVariable(FMParser.java:867)
+	at freemarker.core.FMParser.AddSubExpression(FMParser.java:717)
+	at freemarker.core.FMParser.PrimaryExpression(FMParser.java:273)
+	at freemarker.core.FMParser.UnaryExpression(FMParser.java:319)
+	at freemarker.core.FMParser.MultiplicativeExpression(FMParser.java:435)
+	at freemarker.core.FMParser.AdditiveExpression(FMParser.java:408)
+	at freemarker.core.FMParser.RangeExpression(FMParser.java:556)
+	at freemarker.core.FMParser.RelationalExpression(FMParser.java:511)
+	at freemarker.core.FMParser.EqualityExpression(FMParser.java:476)
+	at freemarker.core.FMParser.AndExpression(FMParser.java:585)
+	at freemarker.core.FMParser.OrExpression(FMParser.java:608)
+	at freemarker.core.FMParser.Expression(FMParser.java:221)
+	at freemarker.core.FMParser.StringOutput(FMParser.java:1061)
+	at freemarker.core.FMParser.Content(FMParser.java:2575)
+	at freemarker.core.FMParser.OptionalBlock(FMParser.java:2786)
+	at freemarker.core.FMParser.Root(FMParser.java:2958)
+	at freemarker.template.Template.<init>(Template.java:149)
+	at freemarker.cache.TemplateCache.loadTemplate(TemplateCache.java:457)
+	at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:370)
+	at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:238)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:493)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:458)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.FillerUtils.getTemplate(FillerUtils.java:39)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectXmlFiller.filloutTemplate(ProjectXmlFiller.java:31)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonProjectXmlWebActionPerformed(Templater.java:327)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1500(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$15.actionPerformed(Templater.java:161)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 12:11:34,198 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-07-12 12:11:34,198 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-07-12 12:11:34,201 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: project.ftl
+java.lang.NullPointerException
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectXmlFiller.filloutTemplate(ProjectXmlFiller.java:58)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonProjectXmlWebActionPerformed(Templater.java:327)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1500(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$15.actionPerformed(Templater.java:161)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 12:17:05,356 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 12:17:12,777 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 12:17:12,778 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 12:17:12,778 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 12:17:12,778 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 12:17:12,778 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 12:17:12,778 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 12:17:15,734 [AWT-EventQueue-0] ERROR - Error al obtener el template de la aplicacion
+freemarker.core.ParseException: Encountered "0" at line 19, column 61 in project.ftl.
+Was expecting one of:
+    "false" ...
+    "true" ...
+    <LESS_THAN> ...
+    <LESS_THAN_EQUALS> ...
+    <ESCAPED_GT> ...
+    <ESCAPED_GTE> ...
+    "*" ...
+    "**" ...
+    "in" ...
+    "as" ...
+    "using" ...
+    <ID> ...
+    
+	at freemarker.core.FMParser.generateParseException(FMParser.java:4697)
+	at freemarker.core.FMParser.jj_consume_token(FMParser.java:4568)
+	at freemarker.core.FMParser.DotVariable(FMParser.java:867)
+	at freemarker.core.FMParser.AddSubExpression(FMParser.java:717)
+	at freemarker.core.FMParser.PrimaryExpression(FMParser.java:273)
+	at freemarker.core.FMParser.UnaryExpression(FMParser.java:319)
+	at freemarker.core.FMParser.MultiplicativeExpression(FMParser.java:435)
+	at freemarker.core.FMParser.AdditiveExpression(FMParser.java:408)
+	at freemarker.core.FMParser.RangeExpression(FMParser.java:556)
+	at freemarker.core.FMParser.RelationalExpression(FMParser.java:511)
+	at freemarker.core.FMParser.EqualityExpression(FMParser.java:476)
+	at freemarker.core.FMParser.AndExpression(FMParser.java:585)
+	at freemarker.core.FMParser.OrExpression(FMParser.java:608)
+	at freemarker.core.FMParser.Expression(FMParser.java:221)
+	at freemarker.core.FMParser.StringOutput(FMParser.java:1061)
+	at freemarker.core.FMParser.Content(FMParser.java:2575)
+	at freemarker.core.FMParser.OptionalBlock(FMParser.java:2786)
+	at freemarker.core.FMParser.Root(FMParser.java:2958)
+	at freemarker.template.Template.<init>(Template.java:149)
+	at freemarker.cache.TemplateCache.loadTemplate(TemplateCache.java:457)
+	at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:370)
+	at freemarker.cache.TemplateCache.getTemplate(TemplateCache.java:238)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:493)
+	at freemarker.template.Configuration.getTemplate(Configuration.java:458)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.FillerUtils.getTemplate(FillerUtils.java:39)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectXmlFiller.filloutTemplate(ProjectXmlFiller.java:31)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonProjectXmlWebActionPerformed(Templater.java:327)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1500(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$15.actionPerformed(Templater.java:161)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 12:17:15,750 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-07-12 12:17:15,751 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-07-12 12:17:15,753 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: project.ftl
+java.io.IOException: Destination '/home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-war/nbproject/project.xml.orig' already exists
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1811)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectXmlFiller.filloutTemplate(ProjectXmlFiller.java:53)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonProjectXmlWebActionPerformed(Templater.java:327)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1500(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$15.actionPerformed(Templater.java:161)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 12:26:29,793 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 12:26:33,446 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 12:26:33,447 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 12:26:33,447 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 12:26:33,447 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 12:26:33,447 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 12:26:33,447 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 12:26:35,649 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-07-12 12:26:35,649 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-07-12 12:26:35,652 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: project.ftl
+java.io.IOException: Destination '/home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-war/nbproject/project.xml.orig' already exists
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1811)
+	at com.xtesoft.xtecuannet.framework.templater.filler.ProjectXmlFiller.filloutTemplate(ProjectXmlFiller.java:53)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonProjectXmlWebActionPerformed(Templater.java:327)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1500(Templater.java:24)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$15.actionPerformed(Templater.java:161)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6290)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3267)
+	at java.awt.Component.processEvent(Component.java:6055)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4653)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2482)
+	at java.awt.Component.dispatchEvent(Component.java:4481)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:648)
+	at java.awt.EventQueue.access$000(EventQueue.java:84)
+	at java.awt.EventQueue$1.run(EventQueue.java:607)
+	at java.awt.EventQueue$1.run(EventQueue.java:605)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$2.run(EventQueue.java:621)
+	at java.awt.EventQueue$2.run(EventQueue.java:619)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:618)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2012-07-12 12:26:42,481 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-07-12 12:27:58,239 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/lcordero/NetBeansProjects/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-07-12 12:27:58,240 [AWT-EventQueue-0] INFO - modelo.entidades
+2012-07-12 12:27:58,240 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/entidades
+2012-07-12 12:27:58,240 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios
+2012-07-12 12:27:58,240 [AWT-EventQueue-0] INFO - /home/lcordero/NetBeansProjects/EjemploXtecuannet/EjemploXtecuannet-model/src/modelo/servicios/impl
+2012-07-12 12:27:58,240 [AWT-EventQueue-0] INFO - modelo.servicios.impl
+2012-07-12 12:28:00,785 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-07-12 12:28:00,785 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-07-12 12:28:07,200 [AWT-EventQueue-0] INFO - Closing Application!!!
