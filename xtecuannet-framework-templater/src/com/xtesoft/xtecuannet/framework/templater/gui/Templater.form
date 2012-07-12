@@ -45,6 +45,7 @@
                   <Component id="buttonRemotingServlet" alignment="0" max="32767" attributes="0"/>
                   <Component id="buttonClasspathModel" alignment="0" max="32767" attributes="0"/>
                   <Component id="buttonClasspathWeb" alignment="0" max="32767" attributes="0"/>
+                  <Component id="buttonProjectXmlWeb" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -88,9 +89,11 @@
                       <Component id="buttonClasspathModel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="buttonClasspathWeb" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="buttonProjectXmlWeb" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="36" max="32767" attributes="0"/>
+              <EmptySpace pref="33" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -198,6 +201,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonClasspathWebActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonProjectXmlWeb">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="project.xml Web"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonProjectXmlWebActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

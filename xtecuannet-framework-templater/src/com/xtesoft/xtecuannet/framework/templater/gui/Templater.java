@@ -52,6 +52,7 @@ public class Templater extends javax.swing.JFrame {
         buttonRemotingServlet = new javax.swing.JButton();
         buttonClasspathModel = new javax.swing.JButton();
         buttonClasspathWeb = new javax.swing.JButton();
+        buttonProjectXmlWeb = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -154,6 +155,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonProjectXmlWeb.setText("project.xml Web");
+        buttonProjectXmlWeb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonProjectXmlWebActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -175,7 +183,8 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonClasspathWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonClasspathWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonProjectXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -210,8 +219,10 @@ public class Templater extends javax.swing.JFrame {
                         .addGap(27, 27, 27)
                         .addComponent(buttonClasspathModel)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buttonClasspathWeb)))
-                .addContainerGap(36, Short.MAX_VALUE))
+                        .addComponent(buttonClasspathWeb)
+                        .addGap(18, 18, 18)
+                        .addComponent(buttonProjectXmlWeb)))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         pack();
@@ -310,6 +321,12 @@ public class Templater extends javax.swing.JFrame {
 
     }//GEN-LAST:event_buttonClasspathWebActionPerformed
 
+    private void buttonProjectXmlWebActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProjectXmlWebActionPerformed
+        // TODO add your handling code here:
+
+        new ProjectXmlFiller().filloutTemplate();
+    }//GEN-LAST:event_buttonProjectXmlWebActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -364,6 +381,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonCrearWebXml;
     private javax.swing.JButton buttonCreateConfigProps;
     private javax.swing.JButton buttonOptimizarPersistenceXml;
+    private javax.swing.JButton buttonProjectXmlWeb;
     private javax.swing.JButton buttonRemotingServlet;
     // End of variables declaration//GEN-END:variables
     private static final Logger logger = LoggerUtilPlus.getLogger(Templater.class, Constants.LOG_CONFIG);
