@@ -87,6 +87,7 @@ public class TemplaterConfig implements Serializable {
     private Boolean exposeRemoteSpringServices;
     private String remotingPattern;
     private String facesUrlPattern;
+    private String remotingFilename;
 
     public TemplaterConfig() {
         this.readConfig();
@@ -109,7 +110,7 @@ public class TemplaterConfig implements Serializable {
                     ClassUtils.setPropertyToInstance(this, field.getName(), Constants.getResolvedValue(field.getName(), this.getClass()));
                 } else if (field.getType().getName().equals("java.io.File")) {
                     ClassUtils.setPropertyToInstance(this, field.getName(), new File(Constants.getResolvedValue(field.getName(), this.getClass())));
-                }else if (field.getType().getName().equals("java.lang.Boolean")) {
+                } else if (field.getType().getName().equals("java.lang.Boolean")) {
                     ClassUtils.setPropertyToInstance(this, field.getName(), Boolean.valueOf(Constants.getResolvedValue(field.getName(), this.getClass())));
                 }
             }
@@ -662,6 +663,14 @@ public class TemplaterConfig implements Serializable {
 
     public void setFacesUrlPattern(String facesUrlPattern) {
         this.facesUrlPattern = facesUrlPattern;
+    }
+
+    public String getRemotingFilename() {
+        return remotingFilename;
+    }
+
+    public void setRemotingFilename(String remotingFilename) {
+        this.remotingFilename = remotingFilename;
     }
     
     
