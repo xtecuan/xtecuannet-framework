@@ -69,6 +69,7 @@ ${r"<!--"}Created on ${aDateTime?iso_local}${r"-->"}
                 </library>
                 <library dirs="200">
                     <file>${r"${"}reference.${modelProject}.jar${r"}"}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
                     <file>${r"${"}libs.primafaces-utils-springframework-nbsupport.classpath${r"}"}</file>

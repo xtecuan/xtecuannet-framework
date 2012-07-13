@@ -1,7 +1,0 @@
-2012-03-27 10:47:42,411 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
-2012-03-27 10:47:42,436 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.entities
-2012-03-27 10:47:42,437 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/entities
-2012-03-27 10:47:42,437 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services
-2012-03-27 10:47:42,437 [AWT-EventQueue-0] INFO - /home/xtecuan/AmandaHorasSociales/NetbeansProjects/sscsjapp/sscsjapp-model/src/com/xtesoft/sscsj/model/services/impl
-2012-03-27 10:47:42,438 [AWT-EventQueue-0] INFO - com.xtesoft.sscsj.model.services.impl
-2012-03-27 10:47:49,952 [AWT-EventQueue-0] INFO - Closing Application!!!
