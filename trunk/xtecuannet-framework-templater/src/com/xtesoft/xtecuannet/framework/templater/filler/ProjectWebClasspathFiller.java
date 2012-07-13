@@ -36,7 +36,9 @@ public class ProjectWebClasspathFiller {
             + "    ${libs.xtecuannet-framework-viewcontroller-services.classpath}:\\\n"
             + "    ${libs.iText-2.1.7.classpath}:\\\n"
             + "    ${reference.${modelProject}.jar}:\\\n"
-            + "    ${libs.primafaces-utils-springframework-nbsupport.classpath}";
+            + "    ${libs.primafaces-utils-springframework-nbsupport.classpath}:\\\n"
+            + "    ${libs.eclipselinkmodelgen.classpath}:\\\n"
+            + "    ${libs.eclipselink.classpath}";
     private static String CLASSPATH_MODEL_PROJECT_DEF = "project.${modelProject}=../${modelProject}";
     private static String CLASSPATH_MODEL_PROJECT_REF = "reference.${modelProject}.jar=${project.${modelProject}}/dist/${modelProject}.jar";
 

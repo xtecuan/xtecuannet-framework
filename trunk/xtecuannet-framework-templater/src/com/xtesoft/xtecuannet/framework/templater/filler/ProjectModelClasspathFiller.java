@@ -31,7 +31,9 @@ public class ProjectModelClasspathFiller {
             + "    ${libs.log4j-1.2.15.classpath}:\\\n"
             + "    ${libs.groovy-all-1.7.5.classpath}:\\\n"
             + "    ${libs.Java-EE-GlassFish-v3.classpath}:\\\n"
-            + "    ${libs.poi-3.6-20091214.classpath}";
+            + "    ${libs.poi-3.6-20091214.classpath}:\\\n"
+            + "    ${libs.eclipselinkmodelgen.classpath}:\\\n"
+            + "    ${libs.eclipselink.classpath}";
 
     public void patchProjectProperties() {
 
