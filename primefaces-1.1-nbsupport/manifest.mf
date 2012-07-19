@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.primefaces.uno.uno
+OpenIDE-Module-Layer: org/primefaces/uno/uno/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/primefaces/uno/uno/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+    <name>primefaces-1.1-nbsupport</name>
+    <type>j2se</type>
+    <localizing-bundle>org.primefaces.uno.uno.Bundle</localizing-bundle>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:nbinst://org.primefaces.uno.uno/libs/primefaces-1.1.jar!/</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+        <resource>jar:nbinst://org.primefaces.uno.uno/sources/primefaces-1.1-sources.jar!/</resource>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>jar:nbinst://org.primefaces.uno.uno/docs/primefaces-1.1-nbsupport-apidocs.zip!/</resource>
+    </volume>
+</library>
