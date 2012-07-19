@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE library PUBLIC "-//NetBeans//DTD Library Declaration 1.0//EN" "http://www.netbeans.org/dtds/library-declaration-1_0.dtd">
+<library version="1.0">
+    <name>primefaces-3.3.1-nbsupport</name>
+    <type>j2se</type>
+    <localizing-bundle>org.primefaces.ui.tres.tres.uno.Bundle</localizing-bundle>
+    <volume>
+        <type>classpath</type>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/primefaces-3.3.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/async-http-client-1.7.5.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/atmosphere-runtime-1.0.0.beta3.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/barbecue-1.5-beta1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/commons-fileupload-1.2.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/commons-io-1.4.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/commons-logging-1.1.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/itext-2.1.7.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/jfreechart-1.0.0.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/poi-3.7.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/rome-1.0.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/slf4j-simple-1.6.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/afterdark-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/afternoon-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/afterwork-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/aristo-1.0.1.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/black-tie-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/blitzer-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/bluesky-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/casablanca-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/cruze-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/cupertino-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/dark-hive-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/dot-luv-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/eggplant-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/excite-bike-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/flick-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/glass-x-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/home-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/hot-sneaks-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/humanity-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/le-frog-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/midnight-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/mint-choc-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/overcast-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/pepper-grinder-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/redmond-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/rocket-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/sam-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/smoothness-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/south-street-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/start-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/sunny-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/swanky-purse-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/trontastic-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/ui-darkness-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/ui-lightness-1.0.6.jar!/</resource>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/libs/vader-1.0.6.jar!/</resource>
+    </volume>
+    <volume>
+        <type>src</type>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/sources/primefaces-3.3.1-sources.jar!/</resource>
+    </volume>
+    <volume>
+        <type>javadoc</type>
+        <resource>jar:nbinst://org.primefaces.ui.tres.tres.uno/docs/primefaces-3.3.1-nbsupport-apidocs.zip!/</resource>
+    </volume>
+</library>
