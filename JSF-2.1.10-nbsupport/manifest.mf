@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: javax.faces.dos.uno.diez
+OpenIDE-Module-Layer: javax/faces/dos/uno/diez/layer.xml
+OpenIDE-Module-Localizing-Bundle: javax/faces/dos/uno/diez/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
