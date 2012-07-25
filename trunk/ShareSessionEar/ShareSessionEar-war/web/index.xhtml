@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
+    <h:head>
+        <title>Pagina de Login</title>
+    </h:head>
+    <h:body>
+
+        <h:form>
+
+            <p:ajaxStatus style="width:16px;height:16px;">
+                        <f:facet name="start">
+                            <h:graphicImage value="/design/ajaxloading.gif" />
+                        </f:facet>
+
+                        <f:facet name="complete">
+                            <h:outputText value="" />
+                        </f:facet>
+                    </p:ajaxStatus>
+
+                    <p:growl id="growl" sticky="true" showDetail="true"/>
+           
+
+            <h:panelGrid columns="2">
+                <h:outputLabel value="Usuario" for="usuario"/>
+                <p:inputText id="usuario" value="#{loginBean.usuario}" required="true" requiredMessage="El usuario es requerido"/>
+
+                <h:outputLabel value="Clave" for="clave"/>
+                <p:password id="clave" value="#{loginBean.clave}" required="true" requiredMessage="La clave es requerida"/>
+
+                <f:facet name="footer">
+
+                    <h:panelGrid columns="2">
+
+                        <p:commandButton id="entrar" action="#{loginBean.doLogin()}" value="Ingresar" update="growl"/>
+
+                        <p:commandButton id="cancelar" action="#{loginBean.doCancel()}" value="Cancelar"/>
+                    </h:panelGrid>
+                </f:facet>
+
+            </h:panelGrid>
+
+        </h:form>
+
+    </h:body>
+</html>
+
