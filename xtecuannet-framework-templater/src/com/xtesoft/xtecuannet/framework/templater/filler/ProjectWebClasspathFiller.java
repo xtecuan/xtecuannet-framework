@@ -22,7 +22,9 @@ public class ProjectWebClasspathFiller {
     public static final String NBPROJECT_PROP_FILE = "project.properties";
     private static String CLASSPATH_PROJECT_PROPS = "javac.classpath=\\\n"
             + "    ${libs.apache-commons.classpath}:\\\n"
-            + "    ${libs.primefaces-3.0.0.classpath}:\\\n"
+            //            + "    ${libs.primefaces-3.0.0.classpath}:\\\n"
+            + "    ${libs.primefaces-3.3.1-nbsupport.classpath}:\\\n"
+            + "    ${libs.JSF-2.1.10-nbsupport.classpath}\\\n"
             + "    ${libs.jasperreports-3.7.6.classpath}:\\\n"
             + "    ${libs.poi-3.6-20091214.classpath}:\\\n"
             + "    ${libs.log4j-1.2.15.classpath}:\\\n"

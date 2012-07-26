@@ -15,8 +15,16 @@ ${r"<!--"}Created on ${aDateTime?iso_local}${r"-->"}
                     <file>${r"${"}libs.apache-commons.classpath${r"}"}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
-                <library dirs="200">
+                <!--<library dirs="200">
                     <file>${r"${"}libs.primefaces-3.0.0.classpath${r"}"}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>-->
+                <library dirs="200">
+                    <file>${r"${"}libs.primefaces-3.3.1-nbsupport.classpath${r"}"}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${r"${"}libs.JSF-2.1.10-nbsupport.classpath${r"}"}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
