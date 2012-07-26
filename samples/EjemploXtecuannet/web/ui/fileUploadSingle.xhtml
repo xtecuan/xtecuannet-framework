@@ -1,0 +1,67 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.prime.com.tr/ui"
+	template="../templates/ui.xhtml">
+
+	<ui:define name="content">
+
+		<h1 class="title ui-widget-header ui-corner-all">FileUpload - Single</h1>
+		<div class="entry">
+            <p>Select a single file from file browser and click upload button. 
+                If your browser supports, you can drag and drop the file from your operation system
+                and progress bar will be displayed.</p>
+		
+            <h:form enctype="multipart/form-data">
+
+                <p:growl id="messages" showDetail="true"/>
+
+				<p:fileUpload fileUploadListener="#{fileUploadController.handleFileUpload}" mode="advanced"
+						update="messages" sizeLimit="1000000" allowTypes="png,gif,jpg" />
+
+			</h:form>
+
+			<h3>Source</h3>
+            <p:tabView>
+                <p:tab title="fileUploadSingle.xhtml">
+                    <pre name="code" class="xml">
+&lt;h:form enctype="multipart/form-data"&gt;
+
+    &lt;p:growl id="messages" showDetail="true"/&gt;
+
+    &lt;p:fileUpload fileUploadListener="\#{fileUploadController.handleFileUpload}"
+            mode="advanced" 
+            update="messages"
+            sizeLimit="1000000"
+            allowTypes="png,gif,jpg" /&gt;
+
+&lt;/h:form&gt;
+                    </pre>
+                </p:tab>
+
+                <p:tab title="FileUploadController.java">
+                    <pre name="code" class="java">
+package org.primefaces.examples.view;
+
+import javax.faces.application.FacesMessage;
+import javax.faces.context.FacesContext;
+
+import org.primefaces.event.FileUploadEvent;
+import org.primefaces.model.UploadedFile;
+
+public class FileUploadController {
+
+    public void handleFileUpload(FileUploadEvent event) {
+		FacesMessage msg = new FacesMessage("Succesful", event.getFile().getFileName() + " is uploaded.");
+		FacesContext.getCurrentInstance().addMessage(null, msg);
+	}
+}
+                    </pre>
+                </p:tab>
+            </p:tabView>
+
+		</div>
+
+	</ui:define>
+</ui:composition>

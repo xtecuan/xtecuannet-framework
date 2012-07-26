@@ -1,0 +1,212 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:p="http://primefaces.prime.com.tr/ui"
+                template="/templates/appTemplate.xhtml"
+                xmlns:c="http://java.sun.com/jsp/jstl/core">
+
+    <ui:define name="title">
+        <h:outputText value="#{bundle.SusActuaciones_form_title}"></h:outputText>
+    </ui:define>
+
+    <ui:define name="head">
+
+        <!--.first .second {
+                text-align:left;
+                width: 250px;
+            }
+       
+        -->
+
+        <!-- .yui-skin-sam .yui-ac-input {
+                position: static;
+            }-->
+
+        <style type="text/css">
+
+
+        </style>
+
+
+    </ui:define>
+
+    <ui:define name="header">
+
+        <div align="left" class="entry">
+            <h2 class="title ui-widget-header ui-corner-all" style="width:800px">#{bundle.SusActuaciones_form_header}</h2>
+
+        </div>
+
+    </ui:define>
+    <ui:define name="form">
+
+
+
+        <div class="entry">
+
+
+            <h:form prependId="false">
+
+                <!--style="width:800px"-->
+
+                <p:panel id="formulario" header="#{bundle.SusActuaciones_form_header}" >
+                    <p:ajaxStatus style="width:16px;height:16px;">
+                        <f:facet name="start">
+                            <h:graphicImage value="/design/ajaxloading.gif" />
+                        </f:facet>
+
+                        <f:facet name="complete">
+                            <h:outputText value="" />
+                        </f:facet>
+                    </p:ajaxStatus>
+
+                    <p:growl id="growl" sticky="false" showDetail="true"/>
+
+                    <!--columnClasses="label, value"   cellpadding="4"-->
+
+                    <h:panelGrid columns="2">
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_cji}" for="cji"/>
+                        <h:selectOneMenu id="cji" value="#{SusActuacionesBean.current.susActuacionesPK.cji}" disabled="#{not SusActuacionesBean.insert}" required="true" requiredMessage="#{bundle.SusActuaciones_form_req_cji}">
+                            <f:selectItem itemLabel="#{bundle.SusActuaciones_form_btn_select}" itemValue="" />
+                            <f:selectItems value="#{SusActuacionesBean.itemsCJI}" />
+                        </h:selectOneMenu>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_codactuacion}" for="codactuacion"/>
+                        <p:inputText id="codactuacion" value="#{SusActuacionesBean.current.susActuacionesPK.codactuacion}" disabled="#{not SusActuacionesBean.insert}" required="true" requiredMessage="#{bundle.SusActuaciones_form_req_codactuacion}"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_desactuacion}" for="desactuacion" />
+                        <p:inputText id="desactuacion" value="#{SusActuacionesBean.current.desactuacion}"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_feccreacion}" for="feccreacion" />
+                        <p:calendar id="feccreacion" value="#{SusActuacionesBean.current.feccreacion}" pattern="dd/MM/yyyy"  locale="sv" required="true" requiredMessage="#{bundle.SusActuaciones_form_req_fechacreacion}"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_usuariocreacion}" for="usuariocreacion" />
+                        <p:inputText id="usuariocreacion" value="#{SusActuacionesBean.current.usuariocreacion}" required="true" requiredMessage="#{bundle.SusActuaciones_form_req_usuariocreacion}"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_fecmodificacion}" for="fecmodificacion" />
+                        <p:calendar id="fecmodificacion" value="#{SusActuacionesBean.current.fecmodificacion}" pattern="dd/MM/yyyy"  locale="sv"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_usuariomodificacion}" for="usuariomodificacion" />
+                        <p:inputText id="usuariomodificacion" value="#{SusActuacionesBean.current.usuariomodificacion}"/>
+                        <f:facet name="footer">
+                            <h:panelGrid columns="2" cellspacing="4" cellpadding="2">
+                                <p:commandButton value="#{bundle.SusActuaciones_form_btn_save}" actionListener="#{SusActuacionesBean.save}" update="growl,paneldata,formulario" rendered="#{SusActuacionesBean.insert}"/>
+                                <p:commandButton value="#{bundle.SusActuaciones_form_btn_update}" actionListener="#{SusActuacionesBean.update}" update="growl,paneldata,formulario" rendered="#{not SusActuacionesBean.insert}"/>
+                            </h:panelGrid>
+                        </f:facet>
+                    </h:panelGrid>
+
+
+                </p:panel>
+
+  
+
+            </h:form>
+            <p:dialog header="#{bundle.SusActuaciones_form_search_dialog_header}" widgetVar="dlgSearch" resizable="false">  
+                <h:form id="form">  
+
+                    <h:panelGrid columns="2" style="margin-bottom:10px">  
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_cji}" for="cjiSearch"/>
+                        <h:selectOneMenu id="cjiSearch" value="#{SusActuacionesBean.search.susActuacionesPK.cji}" required="true" requiredMessage="#{bundle.SusActuaciones_form_req_cji}">
+                            <f:selectItem itemLabel="#{bundle.SusActuaciones_form_btn_select}" itemValue="" />
+                            <f:selectItems value="#{SusActuacionesBean.itemsCJI}" />
+                        </h:selectOneMenu>
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_codactuacion}" for="codactuacionSearch"/>
+                        <p:inputText id="codactuacionSearch" value="#{SusActuacionesBean.search.susActuacionesPK.codactuacion}"/>
+
+                        <h:outputLabel value="#{bundle.SusActuaciones_form_desactuacion}" for="desactuacionSearch" />
+                        <p:inputText id="desactuacionSearch" value="#{SusActuacionesBean.search.desactuacion}"/>
+
+                        <f:facet name="footer">
+
+                            <p:commandButton id="submitButton" value="#{bundle.SusActuaciones_form_btn_search}" update="paneldata,growl" 
+                                             actionListener="#{SusActuacionesBean.find}" oncomplete="dlgSearch.hide();"/>  
+                        </f:facet>
+                    </h:panelGrid>  
+
+
+
+                </h:form>  
+            </p:dialog>
+
+            <h:form prependId="false">
+
+                <!--style="width:800px"-->
+
+                <p:panel id="paneldata" >
+
+                    <p:ajaxStatus style="width:16px;height:16px;">
+                        <f:facet name="start">
+                            <h:graphicImage value="/design/ajaxloading.gif" />
+                        </f:facet>
+
+                        <f:facet name="complete">
+                            <h:outputText value="" />
+                        </f:facet>
+                    </p:ajaxStatus>
+
+                    <p:dataTable  id="tableSusActuaciones" var="SusActuacionesVar" value="#{SusActuacionesBean.gridList}" paginator="true" rows="10"
+                                  selection="#{SusActuacionesBean.selected}">
+                        <f:facet name="header">
+                            #{bundle.SusActuaciones_form_gridList_header}
+                        </f:facet>
+                        <p:column selectionMode="single" />
+
+                        <p:column style="width:33px">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.SalaAudiencia_form_cji}"/>
+                            </f:facet>
+                            <h:outputText value="#{SusActuacionesVar.susActuacionesPK.cji}"/>
+                        </p:column>
+
+                        <p:column style="width:100px">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.SusActuaciones_form_label_codactuacion}" />
+                            </f:facet>
+                            <h:outputText value="#{SusActuacionesVar.susActuacionesPK.codactuacion}"/>
+
+                        </p:column>
+
+                        <p:column style="width:100px">
+                            <f:facet name="header">
+                                <h:outputText value="#{bundle.SusActuaciones_form_label_desactuacion}" />
+                            </f:facet>
+                            <h:outputText value="#{SusActuacionesVar.desactuacion}"/>
+
+                        </p:column>
+
+
+
+                        <f:facet name="footer">
+
+                            <h:panelGrid columns="4" cellspacing="4" cellpadding="2">
+                                <p:commandButton update="paneldata,growl" value="#{bundle.SusActuaciones_form_btn_delete}" onclick="confirmation.show()" type="button"  image="ui-icon ui-icon-close" />
+                                <p:commandButton update="formulario,paneldata,growl" actionListener="#{SusActuacionesBean.prepareUpdate}" value="#{bundle.SusActuaciones_form_btn_update}" image="ui-icon ui-icon-pencil" />
+                                <p:commandButton value="#{bundle.SusActuaciones_form_btn_search}" onclick="dlgSearch.show()" type="button"/>
+                                <p:commandButton value="#{bundle.SusActuaciones_form_btn_cancel}" action="#{SusActuacionesBean.cancel}"/>
+                            </h:panelGrid>
+
+
+                        </f:facet>
+
+                    </p:dataTable>
+                </p:panel>
+
+                <p:confirmDialog id="deleteConfirmDialog" message="#{bundle.SusActuaciones_form_delete_cdialog_msg}"  
+                                 header="#{bundle.SusActuaciones_form_delete_cdialog_header}" severity="alert" widgetVar="confirmation">  
+
+                    <p:commandButton id="confirm" value="#{bundle.SusActuaciones_form_btn_delete}" update="paneldata,growl" oncomplete="confirmation.hide()"  
+                                     actionListener="#{SusActuacionesBean.delete}" />  
+                    <p:commandButton id="decline" value="#{bundle.SusActuaciones_form_btn_cancel}" onclick="confirmation.hide()" type="button" />   
+
+                </p:confirmDialog>
+
+            </h:form>
+
+
+        </div>
+
+    </ui:define>
+
+</ui:composition>
