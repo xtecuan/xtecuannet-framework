@@ -324,7 +324,7 @@ public class Templater extends javax.swing.JFrame {
     private void buttonProjectXmlWebActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonProjectXmlWebActionPerformed
         // TODO add your handling code here:
 
-        new ProjectXmlFiller().filloutTemplate();
+        new ProjectWebXmlFiller().filloutTemplate();
     }//GEN-LAST:event_buttonProjectXmlWebActionPerformed
 
     /**
