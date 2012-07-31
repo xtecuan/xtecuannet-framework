@@ -19,12 +19,12 @@ import org.apache.log4j.Logger;
  *
  * @author xtecuan
  */
-public final class ProjectXmlFiller implements TemplaterFiller {
+public final class ProjectWebXmlFiller implements TemplaterFiller {
 
     public static final String NBPROJECT_FOLDER = "nbproject";
     public static final String NBPROJECT_XML_FILE = "project.xml";
     public static final String TEMPLATE_NAME = "project.ftl";
-    private static Logger logger = Logger.getLogger(ProjectXmlFiller.class);
+    private static Logger logger = Logger.getLogger(ProjectWebXmlFiller.class);
 
     @Override
     public void filloutTemplate() {
