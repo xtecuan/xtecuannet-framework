@@ -40,12 +40,13 @@
               </Group>
               <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="backingbeansButton" max="32767" attributes="0"/>
+                  <Component id="backingbeansButton" pref="323" max="32767" attributes="0"/>
                   <Component id="bundleButton" max="32767" attributes="0"/>
                   <Component id="buttonRemotingServlet" alignment="0" max="32767" attributes="0"/>
                   <Component id="buttonClasspathModel" alignment="0" max="32767" attributes="0"/>
                   <Component id="buttonClasspathWeb" alignment="0" max="32767" attributes="0"/>
                   <Component id="buttonProjectXmlWeb" alignment="0" max="32767" attributes="0"/>
+                  <Component id="buttonCpImagesDesing" alignment="0" max="32767" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
@@ -93,7 +94,9 @@
                       <Component id="buttonProjectXmlWeb" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="33" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="buttonCpImagesDesing" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="32" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -209,6 +212,14 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonProjectXmlWebActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonCpImagesDesing">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Copiar Imagenes a carpeta Web"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonCpImagesDesingActionPerformed"/>
       </Events>
     </Component>
   </SubComponents>

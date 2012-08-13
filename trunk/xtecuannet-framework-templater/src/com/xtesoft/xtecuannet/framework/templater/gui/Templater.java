@@ -13,6 +13,7 @@ package com.xtesoft.xtecuannet.framework.templater.gui;
 import com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig;
 import com.xtesoft.xtecuannet.framework.templater.constants.Constants;
 import com.xtesoft.xtecuannet.framework.templater.filler.*;
+import com.xtesoft.xtecuannet.framework.templater.tasks.ResourceCopyImagesTask;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.xtecuan.xconfigurator.utils.LoggerUtilPlus;
@@ -53,6 +54,7 @@ public class Templater extends javax.swing.JFrame {
         buttonClasspathModel = new javax.swing.JButton();
         buttonClasspathWeb = new javax.swing.JButton();
         buttonProjectXmlWeb = new javax.swing.JButton();
+        buttonCpImagesDesing = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -162,6 +164,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonCpImagesDesing.setText("Copiar Imagenes a carpeta Web");
+        buttonCpImagesDesing.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonCpImagesDesingActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -179,12 +188,13 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonCrearFacesConfig, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 323, Short.MAX_VALUE)
                     .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonProjectXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonProjectXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonCpImagesDesing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -222,7 +232,9 @@ public class Templater extends javax.swing.JFrame {
                         .addComponent(buttonClasspathWeb)
                         .addGap(18, 18, 18)
                         .addComponent(buttonProjectXmlWeb)))
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(buttonCpImagesDesing)
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         pack();
@@ -327,6 +339,11 @@ public class Templater extends javax.swing.JFrame {
         new ProjectWebXmlFiller().filloutTemplate();
     }//GEN-LAST:event_buttonProjectXmlWebActionPerformed
 
+    private void buttonCpImagesDesingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCpImagesDesingActionPerformed
+        // TODO add your handling code here:
+        new ResourceCopyImagesTask().doProcess();
+    }//GEN-LAST:event_buttonCpImagesDesingActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -373,6 +390,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton bundleButton;
     private javax.swing.JButton buttonClasspathModel;
     private javax.swing.JButton buttonClasspathWeb;
+    private javax.swing.JButton buttonCpImagesDesing;
     private javax.swing.JButton buttonCrearFacesConfig;
     private javax.swing.JButton buttonCrearImplementaciones;
     private javax.swing.JButton buttonCrearInterfaces;
