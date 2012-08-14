@@ -13,7 +13,9 @@ package com.xtesoft.xtecuannet.framework.templater.gui;
 import com.xtesoft.xtecuannet.framework.templater.config.TemplaterConfig;
 import com.xtesoft.xtecuannet.framework.templater.constants.Constants;
 import com.xtesoft.xtecuannet.framework.templater.filler.*;
+import com.xtesoft.xtecuannet.framework.templater.tasks.ResourceCopyCssTask;
 import com.xtesoft.xtecuannet.framework.templater.tasks.ResourceCopyImagesTask;
+import com.xtesoft.xtecuannet.framework.templater.tasks.ResourceCopyImagesTask1;
 import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 import org.xtecuan.xconfigurator.utils.LoggerUtilPlus;
@@ -55,6 +57,7 @@ public class Templater extends javax.swing.JFrame {
         buttonClasspathWeb = new javax.swing.JButton();
         buttonProjectXmlWeb = new javax.swing.JButton();
         buttonCpImagesDesing = new javax.swing.JButton();
+        buttonCss = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -171,6 +174,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonCss.setText("Copiar CSS a carpeta Web");
+        buttonCss.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonCssActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -188,13 +198,14 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonCrearFacesConfig, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 323, Short.MAX_VALUE)
+                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 346, Short.MAX_VALUE)
                     .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonProjectXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonCpImagesDesing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonCpImagesDesing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonCss, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -234,7 +245,9 @@ public class Templater extends javax.swing.JFrame {
                         .addComponent(buttonProjectXmlWeb)))
                 .addGap(18, 18, 18)
                 .addComponent(buttonCpImagesDesing)
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(buttonCss)
+                .addContainerGap(28, Short.MAX_VALUE))
         );
 
         pack();
@@ -342,7 +355,13 @@ public class Templater extends javax.swing.JFrame {
     private void buttonCpImagesDesingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCpImagesDesingActionPerformed
         // TODO add your handling code here:
         new ResourceCopyImagesTask().doProcess();
+        new ResourceCopyImagesTask1().doProcess();
     }//GEN-LAST:event_buttonCpImagesDesingActionPerformed
+
+    private void buttonCssActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonCssActionPerformed
+        // TODO add your handling code here:
+        new ResourceCopyCssTask().doProcess();
+    }//GEN-LAST:event_buttonCssActionPerformed
 
     /**
      * @param args the command line arguments
@@ -379,7 +398,6 @@ public class Templater extends javax.swing.JFrame {
          * Create and display the form
          */
         java.awt.EventQueue.invokeLater(new Runnable() {
-
             public void run() {
                 new Templater().setVisible(true);
             }
@@ -398,6 +416,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonCrearServicesConfigSpring;
     private javax.swing.JButton buttonCrearWebXml;
     private javax.swing.JButton buttonCreateConfigProps;
+    private javax.swing.JButton buttonCss;
     private javax.swing.JButton buttonOptimizarPersistenceXml;
     private javax.swing.JButton buttonProjectXmlWeb;
     private javax.swing.JButton buttonRemotingServlet;
