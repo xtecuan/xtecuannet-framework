@@ -25,6 +25,7 @@ import org.apache.log4j.Logger;
  */
 public final class FillerUtils {
 
+    public static final String CLASSPATH_FROM = "/com/xtesoft/xtecuannet/framework/templater/resources/templates/";
     private static Logger logger = Logger.getLogger(FillerUtils.class);
     public static final Class CONFIG_CLASS = TemplaterConfig.class;
     public static TemplaterConfig config = new TemplaterConfig();
@@ -34,7 +35,8 @@ public final class FillerUtils {
         Configuration cfg = new Configuration();
         Template temp = null;
         try {
-            cfg.setDirectoryForTemplateLoading(config.getTemplatesPath());
+            //cfg.setDirectoryForTemplateLoading(config.getTemplatesPath());
+            cfg.setClassForTemplateLoading(FillerUtils.class, CLASSPATH_FROM);
             cfg.setObjectWrapper(new DefaultObjectWrapper());
             temp = cfg.getTemplate(templateName);
         } catch (Exception ex) {
