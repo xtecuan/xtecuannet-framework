@@ -115,3 +115,139 @@
 2012-08-14 12:42:13,489 [AWT-EventQueue-0] INFO - Folder: /home/xtecuan/NetBeansProjects/Work/SampleXtecuan/web/css created
 2012-08-14 12:42:13,516 [AWT-EventQueue-0] INFO - Css: default.css copied: 4 KB
 2012-08-14 12:42:17,480 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-08-15 00:12:14,641 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/Users/xtecuan/Documents/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-08-15 00:12:14,641 [AWT-EventQueue-0] INFO - org.xtecuan.model.entidades
+2012-08-15 00:12:14,641 [AWT-EventQueue-0] INFO - /home/xtecuan/NetBeansProjects/Work/SampleXtecuan-model/src/org/xtecuan/model/entidades
+2012-08-15 00:12:14,642 [AWT-EventQueue-0] INFO - /home/xtecuan/NetBeansProjects/Work/SampleXtecuan-model/src/org/xtecuan/model/servicios
+2012-08-15 00:12:14,642 [AWT-EventQueue-0] INFO - /home/xtecuan/NetBeansProjects/Work/SampleXtecuan-model/src/org/xtecuan/model/servicios/impl
+2012-08-15 00:12:14,642 [AWT-EventQueue-0] INFO - org.xtecuan.model.servicios.impl
+2012-08-15 00:12:22,034 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-08-15 00:24:59,603 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/Users/xtecuan/Documents/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-08-15 00:24:59,604 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.entidades
+2012-08-15 00:24:59,604 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/entidades
+2012-08-15 00:24:59,604 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios
+2012-08-15 00:24:59,604 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl
+2012-08-15 00:24:59,604 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.servicios.impl
+2012-08-15 00:25:02,019 [AWT-EventQueue-0] INFO - Creating: persistence.xml
+2012-08-15 00:25:02,019 [AWT-EventQueue-0] INFO - File: persistence.xml already exists!!!
+2012-08-15 00:25:02,019 [AWT-EventQueue-0] INFO - Backing up file: persistence.xml
+2012-08-15 00:25:03,182 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios created
+2012-08-15 00:25:03,188 [AWT-EventQueue-0] INFO - Creating: OptionsService.java
+2012-08-15 00:25:03,189 [AWT-EventQueue-0] INFO - Creating: OptionsRolesService.java
+2012-08-15 00:25:03,189 [AWT-EventQueue-0] INFO - Creating: RolesService.java
+2012-08-15 00:25:03,190 [AWT-EventQueue-0] INFO - Creating: UsersService.java
+2012-08-15 00:25:03,190 [AWT-EventQueue-0] INFO - Creating: UsersRolesService.java
+2012-08-15 00:25:04,448 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl created
+2012-08-15 00:25:04,455 [AWT-EventQueue-0] INFO - Creating: OptionsServiceImpl.java
+2012-08-15 00:25:04,456 [AWT-EventQueue-0] INFO - Creating: OptionsRolesServiceImpl.java
+2012-08-15 00:25:04,457 [AWT-EventQueue-0] INFO - Creating: RolesServiceImpl.java
+2012-08-15 00:25:04,458 [AWT-EventQueue-0] INFO - Creating: UsersServiceImpl.java
+2012-08-15 00:25:04,458 [AWT-EventQueue-0] INFO - Creating: UsersRolesServiceImpl.java
+2012-08-15 00:25:05,538 [AWT-EventQueue-0] INFO - Creating: applicationContext-services.xml
+2012-08-15 00:25:06,512 [AWT-EventQueue-0] INFO - Creating: configuration.properties
+2012-08-15 00:25:07,519 [AWT-EventQueue-0] INFO - Creating: log4j.xml
+2012-08-15 00:25:08,434 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
+2012-08-15 00:25:08,434 [AWT-EventQueue-0] INFO - Creating :faces-config.xml
+2012-08-15 00:25:09,400 [AWT-EventQueue-0] INFO - true
+2012-08-15 00:25:09,421 [AWT-EventQueue-0] INFO - Creating: web.xml
+2012-08-15 00:25:09,421 [AWT-EventQueue-0] INFO - Creating :web.xml
+2012-08-15 00:25:12,167 [AWT-EventQueue-0] INFO - Creating: applicationContext-backingbeans.xml
+2012-08-15 00:25:14,922 [AWT-EventQueue-0] INFO - Creating: Bundle.properties
+2012-08-15 00:25:16,610 [AWT-EventQueue-0] INFO - Creating: remoting-servlet.xml
+2012-08-15 00:25:16,610 [AWT-EventQueue-0] INFO - Creating :remoting-servlet.xml
+2012-08-15 00:25:18,206 [AWT-EventQueue-0] INFO - Archivo: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/nbproject/project.properties
+2012-08-15 00:25:21,903 [AWT-EventQueue-0] INFO - Archivo: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/nbproject/project.properties
+2012-08-15 00:25:23,032 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-08-15 00:25:23,032 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-08-15 00:25:24,022 [AWT-EventQueue-0] INFO - Folder: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/web/design created
+2012-08-15 00:25:24,022 [AWT-EventQueue-0] INFO - Image: ajaxloadingbar.gif copied: 10 KB
+2012-08-15 00:25:24,023 [AWT-EventQueue-0] INFO - Image: column.png copied: 1 KB
+2012-08-15 00:25:24,023 [AWT-EventQueue-0] INFO - Image: nav.gif copied: 262 bytes
+2012-08-15 00:25:24,024 [AWT-EventQueue-0] INFO - Image: ui.png copied: 3 KB
+2012-08-15 00:25:24,024 [AWT-EventQueue-0] INFO - Image: ajaxloading.gif copied: 1 KB
+2012-08-15 00:25:24,025 [AWT-EventQueue-0] INFO - Image: facestrace.png copied: 4 KB
+2012-08-15 00:25:24,025 [AWT-EventQueue-0] INFO - Image: bg.jpg copied: 598 bytes
+2012-08-15 00:25:24,026 [AWT-EventQueue-0] INFO - Image: iphone.png copied: 4 KB
+2012-08-15 00:25:24,026 [AWT-EventQueue-0] INFO - Image: sectionheader.png copied: 2 KB
+2012-08-15 00:25:24,027 [AWT-EventQueue-0] INFO - Folder: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/web/images created
+2012-08-15 00:25:24,028 [AWT-EventQueue-0] INFO - Image: add.png copied: 733 bytes
+2012-08-15 00:25:24,028 [AWT-EventQueue-0] INFO - Image: bookmark.png copied: 695 bytes
+2012-08-15 00:25:24,029 [AWT-EventQueue-0] INFO - Image: bottomBack.png copied: 6 KB
+2012-08-15 00:25:24,029 [AWT-EventQueue-0] INFO - Image: browse.png copied: 2 KB
+2012-08-15 00:25:24,029 [AWT-EventQueue-0] INFO - Image: calendar.png copied: 608 bytes
+2012-08-15 00:25:24,030 [AWT-EventQueue-0] INFO - Image: cancel.png copied: 1 KB
+2012-08-15 00:25:24,030 [AWT-EventQueue-0] INFO - Image: chatback.png copied: 6 KB
+2012-08-15 00:25:24,031 [AWT-EventQueue-0] INFO - Image: clear.png copied: 2 KB
+2012-08-15 00:25:24,031 [AWT-EventQueue-0] INFO - Image: closebar.png copied: 3 KB
+2012-08-15 00:25:24,032 [AWT-EventQueue-0] INFO - Image: csv.png copied: 4 KB
+2012-08-15 00:25:24,033 [AWT-EventQueue-0] INFO - Image: delete.png copied: 1 KB
+2012-08-15 00:25:24,033 [AWT-EventQueue-0] INFO - Image: dialogclose.png copied: 983 bytes
+2012-08-15 00:25:24,034 [AWT-EventQueue-0] INFO - Image: dialoghd.gif copied: 1 KB
+2012-08-15 00:25:24,034 [AWT-EventQueue-0] INFO - Image: disk.png copied: 620 bytes
+2012-08-15 00:25:24,035 [AWT-EventQueue-0] INFO - Image: doc.png copied: 577 bytes
+2012-08-15 00:25:24,035 [AWT-EventQueue-0] INFO - Image: download.gif copied: 1 KB
+2012-08-15 00:25:24,036 [AWT-EventQueue-0] INFO - Image: excel.png copied: 2 KB
+2012-08-15 00:25:24,036 [AWT-EventQueue-0] INFO - Image: head_blue.png copied: 2 KB
+2012-08-15 00:25:24,036 [AWT-EventQueue-0] INFO - Image: head_green.png copied: 4 KB
+2012-08-15 00:25:24,037 [AWT-EventQueue-0] INFO - Image: home.png copied: 685 bytes
+2012-08-15 00:25:24,037 [AWT-EventQueue-0] INFO - Image: hy_active.png copied: 6 KB
+2012-08-15 00:25:24,038 [AWT-EventQueue-0] INFO - Image: hy_hover.png copied: 6 KB
+2012-08-15 00:25:24,038 [AWT-EventQueue-0] INFO - Image: hy.png copied: 6 KB
+2012-08-15 00:25:24,038 [AWT-EventQueue-0] INFO - Image: img01.jpg copied: 702 bytes
+2012-08-15 00:25:24,039 [AWT-EventQueue-0] INFO - Image: img02.jpg copied: 26 KB
+2012-08-15 00:25:24,039 [AWT-EventQueue-0] INFO - Image: img03.jpg copied: 5 KB
+2012-08-15 00:25:24,040 [AWT-EventQueue-0] INFO - Image: img04.jpg copied: 5 KB
+2012-08-15 00:25:24,040 [AWT-EventQueue-0] INFO - Image: img05.jpg copied: 456 bytes
+2012-08-15 00:25:24,041 [AWT-EventQueue-0] INFO - Image: img06.jpg copied: 918 bytes
+2012-08-15 00:25:24,041 [AWT-EventQueue-0] INFO - Image: img07.jpg copied: 6 KB
+2012-08-15 00:25:24,042 [AWT-EventQueue-0] INFO - Image: img08.jpg copied: 1 KB
+2012-08-15 00:25:24,042 [AWT-EventQueue-0] INFO - Image: keyboardpencil.png copied: 662 bytes
+2012-08-15 00:25:24,043 [AWT-EventQueue-0] INFO - Image: left.png copied: 1 KB
+2012-08-15 00:25:24,043 [AWT-EventQueue-0] INFO - Image: loading.gif copied: 4 KB
+2012-08-15 00:25:24,043 [AWT-EventQueue-0] INFO - Image: login.png copied: 1 KB
+2012-08-15 00:25:24,044 [AWT-EventQueue-0] INFO - Image: map.png copied: 1 KB
+2012-08-15 00:25:24,044 [AWT-EventQueue-0] INFO - Image: menu_body.gif copied: 1 KB
+2012-08-15 00:25:24,045 [AWT-EventQueue-0] INFO - Image: menuitem_back.png copied: 301 bytes
+2012-08-15 00:25:24,045 [AWT-EventQueue-0] INFO - Image: minus.png copied: 343 bytes
+2012-08-15 00:25:24,046 [AWT-EventQueue-0] INFO - Image: mobile.png copied: 1 KB
+2012-08-15 00:25:24,046 [AWT-EventQueue-0] INFO - Image: mp3.png copied: 2 KB
+2012-08-15 00:25:24,047 [AWT-EventQueue-0] INFO - Image: new-ico.gif copied: 85 bytes
+2012-08-15 00:25:24,047 [AWT-EventQueue-0] INFO - Image: new.png copied: 600 bytes
+2012-08-15 00:25:24,048 [AWT-EventQueue-0] INFO - Image: next.png copied: 1 KB
+2012-08-15 00:25:24,048 [AWT-EventQueue-0] INFO - Image: open.png copied: 846 bytes
+2012-08-15 00:25:24,049 [AWT-EventQueue-0] INFO - Image: pdf.png copied: 1 KB
+2012-08-15 00:25:24,049 [AWT-EventQueue-0] INFO - Image: picture.png copied: 606 bytes
+2012-08-15 00:25:24,050 [AWT-EventQueue-0] INFO - Image: plus.png copied: 434 bytes
+2012-08-15 00:25:24,050 [AWT-EventQueue-0] INFO - Image: previous.png copied: 1 KB
+2012-08-15 00:25:24,051 [AWT-EventQueue-0] INFO - Image: prime_logo.png copied: 9 KB
+2012-08-15 00:25:24,051 [AWT-EventQueue-0] INFO - Image: print.png copied: 423 bytes
+2012-08-15 00:25:24,052 [AWT-EventQueue-0] INFO - Image: ps3.jpg copied: 22 KB
+2012-08-15 00:25:24,053 [AWT-EventQueue-0] INFO - Image: ps3.png copied: 193 KB
+2012-08-15 00:25:24,054 [AWT-EventQueue-0] INFO - Image: redo.png copied: 703 bytes
+2012-08-15 00:25:24,054 [AWT-EventQueue-0] INFO - Image: right.png copied: 1 KB
+2012-08-15 00:25:24,054 [AWT-EventQueue-0] INFO - Image: save_icon.png copied: 3 KB
+2012-08-15 00:25:24,055 [AWT-EventQueue-0] INFO - Image: save.png copied: 720 bytes
+2012-08-15 00:25:24,055 [AWT-EventQueue-0] INFO - Image: search.png copied: 1023 bytes
+2012-08-15 00:25:24,056 [AWT-EventQueue-0] INFO - Image: select.png copied: 1 KB
+2012-08-15 00:25:24,056 [AWT-EventQueue-0] INFO - Image: spacer.gif copied: 43 bytes
+2012-08-15 00:25:24,057 [AWT-EventQueue-0] INFO - Image: sprite-menu.gif copied: 452 bytes
+2012-08-15 00:25:24,057 [AWT-EventQueue-0] INFO - Image: terminal.png copied: 2 KB
+2012-08-15 00:25:24,057 [AWT-EventQueue-0] INFO - Image: toggle_blue.png copied: 650 bytes
+2012-08-15 00:25:24,058 [AWT-EventQueue-0] INFO - Image: undo.png copied: 725 bytes
+2012-08-15 00:25:24,058 [AWT-EventQueue-0] INFO - Image: update.png copied: 847 bytes
+2012-08-15 00:25:24,059 [AWT-EventQueue-0] INFO - Image: upload.png copied: 4 KB
+2012-08-15 00:25:24,059 [AWT-EventQueue-0] INFO - Image: xml.png copied: 4 KB
+2012-08-15 00:25:25,332 [AWT-EventQueue-0] INFO - Folder: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/web/css created
+2012-08-15 00:25:25,333 [AWT-EventQueue-0] INFO - Css: default.css copied: 4 KB
+2012-08-15 00:25:29,510 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-08-15 00:34:34,345 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/Users/xtecuan/Documents/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-08-15 00:34:34,345 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.entidades
+2012-08-15 00:34:34,345 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/entidades
+2012-08-15 00:34:34,345 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios
+2012-08-15 00:34:34,346 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl
+2012-08-15 00:34:34,346 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.servicios.impl
+2012-08-15 00:34:39,082 [AWT-EventQueue-0] INFO - Archivo: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/nbproject/project.properties
+2012-08-15 00:34:41,931 [AWT-EventQueue-0] INFO - Archivo: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/nbproject/project.properties
+2012-08-15 00:34:45,142 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-08-15 00:34:45,142 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-08-15 00:34:50,564 [AWT-EventQueue-0] INFO - Closing Application!!!
