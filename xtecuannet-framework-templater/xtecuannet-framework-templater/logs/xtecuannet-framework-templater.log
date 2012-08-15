@@ -251,3 +251,13 @@
 2012-08-15 00:34:45,142 [AWT-EventQueue-0] INFO - Creating: project.xml
 2012-08-15 00:34:45,142 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
 2012-08-15 00:34:50,564 [AWT-EventQueue-0] INFO - Closing Application!!!
+2012-08-15 01:13:46,662 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/Users/xtecuan/Documents/Work/xtecuannet-framework/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2012-08-15 01:13:46,662 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.entidades
+2012-08-15 01:13:46,662 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/entidades
+2012-08-15 01:13:46,663 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios
+2012-08-15 01:13:46,663 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl
+2012-08-15 01:13:46,663 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.servicios.impl
+2012-08-15 01:13:58,429 [AWT-EventQueue-0] INFO - Archivo: /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-web/nbproject/project.properties
+2012-08-15 01:14:01,706 [AWT-EventQueue-0] INFO - Creating: project.xml
+2012-08-15 01:14:01,706 [AWT-EventQueue-0] INFO - File: project.xml already exists!!!
+2012-08-15 01:14:06,946 [AWT-EventQueue-0] INFO - Closing Application!!!
