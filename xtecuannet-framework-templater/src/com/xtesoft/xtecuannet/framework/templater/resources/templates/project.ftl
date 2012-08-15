@@ -64,7 +64,7 @@ ${r"<!--"}Created on ${aDateTime?iso_local}${r"-->"}
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${r"${"}libs.Jackson-2.0.classpath${r"}"}</file>
+                    <file>${r"${"}libs.Jackson-2.0.2-nbsupport.classpath${r"}"}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">

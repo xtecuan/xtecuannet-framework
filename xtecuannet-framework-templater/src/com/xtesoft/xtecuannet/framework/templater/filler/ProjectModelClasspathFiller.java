@@ -20,7 +20,7 @@ public class ProjectModelClasspathFiller {
     public static final String NBPROJECT_FOLDER = "nbproject";
     public static final String NBPROJECT_PROP_FILE = "project.properties";
     private String CLASSPATH = "javac.classpath=\\\n"
-            + "    ${libs.Jackson-2.0.classpath}:\\\n"
+            + "    ${libs.Jackson-2.0.2-nbsupport.classpath}:\\\n"
             + "    ${libs.spring-framework-3.0.6.RELEASE-lib.classpath}:\\\n"
             + "    ${libs.apache-commons.classpath}:\\\n"
             + "    ${libs.apache-commons-exec-1.1.classpath}:\\\n"
