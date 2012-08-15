@@ -83,7 +83,14 @@ ${r"<!--"}Created on ${aDateTime?iso_local}${r"-->"}
                     <file>${r"${"}libs.primafaces-utils-springframework-nbsupport.classpath${r"}"}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
-                
+                <library dirs="200">
+                    <file>${r"${"}libs.eclipselinkmodelgen.classpath${r"}"}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${r"${"}libs.eclipselink.classpath${r"}"}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
             </web-module-libraries>
             <web-module-additional-libraries/>
             <source-roots>
