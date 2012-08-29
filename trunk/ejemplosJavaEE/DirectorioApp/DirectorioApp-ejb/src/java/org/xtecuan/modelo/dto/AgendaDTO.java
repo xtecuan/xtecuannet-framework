@@ -16,6 +16,9 @@ public class AgendaDTO implements Serializable {
 
     public static final String SELECT_ALL = "select * from agenda ";
     public static final String SELECT_X_ID = SELECT_ALL + " where id=?";
+    public static final String INSERT = "INSERT INTO agenda (institucion, telefono, correo, estado) \n"
+            + "	VALUES (?, ?, ?, ?)";
+    public static final String DELETE = "DELETE FROM agenda WHERE id = ?";
     private Long id;
     private String institucion;
     private String telefono;
