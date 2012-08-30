@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
     <system systemId="http://localhost:8080/AgendaFacadeService/AgendaFacade?wsdl" uri="xml-resources/web-service-references/AgendaFacade/wsdl/localhost_8080/AgendaFacadeService/AgendaFacade.wsdl"/>
-    <system systemId="http://localhost:8080/AgendaFacadeService/AgendaFacade?xsd=1" uri="xml-resources/web-service-references/AgendaFacade/wsdl/localhost_8080/AgendaFacadeService/AgendaFacade.xsd_1.xsd"/>
     <system systemId="http://blitz5.local:8080/AgendaFacadeService/AgendaFacade?wsdl" uri="xml-resources/web-service-references/AgendaFacade/wsdl/blitz5.local_8080/AgendaFacadeService/AgendaFacade.wsdl"/>
     <system systemId="http://blitz5.local:8080/AgendaFacadeService/AgendaFacade?xsd=1" uri="xml-resources/web-service-references/AgendaFacade/wsdl/blitz5.local_8080/AgendaFacadeService/AgendaFacade.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/AgendaFacadeService/AgendaFacade?WSDL" uri="xml-resources/web-service-references/AgendaFacade/wsdl/localhost_8080/AgendaFacadeService/AgendaFacade.wsdl"/>
+    <system systemId="http://localhost:8080/AgendaFacadeService/AgendaFacade?xsd=1" uri="xml-resources/web-service-references/AgendaFacade/wsdl/localhost_8080/AgendaFacadeService/AgendaFacade.xsd_1.xsd"/>
 </catalog>

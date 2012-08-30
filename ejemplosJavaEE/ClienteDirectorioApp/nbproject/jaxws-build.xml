@@ -20,8 +20,8 @@
     </target>
     <target name="wsimport-client-AgendaFacade" depends="wsimport-init">
         <mkdir dir="${build.generated.dir}/jax-wsCache/AgendaFacade"/>
-        <property name="wsdl-AgendaFacade" location="xml-resources/web-service-references/AgendaFacade/wsdl/blitz5.local_8080/AgendaFacadeService/AgendaFacade.wsdl"/>
-        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/AgendaFacade" destdir="${build.generated.dir}/jax-wsCache/AgendaFacade" wsdl="${wsdl-AgendaFacade}" catalog="catalog.xml" extension="true" verbose="true" wsdlLocation="http://blitz5.local:8080/AgendaFacadeService/AgendaFacade?wsdl" xendorsed="true">
+        <property name="wsdl-AgendaFacade" location="xml-resources/web-service-references/AgendaFacade/wsdl/localhost_8080/AgendaFacadeService/AgendaFacade.wsdl"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/AgendaFacade" destdir="${build.generated.dir}/jax-wsCache/AgendaFacade" wsdl="${wsdl-AgendaFacade}" catalog="catalog.xml" extension="true" verbose="true" wsdlLocation="http://localhost:8080/AgendaFacadeService/AgendaFacade?WSDL" xendorsed="true">
             <depends file="${wsdl-AgendaFacade}"/>
             <produces dir="${build.generated.dir}/jax-wsCache/AgendaFacade"/>
         </wsimport>

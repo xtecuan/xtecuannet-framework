@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Metro/2.2.0-1 (tags/2.2.0u1-7139; 2012-06-02T10:55:19+0000) JAXWS-RI/2.2.6-2 JAXWS/2.2 svn-revision#unknown. --><xs:schema xmlns:tns="http://ejb.modelo.xtecuan.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ejb.modelo.xtecuan.org/">
+
+<xs:element name="actualizarAgenda" type="tns:actualizarAgenda"/>
+
+<xs:element name="actualizarAgendaResponse" type="tns:actualizarAgendaResponse"/>
+
+<xs:element name="agenda" type="tns:agendaDTO"/>
+
+<xs:element name="borrarAgenda" type="tns:borrarAgenda"/>
+
+<xs:element name="borrarAgendaResponse" type="tns:borrarAgendaResponse"/>
+
+<xs:element name="crearAgenda" type="tns:crearAgenda"/>
+
+<xs:element name="crearAgendaResponse" type="tns:crearAgendaResponse"/>
+
+<xs:element name="encontrarPorEjemplo" type="tns:encontrarPorEjemplo"/>
+
+<xs:element name="encontrarPorEjemploResponse" type="tns:encontrarPorEjemploResponse"/>
+
+<xs:element name="encontrarPorId" type="tns:encontrarPorId"/>
+
+<xs:element name="encontrarPorIdResponse" type="tns:encontrarPorIdResponse"/>
+
+<xs:complexType name="crearAgenda">
+<xs:sequence>
+<xs:element name="institucion" type="xs:string" minOccurs="0"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+<xs:element name="correo" type="xs:string" minOccurs="0"/>
+<xs:element name="estado" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="crearAgendaResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:agendaDTO" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="agendaDTO">
+<xs:sequence>
+<xs:element name="correo" type="xs:string" minOccurs="0"/>
+<xs:element name="estado" type="xs:int" minOccurs="0"/>
+<xs:element name="id" type="xs:long" minOccurs="0"/>
+<xs:element name="institucion" type="xs:string" minOccurs="0"/>
+<xs:element name="telefono" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="borrarAgenda">
+<xs:sequence>
+<xs:element name="idAgenda" type="xs:long" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="borrarAgendaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:long" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="encontrarPorEjemplo">
+<xs:sequence>
+<xs:element name="institucionLike" type="xs:string" minOccurs="0"/>
+<xs:element name="telefonoLike" type="xs:string" minOccurs="0"/>
+<xs:element name="correoLike" type="xs:string" minOccurs="0"/>
+<xs:element name="estadoLike" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="encontrarPorEjemploResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:agendaDTO" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizarAgenda">
+<xs:sequence>
+<xs:element name="idUp" type="xs:long" minOccurs="0"/>
+<xs:element name="institucionUp" type="xs:string" minOccurs="0"/>
+<xs:element name="telefonoUp" type="xs:string" minOccurs="0"/>
+<xs:element name="correoUp" type="xs:string" minOccurs="0"/>
+<xs:element name="estadoUp" type="xs:int" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="actualizarAgendaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:long" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="encontrarPorId">
+<xs:sequence>
+<xs:element name="id" type="xs:long" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="encontrarPorIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:agendaDTO" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
