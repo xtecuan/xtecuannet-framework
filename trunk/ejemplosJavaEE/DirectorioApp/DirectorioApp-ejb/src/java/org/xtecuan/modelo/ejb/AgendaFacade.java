@@ -57,7 +57,7 @@ public class AgendaFacade {
      */
     @WebMethod(operationName = "encontrarPorId")
     public AgendaDTO encontrarPorId(@WebParam(name = "id") Long id) {
-        //TODO write your implementation code here:
+
         AgendaDTO dto = null;
         Connection conn = null;
         try {
@@ -160,7 +160,7 @@ public class AgendaFacade {
      */
     @WebMethod(operationName = "borrarAgenda")
     public Long borrarAgenda(@WebParam(name = "idAgenda") Long idAgenda) {
-        //TODO write your implementation code here:
+
         Connection conn = null;
         Long result = ResultEnum.Fallo.getCod();
 
@@ -205,9 +205,129 @@ public class AgendaFacade {
      * Web service operation
      */
     @WebMethod(operationName = "actualizarAgenda")
-    public Long actualizarAgenda(@WebParam(name = "agenda") AgendaDTO agenda) {
-        //TODO write your implementation code here:
-        return null;
+    public Long actualizarAgenda(@WebParam(name = "idUp") Long idUp, @WebParam(name = "institucionUp") String institucionUp,
+            @WebParam(name = "telefonoUp") String telefonoUp,
+            @WebParam(name = "correoUp") String correoUp, @WebParam(name = "estadoUp") Integer estadoUp) {
+
+        Long result = ResultEnum.Fallo.getCod();
+        Connection conn = null;
+        try {
+            conn = getConnection();
+            PreparedStatement psta = null;
+            StringBuilder sb = new StringBuilder();
+            int counterWhere = 0;
+            List<Object> params = new ArrayList<Object>(0);
+            if ((institucionUp != null && institucionUp.length() > 0
+                    || telefonoUp != null && telefonoUp.length() > 0
+                    || correoUp != null && correoUp.length() > 0
+                    || estadoUp != null) && idUp != null) {
+
+                if (institucionUp != null && institucionUp.length() > 0) {
+
+                    sb.append(" institucion = ? ");
+                    counterWhere++;
+
+                    params.add(institucionUp);
+                }
+
+                if (telefonoUp != null && telefonoUp.length() > 0) {
+
+                    if (counterWhere > 0) {
+
+                        sb.append(" , ");
+                    }
+
+                    sb.append(" telefono = ? ");
+
+                    counterWhere++;
+
+                    params.add(telefonoUp);
+                }
+
+                if (correoUp != null && correoUp.length() > 0) {
+                    if (counterWhere > 0) {
+
+                        sb.append(" , ");
+                    }
+
+                    sb.append(" correo = ? ");
+
+                    counterWhere++;
+
+                    params.add(correoUp);
+
+                }
+
+                if (estadoUp != null) {
+
+                    if (counterWhere > 0) {
+                        sb.append(" , ");
+                    }
+
+                    sb.append(" estado = ? ");
+
+                    params.add(estadoUp);
+                }
+
+                if (counterWhere > 0) {
+                    params.add(idUp);
+
+                    String update = AgendaDTO.generateUpdate(sb);
+
+                    logger.info("Query/Update a ejecutar: " + update);
+
+                    psta = conn.prepareStatement(update);
+
+                    if (!params.isEmpty()) {
+
+                        int w = 1;
+                        for (Object object : params) {
+
+                            if (object instanceof String) {
+
+                                psta.setString(w, (String) object);
+                            }
+                            if (object instanceof Integer) {
+                                psta.setInt(w, (Integer) object);
+                            }
+
+                            if (object instanceof Long) {
+                                psta.setLong(w, (Long) object);
+                            }
+                            w++;
+                        }
+
+                    }
+
+                    int r = psta.executeUpdate();
+
+                    if (r == 1) {
+                        logger.info("Se actualizo una entrada de agenda!!!, con id: " + idUp);
+                        result = ResultEnum.Exito.getCod();
+                    }
+
+                    psta.close();
+                }
+
+            } else {
+                logger.error("Nada por actualizar para esta llamada");
+            }
+
+
+        } catch (Exception e) {
+
+            logger.error("Error al actualizar la entrada de agenda: ", e);
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (Exception e) {
+                logger.error("Error al cerrar la conexion: ", e);
+            }
+        }
+
+        return result;
     }
 
     /**
@@ -217,7 +337,7 @@ public class AgendaFacade {
     public List<AgendaDTO> encontrarPorEjemplo(@WebParam(name = "institucionLike") String institucionLike,
             @WebParam(name = "telefonoLike") String telefonoLike,
             @WebParam(name = "correoLike") String correoLike, @WebParam(name = "estadoLike") Integer estadoLike) {
-        //TODO write your implementation code here:
+
         List<AgendaDTO> listado = new ArrayList<AgendaDTO>(0);
 
         Connection conn = null;
@@ -288,9 +408,9 @@ public class AgendaFacade {
 
             }
 
-            
-            logger.info("Query a ejecutar: "+sb.toString());
-            
+
+            logger.info("Query a ejecutar: " + sb.toString());
+
             psta = conn.prepareStatement(sb.toString());
 
             if (!params.isEmpty()) {
@@ -348,7 +468,7 @@ public class AgendaFacade {
      */
     @WebMethod(operationName = "crearAgenda")
     public AgendaDTO crearAgenda(@WebParam(name = "institucion") String institucion, @WebParam(name = "telefono") String telefono, @WebParam(name = "correo") String correo, @WebParam(name = "estado") Integer estado) {
-        //TODO write your implementation code here:
+
 
         AgendaDTO in = new AgendaDTO();
         AgendaDTO dto = null;

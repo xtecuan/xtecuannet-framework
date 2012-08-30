@@ -19,6 +19,7 @@ public class AgendaDTO implements Serializable {
     public static final String INSERT = "INSERT INTO agenda (institucion, telefono, correo, estado) \n"
             + "	VALUES (?, ?, ?, ?)";
     public static final String DELETE = "DELETE FROM agenda WHERE id = ?";
+    public static final String UPDATE_BASE="UPDATE agenda SET ${0} WHERE id = ?";
     private Long id;
     private String institucion;
     private String telefono;
@@ -93,5 +94,10 @@ public class AgendaDTO implements Serializable {
     @Override
     public String toString() {
         return "AgendaDTO{" + "id=" + id + ", institucion=" + institucion + ", telefono=" + telefono + ", correo=" + correo + ", estado=" + estado + '}';
+    }
+    
+    public static String generateUpdate(StringBuilder sb){
+        
+        return UPDATE_BASE.replace("${0}", sb.toString());
     }
 }
