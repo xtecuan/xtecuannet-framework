@@ -19,8 +19,8 @@ import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebService;
 import javax.sql.DataSource;
-import javax.xml.ws.ResponseWrapper;
 import org.xtecuan.modelo.dto.AgendaDTO;
+import org.xtecuan.modelo.dto.CategoriasDTO;
 import org.xtecuan.modelo.enums.ResultEnum;
 
 /**
@@ -497,5 +497,60 @@ public class AgendaFacade {
 
 
         return dto;
+    }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "recuperarCategorias")
+    public List<org.xtecuan.modelo.dto.CategoriasDTO> recuperarCategorias() {
+        //TODO write your implementation code here:
+
+        List<CategoriasDTO> dtos = new ArrayList<CategoriasDTO>(0);
+
+        Connection conn = null;
+
+        try {
+            conn = getConnection();
+
+            Statement sta = conn.createStatement();
+
+            ResultSet rset = sta.executeQuery(CategoriasDTO.SELECT_ALL);
+
+            while (rset.next()) {
+
+                CategoriasDTO dto = new CategoriasDTO();
+
+                dto.setIdcat(rset.getLong("idcat"));
+                dto.setDescat(rset.getString("descat"));
+
+                java.sql.Date date = rset.getDate("fhingreso");
+
+                dto.setFhingreso(new java.util.Date(date.getTime()));
+
+                dtos.add(dto);
+
+
+            }
+
+            rset.close();
+            sta.close();
+
+
+        } catch (Exception e) {
+            logger.error("Error al llenar el listado de categorias: ", e);
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (Exception e) {
+
+                logger.error("Error al cerrar la conexion: ", e);
+            }
+
+        }
+
+        return dtos;
     }
 }

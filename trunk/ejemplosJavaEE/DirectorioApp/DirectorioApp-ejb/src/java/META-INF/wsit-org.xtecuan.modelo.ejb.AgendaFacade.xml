@@ -15,6 +15,8 @@
     <message name="actualizarAgendaResponse"/>
     <message name="encontrarPorEjemplo"/>
     <message name="encontrarPorEjemploResponse"/>
+    <message name="recuperarCategorias"/>
+    <message name="recuperarCategoriasResponse"/>
     <portType name="AgendaFacade">
         <operation name="encontrarPorId">
             <input message="tns:encontrarPorId"/>
@@ -35,6 +37,10 @@
         <operation name="encontrarPorEjemplo">
             <input message="tns:encontrarPorEjemplo"/>
             <output message="tns:encontrarPorEjemploResponse"/>
+        </operation>
+        <operation name="recuperarCategorias">
+            <input message="tns:recuperarCategorias"/>
+            <output message="tns:recuperarCategoriasResponse"/>
         </operation>
     </portType>
     <binding name="AgendaFacadePortBinding" type="tns:AgendaFacade">
@@ -57,6 +63,10 @@
         <operation name="encontrarPorEjemplo">
             <input></input>
             <output></output>
+        </operation>
+        <operation name="recuperarCategorias">
+            <input/>
+            <output/>
         </operation>
     </binding>
     <service name="AgendaFacadeService">
