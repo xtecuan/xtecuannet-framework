@@ -553,4 +553,62 @@ public class AgendaFacade {
 
         return dtos;
     }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "buscarAgendaXClave")
+    public List<org.xtecuan.modelo.dto.AgendaDTO> buscarAgendaXClave(
+            @WebParam(name = "clave") String clave) {
+       List<AgendaDTO> listado = new ArrayList<AgendaDTO>(0);
+
+        Connection conn = null;
+        try {
+            conn = getConnection();
+            PreparedStatement psta = null;
+
+            StringBuilder sb = new StringBuilder(AgendaDTO.SELECT_BY_CLAVE);          
+
+
+            logger.info("Query a ejecutar: " + sb.toString());
+
+            psta = conn.prepareStatement(sb.toString());
+
+            psta.setString(1, "%"+clave.toUpperCase()+"%");
+
+
+            ResultSet rset = psta.executeQuery();
+
+            while (rset.next()) {
+
+                AgendaDTO dto = new AgendaDTO();
+                dto.setId(rset.getLong("id"));
+                dto.setEstado(rset.getInt("estado"));
+                dto.setInstitucion(rset.getString("institucion"));
+                dto.setCorreo(rset.getString("correo"));
+                dto.setTelefono(rset.getString("telefono"));
+                dto.setClave(rset.getString("clave"));
+                dto.setIdcat(rset.getInt("idcat"));
+                
+
+                listado.add(dto);
+            }
+
+            rset.close();
+            psta.close();
+
+        } catch (Exception e) {
+            logger.error("Error al encontrar las entrada de agenda por ejemplo: ", e);
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (Exception e) {
+                logger.error("Error al cerrar la conexion: ", e);
+            }
+        }
+
+        return listado;
+    }
 }

@@ -20,11 +20,14 @@ public class AgendaDTO implements Serializable {
             + "	VALUES (?, ?, ?, ?)";
     public static final String DELETE = "DELETE FROM agenda WHERE id = ?";
     public static final String UPDATE_BASE="UPDATE agenda SET ${0} WHERE id = ?";
+    public static final String SELECT_BY_CLAVE=SELECT_ALL+ " where clave like ?";
     private Long id;
     private String institucion;
     private String telefono;
     private String correo;
     private Integer estado;
+    private String clave;
+    private Integer idcat;
 
     public Long getId() {
         return id;
@@ -100,4 +103,22 @@ public class AgendaDTO implements Serializable {
         
         return UPDATE_BASE.replace("${0}", sb.toString());
     }
+
+    public String getClave() {
+        return clave;
+    }
+
+    public void setClave(String clave) {
+        this.clave = clave;
+    }
+
+    public Integer getIdcat() {
+        return idcat;
+    }
+
+    public void setIdcat(Integer idcat) {
+        this.idcat = idcat;
+    }
+    
+    
 }
