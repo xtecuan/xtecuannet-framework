@@ -96,8 +96,10 @@ public class AgendaDTO implements Serializable {
 
     @Override
     public String toString() {
-        return "AgendaDTO{" + "id=" + id + ", institucion=" + institucion + ", telefono=" + telefono + ", correo=" + correo + ", estado=" + estado + '}';
+        return "AgendaDTO{" + "id=" + id + ", institucion=" + institucion + ", telefono=" + telefono + ", correo=" + correo + ", estado=" + estado + ", clave=" + clave + ", idcat=" + idcat + '}';
     }
+
+    
     
     public static String generateUpdate(StringBuilder sb){
         
