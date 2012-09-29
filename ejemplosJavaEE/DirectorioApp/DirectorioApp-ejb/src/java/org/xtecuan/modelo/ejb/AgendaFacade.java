@@ -4,6 +4,7 @@
  */
 package org.xtecuan.modelo.ejb;
 
+import com.google.gson.Gson;
 import org.apache.log4j.Logger;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -441,6 +442,21 @@ public class AgendaFacade {
                 dto.setInstitucion(rset.getString("institucion"));
                 dto.setCorreo(rset.getString("correo"));
                 dto.setTelefono(rset.getString("telefono"));
+                
+                String clave = rset.getString("clave");
+                if(clave!=null && clave.length()>0){
+                    dto.setClave(clave);
+                }else{
+                    dto.setClave(null);
+                }
+                
+                Integer idcat = rset.getInt("idcat");
+                
+                if(idcat!=null){
+                    dto.setIdcat(idcat);
+                }else{
+                    dto.setIdcat(null);
+                }
 
                 listado.add(dto);
             }
@@ -610,5 +626,23 @@ public class AgendaFacade {
         }
 
         return listado;
+    }
+
+    /**
+     * Web service operation
+     */
+    @WebMethod(operationName = "encontrarPorEjemploJson")
+    public String encontrarPorEjemploJson(@WebParam(name = "institucionLike1") String institucionLike1, @WebParam(name = "telefonoLike1") String telefonoLike1, @WebParam(name = "correoLike1") String correoLike1, @WebParam(name = "estadoLike1") Integer estadoLike1) {
+        //TODO write your implementation code here:
+        
+        List<AgendaDTO> dtos = encontrarPorEjemplo(institucionLike1, telefonoLike1, correoLike1, estadoLike1);
+        
+        Gson gson = new Gson();
+        
+        
+        
+        String f = gson.toJson(dtos);
+        
+        return f;
     }
 }
