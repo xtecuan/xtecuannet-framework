@@ -808,16 +808,20 @@ exists or setup the property manually. For example like this:
     <target depends="compile,-library-inclusion-in-archive-weblogic,-library-inclusion-in-archive-by-user" name="library-inclusion-in-archive"/>
     <target if="is.jars.in.ejbjar" name="-library-inclusion-in-archive-by-user">
         <copyfiles files="${libs.log4j-1.2.15.classpath}" todir="${build.classes.dir}"/>
+        <copyfiles files="${libs.gson-1.7.1-lib.classpath}" todir="${build.classes.dir}"/>
     </target>
     <target if="is.server.weblogic" name="-library-inclusion-in-archive-weblogic">
         <basename file="${libs.log4j-1.2.15.classpath}" property="manifest.libs.log4j-1.2.15.classpath"/>
+        <basename file="${libs.gson-1.7.1-lib.classpath}" property="manifest.libs.gson-1.7.1-lib.classpath"/>
         <manifest file="${build.ear.classes.dir}/META-INF/MANIFEST.MF" mode="update">
-            <attribute name="Extension-List" value="jar-1 "/>
+            <attribute name="Extension-List" value="jar-1 jar-2 "/>
             <attribute name="jar-1-Extension-Name" value="${manifest.libs.log4j-1.2.15.classpath}"/>
+            <attribute name="jar-2-Extension-Name" value="${manifest.libs.gson-1.7.1-lib.classpath}"/>
         </manifest>
     </target>
     <target depends="compile" name="library-inclusion-in-manifest">
         <copyfiles files="${libs.log4j-1.2.15.classpath}" todir="${dist.ear.dir}/lib"/>
+        <copyfiles files="${libs.gson-1.7.1-lib.classpath}" todir="${dist.ear.dir}/lib"/>
         <manifest file="${build.ear.classes.dir}/META-INF/MANIFEST.MF" mode="update"/>
     </target>
     <target name="-copy-meta-inf">

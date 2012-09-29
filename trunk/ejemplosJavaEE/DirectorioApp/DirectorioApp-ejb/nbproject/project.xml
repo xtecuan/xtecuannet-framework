@@ -9,6 +9,7 @@
             <name>DirectorioApp-ejb</name>
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <included-library dirs="200">libs.log4j-1.2.15.classpath</included-library>
+            <included-library dirs="200">libs.gson-1.7.1-lib.classpath</included-library>
             <source-roots>
                 <root id="src.dir" name="Source Packages"/>
             </source-roots>
