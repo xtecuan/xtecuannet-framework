@@ -27,7 +27,7 @@ public class DirectorioAppClientWithKSOAP2 {
     private static final String Method = "encontrarPorEjemploJson";
     private static final String namespace = "http://ejb.modelo.xtecuan.org/";
     private static final String accionSoap = namespace + Method;
-    private static final String host = "192.168.43.206";
+    private static final String host = "192.168.1.5";
     private static final String port = "37550";
     private static final String url = "http://" + host + ":" + port + "/AgendaFacadeService/AgendaFacade?WSDL";
 
@@ -38,7 +38,7 @@ public class DirectorioAppClientWithKSOAP2 {
 
         SoapObject request = new SoapObject(namespace, Method);
         // TODO code application logic here
-        request.addProperty("institucionLike1", new String());
+        request.addProperty("institucionLike1", "SAMPLE");
         request.addProperty("telefonoLike1", new String());
         request.addProperty("correoLike1", new String());
         request.addProperty("estadoLike1", Integer.valueOf(1));
