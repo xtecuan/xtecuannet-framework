@@ -19,18 +19,19 @@ import org.apache.log4j.Logger;
 public class DateHelper {
 
     private static Logger logger = Logger.getLogger(DateHelper.class);
-    private final SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
+    private final SimpleDateFormat sdfYear = new SimpleDateFormat("yyyy");
     private final SimpleDateFormat sdfMonth = new SimpleDateFormat("MM");
+    private final SimpleDateFormat sdfDay = new SimpleDateFormat("dd");
     private final SimpleDateFormat sdfMonthSpanish = new SimpleDateFormat("MMMMM", new Locale("es", "SV"));
     private static SimpleDateFormat sdfDate = new SimpleDateFormat("dd_MM_yyyy");
     private static final int DEC = 12;
     private static List<String> months;
     private String dateStr;
-    
+    private Date dateObj;
 
     public String getCurrentYear() {
 
-        return sdf.format(new Date());
+        return sdfYear.format(new Date());
 
     }
 
@@ -56,23 +57,38 @@ public class DateHelper {
 
     }
 
-    
-    public Date getDateFromStr(){
-        
+    public Integer getDay() {
+
+        return Integer.valueOf(sdfDay.format(this.getDateObj()));
+
+    }
+
+    public Integer getMonth() {
+
+        return Integer.valueOf(sdfMonth.format(this.getDateObj()));
+    }
+
+    public Integer getYear() {
+
+        return Integer.valueOf(sdfYear.format(this.getDateObj()));
+    }
+
+    public Date getDateFromStr() {
+
         Date date = null;
-        
+
         try {
-            
+
             date = sdfDate.parse(dateStr);
-            
+
         } catch (Exception e) {
             logger.error("Error al parsear fecha desde JSP", e);
         }
-        
+
         return date;
-        
+
     }
-    
+
     public String getDateStr() {
         return dateStr;
     }
@@ -80,6 +96,12 @@ public class DateHelper {
     public void setDateStr(String dateStr) {
         this.dateStr = dateStr;
     }
-    
-    
+
+    public Date getDateObj() {
+        return dateObj;
+    }
+
+    public void setDateObj(Date dateObj) {
+        this.dateObj = dateObj;
+    }
 }

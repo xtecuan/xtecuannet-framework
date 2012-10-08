@@ -52,58 +52,83 @@
 
                 <tbody>
 
-                    <tr>
-                        <td>Carnet</td>
-                        <td><input type="text" name="carnet" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Nombres</td>
-                        <td><input type="text" name="nombres" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Apellidos</td>
-                        <td><input type="text" name="apellidos" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Correo</td>
-                        <td><input type="text" name="correo" value="" /></td>
-                    </tr>
-                    <tr>
-                        <td>Fecha de Nacimiento</td>
-                        <td>Dia: <select name="dia">
-                                <option value="0">Seleccione</option>
-                                <c:forEach var="i"  begin="1" end="31" step="1">
+                <input type="hidden" name="id" value="${alumno.id}"/> 
 
+                <tr>
+                    <td>Carnet</td>
+                    <td><input type="text" name="carnet" value="${alumno.carnet}" /></td>
+                </tr>
+                <tr>
+                    <td>Nombres</td>
+                    <td><input type="text" name="nombres" value="${alumno.nombres}" /></td>
+                </tr>
+                <tr>
+                    <td>Apellidos</td>
+                    <td><input type="text" name="apellidos" value="${alumno.apellidos}" /></td>
+                </tr>
+                <tr>
+                    <td>Correo</td>
+                    <td><input type="text" name="correo" value="${alumno.correo}" /></td>
+                </tr>
+                <jsp:useBean id="helper" scope="page" class="org.xtecuan.samples.beans.DateHelper" />
+
+                <c:if test="${not empty alumno.fechanac}" var="fechabool">
+                    <c:set target="${helper}" property="dateObj" value="${alumno.fechanac}"/>
+                </c:if>
+                <tr>
+                    <td>Fecha de Nacimiento</td>
+                    <td>Dia: <select name="dia">
+                            <option value="0">Seleccione</option>
+                            <c:forEach var="i"  begin="1" end="31" step="1">
+
+                                <c:if test="${fechabool and i eq helper.day}" var="iffecha">
+                                    <option value="${i}" selected>${i}</option>
+                                </c:if>
+
+                                <c:if test="${not iffecha}" var="iffecha1">
                                     <option value="${i}">${i}</option>
+                                </c:if>
 
-                                </c:forEach>
-                            </select>
-                            <jsp:useBean id="helper" scope="page" class="org.xtecuan.samples.beans.DateHelper" />
-                            Mes: <select name="mes">
-                                <option value="0">Seleccione</option>
-                                <c:forEach var="item"  items="${helper.months}" varStatus="i">
+                            </c:forEach>
+                        </select>
 
+                        Mes: <select name="mes">
+                            <option value="0">Seleccione</option>
+                            <c:forEach var="item"  items="${helper.months}" varStatus="i">
+
+                                
+                                
+                                <c:if test="${fechabool and (i.index+1) eq helper.month}" var="iffecha">
+                                    <option value="${i.index+1}" selected>${item}</option>
+                                </c:if>
+
+                                <c:if test="${not iffecha}" var="iffecha1">
                                     <option value="${i.index+1}">${item}</option>
-                                </c:forEach>
-                            </select>
-                            Año:<select name="annio">
-                                <option value="0">Seleccione</option>
+                                </c:if>
+                                
+                            </c:forEach>
+                        </select>
+                        Año:<select name="annio">
+                            <option value="0">Seleccione</option>
 
-                                <c:forEach var="i"  begin="1900" end="${helper.currentYear}" step="1">
+                            <c:forEach var="i"  begin="1900" end="${helper.currentYear}" step="1">
 
-                                    <option value="${i}">${i}</option>
-                                </c:forEach>
-                            </select>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="submit" value="Enviar" />
-                        </td>
-                        <td>
-                            <input type="reset" value="Limpiar" />
-                        </td>
-                    </tr>
+                                <option value="${i}">${i}</option>
+                            </c:forEach>
+                        </select>
+                    </td>
+                </tr>
+                <c:if test="${not empty alumno.fechanac}" var="fechaboolXX">
+                    <c:remove scope="page" var="helper"/>
+                </c:if>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar" />
+                    </td>
+                    <td>
+                        <input type="reset" value="Limpiar" />
+                    </td>
+                </tr>
                 </tbody>
             </table>
 
