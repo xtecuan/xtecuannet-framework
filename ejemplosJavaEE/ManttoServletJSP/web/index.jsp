@@ -33,7 +33,20 @@
         </c:if>
 
 
-            <form name="forma" action="${pageContext.servletContext.contextPath}/procesar.jsp" method="POST">
+        <form name="forma" action="${pageContext.servletContext.contextPath}/procesar.jsp" method="POST">
+
+            <c:if test="${empty param.action}" var="fff">
+
+                <input type="hidden" name="action" value="add"/>
+
+            </c:if>
+
+            <c:if test="${not fff}" var="fff1">
+
+                <input type="hidden" name="action" value="${param.action}"/>
+
+            </c:if>
+
 
             <table border="0" width="800" cellspacing="1" cellpadding="1">
 

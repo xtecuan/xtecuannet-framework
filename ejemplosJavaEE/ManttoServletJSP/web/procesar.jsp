@@ -24,5 +24,7 @@
 
 </c:if>
 
-<c:redirect  url="${urlHelper.url}"/>
+<c:redirect  url="${urlHelper.url}">
+    <c:param name="action" value="${param.action}"/>
+</c:redirect>
 

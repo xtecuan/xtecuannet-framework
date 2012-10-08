@@ -23,6 +23,8 @@ import org.xtecuan.samples.dto.Alumnos;
  */
 public class ManttoAlumnos extends HttpServlet {
 
+    private static final String CMD_ADD = "add";
+    private static final String CMD_EDIT = "edit";
     private static final String OUTCOME = "index.jsp";
     private static final Logger logger = Logger.getLogger(ManttoAlumnos.class);
     @Resource(name = "jdbc/alumnos")
@@ -44,44 +46,49 @@ public class ManttoAlumnos extends HttpServlet {
         String salidaMsg = null;
         String errorMsg = null;
 
-        HttpSession session = request.getSession();
+        String action = request.getParameter("action");
 
-        Alumnos alum = (Alumnos) session.getAttribute("alumno");
-
-
-        logger.info("Alumno actual: " + alum);
-
-        AlumnosFacade facade = new AlumnosFacade(dataSource, alum);
-
-        try {
-
-            Alumnos salida = facade.guardarAlumno();
-            session.removeAttribute("alumno");
-            session.setAttribute("alumno", salida);
-            logger.info("Alumno con id: " + salida.getId());
-            salidaMsg = "Se guardo el alumno con Id: " + salida.getId();
+        if (action != null && action.equals(CMD_ADD)) {
 
 
-        } catch (Exception ex) {
-            logger.error("Error al guardar el alumno:", ex);
-            errorMsg = "Error al guardar el alumno: " + ex.getMessage();
+            HttpSession session = request.getSession();
+
+            Alumnos alum = (Alumnos) session.getAttribute("alumno");
+
+
+            logger.info("Alumno actual: " + alum);
+
+            AlumnosFacade facade = new AlumnosFacade(dataSource, alum);
+
+            try {
+
+                Alumnos salida = facade.guardarAlumno();
+                session.removeAttribute("alumno");
+                session.setAttribute("alumno", salida);
+                logger.info("Alumno con id: " + salida.getId());
+                salidaMsg = "Se guardo el alumno con Id: " + salida.getId();
+
+
+            } catch (Exception ex) {
+                logger.error("Error al guardar el alumno:", ex);
+                errorMsg = "Error al guardar el alumno: " + ex.getMessage();
+            }
+
+            if (salidaMsg != null) {
+
+                session.setAttribute("outmsg", salidaMsg);
+
+            }
+
+            if (errorMsg != null) {
+
+                session.setAttribute("errormsg", errorMsg);
+
+            }
+
+            response.sendRedirect(OUTCOME);
+
         }
-
-        if (salidaMsg != null) {
-
-            session.setAttribute("outmsg", salidaMsg);
-
-        }
-
-        if (errorMsg != null) {
-
-            session.setAttribute("errormsg", errorMsg);
-
-        }
-
-        response.sendRedirect(OUTCOME);
-
-
 
 
     }
