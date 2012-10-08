@@ -33,7 +33,7 @@
         </c:if>
 
 
-        <form name="forma" action="${pageContext.request.servletContext.contextPath}/procesar.jsp" method="POST">
+            <form name="forma" action="${pageContext.servletContext.contextPath}/procesar.jsp" method="POST">
 
             <table border="0" width="800" cellspacing="1" cellpadding="1">
 
