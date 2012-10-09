@@ -1,0 +1,63 @@
+/* 
+    Document   : style
+    Created on : 10-09-2012, 10:41:21 AM
+    Author     : xtecuan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+h1 {
+
+    font-family: cursive;
+    font-size: large;
+    color: blue;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+table{
+    
+    border: black solid 1px;
+    font-family: cursive ;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: small;
+    
+}
+
+select {
+    
+    color: buttonface;
+    font-family: cursive ;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: small;
+    border-style: groove;
+    border-color: black;
+}
+
+input {
+    
+    color: buttonface;
+    font-family: cursive ;
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: small;
+    border-style: groove;
+    border-color: black;
+    /*background: #1e88d2;*/
+}
+
+.botones{
+    
+    text-align: center;
+    height: 50px;
+}

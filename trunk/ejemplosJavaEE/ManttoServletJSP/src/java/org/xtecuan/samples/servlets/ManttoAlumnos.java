@@ -5,7 +5,8 @@
 package org.xtecuan.samples.servlets;
 
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.List;
 import javax.annotation.Resource;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -25,6 +26,7 @@ public class ManttoAlumnos extends HttpServlet {
 
     private static final String CMD_ADD = "add";
     private static final String CMD_EDIT = "edit";
+    private static final String CMD_LIST = "list";
     private static final String OUTCOME = "index.jsp";
     private static final Logger logger = Logger.getLogger(ManttoAlumnos.class);
     @Resource(name = "jdbc/alumnos")
@@ -47,50 +49,42 @@ public class ManttoAlumnos extends HttpServlet {
         String errorMsg = null;
 
         String action = request.getParameter("action");
+        HttpSession session = request.getSession();
 
         if (action != null && action.equals(CMD_ADD)) {
-
-
-            HttpSession session = request.getSession();
-
             Alumnos alum = (Alumnos) session.getAttribute("alumno");
-
-
             logger.info("Alumno actual: " + alum);
-
             AlumnosFacade facade = new AlumnosFacade(dataSource, alum);
-
             try {
-
                 Alumnos salida = facade.guardarAlumno();
                 session.removeAttribute("alumno");
                 session.setAttribute("alumno", salida);
                 logger.info("Alumno con id: " + salida.getId());
                 salidaMsg = "Se guardo el alumno con Id: " + salida.getId();
-
-
             } catch (Exception ex) {
                 logger.error("Error al guardar el alumno:", ex);
                 errorMsg = "Error al guardar el alumno: " + ex.getMessage();
             }
-
             if (salidaMsg != null) {
-
                 session.setAttribute("outmsg", salidaMsg);
-
             }
 
             if (errorMsg != null) {
-
                 session.setAttribute("errormsg", errorMsg);
-
             }
-
             response.sendRedirect(OUTCOME);
 
+        } else if (action.equals(CMD_LIST)) {            
+            AlumnosFacade facade = new AlumnosFacade(dataSource);
+            List<Alumnos> alumnos = new ArrayList<Alumnos>(0);
+            try {
+                alumnos = facade.encontrarAlumnos();
+            } catch (Exception e) {
+                logger.error("Excepción encontrando los alumnos", e);
+            }
+            
+            session.setAttribute("alumnos", alumnos);
         }
-
-
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
