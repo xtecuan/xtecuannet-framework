@@ -157,7 +157,7 @@ public final class AlumnosFacade {
                     rset.close();
                 } else {
                     logger.info("Problema al insertar un registro en alumnos !!!");
-                    throw  new ManttoAlumnosException("Error de persistencia del sistema!!!");
+                    throw new ManttoAlumnosException("Error de persistencia del sistema!!!");
                 }
 
                 psta.close();
@@ -191,6 +191,68 @@ public final class AlumnosFacade {
 
 
         return alumno;
+    }
+
+    public List<Alumnos> encontrarAlumnos() {
+        //TODO write your implementation code here:
+
+        List<Alumnos> dtos = new ArrayList<Alumnos>(0);
+
+        Connection conn = null;
+
+        try {
+            conn = obtenerConexion();
+
+            Statement sta = conn.createStatement();
+
+            ResultSet rset = sta.executeQuery(Alumnos.SELECT_ALL);
+
+            while (rset.next()) {
+
+                Alumnos dto = new Alumnos();
+
+                dto.setId(rset.getInt("id"));
+                dto.setCarnet(rset.getString("carnet"));
+                dto.setNombres(rset.getString("nombres"));
+                dto.setApellidos(rset.getString("apellidos"));
+                
+                String correo = rset.getString("correo");
+                
+                if(correo!=null){
+                    dto.setCorreo(correo);
+                }
+                
+                java.sql.Date fechanac = rset.getDate("fechanac");
+                
+                if(fechanac!=null){
+                    dto.setFechanac(new java.util.Date(fechanac.getTime()));
+                }             
+
+
+                dtos.add(dto);
+
+
+            }
+
+            rset.close();
+            sta.close();
+
+
+        } catch (Exception e) {
+            logger.error("Error al llenar el listado de alumnos: ", e);
+        } finally {
+            try {
+                if (conn != null) {
+                    conn.close();
+                }
+            } catch (Exception e) {
+
+                logger.error("Error al cerrar la conexion: ", e);
+            }
+
+        }
+
+        return dtos;
     }
 
     public Alumnos getAlumno() {
