@@ -31,6 +31,8 @@ public class App {
     private static final String FLAG_CONFIG = "--config";
     private static final String FLAG_LIST_CONFIGS = "--listconfigs";
     private static final String FLAG_ALL = "all";
+    private static final String SEVERE = "SEVERE";
+    private static final String WARNING = "WARNING";
     private static FileFilter filter = new FileFilter() {
         @Override
         public boolean accept(File pathname) {
@@ -134,15 +136,21 @@ public class App {
                         }
                         if (finalizo) {
                             LogGlassfish lll = fromStringBuilderToEntity(sb, configObj, log);
-                            try {
-                                logger.info("Guardando entidad!!!");
-                                em.persist(lll);
 
-                            } catch (Exception ex1) {
-                                logger.error("Error al guardar entrada de log", ex1);
-                                em.getTransaction().rollback();
+                            if (lll.getLoglevel().equals(SEVERE) || lll.getLoglevel().equals(WARNING)) {
+                                try {
+                                    logger.info("Guardando entidad!!!");
+                                    em.persist(lll);
+
+                                } catch (Exception ex1) {
+                                    logger.error("Error al guardar entrada de log", ex1);
+                                    em.getTransaction().rollback();
+                                }
+                                logger.info(lll);
+                            }else{
+                                
+                                logger.info("LOGLEVEL: "+lll.getLoglevel()+" Skipping!!!");
                             }
-                            logger.info(lll);
                             sb = new StringBuilder();
                         }
                     }
@@ -205,7 +213,7 @@ public class App {
             }
 
         } else {
-            
+
             System.out.println("Forma de uso: ");
         }
     }
