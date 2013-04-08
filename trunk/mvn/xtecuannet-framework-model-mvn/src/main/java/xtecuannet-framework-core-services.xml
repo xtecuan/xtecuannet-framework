@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-3.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+    <context:load-time-weaver/>
+   
+   <!--GENERAL CONFIGURATION FILE PUT configuration.properties IN YOUR ROOT CLASSPATH-->
+
+    <context:property-placeholder location="classpath:configuration.properties"/>
+   
+   <!--JNDI DATASOURCE LOOKUP-->
+
+    <jee:jndi-lookup id="dataSource" jndi-name="${dataSource.jndi}"/>
+    
+    <!--JNDI MAIL SESSION LOOKUP-->
+
+    <jee:jndi-lookup id="mailSession" jndi-name="${mailSession.jndi}"/>
+
+    <!--JNDI PERSISTENCE UNIT LOOKUP-->
+
+    <bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" >
+        <property name="persistenceUnits">
+            <map>
+                <entry key="${jpa.puName}" value="${jpa.puName.jndi}"/>
+            </map>
+        </property>
+    </bean>
+
+    <!--TRANSACTION MANAGEMENT-->
+
+    <tx:jta-transaction-manager/>
+    <tx:annotation-driven/>
+    <context:annotation-config/>
+
+    <!--PERSISTENCE SERVICE WITH JPA SUPPORT, NATIVE SQL AND STORED FUNCTIONS AND PROCEDURES SUPPORT-->
+
+    <bean id="PersistenceService" class="com.xtesoft.xtecuannet.framework.model.services.impl.PersistenceServiceImpl" autowire="byType">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--GENERIC PERSISTENCE SERVICE FOR JPA ENTITIES-->
+
+    <bean id="GenericService" class="com.xtesoft.xtecuannet.framework.model.services.impl.GenericServiceImpl" autowire="byType"/>
+
+    <!--JASPER REPORTS SERVICES-->
+    <bean id="ReportsService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ReportsServiceImpl" autowire="byType">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!--POI-EXCEL SERVICES-->
+    <bean id="ExcelService" class="com.xtesoft.xtecuannet.framework.model.services.impl.ExcelServiceImpl" autowire="byType"/>
+    
+    <bean id="CommandExecServiceImpl" class="com.xtesoft.xtecuannet.framework.model.services.impl.CommandExecServiceImpl" autowire="byType"/>
+    
+    <bean id="MailerService" class="com.xtesoft.xtecuannet.framework.model.services.impl.MailerServiceImpl" autowire="byType">
+        <property name="mailSession" ref="mailSession"/>
+    </bean>
+       
+    <bean id="PersistenceServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.PersistenceServiceNoAudImpl" autowire="byType">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>   
+    
+    <bean id="GenericServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.GenericServiceNoAudImpl" autowire="byType"/>
+
+ 
+</beans>
