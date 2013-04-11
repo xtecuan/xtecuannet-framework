@@ -1,0 +1,7 @@
+2013-04-10 12:29:23,410 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-10 12:29:23,411 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.entidades
+2013-04-10 12:29:23,411 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/entidades
+2013-04-10 12:29:23,412 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios
+2013-04-10 12:29:23,412 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl
+2013-04-10 12:29:23,412 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.servicios.impl
+2013-04-10 12:29:40,055 [AWT-EventQueue-0] INFO - Closing Application!!!

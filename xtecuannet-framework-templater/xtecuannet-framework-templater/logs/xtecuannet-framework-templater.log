@@ -1,0 +1,766 @@
+2013-04-11 11:30:25,201 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 11:30:25,202 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.entidades
+2013-04-11 11:30:25,202 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/entidades
+2013-04-11 11:30:25,202 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios
+2013-04-11 11:30:25,202 [AWT-EventQueue-0] INFO - /Users/xtecuan/Documents/Work/EjemplosXtecuannet/EjemploXtecuannet-model/src/org/xtecuan/modelo/servicios/impl
+2013-04-11 11:30:25,202 [AWT-EventQueue-0] INFO - org.xtecuan.modelo.servicios.impl
+2013-04-11 11:30:30,048 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-04-11 12:22:04,998 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 12:22:04,999 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.entities
+2013-04-11 12:22:04,999 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/entities
+2013-04-11 12:22:04,999 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services
+2013-04-11 12:22:04,999 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services/impl
+2013-04-11 12:22:04,999 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.services.impl
+2013-04-11 12:22:08,339 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesService.java
+2013-04-11 12:22:08,367 [AWT-EventQueue-0] INFO - Creating: VigTrasladoInternoService.java
+2013-04-11 12:22:08,367 [AWT-EventQueue-0] INFO - Creating: SalAudienciasService.java
+2013-04-11 12:22:08,368 [AWT-EventQueue-0] INFO - Creating: AccRutasService.java
+2013-04-11 12:22:08,368 [AWT-EventQueue-0] INFO - Creating: CatTipoAudienciaService.java
+2013-04-11 12:22:08,368 [AWT-EventQueue-0] INFO - Creating: DplActividadService.java
+2013-04-11 12:22:08,369 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoService.java
+2013-04-11 12:22:08,369 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilService.java
+2013-04-11 12:22:08,370 [AWT-EventQueue-0] INFO - Creating: VigEstadoService.java
+2013-04-11 12:22:08,370 [AWT-EventQueue-0] INFO - Creating: AccReasignacionnotificadorService.java
+2013-04-11 12:22:08,370 [AWT-EventQueue-0] INFO - Creating: EqmOrientacionServiciosService.java
+2013-04-11 12:22:08,371 [AWT-EventQueue-0] INFO - Creating: AccTipoactosMedioService.java
+2013-04-11 12:22:08,371 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiService.java
+2013-04-11 12:22:08,372 [AWT-EventQueue-0] INFO - Creating: CuoObjetosSecuestradosService.java
+2013-04-11 12:22:08,372 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorService.java
+2013-04-11 12:22:08,372 [AWT-EventQueue-0] INFO - Creating: CatVigVisitasService.java
+2013-04-11 12:22:08,373 [AWT-EventQueue-0] INFO - Creating: SusControlPenasService.java
+2013-04-11 12:22:08,373 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesService.java
+2013-04-11 12:22:08,374 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesService.java
+2013-04-11 12:22:08,374 [AWT-EventQueue-0] INFO - Creating: SalHistorialasistenteService.java
+2013-04-11 12:22:08,374 [AWT-EventQueue-0] INFO - Creating: CatTipoObligacionesFamiliaService.java
+2013-04-11 12:22:08,375 [AWT-EventQueue-0] INFO - Creating: CatCjiArchivosService.java
+2013-04-11 12:22:08,375 [AWT-EventQueue-0] INFO - Creating: RecEscritosService.java
+2013-04-11 12:22:08,376 [AWT-EventQueue-0] INFO - Creating: AccUsuarioSeguimientoService.java
+2013-04-11 12:22:08,376 [AWT-EventQueue-0] INFO - Creating: CatTipoMedidaService.java
+2013-04-11 12:22:08,376 [AWT-EventQueue-0] INFO - Creating: CuoTiposMovimientoService.java
+2013-04-11 12:22:08,377 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpService.java
+2013-04-11 12:22:08,377 [AWT-EventQueue-0] INFO - Creating: CatTipoAsistenciaJuridicaService.java
+2013-04-11 12:22:08,378 [AWT-EventQueue-0] INFO - Creating: EqmAgendaEspecialistaService.java
+2013-04-11 12:22:08,378 [AWT-EventQueue-0] INFO - Creating: RecPartesService.java
+2013-04-11 12:22:08,378 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadService.java
+2013-04-11 12:22:08,379 [AWT-EventQueue-0] INFO - Creating: AccCrvService.java
+2013-04-11 12:22:08,379 [AWT-EventQueue-0] INFO - Creating: AccImpresionesService.java
+2013-04-11 12:22:08,380 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosService.java
+2013-04-11 12:22:08,380 [AWT-EventQueue-0] INFO - Creating: CatAccionesService.java
+2013-04-11 12:22:08,380 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalService.java
+2013-04-11 12:22:08,381 [AWT-EventQueue-0] INFO - Creating: CatEqmTipoDiligService.java
+2013-04-11 12:22:08,381 [AWT-EventQueue-0] INFO - Creating: SalServiciossolicitudesService.java
+2013-04-11 12:22:08,382 [AWT-EventQueue-0] INFO - Creating: OdgSesionesService.java
+2013-04-11 12:22:08,382 [AWT-EventQueue-0] INFO - Creating: AccEstadonotificacionService.java
+2013-04-11 12:22:08,382 [AWT-EventQueue-0] INFO - Creating: SalMediosAudienciasService.java
+2013-04-11 12:22:08,383 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesService.java
+2013-04-11 12:22:08,383 [AWT-EventQueue-0] INFO - Creating: CatOficinasService.java
+2013-04-11 12:22:08,383 [AWT-EventQueue-0] INFO - Creating: CatCjiService.java
+2013-04-11 12:22:08,384 [AWT-EventQueue-0] INFO - Creating: OacServiciosService.java
+2013-04-11 12:22:08,384 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesObjetosService.java
+2013-04-11 12:22:08,385 [AWT-EventQueue-0] INFO - Creating: VigServiciosVigilanciaService.java
+2013-04-11 12:22:08,385 [AWT-EventQueue-0] INFO - Creating: CuoCustodiaEfectivoService.java
+2013-04-11 12:22:08,385 [AWT-EventQueue-0] INFO - Creating: RecExpedientesService.java
+2013-04-11 12:22:08,386 [AWT-EventQueue-0] INFO - Creating: SusDiligenciamientosService.java
+2013-04-11 12:22:08,386 [AWT-EventQueue-0] INFO - Creating: SusPiezasPrestadasService.java
+2013-04-11 12:22:08,387 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionService.java
+2013-04-11 12:22:08,387 [AWT-EventQueue-0] INFO - Creating: OdgAsambleasService.java
+2013-04-11 12:22:08,387 [AWT-EventQueue-0] INFO - Creating: CatTipoPruebasService.java
+2013-04-11 12:22:08,388 [AWT-EventQueue-0] INFO - Creating: CatTiposFalloService.java
+2013-04-11 12:22:08,388 [AWT-EventQueue-0] INFO - Creating: SegRolesService.java
+2013-04-11 12:22:08,389 [AWT-EventQueue-0] INFO - Creating: CatCalidadXOfiJuzService.java
+2013-04-11 12:22:08,389 [AWT-EventQueue-0] INFO - Creating: SusMedidasService.java
+2013-04-11 12:22:08,389 [AWT-EventQueue-0] INFO - Creating: RecSolicitudesExpViewService.java
+2013-04-11 12:22:08,390 [AWT-EventQueue-0] INFO - Creating: CatDiligenciasService.java
+2013-04-11 12:22:08,390 [AWT-EventQueue-0] INFO - Creating: AccMapasService.java
+2013-04-11 12:22:08,390 [AWT-EventQueue-0] INFO - Creating: CatMinutosService.java
+2013-04-11 12:22:08,391 [AWT-EventQueue-0] INFO - Creating: SusDetaDiligenciamientosService.java
+2013-04-11 12:22:08,391 [AWT-EventQueue-0] INFO - Creating: SusVigilanciaServiciosService.java
+2013-04-11 12:22:08,392 [AWT-EventQueue-0] INFO - Creating: AccConsultaestadosService.java
+2013-04-11 12:22:08,392 [AWT-EventQueue-0] INFO - Creating: DetaJuzgadosReasignacionService.java
+2013-04-11 12:22:08,392 [AWT-EventQueue-0] INFO - Creating: DirUsuarioService.java
+2013-04-11 12:22:08,393 [AWT-EventQueue-0] INFO - Creating: CatAniosService.java
+2013-04-11 12:22:08,393 [AWT-EventQueue-0] INFO - Creating: SusObligacionesFamiliaService.java
+2013-04-11 12:22:08,393 [AWT-EventQueue-0] INFO - Creating: SusActuacionesService.java
+2013-04-11 12:22:08,394 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesService.java
+2013-04-11 12:22:08,394 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaService.java
+2013-04-11 12:22:08,395 [AWT-EventQueue-0] INFO - Creating: CatVigAgentesService.java
+2013-04-11 12:22:08,395 [AWT-EventQueue-0] INFO - Creating: CatReportesEstService.java
+2013-04-11 12:22:08,395 [AWT-EventQueue-0] INFO - Creating: SusMediosPruebaService.java
+2013-04-11 12:22:08,396 [AWT-EventQueue-0] INFO - Creating: SusAgendasService.java
+2013-04-11 12:22:08,396 [AWT-EventQueue-0] INFO - Creating: SalCuidadosdeinfantesService.java
+2013-04-11 12:22:08,396 [AWT-EventQueue-0] INFO - Creating: CatTipomaterialviviService.java
+2013-04-11 12:22:08,397 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasService.java
+2013-04-11 12:22:08,397 [AWT-EventQueue-0] INFO - Creating: CatInstitucionesService.java
+2013-04-11 12:22:08,398 [AWT-EventQueue-0] INFO - Creating: SegUrlService.java
+2013-04-11 12:22:08,398 [AWT-EventQueue-0] INFO - Creating: DirCatOficinaService.java
+2013-04-11 12:22:08,398 [AWT-EventQueue-0] INFO - Creating: SusDetalleLiquidacionesService.java
+2013-04-11 12:22:08,399 [AWT-EventQueue-0] INFO - Creating: OdgActuacionesService.java
+2013-04-11 12:22:08,399 [AWT-EventQueue-0] INFO - Creating: SusInteresesService.java
+2013-04-11 12:22:08,399 [AWT-EventQueue-0] INFO - Creating: CatPenasService.java
+2013-04-11 12:22:08,400 [AWT-EventQueue-0] INFO - Creating: SalServiciosService.java
+2013-04-11 12:22:08,400 [AWT-EventQueue-0] INFO - Creating: AccResultadosnotificacionService.java
+2013-04-11 12:22:08,401 [AWT-EventQueue-0] INFO - Creating: BitacoraService.java
+2013-04-11 12:22:08,401 [AWT-EventQueue-0] INFO - Creating: CatHorasService.java
+2013-04-11 12:22:08,401 [AWT-EventQueue-0] INFO - Creating: CatPaisesService.java
+2013-04-11 12:22:08,402 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesService.java
+2013-04-11 12:22:08,402 [AWT-EventQueue-0] INFO - Creating: CutMovTituloService.java
+2013-04-11 12:22:08,402 [AWT-EventQueue-0] INFO - Creating: AccMedioTiposSolService.java
+2013-04-11 12:22:08,403 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresService.java
+2013-04-11 12:22:08,403 [AWT-EventQueue-0] INFO - Creating: CatTurnoJuzgadosService.java
+2013-04-11 12:22:08,404 [AWT-EventQueue-0] INFO - Creating: DirMunicipioService.java
+2013-04-11 12:22:08,404 [AWT-EventQueue-0] INFO - Creating: EqmGestionesEstudiosService.java
+2013-04-11 12:22:08,404 [AWT-EventQueue-0] INFO - Creating: EmbHistorialEmbargosBienesService.java
+2013-04-11 12:22:08,405 [AWT-EventQueue-0] INFO - Creating: SusTutelasService.java
+2013-04-11 12:22:08,405 [AWT-EventQueue-0] INFO - Creating: AccSolicitudesService.java
+2013-04-11 12:22:08,405 [AWT-EventQueue-0] INFO - Creating: DplMaterialviviendaService.java
+2013-04-11 12:22:08,406 [AWT-EventQueue-0] INFO - Creating: InstitucionJuzgadoViewService.java
+2013-04-11 12:22:08,406 [AWT-EventQueue-0] INFO - Creating: AccTipoinformeService.java
+2013-04-11 12:22:08,407 [AWT-EventQueue-0] INFO - Creating: CatTipovehiculoService.java
+2013-04-11 12:22:08,407 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresService.java
+2013-04-11 12:22:08,407 [AWT-EventQueue-0] INFO - Creating: SusLiquidacionesService.java
+2013-04-11 12:22:08,408 [AWT-EventQueue-0] INFO - Creating: VigAgenteSolicitudService.java
+2013-04-11 12:22:08,408 [AWT-EventQueue-0] INFO - Creating: AccActaService.java
+2013-04-11 12:22:08,408 [AWT-EventQueue-0] INFO - Creating: OdgGestionActuacionesService.java
+2013-04-11 12:22:08,409 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersService.java
+2013-04-11 12:22:08,409 [AWT-EventQueue-0] INFO - Creating: SalRecesosaudienciaService.java
+2013-04-11 12:22:08,410 [AWT-EventQueue-0] INFO - Creating: SusPrestacionesLaboralesService.java
+2013-04-11 12:22:08,410 [AWT-EventQueue-0] INFO - Creating: CatAptitudesService.java
+2013-04-11 12:22:08,410 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesService.java
+2013-04-11 12:22:08,411 [AWT-EventQueue-0] INFO - Creating: IyeSolicitudService.java
+2013-04-11 12:22:08,411 [AWT-EventQueue-0] INFO - Creating: EmbHistorialEmbargosService.java
+2013-04-11 12:22:08,411 [AWT-EventQueue-0] INFO - Creating: AccNotificacionService.java
+2013-04-11 12:22:08,412 [AWT-EventQueue-0] INFO - Creating: SusSolActosService.java
+2013-04-11 12:22:08,412 [AWT-EventQueue-0] INFO - Creating: CatTipoRecursosService.java
+2013-04-11 12:22:08,413 [AWT-EventQueue-0] INFO - Creating: SusSolTitulosService.java
+2013-04-11 12:22:08,413 [AWT-EventQueue-0] INFO - Creating: CatMedidasSeguridadService.java
+2013-04-11 12:22:08,413 [AWT-EventQueue-0] INFO - Creating: SusPrestacionesDetalleService.java
+2013-04-11 12:22:08,414 [AWT-EventQueue-0] INFO - Creating: CatJuzgadoAccionService.java
+2013-04-11 12:22:08,414 [AWT-EventQueue-0] INFO - Creating: CatInmueblesService.java
+2013-04-11 12:22:08,414 [AWT-EventQueue-0] INFO - Creating: AccZonasService.java
+2013-04-11 12:22:08,415 [AWT-EventQueue-0] INFO - Creating: CatManequipoService.java
+2013-04-11 12:22:08,415 [AWT-EventQueue-0] INFO - Creating: VigServiciosEstadosolService.java
+2013-04-11 12:22:08,415 [AWT-EventQueue-0] INFO - Creating: SusActasDeliberacionService.java
+2013-04-11 12:22:08,416 [AWT-EventQueue-0] INFO - Creating: AccCalidadfuncionService.java
+2013-04-11 12:22:08,416 [AWT-EventQueue-0] INFO - Creating: CatUnidadesMedidaService.java
+2013-04-11 12:22:08,417 [AWT-EventQueue-0] INFO - Creating: DplEvaluacionService.java
+2013-04-11 12:22:08,417 [AWT-EventQueue-0] INFO - Creating: SusRecursosService.java
+2013-04-11 12:22:08,417 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresService.java
+2013-04-11 12:22:08,418 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosMateriasService.java
+2013-04-11 12:22:08,418 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposService.java
+2013-04-11 12:22:08,418 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasEstudiosService.java
+2013-04-11 12:22:08,419 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudService.java
+2013-04-11 12:22:08,419 [AWT-EventQueue-0] INFO - Creating: AccNotificadoresService.java
+2013-04-11 12:22:08,420 [AWT-EventQueue-0] INFO - Creating: DplManejoequipoService.java
+2013-04-11 12:22:08,420 [AWT-EventQueue-0] INFO - Creating: CatFechasNoLaborablesService.java
+2013-04-11 12:22:08,420 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosService.java
+2013-04-11 12:22:08,421 [AWT-EventQueue-0] INFO - Creating: DplDiagnosticoService.java
+2013-04-11 12:22:08,421 [AWT-EventQueue-0] INFO - Creating: SusSolExpedienteService.java
+2013-04-11 12:22:08,421 [AWT-EventQueue-0] INFO - Creating: SegOpcionesService.java
+2013-04-11 12:22:08,422 [AWT-EventQueue-0] INFO - Creating: CatBeneficiosService.java
+2013-04-11 12:22:08,422 [AWT-EventQueue-0] INFO - Creating: CuoEstadoObjetosService.java
+2013-04-11 12:22:08,422 [AWT-EventQueue-0] INFO - Creating: EqmHistoEspecialistaService.java
+2013-04-11 12:22:08,423 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesService.java
+2013-04-11 12:22:08,423 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionService.java
+2013-04-11 12:22:08,424 [AWT-EventQueue-0] INFO - Creating: VigServiciosService.java
+2013-04-11 12:22:08,424 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaService.java
+2013-04-11 12:22:08,424 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionService.java
+2013-04-11 12:22:08,425 [AWT-EventQueue-0] INFO - Creating: SusAbonosService.java
+2013-04-11 12:22:08,425 [AWT-EventQueue-0] INFO - Creating: CatMotivoMultaService.java
+2013-04-11 12:22:08,425 [AWT-EventQueue-0] INFO - Creating: SusDetalleComisionesService.java
+2013-04-11 12:22:08,426 [AWT-EventQueue-0] INFO - Creating: CatJuecesHistorialService.java
+2013-04-11 12:22:08,426 [AWT-EventQueue-0] INFO - Creating: OdgConvocadosService.java
+2013-04-11 12:22:08,426 [AWT-EventQueue-0] INFO - Creating: EmbEmbargosControlService.java
+2013-04-11 12:22:08,427 [AWT-EventQueue-0] INFO - Creating: DplAptitudesService.java
+2013-04-11 12:22:08,427 [AWT-EventQueue-0] INFO - Creating: AccColoniasService.java
+2013-04-11 12:22:08,427 [AWT-EventQueue-0] INFO - Creating: CatFijarCartelService.java
+2013-04-11 12:22:08,428 [AWT-EventQueue-0] INFO - Creating: SusDetaSoliObjetosService.java
+2013-04-11 12:22:08,428 [AWT-EventQueue-0] INFO - Creating: CatMateriasService.java
+2013-04-11 12:22:08,428 [AWT-EventQueue-0] INFO - Creating: AccTipoactosCalidadfxService.java
+2013-04-11 12:22:08,429 [AWT-EventQueue-0] INFO - Creating: SusCostasProcesalesService.java
+2013-04-11 12:22:08,429 [AWT-EventQueue-0] INFO - Creating: AccSolActosResultadosService.java
+2013-04-11 12:22:08,430 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaService.java
+2013-04-11 12:22:08,430 [AWT-EventQueue-0] INFO - Creating: SusMedidasCautelaresService.java
+2013-04-11 12:22:08,430 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosService.java
+2013-04-11 12:22:08,431 [AWT-EventQueue-0] INFO - Creating: CuoCalidadObjetoService.java
+2013-04-11 12:22:08,431 [AWT-EventQueue-0] INFO - Creating: CatArchivosService.java
+2013-04-11 12:22:08,431 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaService.java
+2013-04-11 12:22:08,432 [AWT-EventQueue-0] INFO - Creating: CatBienesService.java
+2013-04-11 12:22:08,432 [AWT-EventQueue-0] INFO - Creating: CatTenenciaviviService.java
+2013-04-11 12:22:08,432 [AWT-EventQueue-0] INFO - Creating: CatSolicitudesService.java
+2013-04-11 12:22:08,433 [AWT-EventQueue-0] INFO - Creating: RecEstadosService.java
+2013-04-11 12:22:08,433 [AWT-EventQueue-0] INFO - Creating: SusHistorialOtrasAccionesService.java
+2013-04-11 12:22:08,433 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosService.java
+2013-04-11 12:22:08,434 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesReoDplaService.java
+2013-04-11 12:22:08,434 [AWT-EventQueue-0] INFO - Creating: SalSalasService.java
+2013-04-11 12:22:08,434 [AWT-EventQueue-0] INFO - Creating: CatEfectoRecursosService.java
+2013-04-11 12:22:08,435 [AWT-EventQueue-0] INFO - Creating: CuoTipoObjetosService.java
+2013-04-11 12:22:08,435 [AWT-EventQueue-0] INFO - Creating: RecHechosViolenciaService.java
+2013-04-11 12:22:08,435 [AWT-EventQueue-0] INFO - Creating: SalSuspensionAudienciaService.java
+2013-04-11 12:22:08,436 [AWT-EventQueue-0] INFO - Creating: SusParentescosService.java
+2013-04-11 12:22:08,436 [AWT-EventQueue-0] INFO - Creating: CatDetaTiposJuzgadosPorcjiService.java
+2013-04-11 12:22:08,436 [AWT-EventQueue-0] INFO - Creating: LudOperacionesService.java
+2013-04-11 12:22:08,437 [AWT-EventQueue-0] INFO - Creating: ViewgilanciaService.java
+2013-04-11 12:22:08,437 [AWT-EventQueue-0] INFO - Creating: EqmAgendaConvocadosService.java
+2013-04-11 12:22:08,437 [AWT-EventQueue-0] INFO - Creating: VigRecepcionReoService.java
+2013-04-11 12:22:08,438 [AWT-EventQueue-0] INFO - Creating: CatTiposDoctoService.java
+2013-04-11 12:22:08,438 [AWT-EventQueue-0] INFO - Creating: SusDetSolExpService.java
+2013-04-11 12:22:08,438 [AWT-EventQueue-0] INFO - Creating: SusObservacionesService.java
+2013-04-11 12:22:08,439 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoService.java
+2013-04-11 12:22:08,439 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerService.java
+2013-04-11 12:22:08,439 [AWT-EventQueue-0] INFO - Creating: SegModulosService.java
+2013-04-11 12:22:08,440 [AWT-EventQueue-0] INFO - Creating: SusPadresService.java
+2013-04-11 12:22:08,440 [AWT-EventQueue-0] INFO - Creating: VigReosImgService.java
+2013-04-11 12:22:08,440 [AWT-EventQueue-0] INFO - Creating: SusVigilanciaDetenidosService.java
+2013-04-11 12:22:08,441 [AWT-EventQueue-0] INFO - Creating: CatResultAudienciaService.java
+2013-04-11 12:22:08,441 [AWT-EventQueue-0] INFO - Creating: SusSolestaService.java
+2013-04-11 12:22:08,441 [AWT-EventQueue-0] INFO - Creating: VUserRoleService.java
+2013-04-11 12:22:08,442 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosService.java
+2013-04-11 12:22:08,442 [AWT-EventQueue-0] INFO - Creating: CutTipoTituloService.java
+2013-04-11 12:22:08,442 [AWT-EventQueue-0] INFO - Creating: SalInfantesregistradosService.java
+2013-04-11 12:22:08,443 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteService.java
+2013-04-11 12:22:08,443 [AWT-EventQueue-0] INFO - Creating: CatJuecesService.java
+2013-04-11 12:22:08,443 [AWT-EventQueue-0] INFO - Creating: CatTipoInmuebleService.java
+2013-04-11 12:22:08,444 [AWT-EventQueue-0] INFO - Creating: SusDetSolEqmEspecialisService.java
+2013-04-11 12:22:08,444 [AWT-EventQueue-0] INFO - Creating: CatMediosGrabacionService.java
+2013-04-11 12:22:08,444 [AWT-EventQueue-0] INFO - Creating: CatActividadesService.java
+2013-04-11 12:22:08,445 [AWT-EventQueue-0] INFO - Creating: CuoTipoEntregaDefinitivaService.java
+2013-04-11 12:22:08,445 [AWT-EventQueue-0] INFO - Creating: CutTitulosService.java
+2013-04-11 12:22:08,445 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadService.java
+2013-04-11 12:22:08,446 [AWT-EventQueue-0] INFO - Creating: SusDetalleAgendasService.java
+2013-04-11 12:22:08,446 [AWT-EventQueue-0] INFO - Creating: SusDetSolTitulosService.java
+2013-04-11 12:22:08,446 [AWT-EventQueue-0] INFO - Creating: CatMesesService.java
+2013-04-11 12:22:08,447 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresService.java
+2013-04-11 12:22:08,447 [AWT-EventQueue-0] INFO - Creating: CatOficinasCorrAnnioService.java
+2013-04-11 12:22:08,447 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesEmbargoService.java
+2013-04-11 12:22:08,448 [AWT-EventQueue-0] INFO - Creating: SusDetaPenasaccesoriasService.java
+2013-04-11 12:22:08,448 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesVigilanciaService.java
+2013-04-11 12:22:08,448 [AWT-EventQueue-0] INFO - Creating: SusDetaSolEmbargoService.java
+2013-04-11 12:22:08,448 [AWT-EventQueue-0] INFO - Creating: CatAlteracionesFisiologicasService.java
+2013-04-11 12:22:08,449 [AWT-EventQueue-0] INFO - Creating: RecCargaJuecesService.java
+2013-04-11 12:22:08,449 [AWT-EventQueue-0] INFO - Creating: SegUsuariosService.java
+2013-04-11 12:22:08,449 [AWT-EventQueue-0] INFO - Creating: LoginBitacoraService.java
+2013-04-11 12:22:08,450 [AWT-EventQueue-0] INFO - Creating: AccSupervisorsupleService.java
+2013-04-11 12:22:08,450 [AWT-EventQueue-0] INFO - Creating: CatMonedasService.java
+2013-04-11 12:22:08,450 [AWT-EventQueue-0] INFO - Creating: DirDetalleOficinaService.java
+2013-04-11 12:22:08,451 [AWT-EventQueue-0] INFO - Creating: AccSolactoResulestadoService.java
+2013-04-11 12:22:08,451 [AWT-EventQueue-0] INFO - Creating: CatInstanciasService.java
+2013-04-11 12:22:08,451 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosService.java
+2013-04-11 12:22:08,452 [AWT-EventQueue-0] INFO - Creating: CatSectorService.java
+2013-04-11 12:22:08,452 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccService.java
+2013-04-11 12:22:08,452 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasService.java
+2013-04-11 12:22:08,453 [AWT-EventQueue-0] INFO - Creating: CatClasepruebasService.java
+2013-04-11 12:22:08,453 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasService.java
+2013-04-11 12:22:08,453 [AWT-EventQueue-0] INFO - Creating: SegOpcionesUserViewService.java
+2013-04-11 12:22:08,454 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadTipoestService.java
+2013-04-11 12:22:08,454 [AWT-EventQueue-0] INFO - Creating: SusBienesPupiloService.java
+2013-04-11 12:22:08,454 [AWT-EventQueue-0] INFO - Creating: CatVigCarceletasService.java
+2013-04-11 12:22:08,455 [AWT-EventQueue-0] INFO - Creating: CutClaseTituloService.java
+2013-04-11 12:22:08,455 [AWT-EventQueue-0] INFO - Creating: SusDetalleMedidascautelaresService.java
+2013-04-11 12:22:08,455 [AWT-EventQueue-0] INFO - Creating: CutTiposMovimientoService.java
+2013-04-11 12:22:08,456 [AWT-EventQueue-0] INFO - Creating: AdmFormatoService.java
+2013-04-11 12:22:08,456 [AWT-EventQueue-0] INFO - Creating: SusEmbargosService.java
+2013-04-11 12:22:08,456 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoService.java
+2013-04-11 12:22:08,457 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiService.java
+2013-04-11 12:22:08,457 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosService.java
+2013-04-11 12:22:08,457 [AWT-EventQueue-0] INFO - Creating: SusTutoresService.java
+2013-04-11 12:22:08,458 [AWT-EventQueue-0] INFO - Creating: SusResolucionesService.java
+2013-04-11 12:22:08,458 [AWT-EventQueue-0] INFO - Creating: LudPresentaMenorService.java
+2013-04-11 12:22:08,458 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadService.java
+2013-04-11 12:22:08,458 [AWT-EventQueue-0] INFO - Creating: CatTiposDoctoRegexService.java
+2013-04-11 12:22:08,459 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasService.java
+2013-04-11 12:22:08,459 [AWT-EventQueue-0] INFO - Creating: SusViolenciaXParteService.java
+2013-04-11 12:22:08,459 [AWT-EventQueue-0] INFO - Creating: RecBitacoraCargaService.java
+2013-04-11 12:22:08,460 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaService.java
+2013-04-11 12:22:08,460 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioService.java
+2013-04-11 12:22:08,460 [AWT-EventQueue-0] INFO - Creating: CatMotivosSuspensionService.java
+2013-04-11 12:22:08,461 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosService.java
+2013-04-11 12:22:08,461 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorService.java
+2013-04-11 12:22:08,462 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesService.java
+2013-04-11 12:22:08,462 [AWT-EventQueue-0] INFO - Creating: CatGruposturnoJuzgadoAccionService.java
+2013-04-11 12:22:08,462 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilService.java
+2013-04-11 12:22:08,463 [AWT-EventQueue-0] INFO - Creating: HuellaMantenimientoService.java
+2013-04-11 12:22:08,463 [AWT-EventQueue-0] INFO - Creating: SalComparecientesService.java
+2013-04-11 12:22:08,464 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosService.java
+2013-04-11 12:22:08,465 [AWT-EventQueue-0] INFO - Creating: SegMenusService.java
+2013-04-11 12:22:08,465 [AWT-EventQueue-0] INFO - Creating: AccResultadosMedioService.java
+2013-04-11 12:22:08,465 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesService.java
+2013-04-11 12:22:08,466 [AWT-EventQueue-0] INFO - Creating: OacUsuariosasistenciasService.java
+2013-04-11 12:22:08,466 [AWT-EventQueue-0] INFO - Creating: CatSubTipoViolenciaService.java
+2013-04-11 12:22:08,467 [AWT-EventQueue-0] INFO - Creating: BitacoraDiariaLoginService.java
+2013-04-11 12:22:08,467 [AWT-EventQueue-0] INFO - Creating: SusIncompetenciasService.java
+2013-04-11 12:22:08,468 [AWT-EventQueue-0] INFO - Creating: VigVisitaService.java
+2013-04-11 12:22:08,468 [AWT-EventQueue-0] INFO - Creating: CatCalidadSolExpService.java
+2013-04-11 12:22:08,468 [AWT-EventQueue-0] INFO - Creating: CatDenominacionMonedaService.java
+2013-04-11 12:22:08,469 [AWT-EventQueue-0] INFO - Creating: LudArchivosBlobService.java
+2013-04-11 12:22:08,469 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiService.java
+2013-04-11 12:22:08,470 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesService.java
+2013-04-11 12:22:08,470 [AWT-EventQueue-0] INFO - Creating: OdgOrdenDiaService.java
+2013-04-11 12:22:08,471 [AWT-EventQueue-0] INFO - Creating: EqmTiposGestionesService.java
+2013-04-11 12:22:08,471 [AWT-EventQueue-0] INFO - Creating: CatNumeroService.java
+2013-04-11 12:22:08,471 [AWT-EventQueue-0] INFO - Creating: CatGruposJuzgadoAccionService.java
+2013-04-11 12:22:08,472 [AWT-EventQueue-0] INFO - Creating: CatEjecutoresService.java
+2013-04-11 12:22:08,472 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosService.java
+2013-04-11 12:22:08,473 [AWT-EventQueue-0] INFO - Creating: SalAsistentesaudienciasService.java
+2013-04-11 12:22:08,473 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasService.java
+2013-04-11 12:22:08,474 [AWT-EventQueue-0] INFO - Creating: DirDepartamentoService.java
+2013-04-11 12:22:08,474 [AWT-EventQueue-0] INFO - Creating: OdgActasService.java
+2013-04-11 12:22:13,780 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-04-11 12:22:35,651 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 12:22:35,652 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.entities
+2013-04-11 12:22:35,652 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/entities
+2013-04-11 12:22:35,652 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services
+2013-04-11 12:22:35,652 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services/impl
+2013-04-11 12:22:35,652 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.services.impl
+2013-04-11 12:22:38,452 [AWT-EventQueue-0] INFO - Creating: CatCalidadIntervinientesServiceImpl.java
+2013-04-11 12:22:38,465 [AWT-EventQueue-0] INFO - Creating: VigTrasladoInternoServiceImpl.java
+2013-04-11 12:22:38,466 [AWT-EventQueue-0] INFO - Creating: SalAudienciasServiceImpl.java
+2013-04-11 12:22:38,467 [AWT-EventQueue-0] INFO - Creating: AccRutasServiceImpl.java
+2013-04-11 12:22:38,467 [AWT-EventQueue-0] INFO - Creating: CatTipoAudienciaServiceImpl.java
+2013-04-11 12:22:38,468 [AWT-EventQueue-0] INFO - Creating: DplActividadServiceImpl.java
+2013-04-11 12:22:38,468 [AWT-EventQueue-0] INFO - Creating: CatEscalaMaltratoServiceImpl.java
+2013-04-11 12:22:38,469 [AWT-EventQueue-0] INFO - Creating: EqmSolInfantilServiceImpl.java
+2013-04-11 12:22:38,469 [AWT-EventQueue-0] INFO - Creating: VigEstadoServiceImpl.java
+2013-04-11 12:22:38,470 [AWT-EventQueue-0] INFO - Creating: AccReasignacionnotificadorServiceImpl.java
+2013-04-11 12:22:38,470 [AWT-EventQueue-0] INFO - Creating: EqmOrientacionServiciosServiceImpl.java
+2013-04-11 12:22:38,471 [AWT-EventQueue-0] INFO - Creating: AccTipoactosMedioServiceImpl.java
+2013-04-11 12:22:38,471 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiServiceImpl.java
+2013-04-11 12:22:38,472 [AWT-EventQueue-0] INFO - Creating: CuoObjetosSecuestradosServiceImpl.java
+2013-04-11 12:22:38,472 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorServiceImpl.java
+2013-04-11 12:22:38,473 [AWT-EventQueue-0] INFO - Creating: CatVigVisitasServiceImpl.java
+2013-04-11 12:22:38,473 [AWT-EventQueue-0] INFO - Creating: SusControlPenasServiceImpl.java
+2013-04-11 12:22:38,474 [AWT-EventQueue-0] INFO - Creating: SegUsuarioRolesServiceImpl.java
+2013-04-11 12:22:38,475 [AWT-EventQueue-0] INFO - Creating: CatTiposOrientacionesServiceImpl.java
+2013-04-11 12:22:38,475 [AWT-EventQueue-0] INFO - Creating: SalHistorialasistenteServiceImpl.java
+2013-04-11 12:22:38,475 [AWT-EventQueue-0] INFO - Creating: CatTipoObligacionesFamiliaServiceImpl.java
+2013-04-11 12:22:38,476 [AWT-EventQueue-0] INFO - Creating: CatCjiArchivosServiceImpl.java
+2013-04-11 12:22:38,476 [AWT-EventQueue-0] INFO - Creating: RecEscritosServiceImpl.java
+2013-04-11 12:22:38,477 [AWT-EventQueue-0] INFO - Creating: AccUsuarioSeguimientoServiceImpl.java
+2013-04-11 12:22:38,477 [AWT-EventQueue-0] INFO - Creating: CatTipoMedidaServiceImpl.java
+2013-04-11 12:22:38,477 [AWT-EventQueue-0] INFO - Creating: CuoTiposMovimientoServiceImpl.java
+2013-04-11 12:22:38,478 [AWT-EventQueue-0] INFO - Creating: SusActuacionesExpServiceImpl.java
+2013-04-11 12:22:38,478 [AWT-EventQueue-0] INFO - Creating: CatTipoAsistenciaJuridicaServiceImpl.java
+2013-04-11 12:22:38,479 [AWT-EventQueue-0] INFO - Creating: EqmAgendaEspecialistaServiceImpl.java
+2013-04-11 12:22:38,479 [AWT-EventQueue-0] INFO - Creating: RecPartesServiceImpl.java
+2013-04-11 12:22:38,480 [AWT-EventQueue-0] INFO - Creating: CatNivelEscolaridadServiceImpl.java
+2013-04-11 12:22:38,480 [AWT-EventQueue-0] INFO - Creating: AccCrvServiceImpl.java
+2013-04-11 12:22:38,481 [AWT-EventQueue-0] INFO - Creating: AccImpresionesServiceImpl.java
+2013-04-11 12:22:38,481 [AWT-EventQueue-0] INFO - Creating: RecEscritosDoctosServiceImpl.java
+2013-04-11 12:22:38,481 [AWT-EventQueue-0] INFO - Creating: CatAccionesServiceImpl.java
+2013-04-11 12:22:38,482 [AWT-EventQueue-0] INFO - Creating: CatCondEmocionalServiceImpl.java
+2013-04-11 12:22:38,482 [AWT-EventQueue-0] INFO - Creating: CatEqmTipoDiligServiceImpl.java
+2013-04-11 12:22:38,483 [AWT-EventQueue-0] INFO - Creating: SalServiciossolicitudesServiceImpl.java
+2013-04-11 12:22:38,483 [AWT-EventQueue-0] INFO - Creating: OdgSesionesServiceImpl.java
+2013-04-11 12:22:38,484 [AWT-EventQueue-0] INFO - Creating: AccEstadonotificacionServiceImpl.java
+2013-04-11 12:22:38,484 [AWT-EventQueue-0] INFO - Creating: SalMediosAudienciasServiceImpl.java
+2013-04-11 12:22:38,484 [AWT-EventQueue-0] INFO - Creating: SegOpcionesRolesServiceImpl.java
+2013-04-11 12:22:38,485 [AWT-EventQueue-0] INFO - Creating: CatOficinasServiceImpl.java
+2013-04-11 12:22:38,485 [AWT-EventQueue-0] INFO - Creating: CatCjiServiceImpl.java
+2013-04-11 12:22:38,486 [AWT-EventQueue-0] INFO - Creating: OacServiciosServiceImpl.java
+2013-04-11 12:22:38,486 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesObjetosServiceImpl.java
+2013-04-11 12:22:38,486 [AWT-EventQueue-0] INFO - Creating: VigServiciosVigilanciaServiceImpl.java
+2013-04-11 12:22:38,487 [AWT-EventQueue-0] INFO - Creating: CuoCustodiaEfectivoServiceImpl.java
+2013-04-11 12:22:38,487 [AWT-EventQueue-0] INFO - Creating: RecExpedientesServiceImpl.java
+2013-04-11 12:22:38,488 [AWT-EventQueue-0] INFO - Creating: SusDiligenciamientosServiceImpl.java
+2013-04-11 12:22:38,488 [AWT-EventQueue-0] INFO - Creating: SusPiezasPrestadasServiceImpl.java
+2013-04-11 12:22:38,489 [AWT-EventQueue-0] INFO - Creating: AccMediosComunicacionServiceImpl.java
+2013-04-11 12:22:38,490 [AWT-EventQueue-0] INFO - Creating: OdgAsambleasServiceImpl.java
+2013-04-11 12:22:38,490 [AWT-EventQueue-0] INFO - Creating: CatTipoPruebasServiceImpl.java
+2013-04-11 12:22:38,491 [AWT-EventQueue-0] INFO - Creating: CatTiposFalloServiceImpl.java
+2013-04-11 12:22:38,491 [AWT-EventQueue-0] INFO - Creating: SegRolesServiceImpl.java
+2013-04-11 12:22:38,492 [AWT-EventQueue-0] INFO - Creating: CatCalidadXOfiJuzServiceImpl.java
+2013-04-11 12:22:38,492 [AWT-EventQueue-0] INFO - Creating: SusMedidasServiceImpl.java
+2013-04-11 12:22:38,493 [AWT-EventQueue-0] INFO - Creating: RecSolicitudesExpViewServiceImpl.java
+2013-04-11 12:22:38,494 [AWT-EventQueue-0] INFO - Creating: CatDiligenciasServiceImpl.java
+2013-04-11 12:22:38,494 [AWT-EventQueue-0] INFO - Creating: AccMapasServiceImpl.java
+2013-04-11 12:22:38,494 [AWT-EventQueue-0] INFO - Creating: CatMinutosServiceImpl.java
+2013-04-11 12:22:38,495 [AWT-EventQueue-0] INFO - Creating: SusDetaDiligenciamientosServiceImpl.java
+2013-04-11 12:22:38,495 [AWT-EventQueue-0] INFO - Creating: SusVigilanciaServiciosServiceImpl.java
+2013-04-11 12:22:38,496 [AWT-EventQueue-0] INFO - Creating: AccConsultaestadosServiceImpl.java
+2013-04-11 12:22:38,496 [AWT-EventQueue-0] INFO - Creating: DetaJuzgadosReasignacionServiceImpl.java
+2013-04-11 12:22:38,496 [AWT-EventQueue-0] INFO - Creating: DirUsuarioServiceImpl.java
+2013-04-11 12:22:38,497 [AWT-EventQueue-0] INFO - Creating: CatAniosServiceImpl.java
+2013-04-11 12:22:38,497 [AWT-EventQueue-0] INFO - Creating: SusObligacionesFamiliaServiceImpl.java
+2013-04-11 12:22:38,498 [AWT-EventQueue-0] INFO - Creating: SusActuacionesServiceImpl.java
+2013-04-11 12:22:38,498 [AWT-EventQueue-0] INFO - Creating: SusTiposResolucionesServiceImpl.java
+2013-04-11 12:22:38,499 [AWT-EventQueue-0] INFO - Creating: CatLugaresHechosViolenciaServiceImpl.java
+2013-04-11 12:22:38,499 [AWT-EventQueue-0] INFO - Creating: CatVigAgentesServiceImpl.java
+2013-04-11 12:22:38,499 [AWT-EventQueue-0] INFO - Creating: CatReportesEstServiceImpl.java
+2013-04-11 12:22:38,500 [AWT-EventQueue-0] INFO - Creating: SusMediosPruebaServiceImpl.java
+2013-04-11 12:22:38,500 [AWT-EventQueue-0] INFO - Creating: SusAgendasServiceImpl.java
+2013-04-11 12:22:38,501 [AWT-EventQueue-0] INFO - Creating: SalCuidadosdeinfantesServiceImpl.java
+2013-04-11 12:22:38,501 [AWT-EventQueue-0] INFO - Creating: CatTipomaterialviviServiceImpl.java
+2013-04-11 12:22:38,502 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasServiceImpl.java
+2013-04-11 12:22:38,502 [AWT-EventQueue-0] INFO - Creating: CatInstitucionesServiceImpl.java
+2013-04-11 12:22:38,503 [AWT-EventQueue-0] INFO - Creating: SegUrlServiceImpl.java
+2013-04-11 12:22:38,503 [AWT-EventQueue-0] INFO - Creating: DirCatOficinaServiceImpl.java
+2013-04-11 12:22:38,504 [AWT-EventQueue-0] INFO - Creating: SusDetalleLiquidacionesServiceImpl.java
+2013-04-11 12:22:38,504 [AWT-EventQueue-0] INFO - Creating: OdgActuacionesServiceImpl.java
+2013-04-11 12:22:38,505 [AWT-EventQueue-0] INFO - Creating: SusInteresesServiceImpl.java
+2013-04-11 12:22:38,505 [AWT-EventQueue-0] INFO - Creating: CatPenasServiceImpl.java
+2013-04-11 12:22:38,506 [AWT-EventQueue-0] INFO - Creating: SalServiciosServiceImpl.java
+2013-04-11 12:22:38,506 [AWT-EventQueue-0] INFO - Creating: AccResultadosnotificacionServiceImpl.java
+2013-04-11 12:22:38,507 [AWT-EventQueue-0] INFO - Creating: BitacoraServiceImpl.java
+2013-04-11 12:22:38,507 [AWT-EventQueue-0] INFO - Creating: CatHorasServiceImpl.java
+2013-04-11 12:22:38,508 [AWT-EventQueue-0] INFO - Creating: CatPaisesServiceImpl.java
+2013-04-11 12:22:38,508 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherRolesServiceImpl.java
+2013-04-11 12:22:38,508 [AWT-EventQueue-0] INFO - Creating: CutMovTituloServiceImpl.java
+2013-04-11 12:22:38,509 [AWT-EventQueue-0] INFO - Creating: AccMedioTiposSolServiceImpl.java
+2013-04-11 12:22:38,509 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresServiceImpl.java
+2013-04-11 12:22:38,510 [AWT-EventQueue-0] INFO - Creating: CatTurnoJuzgadosServiceImpl.java
+2013-04-11 12:22:38,510 [AWT-EventQueue-0] INFO - Creating: DirMunicipioServiceImpl.java
+2013-04-11 12:22:38,511 [AWT-EventQueue-0] INFO - Creating: EqmGestionesEstudiosServiceImpl.java
+2013-04-11 12:22:38,511 [AWT-EventQueue-0] INFO - Creating: EmbHistorialEmbargosBienesServiceImpl.java
+2013-04-11 12:22:38,511 [AWT-EventQueue-0] INFO - Creating: SusTutelasServiceImpl.java
+2013-04-11 12:22:38,512 [AWT-EventQueue-0] INFO - Creating: AccSolicitudesServiceImpl.java
+2013-04-11 12:22:38,512 [AWT-EventQueue-0] INFO - Creating: DplMaterialviviendaServiceImpl.java
+2013-04-11 12:22:38,513 [AWT-EventQueue-0] INFO - Creating: InstitucionJuzgadoViewServiceImpl.java
+2013-04-11 12:22:38,513 [AWT-EventQueue-0] INFO - Creating: AccTipoinformeServiceImpl.java
+2013-04-11 12:22:38,514 [AWT-EventQueue-0] INFO - Creating: CatTipovehiculoServiceImpl.java
+2013-04-11 12:22:38,514 [AWT-EventQueue-0] INFO - Creating: SusAsignColaboradoresServiceImpl.java
+2013-04-11 12:22:38,514 [AWT-EventQueue-0] INFO - Creating: SusLiquidacionesServiceImpl.java
+2013-04-11 12:22:38,515 [AWT-EventQueue-0] INFO - Creating: VigAgenteSolicitudServiceImpl.java
+2013-04-11 12:22:38,515 [AWT-EventQueue-0] INFO - Creating: AccActaServiceImpl.java
+2013-04-11 12:22:38,516 [AWT-EventQueue-0] INFO - Creating: OdgGestionActuacionesServiceImpl.java
+2013-04-11 12:22:38,516 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUsersServiceImpl.java
+2013-04-11 12:22:38,517 [AWT-EventQueue-0] INFO - Creating: SalRecesosaudienciaServiceImpl.java
+2013-04-11 12:22:38,518 [AWT-EventQueue-0] INFO - Creating: SusPrestacionesLaboralesServiceImpl.java
+2013-04-11 12:22:38,518 [AWT-EventQueue-0] INFO - Creating: CatAptitudesServiceImpl.java
+2013-04-11 12:22:38,519 [AWT-EventQueue-0] INFO - Creating: SusOtrasAccionesServiceImpl.java
+2013-04-11 12:22:38,519 [AWT-EventQueue-0] INFO - Creating: IyeSolicitudServiceImpl.java
+2013-04-11 12:22:38,520 [AWT-EventQueue-0] INFO - Creating: EmbHistorialEmbargosServiceImpl.java
+2013-04-11 12:22:38,520 [AWT-EventQueue-0] INFO - Creating: AccNotificacionServiceImpl.java
+2013-04-11 12:22:38,521 [AWT-EventQueue-0] INFO - Creating: SusSolActosServiceImpl.java
+2013-04-11 12:22:38,522 [AWT-EventQueue-0] INFO - Creating: CatTipoRecursosServiceImpl.java
+2013-04-11 12:22:38,522 [AWT-EventQueue-0] INFO - Creating: SusSolTitulosServiceImpl.java
+2013-04-11 12:22:38,522 [AWT-EventQueue-0] INFO - Creating: CatMedidasSeguridadServiceImpl.java
+2013-04-11 12:22:38,523 [AWT-EventQueue-0] INFO - Creating: SusPrestacionesDetalleServiceImpl.java
+2013-04-11 12:22:38,523 [AWT-EventQueue-0] INFO - Creating: CatJuzgadoAccionServiceImpl.java
+2013-04-11 12:22:38,524 [AWT-EventQueue-0] INFO - Creating: CatInmueblesServiceImpl.java
+2013-04-11 12:22:38,524 [AWT-EventQueue-0] INFO - Creating: AccZonasServiceImpl.java
+2013-04-11 12:22:38,524 [AWT-EventQueue-0] INFO - Creating: CatManequipoServiceImpl.java
+2013-04-11 12:22:38,525 [AWT-EventQueue-0] INFO - Creating: VigServiciosEstadosolServiceImpl.java
+2013-04-11 12:22:38,525 [AWT-EventQueue-0] INFO - Creating: SusActasDeliberacionServiceImpl.java
+2013-04-11 12:22:38,525 [AWT-EventQueue-0] INFO - Creating: AccCalidadfuncionServiceImpl.java
+2013-04-11 12:22:38,526 [AWT-EventQueue-0] INFO - Creating: CatUnidadesMedidaServiceImpl.java
+2013-04-11 12:22:38,526 [AWT-EventQueue-0] INFO - Creating: DplEvaluacionServiceImpl.java
+2013-04-11 12:22:38,527 [AWT-EventQueue-0] INFO - Creating: SusRecursosServiceImpl.java
+2013-04-11 12:22:38,527 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresServiceImpl.java
+2013-04-11 12:22:38,527 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosMateriasServiceImpl.java
+2013-04-11 12:22:38,528 [AWT-EventQueue-0] INFO - Creating: SusDetSolEquiposServiceImpl.java
+2013-04-11 12:22:38,528 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasEstudiosServiceImpl.java
+2013-04-11 12:22:38,529 [AWT-EventQueue-0] INFO - Creating: AccNotificacionessolicitudServiceImpl.java
+2013-04-11 12:22:38,529 [AWT-EventQueue-0] INFO - Creating: AccNotificadoresServiceImpl.java
+2013-04-11 12:22:38,530 [AWT-EventQueue-0] INFO - Creating: DplManejoequipoServiceImpl.java
+2013-04-11 12:22:38,530 [AWT-EventQueue-0] INFO - Creating: CatFechasNoLaborablesServiceImpl.java
+2013-04-11 12:22:38,531 [AWT-EventQueue-0] INFO - Creating: CatMunicipiosServiceImpl.java
+2013-04-11 12:22:38,531 [AWT-EventQueue-0] INFO - Creating: DplDiagnosticoServiceImpl.java
+2013-04-11 12:22:38,532 [AWT-EventQueue-0] INFO - Creating: SusSolExpedienteServiceImpl.java
+2013-04-11 12:22:38,533 [AWT-EventQueue-0] INFO - Creating: SegOpcionesServiceImpl.java
+2013-04-11 12:22:38,533 [AWT-EventQueue-0] INFO - Creating: CatBeneficiosServiceImpl.java
+2013-04-11 12:22:38,534 [AWT-EventQueue-0] INFO - Creating: CuoEstadoObjetosServiceImpl.java
+2013-04-11 12:22:38,534 [AWT-EventQueue-0] INFO - Creating: EqmHistoEspecialistaServiceImpl.java
+2013-04-11 12:22:38,535 [AWT-EventQueue-0] INFO - Creating: SusEtapasProcesalesServiceImpl.java
+2013-04-11 12:22:38,535 [AWT-EventQueue-0] INFO - Creating: AccTiposactoscomunicacionServiceImpl.java
+2013-04-11 12:22:38,536 [AWT-EventQueue-0] INFO - Creating: VigServiciosServiceImpl.java
+2013-04-11 12:22:38,536 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesSalaServiceImpl.java
+2013-04-11 12:22:38,537 [AWT-EventQueue-0] INFO - Creating: VigCentroDetencionServiceImpl.java
+2013-04-11 12:22:38,537 [AWT-EventQueue-0] INFO - Creating: SusAbonosServiceImpl.java
+2013-04-11 12:22:38,538 [AWT-EventQueue-0] INFO - Creating: CatMotivoMultaServiceImpl.java
+2013-04-11 12:22:38,538 [AWT-EventQueue-0] INFO - Creating: SusDetalleComisionesServiceImpl.java
+2013-04-11 12:22:38,539 [AWT-EventQueue-0] INFO - Creating: CatJuecesHistorialServiceImpl.java
+2013-04-11 12:22:38,539 [AWT-EventQueue-0] INFO - Creating: OdgConvocadosServiceImpl.java
+2013-04-11 12:22:38,539 [AWT-EventQueue-0] INFO - Creating: EmbEmbargosControlServiceImpl.java
+2013-04-11 12:22:38,540 [AWT-EventQueue-0] INFO - Creating: DplAptitudesServiceImpl.java
+2013-04-11 12:22:38,540 [AWT-EventQueue-0] INFO - Creating: AccColoniasServiceImpl.java
+2013-04-11 12:22:38,540 [AWT-EventQueue-0] INFO - Creating: CatFijarCartelServiceImpl.java
+2013-04-11 12:22:38,541 [AWT-EventQueue-0] INFO - Creating: SusDetaSoliObjetosServiceImpl.java
+2013-04-11 12:22:38,541 [AWT-EventQueue-0] INFO - Creating: CatMateriasServiceImpl.java
+2013-04-11 12:22:38,542 [AWT-EventQueue-0] INFO - Creating: AccTipoactosCalidadfxServiceImpl.java
+2013-04-11 12:22:38,542 [AWT-EventQueue-0] INFO - Creating: SusCostasProcesalesServiceImpl.java
+2013-04-11 12:22:38,542 [AWT-EventQueue-0] INFO - Creating: AccSolActosResultadosServiceImpl.java
+2013-04-11 12:22:38,543 [AWT-EventQueue-0] INFO - Creating: SusTipoAudienciaServiceImpl.java
+2013-04-11 12:22:38,543 [AWT-EventQueue-0] INFO - Creating: SusMedidasCautelaresServiceImpl.java
+2013-04-11 12:22:38,543 [AWT-EventQueue-0] INFO - Creating: SegCjiUsuariosServiceImpl.java
+2013-04-11 12:22:38,544 [AWT-EventQueue-0] INFO - Creating: CuoCalidadObjetoServiceImpl.java
+2013-04-11 12:22:38,544 [AWT-EventQueue-0] INFO - Creating: CatArchivosServiceImpl.java
+2013-04-11 12:22:38,544 [AWT-EventQueue-0] INFO - Creating: CatTipoViolenciaServiceImpl.java
+2013-04-11 12:22:38,545 [AWT-EventQueue-0] INFO - Creating: CatBienesServiceImpl.java
+2013-04-11 12:22:38,545 [AWT-EventQueue-0] INFO - Creating: CatTenenciaviviServiceImpl.java
+2013-04-11 12:22:38,545 [AWT-EventQueue-0] INFO - Creating: CatSolicitudesServiceImpl.java
+2013-04-11 12:22:38,546 [AWT-EventQueue-0] INFO - Creating: RecEstadosServiceImpl.java
+2013-04-11 12:22:38,546 [AWT-EventQueue-0] INFO - Creating: SusHistorialOtrasAccionesServiceImpl.java
+2013-04-11 12:22:38,547 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosServiceImpl.java
+2013-04-11 12:22:38,547 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesReoDplaServiceImpl.java
+2013-04-11 12:22:38,547 [AWT-EventQueue-0] INFO - Creating: SalSalasServiceImpl.java
+2013-04-11 12:22:38,548 [AWT-EventQueue-0] INFO - Creating: CatEfectoRecursosServiceImpl.java
+2013-04-11 12:22:38,548 [AWT-EventQueue-0] INFO - Creating: CuoTipoObjetosServiceImpl.java
+2013-04-11 12:22:38,548 [AWT-EventQueue-0] INFO - Creating: RecHechosViolenciaServiceImpl.java
+2013-04-11 12:22:38,549 [AWT-EventQueue-0] INFO - Creating: SalSuspensionAudienciaServiceImpl.java
+2013-04-11 12:22:38,549 [AWT-EventQueue-0] INFO - Creating: SusParentescosServiceImpl.java
+2013-04-11 12:22:38,550 [AWT-EventQueue-0] INFO - Creating: CatDetaTiposJuzgadosPorcjiServiceImpl.java
+2013-04-11 12:22:38,550 [AWT-EventQueue-0] INFO - Creating: LudOperacionesServiceImpl.java
+2013-04-11 12:22:38,550 [AWT-EventQueue-0] INFO - Creating: ViewgilanciaServiceImpl.java
+2013-04-11 12:22:38,551 [AWT-EventQueue-0] INFO - Creating: EqmAgendaConvocadosServiceImpl.java
+2013-04-11 12:22:38,551 [AWT-EventQueue-0] INFO - Creating: VigRecepcionReoServiceImpl.java
+2013-04-11 12:22:38,552 [AWT-EventQueue-0] INFO - Creating: CatTiposDoctoServiceImpl.java
+2013-04-11 12:22:38,552 [AWT-EventQueue-0] INFO - Creating: SusDetSolExpServiceImpl.java
+2013-04-11 12:22:38,553 [AWT-EventQueue-0] INFO - Creating: SusObservacionesServiceImpl.java
+2013-04-11 12:22:38,553 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoServiceImpl.java
+2013-04-11 12:22:38,553 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherLoggerServiceImpl.java
+2013-04-11 12:22:38,554 [AWT-EventQueue-0] INFO - Creating: SegModulosServiceImpl.java
+2013-04-11 12:22:38,554 [AWT-EventQueue-0] INFO - Creating: SusPadresServiceImpl.java
+2013-04-11 12:22:38,554 [AWT-EventQueue-0] INFO - Creating: VigReosImgServiceImpl.java
+2013-04-11 12:22:38,555 [AWT-EventQueue-0] INFO - Creating: SusVigilanciaDetenidosServiceImpl.java
+2013-04-11 12:22:38,555 [AWT-EventQueue-0] INFO - Creating: CatResultAudienciaServiceImpl.java
+2013-04-11 12:22:38,555 [AWT-EventQueue-0] INFO - Creating: SusSolestaServiceImpl.java
+2013-04-11 12:22:38,556 [AWT-EventQueue-0] INFO - Creating: VUserRoleServiceImpl.java
+2013-04-11 12:22:38,556 [AWT-EventQueue-0] INFO - Creating: CatTiposUsuariosServiceImpl.java
+2013-04-11 12:22:38,556 [AWT-EventQueue-0] INFO - Creating: CutTipoTituloServiceImpl.java
+2013-04-11 12:22:38,556 [AWT-EventQueue-0] INFO - Creating: SalInfantesregistradosServiceImpl.java
+2013-04-11 12:22:38,557 [AWT-EventQueue-0] INFO - Creating: CueMovExpedienteServiceImpl.java
+2013-04-11 12:22:38,557 [AWT-EventQueue-0] INFO - Creating: CatJuecesServiceImpl.java
+2013-04-11 12:22:38,557 [AWT-EventQueue-0] INFO - Creating: CatTipoInmuebleServiceImpl.java
+2013-04-11 12:22:38,558 [AWT-EventQueue-0] INFO - Creating: SusDetSolEqmEspecialisServiceImpl.java
+2013-04-11 12:22:38,558 [AWT-EventQueue-0] INFO - Creating: CatMediosGrabacionServiceImpl.java
+2013-04-11 12:22:38,558 [AWT-EventQueue-0] INFO - Creating: CatActividadesServiceImpl.java
+2013-04-11 12:22:38,559 [AWT-EventQueue-0] INFO - Creating: CuoTipoEntregaDefinitivaServiceImpl.java
+2013-04-11 12:22:38,559 [AWT-EventQueue-0] INFO - Creating: CutTitulosServiceImpl.java
+2013-04-11 12:22:38,559 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadServiceImpl.java
+2013-04-11 12:22:38,560 [AWT-EventQueue-0] INFO - Creating: SusDetalleAgendasServiceImpl.java
+2013-04-11 12:22:38,560 [AWT-EventQueue-0] INFO - Creating: SusDetSolTitulosServiceImpl.java
+2013-04-11 12:22:38,561 [AWT-EventQueue-0] INFO - Creating: CatMesesServiceImpl.java
+2013-04-11 12:22:38,561 [AWT-EventQueue-0] INFO - Creating: CatEstadosFamiliaresServiceImpl.java
+2013-04-11 12:22:38,561 [AWT-EventQueue-0] INFO - Creating: CatOficinasCorrAnnioServiceImpl.java
+2013-04-11 12:22:38,562 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesEmbargoServiceImpl.java
+2013-04-11 12:22:38,562 [AWT-EventQueue-0] INFO - Creating: SusDetaPenasaccesoriasServiceImpl.java
+2013-04-11 12:22:38,562 [AWT-EventQueue-0] INFO - Creating: SusSolicitudesVigilanciaServiceImpl.java
+2013-04-11 12:22:38,563 [AWT-EventQueue-0] INFO - Creating: SusDetaSolEmbargoServiceImpl.java
+2013-04-11 12:22:38,563 [AWT-EventQueue-0] INFO - Creating: CatAlteracionesFisiologicasServiceImpl.java
+2013-04-11 12:22:38,564 [AWT-EventQueue-0] INFO - Creating: RecCargaJuecesServiceImpl.java
+2013-04-11 12:22:38,564 [AWT-EventQueue-0] INFO - Creating: SegUsuariosServiceImpl.java
+2013-04-11 12:22:38,564 [AWT-EventQueue-0] INFO - Creating: LoginBitacoraServiceImpl.java
+2013-04-11 12:22:38,565 [AWT-EventQueue-0] INFO - Creating: AccSupervisorsupleServiceImpl.java
+2013-04-11 12:22:38,565 [AWT-EventQueue-0] INFO - Creating: CatMonedasServiceImpl.java
+2013-04-11 12:22:38,566 [AWT-EventQueue-0] INFO - Creating: DirDetalleOficinaServiceImpl.java
+2013-04-11 12:22:38,566 [AWT-EventQueue-0] INFO - Creating: AccSolactoResulestadoServiceImpl.java
+2013-04-11 12:22:38,566 [AWT-EventQueue-0] INFO - Creating: CatInstanciasServiceImpl.java
+2013-04-11 12:22:38,567 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosServiceImpl.java
+2013-04-11 12:22:38,567 [AWT-EventQueue-0] INFO - Creating: CatSectorServiceImpl.java
+2013-04-11 12:22:38,568 [AWT-EventQueue-0] INFO - Creating: SusEstadosSolAccServiceImpl.java
+2013-04-11 12:22:38,568 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasJuridicasServiceImpl.java
+2013-04-11 12:22:38,568 [AWT-EventQueue-0] INFO - Creating: CatClasepruebasServiceImpl.java
+2013-04-11 12:22:38,569 [AWT-EventQueue-0] INFO - Creating: OacAsistenciasbrindasServiceImpl.java
+2013-04-11 12:22:38,569 [AWT-EventQueue-0] INFO - Creating: SegOpcionesUserViewServiceImpl.java
+2013-04-11 12:22:38,570 [AWT-EventQueue-0] INFO - Creating: CatEqmEspecialidadTipoestServiceImpl.java
+2013-04-11 12:22:38,570 [AWT-EventQueue-0] INFO - Creating: SusBienesPupiloServiceImpl.java
+2013-04-11 12:22:38,570 [AWT-EventQueue-0] INFO - Creating: CatVigCarceletasServiceImpl.java
+2013-04-11 12:22:38,571 [AWT-EventQueue-0] INFO - Creating: CutClaseTituloServiceImpl.java
+2013-04-11 12:22:38,571 [AWT-EventQueue-0] INFO - Creating: SusDetalleMedidascautelaresServiceImpl.java
+2013-04-11 12:22:38,571 [AWT-EventQueue-0] INFO - Creating: CutTiposMovimientoServiceImpl.java
+2013-04-11 12:22:38,572 [AWT-EventQueue-0] INFO - Creating: AdmFormatoServiceImpl.java
+2013-04-11 12:22:38,572 [AWT-EventQueue-0] INFO - Creating: SusEmbargosServiceImpl.java
+2013-04-11 12:22:38,573 [AWT-EventQueue-0] INFO - Creating: CatTipoEventoServiceImpl.java
+2013-04-11 12:22:38,573 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiServiceImpl.java
+2013-04-11 12:22:38,573 [AWT-EventQueue-0] INFO - Creating: EqmEstudiosServiceImpl.java
+2013-04-11 12:22:38,574 [AWT-EventQueue-0] INFO - Creating: SusTutoresServiceImpl.java
+2013-04-11 12:22:38,574 [AWT-EventQueue-0] INFO - Creating: SusResolucionesServiceImpl.java
+2013-04-11 12:22:38,574 [AWT-EventQueue-0] INFO - Creating: LudPresentaMenorServiceImpl.java
+2013-04-11 12:22:38,575 [AWT-EventQueue-0] INFO - Creating: CatEnfermedadServiceImpl.java
+2013-04-11 12:22:38,575 [AWT-EventQueue-0] INFO - Creating: CatTiposDoctoRegexServiceImpl.java
+2013-04-11 12:22:38,575 [AWT-EventQueue-0] INFO - Creating: EqmEspecialistasServiceImpl.java
+2013-04-11 12:22:38,576 [AWT-EventQueue-0] INFO - Creating: SusViolenciaXParteServiceImpl.java
+2013-04-11 12:22:38,576 [AWT-EventQueue-0] INFO - Creating: RecBitacoraCargaServiceImpl.java
+2013-04-11 12:22:38,577 [AWT-EventQueue-0] INFO - Creating: CatResidenciaVictimaServiceImpl.java
+2013-04-11 12:22:38,577 [AWT-EventQueue-0] INFO - Creating: EqmTiposEstudioServiceImpl.java
+2013-04-11 12:22:38,577 [AWT-EventQueue-0] INFO - Creating: CatMotivosSuspensionServiceImpl.java
+2013-04-11 12:22:38,578 [AWT-EventQueue-0] INFO - Creating: CatDoctoEscritosServiceImpl.java
+2013-04-11 12:22:38,578 [AWT-EventQueue-0] INFO - Creating: CatEstadoAgresorServiceImpl.java
+2013-04-11 12:22:38,578 [AWT-EventQueue-0] INFO - Creating: SigjuPatcherUserRolesServiceImpl.java
+2013-04-11 12:22:38,579 [AWT-EventQueue-0] INFO - Creating: CatGruposturnoJuzgadoAccionServiceImpl.java
+2013-04-11 12:22:38,579 [AWT-EventQueue-0] INFO - Creating: EqmDetSolInfantilServiceImpl.java
+2013-04-11 12:22:38,579 [AWT-EventQueue-0] INFO - Creating: HuellaMantenimientoServiceImpl.java
+2013-04-11 12:22:38,580 [AWT-EventQueue-0] INFO - Creating: SalComparecientesServiceImpl.java
+2013-04-11 12:22:38,580 [AWT-EventQueue-0] INFO - Creating: CatProfesionesOficiosServiceImpl.java
+2013-04-11 12:22:38,580 [AWT-EventQueue-0] INFO - Creating: SegMenusServiceImpl.java
+2013-04-11 12:22:38,581 [AWT-EventQueue-0] INFO - Creating: AccResultadosMedioServiceImpl.java
+2013-04-11 12:22:38,581 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesServiceImpl.java
+2013-04-11 12:22:38,581 [AWT-EventQueue-0] INFO - Creating: OacUsuariosasistenciasServiceImpl.java
+2013-04-11 12:22:38,581 [AWT-EventQueue-0] INFO - Creating: CatSubTipoViolenciaServiceImpl.java
+2013-04-11 12:22:38,582 [AWT-EventQueue-0] INFO - Creating: BitacoraDiariaLoginServiceImpl.java
+2013-04-11 12:22:38,582 [AWT-EventQueue-0] INFO - Creating: SusIncompetenciasServiceImpl.java
+2013-04-11 12:22:38,582 [AWT-EventQueue-0] INFO - Creating: VigVisitaServiceImpl.java
+2013-04-11 12:22:38,582 [AWT-EventQueue-0] INFO - Creating: CatCalidadSolExpServiceImpl.java
+2013-04-11 12:22:38,582 [AWT-EventQueue-0] INFO - Creating: CatDenominacionMonedaServiceImpl.java
+2013-04-11 12:22:38,583 [AWT-EventQueue-0] INFO - Creating: LudArchivosBlobServiceImpl.java
+2013-04-11 12:22:38,583 [AWT-EventQueue-0] INFO - Creating: SusSolEquiposMultiServiceImpl.java
+2013-04-11 12:22:38,583 [AWT-EventQueue-0] INFO - Creating: SegAplicacionesServiceImpl.java
+2013-04-11 12:22:38,583 [AWT-EventQueue-0] INFO - Creating: OdgOrdenDiaServiceImpl.java
+2013-04-11 12:22:38,584 [AWT-EventQueue-0] INFO - Creating: EqmTiposGestionesServiceImpl.java
+2013-04-11 12:22:38,584 [AWT-EventQueue-0] INFO - Creating: CatNumeroServiceImpl.java
+2013-04-11 12:22:38,584 [AWT-EventQueue-0] INFO - Creating: CatGruposJuzgadoAccionServiceImpl.java
+2013-04-11 12:22:38,584 [AWT-EventQueue-0] INFO - Creating: CatEjecutoresServiceImpl.java
+2013-04-11 12:22:38,584 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosServiceImpl.java
+2013-04-11 12:22:38,585 [AWT-EventQueue-0] INFO - Creating: SalAsistentesaudienciasServiceImpl.java
+2013-04-11 12:22:38,585 [AWT-EventQueue-0] INFO - Creating: SusDetaSolSalasServiceImpl.java
+2013-04-11 12:22:38,585 [AWT-EventQueue-0] INFO - Creating: DirDepartamentoServiceImpl.java
+2013-04-11 12:22:38,585 [AWT-EventQueue-0] INFO - Creating: OdgActasServiceImpl.java
+2013-04-11 12:22:42,379 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-04-11 15:30:44,349 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 15:30:44,381 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.entities
+2013-04-11 15:30:44,381 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/entities
+2013-04-11 15:30:44,381 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services
+2013-04-11 15:30:44,381 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services/impl
+2013-04-11 15:30:44,381 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.services.impl
+2013-04-11 15:30:54,248 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
+2013-04-11 15:30:54,248 [AWT-EventQueue-0] INFO - Creating :faces-config.xml
+2013-04-11 15:31:24,567 [AWT-EventQueue-0] INFO - true
+2013-04-11 15:31:24,629 [AWT-EventQueue-0] INFO - Creating: web.xml
+2013-04-11 15:31:24,629 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2013-04-11 15:38:55,702 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-04-11 15:39:01,903 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 15:39:01,904 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.entities
+2013-04-11 15:39:01,904 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/entities
+2013-04-11 15:39:01,904 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services
+2013-04-11 15:39:01,904 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services/impl
+2013-04-11 15:39:01,904 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.services.impl
+2013-04-11 15:39:07,222 [AWT-EventQueue-0] INFO - true
+2013-04-11 15:39:07,365 [AWT-EventQueue-0] INFO - Creating: web.xml
+2013-04-11 15:39:07,365 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2013-04-11 15:39:11,665 [AWT-EventQueue-0] INFO - Creating: applicationContext-backingbeans.xml
+2013-04-11 15:39:11,666 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: springManagedBeansXmlConfig.ftl
+java.io.FileNotFoundException: /home/xtecuan/NewWork/sigju-web/src/java/applicationContext-backingbeans.xml (No such file or directory)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:194)
+	at java.io.FileOutputStream.<init>(FileOutputStream.java:145)
+	at java.io.FileWriter.<init>(FileWriter.java:73)
+	at com.xtesoft.xtecuannet.framework.templater.filler.SpringManagedBeansXmlConfigFiller.filloutTemplate(SpringManagedBeansXmlConfigFiller.java:46)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.backingbeansButtonActionPerformed(Templater.java:323)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$1000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$10.actionPerformed(Templater.java:131)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1995)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2318)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:387)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:242)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:236)
+	at java.awt.Component.processMouseEvent(Component.java:6297)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3275)
+	at java.awt.Component.processEvent(Component.java:6062)
+	at java.awt.Container.processEvent(Container.java:2039)
+	at java.awt.Component.dispatchEventImpl(Component.java:4660)
+	at java.awt.Container.dispatchEventImpl(Container.java:2097)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4575)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4236)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4166)
+	at java.awt.Container.dispatchEventImpl(Container.java:2083)
+	at java.awt.Window.dispatchEventImpl(Window.java:2489)
+	at java.awt.Component.dispatchEvent(Component.java:4488)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:674)
+	at java.awt.EventQueue.access$400(EventQueue.java:81)
+	at java.awt.EventQueue$2.run(EventQueue.java:633)
+	at java.awt.EventQueue$2.run(EventQueue.java:631)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:647)
+	at java.awt.EventQueue$3.run(EventQueue.java:645)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessControlContext$1.doIntersectionPrivilege(AccessControlContext.java:87)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:644)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+2013-04-11 15:39:14,143 [AWT-EventQueue-0] INFO - Creating: remoting-servlet.xml
+2013-04-11 15:39:14,143 [AWT-EventQueue-0] INFO - Creating :remoting-servlet.xml
+2013-04-11 15:39:21,608 [AWT-EventQueue-0] INFO - Folder: /home/xtecuan/NewWork/sigju-web/src/main/webapp/design created
+2013-04-11 15:39:21,643 [AWT-EventQueue-0] INFO - Image: ajaxloadingbar.gif copied: 10 KB
+2013-04-11 15:39:21,644 [AWT-EventQueue-0] INFO - Image: column.png copied: 1 KB
+2013-04-11 15:39:21,645 [AWT-EventQueue-0] INFO - Image: nav.gif copied: 262 bytes
+2013-04-11 15:39:21,645 [AWT-EventQueue-0] INFO - Image: ui.png copied: 3 KB
+2013-04-11 15:39:21,647 [AWT-EventQueue-0] INFO - Image: ajaxloading.gif copied: 1 KB
+2013-04-11 15:39:21,647 [AWT-EventQueue-0] INFO - Image: facestrace.png copied: 4 KB
+2013-04-11 15:39:21,648 [AWT-EventQueue-0] INFO - Image: bg.jpg copied: 598 bytes
+2013-04-11 15:39:21,656 [AWT-EventQueue-0] INFO - Image: iphone.png copied: 4 KB
+2013-04-11 15:39:21,657 [AWT-EventQueue-0] INFO - Image: sectionheader.png copied: 2 KB
+2013-04-11 15:39:21,664 [AWT-EventQueue-0] INFO - Folder: /home/xtecuan/NewWork/sigju-web/src/main/webapp/images created
+2013-04-11 15:39:21,665 [AWT-EventQueue-0] INFO - Image: add.png copied: 733 bytes
+2013-04-11 15:39:21,665 [AWT-EventQueue-0] INFO - Image: bookmark.png copied: 695 bytes
+2013-04-11 15:39:21,665 [AWT-EventQueue-0] INFO - Image: bottomBack.png copied: 6 KB
+2013-04-11 15:39:21,666 [AWT-EventQueue-0] INFO - Image: browse.png copied: 2 KB
+2013-04-11 15:39:21,666 [AWT-EventQueue-0] INFO - Image: calendar.png copied: 608 bytes
+2013-04-11 15:39:21,667 [AWT-EventQueue-0] INFO - Image: cancel.png copied: 1 KB
+2013-04-11 15:39:21,669 [AWT-EventQueue-0] INFO - Image: chatback.png copied: 6 KB
+2013-04-11 15:39:21,670 [AWT-EventQueue-0] INFO - Image: clear.png copied: 2 KB
+2013-04-11 15:39:21,670 [AWT-EventQueue-0] INFO - Image: closebar.png copied: 3 KB
+2013-04-11 15:39:21,671 [AWT-EventQueue-0] INFO - Image: csv.png copied: 4 KB
+2013-04-11 15:39:21,671 [AWT-EventQueue-0] INFO - Image: delete.png copied: 1 KB
+2013-04-11 15:39:21,671 [AWT-EventQueue-0] INFO - Image: dialogclose.png copied: 983 bytes
+2013-04-11 15:39:21,672 [AWT-EventQueue-0] INFO - Image: dialoghd.gif copied: 1 KB
+2013-04-11 15:39:21,672 [AWT-EventQueue-0] INFO - Image: disk.png copied: 620 bytes
+2013-04-11 15:39:21,672 [AWT-EventQueue-0] INFO - Image: doc.png copied: 577 bytes
+2013-04-11 15:39:21,673 [AWT-EventQueue-0] INFO - Image: download.gif copied: 1 KB
+2013-04-11 15:39:21,673 [AWT-EventQueue-0] INFO - Image: excel.png copied: 2 KB
+2013-04-11 15:39:21,673 [AWT-EventQueue-0] INFO - Image: head_blue.png copied: 2 KB
+2013-04-11 15:39:21,674 [AWT-EventQueue-0] INFO - Image: head_green.png copied: 4 KB
+2013-04-11 15:39:21,674 [AWT-EventQueue-0] INFO - Image: home.png copied: 685 bytes
+2013-04-11 15:39:21,675 [AWT-EventQueue-0] INFO - Image: hy_active.png copied: 6 KB
+2013-04-11 15:39:21,675 [AWT-EventQueue-0] INFO - Image: hy_hover.png copied: 6 KB
+2013-04-11 15:39:21,675 [AWT-EventQueue-0] INFO - Image: hy.png copied: 6 KB
+2013-04-11 15:39:21,676 [AWT-EventQueue-0] INFO - Image: img01.jpg copied: 702 bytes
+2013-04-11 15:39:21,677 [AWT-EventQueue-0] INFO - Image: img02.jpg copied: 26 KB
+2013-04-11 15:39:21,677 [AWT-EventQueue-0] INFO - Image: img03.jpg copied: 5 KB
+2013-04-11 15:39:21,677 [AWT-EventQueue-0] INFO - Image: img04.jpg copied: 5 KB
+2013-04-11 15:39:21,678 [AWT-EventQueue-0] INFO - Image: img05.jpg copied: 456 bytes
+2013-04-11 15:39:21,678 [AWT-EventQueue-0] INFO - Image: img06.jpg copied: 918 bytes
+2013-04-11 15:39:21,678 [AWT-EventQueue-0] INFO - Image: img07.jpg copied: 6 KB
+2013-04-11 15:39:21,679 [AWT-EventQueue-0] INFO - Image: img08.jpg copied: 1 KB
+2013-04-11 15:39:21,679 [AWT-EventQueue-0] INFO - Image: keyboardpencil.png copied: 662 bytes
+2013-04-11 15:39:21,679 [AWT-EventQueue-0] INFO - Image: left.png copied: 1 KB
+2013-04-11 15:39:21,680 [AWT-EventQueue-0] INFO - Image: loading.gif copied: 4 KB
+2013-04-11 15:39:21,680 [AWT-EventQueue-0] INFO - Image: login.png copied: 1 KB
+2013-04-11 15:39:21,681 [AWT-EventQueue-0] INFO - Image: map.png copied: 1 KB
+2013-04-11 15:39:21,681 [AWT-EventQueue-0] INFO - Image: menu_body.gif copied: 1 KB
+2013-04-11 15:39:21,681 [AWT-EventQueue-0] INFO - Image: menuitem_back.png copied: 301 bytes
+2013-04-11 15:39:21,682 [AWT-EventQueue-0] INFO - Image: minus.png copied: 343 bytes
+2013-04-11 15:39:21,682 [AWT-EventQueue-0] INFO - Image: mobile.png copied: 1 KB
+2013-04-11 15:39:21,682 [AWT-EventQueue-0] INFO - Image: mp3.png copied: 2 KB
+2013-04-11 15:39:21,683 [AWT-EventQueue-0] INFO - Image: new-ico.gif copied: 85 bytes
+2013-04-11 15:39:21,683 [AWT-EventQueue-0] INFO - Image: new.png copied: 600 bytes
+2013-04-11 15:39:21,683 [AWT-EventQueue-0] INFO - Image: next.png copied: 1 KB
+2013-04-11 15:39:21,684 [AWT-EventQueue-0] INFO - Image: open.png copied: 846 bytes
+2013-04-11 15:39:21,684 [AWT-EventQueue-0] INFO - Image: pdf.png copied: 1 KB
+2013-04-11 15:39:21,684 [AWT-EventQueue-0] INFO - Image: picture.png copied: 606 bytes
+2013-04-11 15:39:21,685 [AWT-EventQueue-0] INFO - Image: plus.png copied: 434 bytes
+2013-04-11 15:39:21,685 [AWT-EventQueue-0] INFO - Image: previous.png copied: 1 KB
+2013-04-11 15:39:21,685 [AWT-EventQueue-0] INFO - Image: prime_logo.png copied: 9 KB
+2013-04-11 15:39:21,686 [AWT-EventQueue-0] INFO - Image: print.png copied: 423 bytes
+2013-04-11 15:39:21,686 [AWT-EventQueue-0] INFO - Image: ps3.jpg copied: 22 KB
+2013-04-11 15:39:21,696 [AWT-EventQueue-0] INFO - Image: ps3.png copied: 193 KB
+2013-04-11 15:39:21,697 [AWT-EventQueue-0] INFO - Image: redo.png copied: 703 bytes
+2013-04-11 15:39:21,697 [AWT-EventQueue-0] INFO - Image: right.png copied: 1 KB
+2013-04-11 15:39:21,698 [AWT-EventQueue-0] INFO - Image: save_icon.png copied: 3 KB
+2013-04-11 15:39:21,698 [AWT-EventQueue-0] INFO - Image: save.png copied: 720 bytes
+2013-04-11 15:39:21,698 [AWT-EventQueue-0] INFO - Image: search.png copied: 1023 bytes
+2013-04-11 15:39:21,699 [AWT-EventQueue-0] INFO - Image: select.png copied: 1 KB
+2013-04-11 15:39:21,699 [AWT-EventQueue-0] INFO - Image: spacer.gif copied: 43 bytes
+2013-04-11 15:39:21,699 [AWT-EventQueue-0] INFO - Image: sprite-menu.gif copied: 452 bytes
+2013-04-11 15:39:21,700 [AWT-EventQueue-0] INFO - Image: terminal.png copied: 2 KB
+2013-04-11 15:39:21,700 [AWT-EventQueue-0] INFO - Image: toggle_blue.png copied: 650 bytes
+2013-04-11 15:39:21,701 [AWT-EventQueue-0] INFO - Image: undo.png copied: 725 bytes
+2013-04-11 15:39:21,701 [AWT-EventQueue-0] INFO - Image: update.png copied: 847 bytes
+2013-04-11 15:39:21,701 [AWT-EventQueue-0] INFO - Image: upload.png copied: 4 KB
+2013-04-11 15:39:21,702 [AWT-EventQueue-0] INFO - Image: xml.png copied: 4 KB
+2013-04-11 15:39:22,602 [AWT-EventQueue-0] INFO - Folder: /home/xtecuan/NewWork/sigju-web/src/main/webapp/css created
+2013-04-11 15:39:22,603 [AWT-EventQueue-0] INFO - Css: default.css copied: 4 KB
+2013-04-11 15:49:46,772 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-04-11 15:49:53,011 [AWT-EventQueue-0] INFO - Starting application, with config path: file:/home/xtecuan/NewWork/xtecuannet-framework-templater/xtecuannet-framework-templater/xtecuannet-framework-templater.properties
+2013-04-11 15:49:53,011 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.entities
+2013-04-11 15:49:53,012 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/entities
+2013-04-11 15:49:53,012 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services
+2013-04-11 15:49:53,012 [AWT-EventQueue-0] INFO - /home/xtecuan/NewWork/sigju-model/src/main/java/sv/gob/csj/sigju/sigju/model/services/impl
+2013-04-11 15:49:53,012 [AWT-EventQueue-0] INFO - sv.gob.csj.sigju.sigju.model.services.impl
+2013-04-11 15:49:57,667 [AWT-EventQueue-0] INFO - Creating: applicationContext-backingbeans.xml
+2013-04-11 15:50:00,268 [AWT-EventQueue-0] INFO - Closing Application!!!
