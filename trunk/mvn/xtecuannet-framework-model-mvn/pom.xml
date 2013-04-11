@@ -4,7 +4,7 @@
 
     <groupId>com.xtesoft.xtecuannet.framework</groupId>
     <artifactId>xtecuannet-framework-model-mvn</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>xtecuannet-framework-model-mvn</name>
