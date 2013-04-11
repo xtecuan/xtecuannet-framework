@@ -68,5 +68,6 @@
     
     <bean id="GenericServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.GenericServiceNoAudImpl" autowire="byType"/>
 
- 
+    <!--Component base package-->
+    <context:component-scan base-package="${app.base.scan.pkg}" />
 </beans>
