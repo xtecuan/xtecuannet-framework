@@ -40,7 +40,7 @@ public final class SpringManagedBeansXmlConfigFiller implements TemplaterFiller 
         try {
             String springBackingBeansFilename = FillerUtils.config.getSpringBackingBeansFile();
             logger.info("Creating: " + springBackingBeansFilename);
-            File srcDir = new File(FillerUtils.config.getWebappPath(), "src/java");
+            File srcDir = new File(FillerUtils.config.getWebappPath(), FillerUtils.config.getWebSrcFolder());
             File springConfigFile = new File(srcDir, springBackingBeansFilename);
             if (!springConfigFile.exists()) {
                 Writer out = new FileWriter(springConfigFile);
