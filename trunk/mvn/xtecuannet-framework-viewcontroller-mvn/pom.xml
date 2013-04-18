@@ -161,6 +161,11 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring.framework.version}</version>
+        </dependency>
+        <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
             <version>6.0</version>
@@ -198,12 +203,20 @@
             <id>prime-repo</id>
             <name>Prime Technology Maven Repository</name>
             <url>http://repository.primefaces.org/</url>
+            <layout>default</layout>
         </repository>
  
         <repository>
             <id>repository.jboss.org</id>
             <name>JBoss Repository for Maven</name>
             <url>http://repository.jboss.org/maven2</url>
+            <layout>default</layout>
+        </repository>
+        
+        <repository>
+            <id>xtecuan.org</id>
+            <name>Xtecuan.org repository</name>
+            <url>http://xtecuan.org/xtecuannet_framework/repository</url>
         </repository>
         
     </repositories>
