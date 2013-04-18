@@ -11,11 +11,11 @@
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
     <context:load-time-weaver/>
    
-   <!--GENERAL CONFIGURATION FILE PUT configuration.properties IN YOUR ROOT CLASSPATH-->
+    <!--GENERAL CONFIGURATION FILE PUT configuration.properties IN YOUR ROOT CLASSPATH-->
 
     <context:property-placeholder location="classpath:configuration.properties"/>
    
-   <!--JNDI DATASOURCE LOOKUP-->
+    <!--JNDI DATASOURCE LOOKUP-->
 
     <jee:jndi-lookup id="dataSource" jndi-name="${dataSource.jndi}"/>
     
@@ -68,6 +68,5 @@
     
     <bean id="GenericServiceNoAud" class="com.xtesoft.xtecuannet.framework.model.securityservices.impl.GenericServiceNoAudImpl" autowire="byType"/>
 
-    <!--Component base package-->
-    <context:component-scan base-package="${app.base.scan.pkg}" />
+    
 </beans>
