@@ -1,13 +1,13 @@
-	var locales = java.util.Locale.getISOCountries();
+var locales = java.util.Locale.getISOCountries();
  
-	for (var i=0;i<locales.length;i++) {
+for (var i=0;i<locales.length;i++) {
  
-     		var countryCode = locales[i];
-		var obj = new java.util.Locale("", countryCode);
+	var countryCode = locales[i];
+	var obj = new java.util.Locale("", countryCode);
  
-		println("Country Code = " + obj.getCountry() 
+	println("Country Code = " + obj.getCountry() 
 			+ ", Country Name = " + obj.getDisplayCountry());
  
-	}
+}
  
-	println("Done");
+println("Done");
