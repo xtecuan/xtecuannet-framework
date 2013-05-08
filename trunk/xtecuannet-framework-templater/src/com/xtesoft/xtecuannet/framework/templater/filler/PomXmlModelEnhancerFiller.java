@@ -19,10 +19,10 @@ import org.apache.log4j.Logger;
  *
  * @author xtecuan
  */
-public final class PersistenceXmlEnhancerFiller implements TemplaterFiller {
+public final class PomXmlModelEnhancerFiller implements TemplaterFiller {
 
-    public static final String TEMPLATE_NAME = "persistenceXmlEnhancer.ftl";
-    private static Logger logger = Logger.getLogger(PersistenceXmlEnhancerFiller.class);
+    public static final String TEMPLATE_NAME = "pomXmlModel.ftl";
+    private static Logger logger = Logger.getLogger(PomXmlModelEnhancerFiller.class);
 
     @Override
     public void filloutTemplate() {
