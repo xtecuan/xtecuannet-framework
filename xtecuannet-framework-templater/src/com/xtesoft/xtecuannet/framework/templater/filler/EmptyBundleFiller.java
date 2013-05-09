@@ -40,7 +40,8 @@ public final class EmptyBundleFiller implements TemplaterFiller {
         try {
             String bundleFilename = FillerUtils.config.getBundleName()+".properties";
             logger.info("Creating: " + bundleFilename);
-            File srcDir = new File(FillerUtils.config.getWebappPath(), "src/java");
+            //File srcDir = new File(FillerUtils.config.getWebappPath(), "src/java");
+            File srcDir = FillerUtils.config.getWebappPath();
             File bundleFile = new File(srcDir, bundleFilename);
             if (!bundleFile.exists()) {
                 Writer out = new FileWriter(bundleFile);

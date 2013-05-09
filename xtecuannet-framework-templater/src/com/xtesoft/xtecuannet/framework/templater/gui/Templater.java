@@ -59,6 +59,7 @@ public class Templater extends javax.swing.JFrame {
         buttonCpImagesDesing = new javax.swing.JButton();
         buttonCss = new javax.swing.JButton();
         buttonPomXmlModel = new javax.swing.JButton();
+        buttonPomXmlWeb = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -189,6 +190,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonPomXmlWeb.setText("Agregar dependencias a pom.xml (Web)");
+        buttonPomXmlWeb.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonPomXmlWebActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -204,7 +212,8 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonCrearImplementaciones)
                     .addComponent(buttonCrearWebXml, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonCrearFacesConfig, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonPomXmlModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonPomXmlModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonPomXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 342, Short.MAX_VALUE)
@@ -259,9 +268,15 @@ public class Templater extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(buttonPomXmlModel)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(buttonCss)
-                .addContainerGap(33, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(buttonCss)
+                        .addContainerGap(33, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(buttonPomXmlWeb)
+                        .addGap(21, 21, 21))))
         );
 
         pack();
@@ -382,6 +397,11 @@ public class Templater extends javax.swing.JFrame {
         new PomXmlModelEnhancerFiller().filloutTemplate();
     }//GEN-LAST:event_buttonPomXmlModelActionPerformed
 
+    private void buttonPomXmlWebActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPomXmlWebActionPerformed
+        // TODO add your handling code here:
+        new PomXmlWebEnhancerFiller().filloutTemplate();
+    }//GEN-LAST:event_buttonPomXmlWebActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -438,6 +458,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonCss;
     private javax.swing.JButton buttonOptimizarPersistenceXml;
     private javax.swing.JButton buttonPomXmlModel;
+    private javax.swing.JButton buttonPomXmlWeb;
     private javax.swing.JButton buttonProjectXmlWeb;
     private javax.swing.JButton buttonRemotingServlet;
     // End of variables declaration//GEN-END:variables

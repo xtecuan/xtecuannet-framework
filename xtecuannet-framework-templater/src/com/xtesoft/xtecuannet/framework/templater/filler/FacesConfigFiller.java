@@ -12,6 +12,7 @@ import java.io.FileWriter;
 import java.io.Writer;
 import java.util.Map;
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FilenameUtils;
 import org.apache.log4j.Logger;
 
 /**
@@ -35,10 +36,25 @@ public final class FacesConfigFiller implements TemplaterFiller {
 
         try {
             String facesFilename = FillerUtils.config.getFacesConfigFile();
+            
+            
             logger.info("Creating: " + facesFilename);
             File webDir = new File(FillerUtils.config.getWebappPath(), FillerUtils.config.getWebFolder());
             File webInfDir = new File(webDir, "WEB-INF");
             File facesFile = new File(webInfDir, facesFilename);
+            
+            /**
+             * Bundle name only
+             */
+            
+            String bundleFilename1 = FillerUtils.config.getBundleName();
+            logger.info("Creating: " + bundleFilename1);
+            //File srcDir = new File(FillerUtils.config.getWebappPath(), "src/java");
+            File srcDir1 = FillerUtils.config.getWebappPath();
+            File bundleFile1 = new File(srcDir1, bundleFilename1);
+            root.remove("bundleName");
+            root.put("bundleName", FilenameUtils.getBaseName(bundleFile1.getPath()));
+            //End Bundle name only
 
             if (facesFile.exists()) {
                 logger.info("File: " + facesFile.getName() + " already exists!!!");
