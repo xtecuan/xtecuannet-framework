@@ -23,11 +23,11 @@ import org.apache.maven.model.io.xpp3.MavenXpp3Writer;
  *
  * @author xtecuan
  */
-public final class PomXmlModelEnhancerFiller implements TemplaterFiller {
+public final class PomXmlWebEnhancerFiller implements TemplaterFiller {
 
     public static final String TEMPLATE_NAME = "pomXmlModel.ftl";
     public static final String POM_XML = "pom.xml";
-    private static Logger logger = Logger.getLogger(PomXmlModelEnhancerFiller.class);
+    private static Logger logger = Logger.getLogger(PomXmlWebEnhancerFiller.class);
     private static final Dependency xfwm;
     private static final Repository repo_xfw;
     private static final List<Dependency> dependencies = new ArrayList<Dependency>(0);

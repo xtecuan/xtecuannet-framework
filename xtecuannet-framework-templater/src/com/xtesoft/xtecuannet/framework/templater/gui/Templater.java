@@ -58,6 +58,7 @@ public class Templater extends javax.swing.JFrame {
         buttonProjectXmlWeb = new javax.swing.JButton();
         buttonCpImagesDesing = new javax.swing.JButton();
         buttonCss = new javax.swing.JButton();
+        buttonPomXmlModel = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -181,6 +182,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        buttonPomXmlModel.setText("Agregar dependencias a pom.xml (Model)");
+        buttonPomXmlModel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                buttonPomXmlModelActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -195,10 +203,11 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonCrearServicesConfigSpring, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonCrearImplementaciones)
                     .addComponent(buttonCrearWebXml, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonCrearFacesConfig, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonCrearFacesConfig, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(buttonPomXmlModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 346, Short.MAX_VALUE)
+                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 342, Short.MAX_VALUE)
                     .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -211,43 +220,48 @@ public class Templater extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(buttonOptimizarPersistenceXml)
-                        .addGap(12, 12, 12)
-                        .addComponent(buttonCrearInterfaces, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(buttonCrearImplementaciones)
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonCrearServicesConfigSpring)
-                    .addComponent(bundleButton))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(buttonCreateConfigProps)
-                    .addComponent(buttonRemotingServlet))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addComponent(buttonCrearLog4jConsoleAppenderConfig)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(buttonCrearFacesConfig)
-                        .addGap(18, 18, 18)
-                        .addComponent(buttonCrearWebXml))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(27, 27, 27)
-                        .addComponent(buttonClasspathModel)
+                        .addGap(14, 14, 14)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(buttonOptimizarPersistenceXml)
+                                .addGap(12, 12, 12)
+                                .addComponent(buttonCrearInterfaces, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(buttonClasspathWeb)
+                        .addComponent(buttonCrearImplementaciones)
                         .addGap(18, 18, 18)
-                        .addComponent(buttonProjectXmlWeb)))
-                .addGap(18, 18, 18)
-                .addComponent(buttonCpImagesDesing)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(buttonCrearServicesConfigSpring)
+                            .addComponent(bundleButton))
+                        .addGap(18, 18, 18)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(buttonCreateConfigProps)
+                            .addComponent(buttonRemotingServlet))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(18, 18, 18)
+                                .addComponent(buttonCrearLog4jConsoleAppenderConfig)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(buttonCrearFacesConfig)
+                                .addGap(18, 18, 18)
+                                .addComponent(buttonCrearWebXml))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(27, 27, 27)
+                                .addComponent(buttonClasspathModel)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(buttonClasspathWeb)
+                                .addGap(18, 18, 18)
+                                .addComponent(buttonProjectXmlWeb)))
+                        .addGap(18, 18, 18)
+                        .addComponent(buttonCpImagesDesing))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(buttonPomXmlModel)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(buttonCss)
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         pack();
@@ -363,6 +377,11 @@ public class Templater extends javax.swing.JFrame {
         new ResourceCopyCssTask().doProcess();
     }//GEN-LAST:event_buttonCssActionPerformed
 
+    private void buttonPomXmlModelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonPomXmlModelActionPerformed
+        // TODO add your handling code here:
+        new PomXmlModelEnhancerFiller().filloutTemplate();
+    }//GEN-LAST:event_buttonPomXmlModelActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -418,6 +437,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonCreateConfigProps;
     private javax.swing.JButton buttonCss;
     private javax.swing.JButton buttonOptimizarPersistenceXml;
+    private javax.swing.JButton buttonPomXmlModel;
     private javax.swing.JButton buttonProjectXmlWeb;
     private javax.swing.JButton buttonRemotingServlet;
     // End of variables declaration//GEN-END:variables
