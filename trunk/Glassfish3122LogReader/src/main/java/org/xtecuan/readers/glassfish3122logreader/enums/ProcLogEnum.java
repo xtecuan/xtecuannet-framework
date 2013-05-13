@@ -16,7 +16,8 @@ public enum ProcLogEnum implements Serializable {
     ProdDomain2(Integer.valueOf("2"), "sigju.csj.gob.sv", "10.9.45.143", "domain2", "/u01/Java/glassfish3"),
     TestSigjur1(Integer.valueOf("3"), "comb.csj.oj", "10.9.45.249", "sigjur1", "/opt/gf3/Java/glassfish-3.1.2"),
     TestSigjur2(Integer.valueOf("4"), "comb.csj.oj", "10.9.45.249", "sigjur2", "/opt/gf3/Java/glassfish-3.1.2"),
-    BlitzDomain1(Integer.valueOf("5"), "blitz5.local", "10.9.45.138", "domain1", "/Users/xtecuan/Documents/Work/CSJ/glassfish3");
+    BlitzDomain1(Integer.valueOf("5"), "blitz5.local", "10.9.45.138", "domain1", "/Users/xtecuan/Documents/Work/CSJ/glassfish3"),
+    BlitzLocalDomain1(Integer.valueOf("6"), "blitz4.csj.oj", "10.9.45.181", "domain1", "/home/xtecuan/Desktop/logs/");
     private Integer cod;
     private String name;
     private String ip;
