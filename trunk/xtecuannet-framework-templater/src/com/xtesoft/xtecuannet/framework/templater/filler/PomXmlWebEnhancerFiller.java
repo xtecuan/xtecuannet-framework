@@ -78,7 +78,9 @@ public final class PomXmlWebEnhancerFiller implements TemplaterFiller {
         Dependency swmvc = generateDependency("org.springframework", "spring-webmvc", "3.0.7.RELEASE");
         dependencies.add(swmvc);
 
-        Dependency jsf = generateDependency("org.glassfish", "javax.faces", "2.2.0-SNAPSHOT");
+        //Dependency jsf = generateDependency("org.glassfish", "javax.faces", "2.2.0-SNAPSHOT");
+        Dependency jsf = generateDependency("javax.faces", "javax.faces-api", "2.1");
+        jsf.setScope("provided");
         dependencies.add(jsf);
 
 

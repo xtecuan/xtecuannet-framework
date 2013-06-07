@@ -125,3 +125,271 @@ java.io.FileNotFoundException: C:\Documents and Settings\Administrador\Mis docum
 2013-05-08 11:38:11,074 [AWT-EventQueue-0] INFO - org.xtecuan.ejemplos.xtecuannet.ejemplo.modelo.servicios.impl
 2013-05-08 11:38:14,589 [AWT-EventQueue-0] INFO - Creating: /main/resources/configuration.properties
 2013-05-08 11:38:16,442 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-06-07 11:19:26,135 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\SOYAPANGO\SIGJUS\templater\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2013-06-07 11:19:26,137 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2013-06-07 11:19:26,137 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2013-06-07 11:19:26,137 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2013-06-07 11:19:26,137 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2013-06-07 11:19:26,137 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2013-06-07 11:19:36,444 [AWT-EventQueue-0] INFO - Creating: /main/resources/META-INF/persistence.xml
+2013-06-07 11:19:36,445 [AWT-EventQueue-0] INFO - File: persistence.xml already exists!!!
+2013-06-07 11:19:36,445 [AWT-EventQueue-0] INFO - Backing up file: /main/resources/META-INF/persistence.xml
+2013-06-07 11:20:27,229 [AWT-EventQueue-0] INFO - Creating: CatAccionesService.java
+2013-06-07 11:20:27,230 [AWT-EventQueue-0] INFO - Creating: CatCjiService.java
+2013-06-07 11:20:27,232 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoService.java
+2013-06-07 11:20:27,233 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresService.java
+2013-06-07 11:20:27,234 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresService.java
+2013-06-07 11:20:27,236 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosService.java
+2013-06-07 11:20:27,237 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorService.java
+2013-06-07 11:20:27,238 [AWT-EventQueue-0] INFO - Creating: CatInstanciasService.java
+2013-06-07 11:20:27,239 [AWT-EventQueue-0] INFO - Creating: CatJuecesService.java
+2013-06-07 11:20:27,240 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosService.java
+2013-06-07 11:20:27,243 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiService.java
+2013-06-07 11:20:27,245 [AWT-EventQueue-0] INFO - Creating: CatMateriasService.java
+2013-06-07 11:20:27,246 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiService.java
+2013-06-07 11:20:27,247 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosService.java
+2013-06-07 11:20:27,248 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasService.java
+2013-06-07 11:20:27,250 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesService.java
+2013-06-07 11:20:27,255 [AWT-EventQueue-0] INFO - Creating: RecEstadosService.java
+2013-06-07 11:20:27,256 [AWT-EventQueue-0] INFO - Creating: RecExpedientesService.java
+2013-06-07 11:20:27,258 [AWT-EventQueue-0] INFO - Creating: SegUsuariosService.java
+2013-06-07 11:20:58,404 [AWT-EventQueue-0] INFO - Creating: CatAccionesServiceImpl.java
+2013-06-07 11:20:58,406 [AWT-EventQueue-0] INFO - Creating: CatCjiServiceImpl.java
+2013-06-07 11:20:58,408 [AWT-EventQueue-0] INFO - Creating: CatClaseProcesoServiceImpl.java
+2013-06-07 11:20:58,409 [AWT-EventQueue-0] INFO - Creating: CatClasificadoresServiceImpl.java
+2013-06-07 11:20:58,411 [AWT-EventQueue-0] INFO - Creating: CatColaboradoresServiceImpl.java
+2013-06-07 11:20:58,414 [AWT-EventQueue-0] INFO - Creating: CatDepartamentosServiceImpl.java
+2013-06-07 11:20:58,415 [AWT-EventQueue-0] INFO - Creating: CatEstadoColaboradorServiceImpl.java
+2013-06-07 11:20:58,417 [AWT-EventQueue-0] INFO - Creating: CatInstanciasServiceImpl.java
+2013-06-07 11:20:58,418 [AWT-EventQueue-0] INFO - Creating: CatJuecesServiceImpl.java
+2013-06-07 11:20:58,419 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosServiceImpl.java
+2013-06-07 11:20:58,420 [AWT-EventQueue-0] INFO - Creating: CatJuzgadosCjiServiceImpl.java
+2013-06-07 11:20:58,422 [AWT-EventQueue-0] INFO - Creating: CatMateriasServiceImpl.java
+2013-06-07 11:20:58,423 [AWT-EventQueue-0] INFO - Creating: CatOficinasCjiServiceImpl.java
+2013-06-07 11:20:58,424 [AWT-EventQueue-0] INFO - Creating: CatTipoJuzgadosServiceImpl.java
+2013-06-07 11:20:58,426 [AWT-EventQueue-0] INFO - Creating: CatTiposDiligenciasServiceImpl.java
+2013-06-07 11:20:58,427 [AWT-EventQueue-0] INFO - Creating: CatTiposInstitucionesServiceImpl.java
+2013-06-07 11:20:58,429 [AWT-EventQueue-0] INFO - Creating: RecEstadosServiceImpl.java
+2013-06-07 11:20:58,430 [AWT-EventQueue-0] INFO - Creating: RecExpedientesServiceImpl.java
+2013-06-07 11:20:58,432 [AWT-EventQueue-0] INFO - Creating: SegUsuariosServiceImpl.java
+2013-06-07 11:21:11,407 [AWT-EventQueue-0] INFO - Processing POM model file: C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\pom.xml
+2013-06-07 11:21:11,474 [AWT-EventQueue-0] INFO - Processing group: sv.gob.csj.usad artifact: receptora-online-modelo
+2013-06-07 11:21:11,474 [AWT-EventQueue-0] INFO - Adding repository: id = 'xtecuan.org'
+2013-06-07 11:21:11,474 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=com.xtesoft.xtecuannet.framework, artifactId=xtecuannet-framework-model-mvn, version=1.0.2-SNAPSHOT, type=jar}
+2013-06-07 11:21:11,474 [AWT-EventQueue-0] INFO - Writing new pom.xml config
+2013-06-07 11:21:11,496 [AWT-EventQueue-0] INFO - ......done
+2013-06-07 11:21:49,375 [AWT-EventQueue-0] INFO - Creating: /main/resources/applicationContext-services.xml
+2013-06-07 11:22:34,637 [AWT-EventQueue-0] INFO - Creating: /main/resources/configuration.properties
+2013-06-07 11:47:13,226 [AWT-EventQueue-0] INFO - Creating: /main/resources/log4j.xml
+2013-06-07 11:47:38,574 [AWT-EventQueue-0] INFO - Creating: faces-config.xml
+2013-06-07 11:47:38,575 [AWT-EventQueue-0] INFO - Creating: /src/main/resources/Bundle
+2013-06-07 11:47:38,575 [AWT-EventQueue-0] INFO - File: faces-config.xml already exists!!!
+2013-06-07 11:47:43,258 [AWT-EventQueue-0] INFO - true
+2013-06-07 11:47:43,318 [AWT-EventQueue-0] INFO - Creating: web.xml
+2013-06-07 11:47:43,318 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2013-06-07 11:47:54,691 [AWT-EventQueue-0] INFO - Processing POM model file: C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\pom.xml for POM web C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\pom.xml
+2013-06-07 11:47:54,700 [AWT-EventQueue-0] INFO - Processing group: sv.gob.csj.usad artifact: receptora-online
+2013-06-07 11:47:54,700 [AWT-EventQueue-0] INFO - Adding repository: id = 'xtecuan.org'
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding repository: id = 'prime-repo'
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding repository: id = 'jvnet-nexus-snapshots'
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=com.xtesoft.xtecuannet.framework, artifactId=xtecuannet-framework-model-mvn, version=1.0.2-SNAPSHOT, type=jar}
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=com.xtesoft.xtecuannet.framework, artifactId=xtecuannet-framework-viewcontroller-mvn, version=1.0-SNAPSHOT, type=jar}
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=commons-fileupload, artifactId=commons-fileupload, version=1.3, type=jar}
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=org.springframework, artifactId=spring-webmvc, version=3.0.7.RELEASE, type=jar}
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=org.glassfish, artifactId=javax.faces, version=2.2.0-SNAPSHOT, type=jar}
+2013-06-07 11:47:54,701 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=com.xtesoft.xtecuannet.framework, artifactId=primefaces-utils-springframework-mvn, version=1.0-SNAPSHOT, type=jar}
+2013-06-07 11:47:54,702 [AWT-EventQueue-0] INFO - Adding dependency: Dependency {groupId=sv.gob.csj.usad, artifactId=receptora-online-modelo, version=1.0-SNAPSHOT, type=jar}
+2013-06-07 11:47:54,702 [AWT-EventQueue-0] INFO - Writing new pom.xml config
+2013-06-07 11:47:54,712 [AWT-EventQueue-0] INFO - ......done
+2013-06-07 11:48:04,230 [AWT-EventQueue-0] INFO - Creating: applicationContext-backingbeans.xml
+2013-06-07 11:48:08,965 [AWT-EventQueue-0] INFO - Creating: /src/main/resources/Bundle.properties
+2013-06-07 11:48:20,284 [AWT-EventQueue-0] INFO - Folder: C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\design created
+2013-06-07 11:48:20,290 [AWT-EventQueue-0] INFO - Image: ajaxloadingbar.gif copied: 10 KB
+2013-06-07 11:48:20,295 [AWT-EventQueue-0] INFO - Image: column.png copied: 1 KB
+2013-06-07 11:48:20,303 [AWT-EventQueue-0] INFO - Image: nav.gif copied: 262 bytes
+2013-06-07 11:48:20,352 [AWT-EventQueue-0] INFO - Image: ui.png copied: 3 KB
+2013-06-07 11:48:20,359 [AWT-EventQueue-0] INFO - Image: ajaxloading.gif copied: 1 KB
+2013-06-07 11:48:20,368 [AWT-EventQueue-0] INFO - Image: facestrace.png copied: 4 KB
+2013-06-07 11:48:20,380 [AWT-EventQueue-0] INFO - Image: bg.jpg copied: 598 bytes
+2013-06-07 11:48:20,388 [AWT-EventQueue-0] INFO - Image: iphone.png copied: 4 KB
+2013-06-07 11:48:20,392 [AWT-EventQueue-0] INFO - Image: sectionheader.png copied: 2 KB
+2013-06-07 11:48:20,399 [AWT-EventQueue-0] INFO - Folder: C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\images created
+2013-06-07 11:48:20,400 [AWT-EventQueue-0] INFO - Image: add.png copied: 733 bytes
+2013-06-07 11:48:20,407 [AWT-EventQueue-0] INFO - Image: bookmark.png copied: 695 bytes
+2013-06-07 11:48:20,411 [AWT-EventQueue-0] INFO - Image: bottomBack.png copied: 6 KB
+2013-06-07 11:48:20,419 [AWT-EventQueue-0] INFO - Image: browse.png copied: 2 KB
+2013-06-07 11:48:20,423 [AWT-EventQueue-0] INFO - Image: calendar.png copied: 608 bytes
+2013-06-07 11:48:20,425 [AWT-EventQueue-0] INFO - Image: cancel.png copied: 1 KB
+2013-06-07 11:48:20,433 [AWT-EventQueue-0] INFO - Image: chatback.png copied: 6 KB
+2013-06-07 11:48:20,440 [AWT-EventQueue-0] INFO - Image: clear.png copied: 2 KB
+2013-06-07 11:48:20,446 [AWT-EventQueue-0] INFO - Image: closebar.png copied: 3 KB
+2013-06-07 11:48:20,451 [AWT-EventQueue-0] INFO - Image: csv.png copied: 4 KB
+2013-06-07 11:48:20,455 [AWT-EventQueue-0] INFO - Image: delete.png copied: 1 KB
+2013-06-07 11:48:20,459 [AWT-EventQueue-0] INFO - Image: dialogclose.png copied: 983 bytes
+2013-06-07 11:48:20,464 [AWT-EventQueue-0] INFO - Image: dialoghd.gif copied: 1 KB
+2013-06-07 11:48:20,470 [AWT-EventQueue-0] INFO - Image: disk.png copied: 620 bytes
+2013-06-07 11:48:20,474 [AWT-EventQueue-0] INFO - Image: doc.png copied: 577 bytes
+2013-06-07 11:48:20,478 [AWT-EventQueue-0] INFO - Image: download.gif copied: 1 KB
+2013-06-07 11:48:20,480 [AWT-EventQueue-0] INFO - Image: excel.png copied: 2 KB
+2013-06-07 11:48:20,483 [AWT-EventQueue-0] INFO - Image: head_blue.png copied: 2 KB
+2013-06-07 11:48:20,486 [AWT-EventQueue-0] INFO - Image: head_green.png copied: 4 KB
+2013-06-07 11:48:20,489 [AWT-EventQueue-0] INFO - Image: home.png copied: 685 bytes
+2013-06-07 11:48:20,493 [AWT-EventQueue-0] INFO - Image: hy_active.png copied: 6 KB
+2013-06-07 11:48:20,498 [AWT-EventQueue-0] INFO - Image: hy_hover.png copied: 6 KB
+2013-06-07 11:48:20,503 [AWT-EventQueue-0] INFO - Image: hy.png copied: 6 KB
+2013-06-07 11:48:20,510 [AWT-EventQueue-0] INFO - Image: img01.jpg copied: 702 bytes
+2013-06-07 11:48:20,516 [AWT-EventQueue-0] INFO - Image: img02.jpg copied: 26 KB
+2013-06-07 11:48:20,519 [AWT-EventQueue-0] INFO - Image: img03.jpg copied: 5 KB
+2013-06-07 11:48:20,523 [AWT-EventQueue-0] INFO - Image: img04.jpg copied: 5 KB
+2013-06-07 11:48:20,526 [AWT-EventQueue-0] INFO - Image: img05.jpg copied: 456 bytes
+2013-06-07 11:48:20,530 [AWT-EventQueue-0] INFO - Image: img06.jpg copied: 918 bytes
+2013-06-07 11:48:20,537 [AWT-EventQueue-0] INFO - Image: img07.jpg copied: 6 KB
+2013-06-07 11:48:20,541 [AWT-EventQueue-0] INFO - Image: img08.jpg copied: 1 KB
+2013-06-07 11:48:20,545 [AWT-EventQueue-0] INFO - Image: keyboardpencil.png copied: 662 bytes
+2013-06-07 11:48:20,551 [AWT-EventQueue-0] INFO - Image: left.png copied: 1 KB
+2013-06-07 11:48:20,555 [AWT-EventQueue-0] INFO - Image: loading.gif copied: 4 KB
+2013-06-07 11:48:20,559 [AWT-EventQueue-0] INFO - Image: login.png copied: 1 KB
+2013-06-07 11:48:20,566 [AWT-EventQueue-0] INFO - Image: map.png copied: 1 KB
+2013-06-07 11:48:20,570 [AWT-EventQueue-0] INFO - Image: menu_body.gif copied: 1 KB
+2013-06-07 11:48:20,574 [AWT-EventQueue-0] INFO - Image: menuitem_back.png copied: 301 bytes
+2013-06-07 11:48:20,578 [AWT-EventQueue-0] INFO - Image: minus.png copied: 343 bytes
+2013-06-07 11:48:20,587 [AWT-EventQueue-0] INFO - Image: mobile.png copied: 1 KB
+2013-06-07 11:48:20,590 [AWT-EventQueue-0] INFO - Image: mp3.png copied: 2 KB
+2013-06-07 11:48:20,593 [AWT-EventQueue-0] INFO - Image: new-ico.gif copied: 85 bytes
+2013-06-07 11:48:20,596 [AWT-EventQueue-0] INFO - Image: new.png copied: 600 bytes
+2013-06-07 11:48:20,600 [AWT-EventQueue-0] INFO - Image: next.png copied: 1 KB
+2013-06-07 11:48:20,604 [AWT-EventQueue-0] INFO - Image: open.png copied: 846 bytes
+2013-06-07 11:48:20,608 [AWT-EventQueue-0] INFO - Image: pdf.png copied: 1 KB
+2013-06-07 11:48:20,614 [AWT-EventQueue-0] INFO - Image: picture.png copied: 606 bytes
+2013-06-07 11:48:20,619 [AWT-EventQueue-0] INFO - Image: plus.png copied: 434 bytes
+2013-06-07 11:48:20,623 [AWT-EventQueue-0] INFO - Image: previous.png copied: 1 KB
+2013-06-07 11:48:20,628 [AWT-EventQueue-0] INFO - Image: prime_logo.png copied: 9 KB
+2013-06-07 11:48:20,631 [AWT-EventQueue-0] INFO - Image: print.png copied: 423 bytes
+2013-06-07 11:48:20,636 [AWT-EventQueue-0] INFO - Image: ps3.jpg copied: 22 KB
+2013-06-07 11:48:20,640 [AWT-EventQueue-0] INFO - Image: ps3.png copied: 193 KB
+2013-06-07 11:48:20,645 [AWT-EventQueue-0] INFO - Image: redo.png copied: 703 bytes
+2013-06-07 11:48:20,648 [AWT-EventQueue-0] INFO - Image: right.png copied: 1 KB
+2013-06-07 11:48:20,651 [AWT-EventQueue-0] INFO - Image: save_icon.png copied: 3 KB
+2013-06-07 11:48:20,655 [AWT-EventQueue-0] INFO - Image: save.png copied: 720 bytes
+2013-06-07 11:48:20,658 [AWT-EventQueue-0] INFO - Image: search.png copied: 1023 bytes
+2013-06-07 11:48:20,661 [AWT-EventQueue-0] INFO - Image: select.png copied: 1 KB
+2013-06-07 11:48:20,663 [AWT-EventQueue-0] INFO - Image: spacer.gif copied: 43 bytes
+2013-06-07 11:48:20,666 [AWT-EventQueue-0] INFO - Image: sprite-menu.gif copied: 452 bytes
+2013-06-07 11:48:20,669 [AWT-EventQueue-0] INFO - Image: terminal.png copied: 2 KB
+2013-06-07 11:48:20,673 [AWT-EventQueue-0] INFO - Image: toggle_blue.png copied: 650 bytes
+2013-06-07 11:48:20,676 [AWT-EventQueue-0] INFO - Image: undo.png copied: 725 bytes
+2013-06-07 11:48:20,679 [AWT-EventQueue-0] INFO - Image: update.png copied: 847 bytes
+2013-06-07 11:48:20,682 [AWT-EventQueue-0] INFO - Image: upload.png copied: 4 KB
+2013-06-07 11:48:20,685 [AWT-EventQueue-0] INFO - Image: xml.png copied: 4 KB
+2013-06-07 11:48:23,401 [AWT-EventQueue-0] INFO - Folder: C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\css created
+2013-06-07 11:48:23,405 [AWT-EventQueue-0] INFO - Css: default.css copied: 4 KB
+2013-06-07 11:49:56,105 [AWT-EventQueue-0] INFO - true
+2013-06-07 11:49:56,155 [AWT-EventQueue-0] INFO - Creating: web.xml
+2013-06-07 11:49:56,156 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2013-06-07 11:49:56,169 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
+java.io.IOException: Failed to delete original file 'C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\WEB-INF\web.xml' after copy to 'C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\WEB-INF\web.xml.orig'
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1821)
+	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:45)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:347)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:126)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:682)
+	at java.awt.EventQueue$3.run(EventQueue.java:680)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:696)
+	at java.awt.EventQueue$4.run(EventQueue.java:694)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:244)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:163)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:151)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:147)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:139)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:97)
+2013-06-07 11:50:17,792 [AWT-EventQueue-0] INFO - true
+2013-06-07 11:50:17,825 [AWT-EventQueue-0] INFO - Creating: web.xml
+2013-06-07 11:50:17,825 [AWT-EventQueue-0] INFO - File: web.xml already exists!!!
+2013-06-07 11:50:17,837 [AWT-EventQueue-0] ERROR - Error al generar el archivo de template: webXml.ftl
+java.io.IOException: Failed to delete original file 'C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\WEB-INF\web.xml' after copy to 'C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online\src\main\webapp\WEB-INF\web.xml.orig'
+	at org.apache.commons.io.FileUtils.moveFile(FileUtils.java:1821)
+	at com.xtesoft.xtecuannet.framework.templater.filler.WebXmlFiller.filloutTemplate(WebXmlFiller.java:45)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.buttonCrearWebXmlActionPerformed(Templater.java:347)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$900(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$9.actionPerformed(Templater.java:126)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6505)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3321)
+	at java.awt.Component.processEvent(Component.java:6270)
+	at java.awt.Container.processEvent(Container.java:2229)
+	at java.awt.Component.dispatchEventImpl(Component.java:4861)
+	at java.awt.Container.dispatchEventImpl(Container.java:2287)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)
+	at java.awt.Container.dispatchEventImpl(Container.java:2273)
+	at java.awt.Window.dispatchEventImpl(Window.java:2719)
+	at java.awt.Component.dispatchEvent(Component.java:4687)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:723)
+	at java.awt.EventQueue.access$200(EventQueue.java:103)
+	at java.awt.EventQueue$3.run(EventQueue.java:682)
+	at java.awt.EventQueue$3.run(EventQueue.java:680)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.awt.EventQueue$4.run(EventQueue.java:696)
+	at java.awt.EventQueue$4.run(EventQueue.java:694)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:693)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:244)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:163)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:151)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:147)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:139)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:97)
+2013-06-07 11:52:46,043 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-06-07 12:25:59,154 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\SOYAPANGO\SIGJUS\templater\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2013-06-07 12:25:59,155 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2013-06-07 12:25:59,155 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2013-06-07 12:25:59,155 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2013-06-07 12:25:59,155 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2013-06-07 12:25:59,155 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2013-06-07 12:26:02,811 [AWT-EventQueue-0] INFO - Creating: remoting-servlet.xml
+2013-06-07 12:26:02,811 [AWT-EventQueue-0] INFO - Creating :remoting-servlet.xml
+2013-06-07 12:26:08,142 [AWT-EventQueue-0] INFO - Closing Application!!!
+2013-06-07 13:06:43,238 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\SOYAPANGO\SIGJUS\templater\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2013-06-07 13:06:43,239 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2013-06-07 13:06:43,240 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2013-06-07 13:06:43,240 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2013-06-07 13:06:43,240 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2013-06-07 13:06:43,240 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2013-06-07 13:06:49,874 [AWT-EventQueue-0] INFO - Creating: /main/resources/applicationContext-services.xml
+2013-06-07 14:53:17,175 [AWT-EventQueue-0] INFO - Closing Application!!!
