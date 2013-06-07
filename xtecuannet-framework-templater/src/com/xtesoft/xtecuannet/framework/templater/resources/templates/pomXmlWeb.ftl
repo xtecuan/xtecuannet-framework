@@ -51,10 +51,16 @@
             <artifactId>spring-webmvc</artifactId>
             <version>3.0.7.RELEASE</version>
         </dependency> 
-        <dependency>
+        <!--dependency>
             <groupId>org.glassfish</groupId>
             <artifactId>javax.faces</artifactId>
             <version>2.2.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency-->
+        <dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>javax.faces-api</artifactId>
+            <version>2.1</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
