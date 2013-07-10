@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>xtecuannet.framework</groupId>
+  <artifactId>xtecuannet-framework-modules</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>xtecuannet-framework-modules</name>
+    <modules>
+        <module>xtecuannet-model-utils-mvn</module>
+        <module>xtecuannet-model-jasperreports-mvn</module>
+    <module>xtecuannet-viewcontroller-utils</module>
+    <module>xtecuannet-viewcontroller-managedbeans</module>
+        <module>primefaces-utils-springframework</module>
+    </modules>
+</project>

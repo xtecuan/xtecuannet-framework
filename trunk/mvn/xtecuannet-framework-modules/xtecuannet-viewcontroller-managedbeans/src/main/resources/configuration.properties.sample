@@ -1,0 +1,4 @@
+#######>ResourceBundle filename and path
+bundleBaseFile=Bundle
+#######> Skin Primefaces
+app.default.skin=bluesky
