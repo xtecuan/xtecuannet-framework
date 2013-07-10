@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.apache.commons.fileupload
+OpenIDE-Module-Layer: org/apache/commons/fileupload/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/apache/commons/fileupload/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
