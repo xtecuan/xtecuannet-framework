@@ -1,0 +1,6 @@
+#######>DataSource JNDI Name
+dataSource.jndi=jdbc/alumnosjasperreports
+#######>For Unix based systems
+reports_path=/home/xtecuan/Work/Chory/Clientejasperreports-chory/reports/
+#######>For Windows based systems
+#reports_path=c:/Work/Chory/Clientejasperreports-chory/reports/
