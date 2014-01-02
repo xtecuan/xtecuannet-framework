@@ -77,7 +77,8 @@ public final class Constants {
 
             pc = new PropertiesConfiguration(fileCfg);
             pc.setReloadingStrategy(new FileChangedReloadingStrategy());
-            pc.setAutoSave(true);
+//            pc.setAutoSave(true);
+            pc.setDelimiterParsingDisabled(false);
 
             logger.info(fileCfg.getName() + " loaded!!!");
 

@@ -9,6 +9,7 @@ import com.google.gson.Gson;
 import com.googlecode.xtecuannet.framework.catalina.manager.tomcat.constants.Constants;
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.PropertiesConfiguration;
@@ -53,10 +54,10 @@ public class ServerXmlConfig extends GenericConfig implements Serializable {
 
     public static ServerXmlConfig fromStr2ServerXmlConfig(String instanceStr) {
 
-        String f = instanceStr.replaceAll("\\\"", "");
+        String f = instanceStr;
         getLogger().info("+++++++++" + f);
 
-        ServerXmlConfig s =null /*new Gson().fromJson(f, ServerXmlConfig.class)*/;
+        ServerXmlConfig s =new Gson().fromJson(f, ServerXmlConfig.class);
 
         return s;
     }
@@ -67,7 +68,8 @@ public class ServerXmlConfig extends GenericConfig implements Serializable {
 
         for (int i = 0; i < json.length; i++) {
             String j = json[i];
-            servers.add(fromStr2ServerXmlConfig(j));
+            getLogger().info("Desde el arreglo: "+j);
+            //servers.add(fromStr2ServerXmlConfig(j));
         }
 
         return servers;
@@ -78,28 +80,35 @@ public class ServerXmlConfig extends GenericConfig implements Serializable {
 
         if (config != null) {
             getLogger().info("Iniciando evaluacion");
-            String[] instances = config.getStringArray(D_INSTANCES_KEY);
-
-            if (instances != null && instances.length > 0) {
-
-                getLogger().info("En las instancias");
-
-                List<ServerXmlConfig> sss = fromJsonArray2ListObj(instances);
-
-                for (ServerXmlConfig s : sss) {
-
-                    getLogger().info(s);
-                }
-
-            } else {
-                try {
-                    getLogger().info("Fijando la nueva instancia");
-                    config.setProperty(D_INSTANCES_KEY, fromServerXmlConfig2Str(instance));
-                    config.save();
-                } catch (ConfigurationException ex) {
-                    getLogger().error("Error saving the instance: " + instance.getInstanceName() + instance.getInstanceNumber(), ex);
-                }
+            Iterator<String> keyNames = config.getKeys(D_INSTANCES_KEY);
+            
+            while(keyNames.hasNext()){
+                
+                String key = keyNames.next();
+                String json = config.getString(key);
+                System.out.println(json);
             }
+            
+//            if (instances != null && instances.length > 0) {
+//
+//                getLogger().info("En las instancias");
+//
+//                List<ServerXmlConfig> sss = fromJsonArray2ListObj(instances);
+//
+//                for (ServerXmlConfig s : sss) {
+//
+//                    getLogger().info(s);
+//                }
+//
+//            } else {
+//                try {
+//                    getLogger().info("Fijando la nueva instancia");
+//                    config.setProperty(D_INSTANCES_KEY, fromServerXmlConfig2Str(instance));
+//                    config.save();
+//                } catch (ConfigurationException ex) {
+//                    getLogger().error("Error saving the instance: " + instance.getInstanceName() + instance.getInstanceNumber(), ex);
+//                }
+//            }
 
         } else {
             getLogger().error("Error getting the config for class: " + ServerXmlConfig.class);
