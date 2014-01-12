@@ -13,7 +13,7 @@
 
         <br>
 
-        <c:if var="cond" test="${not empty person.firstname and not empty person.lastname}">
+        <c:if var="cond" test="${not empty person.firstname and person.firstname != '' and not empty person.lastname and person.lastname != ''}">
 
             <h2 style="color:blue">Welcome: ${person.completeName}</h2>
 
@@ -23,7 +23,7 @@
 
         <c:if test="${not cond}">
 
-            <h2 style="color:blue">Welcome: Anonymous Person</h2>
+            <h2 style="color:red">Welcome: Anonymous Person</h2>
             <c:remove scope="session" var="person"/>
         </c:if>    
 
