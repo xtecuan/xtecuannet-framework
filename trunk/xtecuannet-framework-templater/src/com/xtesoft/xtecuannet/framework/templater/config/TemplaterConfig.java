@@ -88,6 +88,14 @@ public class TemplaterConfig implements Serializable {
     private String remotingPattern;
     private String facesUrlPattern;
     private String remotingFilename;
+    private File cfcBeansPath;
+    private String cfcSQLDriver;
+    private String cfcSQLUrl;
+    private String cfcSQLUser;
+    private String cfcSQLPass;
+    private String cfcSQLTables;
+    private String cfcBeansPrefix;
+    private String cfcBeansExtends;
 
     public TemplaterConfig() {
         this.readConfig();
@@ -671,6 +679,70 @@ public class TemplaterConfig implements Serializable {
 
     public void setRemotingFilename(String remotingFilename) {
         this.remotingFilename = remotingFilename;
+    }
+
+    public File getCfcBeansPath() {
+        return cfcBeansPath;
+    }
+
+    public void setCfcBeansPath(File cfcBeansPath) {
+        this.cfcBeansPath = cfcBeansPath;
+    }
+
+    public String getCfcSQLDriver() {
+        return cfcSQLDriver;
+    }
+
+    public void setCfcSQLDriver(String cfcSQLDriver) {
+        this.cfcSQLDriver = cfcSQLDriver;
+    }
+
+    public String getCfcSQLUrl() {
+        return cfcSQLUrl;
+    }
+
+    public void setCfcSQLUrl(String cfcSQLUrl) {
+        this.cfcSQLUrl = cfcSQLUrl;
+    }
+
+    public String getCfcSQLUser() {
+        return cfcSQLUser;
+    }
+
+    public void setCfcSQLUser(String cfcSQLUser) {
+        this.cfcSQLUser = cfcSQLUser;
+    }
+
+    public String getCfcSQLPass() {
+        return cfcSQLPass;
+    }
+
+    public void setCfcSQLPass(String cfcSQLPass) {
+        this.cfcSQLPass = cfcSQLPass;
+    }
+
+    public String getCfcSQLTables() {
+        return cfcSQLTables;
+    }
+
+    public void setCfcSQLTables(String cfcSQLTables) {
+        this.cfcSQLTables = cfcSQLTables;
+    }
+
+    public String getCfcBeansPrefix() {
+        return cfcBeansPrefix;
+    }
+
+    public void setCfcBeansPrefix(String cfcBeansPrefix) {
+        this.cfcBeansPrefix = cfcBeansPrefix;
+    }
+
+    public String getCfcBeansExtends() {
+        return cfcBeansExtends;
+    }
+
+    public void setCfcBeansExtends(String cfcBeansExtends) {
+        this.cfcBeansExtends = cfcBeansExtends;
     }
     
     

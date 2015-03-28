@@ -393,3 +393,1083 @@ java.io.IOException: Failed to delete original file 'C:\Users\ymarroquin.CSJ\Doc
 2013-06-07 13:06:43,240 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
 2013-06-07 13:06:49,874 [AWT-EventQueue-0] INFO - Creating: /main/resources/applicationContext-services.xml
 2013-06-07 14:53:17,175 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 11:26:14,291 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 11:26:14,322 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 11:26:14,322 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 11:26:14,323 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 11:26:14,323 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 11:26:14,323 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 11:39:02,875 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 14:27:38,622 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 14:27:38,657 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 14:27:38,657 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 14:27:38,657 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 14:27:38,658 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 14:27:38,658 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 14:27:57,991 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 14:28:27,066 [AWT-EventQueue-0] ERROR - Error connecting to: jdbc:sqlserver://hqta64SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+com.microsoft.sqlserver.jdbc.SQLServerException: No se pudo realizar la conexión TCP/IP al host hqta64SQLEXPRESS, puerto 1433. Error: "null. Verifique las propiedades de conexión, compruebe que hay una instancia de SQL Server ejecutándose en el host y aceptando las conexiones TCP/IP en el puerto y compruebe que no hay ningún firewall bloqueando las conexiones TCP en el puerto.".
+	at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:190)
+	at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:241)
+	at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2243)
+	at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:491)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1309)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:991)
+	at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:827)
+	at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1012)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLScanner.getConnection(CFCFEntitiesFiller.java:116)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLScanner.getSQLFields(CFCFEntitiesFiller.java:132)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:193)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 14:28:27,091 [AWT-EventQueue-0] ERROR - Error getting fields for table: Output.DimExternalEvents
+java.lang.NullPointerException
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLScanner.getSQLFields(CFCFEntitiesFiller.java:132)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:193)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 14:28:27,491 [AWT-EventQueue-0] ERROR - Error processing template: cfcBeanEntityLike.ftl
+
+Expression cfcName is undefined on line 12, column 43 in cfcBeanEntityLike.ftl.
+The problematic instruction:
+----------
+==> ${cfcName} [on line 12, column 41 in cfcBeanEntityLike.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression cfcName is undefined on line 12, column 43 in cfcBeanEntityLike.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:203)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 14:37:55,881 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 14:42:48,874 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 14:43:58,519 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 14:44:53,969 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 14:44:53,970 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 14:44:53,970 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 14:44:53,970 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 14:44:53,970 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 14:44:53,970 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 14:44:58,097 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 14:44:59,200 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 14:44:59,262 [AWT-EventQueue-0] INFO - File: KlqtOutput.DimExternalEvents.cfc already exists!!!!
+2015-03-27 14:45:43,627 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 14:52:15,649 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 14:52:15,650 [main] INFO - index = .DimExternalEvents
+2015-03-27 14:52:48,035 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 14:52:48,036 [main] INFO - index = DimExternalEvents
+2015-03-27 14:56:06,064 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 14:56:06,064 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 14:56:06,064 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 14:56:06,065 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 14:56:06,065 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 14:56:06,065 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 14:56:11,500 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 14:56:11,920 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 14:56:11,984 [AWT-EventQueue-0] ERROR - Error processing template: cfcBeanEntityLike.ftl
+
+Expression cfcProperty.coldfusionType is undefined on line 15, column 132 in cfcBeanEntityLike.ftl.
+The problematic instruction:
+----------
+==> ${cfcProperty.coldfusionType} [on line 15, column 130 in cfcBeanEntityLike.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression cfcProperty.coldfusionType is undefined on line 15, column 132 in cfcBeanEntityLike.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.IteratorBlock$Context.runLoop(IteratorBlock.java:179)
+	at freemarker.core.Environment.visit(Environment.java:428)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:102)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:212)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 15:01:29,422 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:01:47,895 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:01:47,896 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:01:47,896 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:01:47,896 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:01:47,896 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:01:47,896 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:01:50,554 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:01:50,973 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:01:51,037 [AWT-EventQueue-0] ERROR - Error processing template: cfcBeanEntityLike.ftl
+
+Expression cfcProperty.coldfusionType is undefined on line 15, column 132 in cfcBeanEntityLike.ftl.
+The problematic instruction:
+----------
+==> ${cfcProperty.coldfusionType} [on line 15, column 130 in cfcBeanEntityLike.ftl]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression cfcProperty.coldfusionType is undefined on line 15, column 132 in cfcBeanEntityLike.ftl.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:125)
+	at freemarker.core.Expression.getStringValue(Expression.java:118)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.IteratorBlock$Context.runLoop(IteratorBlock.java:179)
+	at freemarker.core.Environment.visit(Environment.java:428)
+	at freemarker.core.IteratorBlock.accept(IteratorBlock.java:102)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:221)
+	at freemarker.core.Environment.process(Environment.java:199)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:213)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 15:02:07,628 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:04:01,910 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:04:01,910 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:04:01,911 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:04:01,911 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:04:01,911 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:04:01,911 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:04:08,109 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:04:08,523 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:04:08,570 [AWT-EventQueue-0] INFO - File: KlqtDimExternalEvents.cfc already exists!!!!
+2015-03-27 15:04:15,548 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:04:29,516 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:04:29,516 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:04:29,517 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:04:29,517 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:04:29,517 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:04:29,517 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:04:33,978 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:04:34,405 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:05:02,025 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:09:39,092 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:09:39,092 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:09:39,092 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:09:39,093 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:09:39,093 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:09:39,093 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:09:42,479 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:09:42,900 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:25:13,597 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:25:13,597 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:25:13,598 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:25:13,598 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:25:13,598 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:25:13,598 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:25:15,745 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:25:16,238 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:25:16,285 [AWT-EventQueue-0] INFO - File: KlqtDimExternalEvents.cfc already exists!!!!
+2015-03-27 15:25:25,986 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:38:35,685 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:38:35,685 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:38:35,686 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:38:35,686 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:38:35,686 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:38:35,686 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:38:38,771 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:38:39,220 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:38:39,267 [AWT-EventQueue-0] INFO - [com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@26e78b83, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@28b68692, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@227836d7, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@b85c6cf, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@1124ffaf, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@dba790f, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@6e1728e1, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@4b013852, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@7d6e6f1a, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@234203b9, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@74456710, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@36c41262, com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller$SQLField@385cad1f]
+2015-03-27 15:39:03,398 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:40:10,262 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:40:10,263 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:40:10,264 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:40:10,264 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:40:10,264 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:40:10,264 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:40:12,570 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:40:12,997 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:40:13,045 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=null}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=null}, SQLField{columnName=Name, columnType=12, coldfusionType=null}, SQLField{columnName=Objectives, columnType=12, coldfusionType=null}, SQLField{columnName=Comments, columnType=12, coldfusionType=null}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=null}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=null}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=null}, SQLField{columnName=StartDate, columnType=93, coldfusionType=null}, SQLField{columnName=EndDate, columnType=93, coldfusionType=null}, SQLField{columnName=Duration, columnType=8, coldfusionType=null}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=null}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=null}]
+2015-03-27 15:40:34,080 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:41:24,998 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:41:24,999 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:41:24,999 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:41:24,999 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:41:24,999 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:41:24,999 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:41:27,436 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:41:27,870 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:41:27,918 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}]
+2015-03-27 15:42:14,289 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 15:49:31,379 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 15:49:31,380 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 15:49:31,380 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 15:49:31,380 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 15:49:31,381 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 15:49:31,381 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 15:49:33,441 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 15:49:33,865 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 15:49:33,914 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 17:05:07,205 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 17:05:07,206 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 17:05:07,206 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 17:05:07,207 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 17:05:07,207 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 17:05:07,207 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 17:05:09,561 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 17:05:10,001 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 17:05:10,049 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 17:05:18,369 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 19:13:01,830 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 19:13:01,831 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 19:13:01,832 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 19:13:01,832 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 19:13:01,832 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 19:13:01,832 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 19:13:17,087 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 19:13:17,509 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 19:13:17,557 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 19:13:38,042 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 19:15:11,396 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 19:15:11,397 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 19:15:11,397 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 19:15:11,397 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 19:15:11,397 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 19:15:11,397 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 19:15:14,946 [AWT-EventQueue-0] INFO - [Ljava.lang.String;@43ecc9f6
+2015-03-27 19:15:15,090 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 19:15:15,455 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 19:15:15,505 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 19:15:48,414 [AWT-EventQueue-0] INFO - [Ljava.lang.String;@3dd217d4
+2015-03-27 19:15:48,419 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 19:15:48,449 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 19:15:48,452 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 19:15:59,934 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 19:16:18,520 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 19:16:18,520 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 19:16:18,521 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 19:16:18,521 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 19:16:18,521 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 19:16:18,521 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 19:16:23,275 [AWT-EventQueue-0] INFO - [Ljava.lang.String;@33c56d57
+2015-03-27 19:16:23,420 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 19:16:23,786 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 19:16:23,836 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 19:16:42,137 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 19:18:01,621 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 19:18:01,622 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 19:18:01,622 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 19:18:01,622 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 19:18:01,622 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 19:18:01,623 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 19:18:04,422 [AWT-EventQueue-0] INFO - 1
+2015-03-27 19:18:04,422 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 19:18:04,422 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 19:18:04,788 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 19:18:04,836 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 19:21:00,388 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 19:21:00,389 [main] INFO - index = DimExternalEvents
+2015-03-27 19:29:06,169 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 19:29:06,170 [main] INFO - index = DimExternalEvents
+2015-03-27 20:17:02,452 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 20:17:02,473 [main] INFO - index = DimExternalEvents
+2015-03-27 20:22:57,213 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 20:22:57,213 [main] INFO - index = DimExternalEvents
+2015-03-27 20:25:55,982 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 20:25:55,982 [main] INFO - index = DimExternalEvents
+2015-03-27 20:27:03,571 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:27:18,797 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:27:18,798 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:27:18,798 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:27:18,798 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:27:18,798 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:27:18,799 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:27:36,396 [AWT-EventQueue-0] INFO - 1
+2015-03-27 20:27:36,396 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:27:36,396 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:27:37,334 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:27:37,396 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:28:04,978 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:28:56,131 [main] INFO - com.microsoft.sqlserver.jdbc.SQLServerDriver jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE knldb_admin +1db-knl%
+2015-03-27 20:28:56,132 [main] INFO - index = DimExternalEvents
+2015-03-27 20:29:07,674 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:29:07,675 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:29:07,675 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:29:07,675 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:29:07,676 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:29:07,676 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:29:10,379 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:29:10,530 [AWT-EventQueue-0] INFO - 1
+2015-03-27 20:29:10,530 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:29:10,530 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:29:10,905 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:29:10,953 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:34:24,927 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:35:09,168 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:35:09,169 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:35:09,169 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:35:09,170 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:35:09,170 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:35:09,170 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:35:23,895 [AWT-EventQueue-0] INFO - Output.DimExternalEvents:Output.LanguageInternalEvents:Registration.DimParticipants:Evaluation.FactEvaluationExternalEvents:Evaluation.FactEvalFacilitatorInternalEvents:General.DimInstitutions:Output.DimInternalEvents:Evaluation.FactEvaluationInternalEvents:Output.DimFacilitators:General.DimDate
+2015-03-27 20:35:25,356 [AWT-EventQueue-0] INFO - 10
+2015-03-27 20:35:25,356 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:35:25,356 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:35:26,835 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:35:26,886 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:35:26,886 [AWT-EventQueue-0] INFO - Output.LanguageInternalEvents
+2015-03-27 20:35:26,886 [AWT-EventQueue-0] INFO - Processing table: Output.LanguageInternalEvents
+2015-03-27 20:35:26,887 [AWT-EventQueue-0] ERROR - Error getting fields for table: Output.LanguageInternalEvents
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:26,889 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:26,889 [AWT-EventQueue-0] INFO - Registration.DimParticipants
+2015-03-27 20:35:26,889 [AWT-EventQueue-0] INFO - Processing table: Registration.DimParticipants
+2015-03-27 20:35:26,890 [AWT-EventQueue-0] ERROR - Error getting fields for table: Registration.DimParticipants
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:26,891 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:26,892 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:35:26,892 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:35:26,892 [AWT-EventQueue-0] ERROR - Error getting fields for table: Evaluation.FactEvaluationExternalEvents
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,289 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,289 [AWT-EventQueue-0] INFO - Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:35:27,290 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:35:27,290 [AWT-EventQueue-0] ERROR - Error getting fields for table: Evaluation.FactEvalFacilitatorInternalEvents
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,292 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,292 [AWT-EventQueue-0] INFO - General.DimInstitutions
+2015-03-27 20:35:27,352 [AWT-EventQueue-0] INFO - Processing table: General.DimInstitutions
+2015-03-27 20:35:27,352 [AWT-EventQueue-0] ERROR - Error getting fields for table: General.DimInstitutions
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,353 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,353 [AWT-EventQueue-0] INFO - Output.DimInternalEvents
+2015-03-27 20:35:27,353 [AWT-EventQueue-0] INFO - Processing table: Output.DimInternalEvents
+2015-03-27 20:35:27,353 [AWT-EventQueue-0] ERROR - Error getting fields for table: Output.DimInternalEvents
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,392 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,393 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:35:27,393 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:35:27,393 [AWT-EventQueue-0] ERROR - Error getting fields for table: Evaluation.FactEvaluationInternalEvents
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,393 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,393 [AWT-EventQueue-0] INFO - Output.DimFacilitators
+2015-03-27 20:35:27,453 [AWT-EventQueue-0] INFO - Processing table: Output.DimFacilitators
+2015-03-27 20:35:27,453 [AWT-EventQueue-0] ERROR - Error getting fields for table: Output.DimFacilitators
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,453 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:35:27,454 [AWT-EventQueue-0] INFO - General.DimDate
+2015-03-27 20:35:27,454 [AWT-EventQueue-0] INFO - Processing table: General.DimDate
+2015-03-27 20:35:27,454 [AWT-EventQueue-0] ERROR - Error getting fields for table: General.DimDate
+java.sql.SQLException: Connection is null.
+	at org.apache.commons.dbcp2.DelegatingConnection.checkOpen(DelegatingConnection.java:608)
+	at org.apache.commons.dbcp2.DelegatingConnection.prepareStatement(DelegatingConnection.java:286)
+	at com.xtesoft.xtecuannet.framework.templater.filler.utils.SQLScanner.getSQLFields(SQLScanner.java:127)
+	at com.xtesoft.xtecuannet.framework.templater.filler.CFCFEntitiesFiller.filloutTemplate(CFCFEntitiesFiller.java:68)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.coldfusionBeansButtonActionPerformed(Templater.java:418)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater.access$2000(Templater.java:27)
+	at com.xtesoft.xtecuannet.framework.templater.gui.Templater$20.actionPerformed(Templater.java:204)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2346)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6525)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3322)
+	at java.awt.Component.processEvent(Component.java:6290)
+	at java.awt.Container.processEvent(Container.java:2234)
+	at java.awt.Component.dispatchEventImpl(Component.java:4881)
+	at java.awt.Container.dispatchEventImpl(Container.java:2292)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4898)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4533)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4462)
+	at java.awt.Container.dispatchEventImpl(Container.java:2278)
+	at java.awt.Window.dispatchEventImpl(Window.java:2739)
+	at java.awt.Component.dispatchEvent(Component.java:4703)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:751)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:702)
+	at java.awt.EventQueue$3.run(EventQueue.java:696)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:724)
+	at java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:75)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:721)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2015-03-27 20:35:27,479 [AWT-EventQueue-0] INFO - []
+2015-03-27 20:39:07,582 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:39:07,583 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:39:07,583 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:39:07,583 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:39:07,583 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:39:07,584 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:39:19,095 [AWT-EventQueue-0] INFO - Output.DimExternalEvents:Output.LanguageInternalEvents:Registration.DimParticipants:Evaluation.FactEvaluationExternalEvents:Evaluation.FactEvalFacilitatorInternalEvents:General.DimInstitutions:Output.DimInternalEvents:Evaluation.FactEvaluationInternalEvents:Output.DimFacilitators:General.DimDate
+2015-03-27 20:39:19,248 [AWT-EventQueue-0] INFO - 10
+2015-03-27 20:39:19,248 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:39:19,248 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:39:19,626 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:39:19,677 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:39:19,677 [AWT-EventQueue-0] INFO - Output.LanguageInternalEvents
+2015-03-27 20:39:19,677 [AWT-EventQueue-0] INFO - Processing table: Output.LanguageInternalEvents
+2015-03-27 20:39:19,685 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Language, columnType=12, coldfusionType=String}]
+2015-03-27 20:39:19,685 [AWT-EventQueue-0] INFO - Registration.DimParticipants
+2015-03-27 20:39:19,685 [AWT-EventQueue-0] INFO - Processing table: Registration.DimParticipants
+2015-03-27 20:39:19,691 [AWT-EventQueue-0] INFO - [SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=ParticipantBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=Insitution, columnType=12, coldfusionType=String}, SQLField{columnName=Title, columnType=12, coldfusionType=String}, SQLField{columnName=WorkLocation, columnType=12, coldfusionType=String}, SQLField{columnName=Unit, columnType=12, coldfusionType=String}, SQLField{columnName=Department, columnType=12, coldfusionType=String}, SQLField{columnName=Section, columnType=12, coldfusionType=String}, SQLField{columnName=CareerTrack, columnType=12, coldfusionType=String}, SQLField{columnName=CareerPath, columnType=12, coldfusionType=String}, SQLField{columnName=WorkRole, columnType=12, coldfusionType=String}, SQLField{columnName=ContractType, columnType=12, coldfusionType=String}, SQLField{columnName=Gender, columnType=12, coldfusionType=String}]
+2015-03-27 20:39:19,691 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:39:19,691 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:39:19,700 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:39:19,700 [AWT-EventQueue-0] INFO - Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:39:19,700 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:39:19,708 [AWT-EventQueue-0] INFO - [SQLField{columnName=EvaluationId, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyId, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorId, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionId, columnType=4, coldfusionType=numeric}, SQLField{columnName=Role, columnType=12, coldfusionType=String}, SQLField{columnName=ModalityParticipation, columnType=12, coldfusionType=String}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Rating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:39:19,709 [AWT-EventQueue-0] INFO - General.DimInstitutions
+2015-03-27 20:39:19,709 [AWT-EventQueue-0] INFO - Processing table: General.DimInstitutions
+2015-03-27 20:39:19,714 [AWT-EventQueue-0] INFO - [SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Website, columnType=12, coldfusionType=String}, SQLField{columnName=Address, columnType=12, coldfusionType=String}, SQLField{columnName=Country, columnType=12, coldfusionType=String}, SQLField{columnName=City, columnType=12, coldfusionType=String}]
+2015-03-27 20:39:19,714 [AWT-EventQueue-0] INFO - Output.DimInternalEvents
+2015-03-27 20:39:19,714 [AWT-EventQueue-0] INFO - Processing table: Output.DimInternalEvents
+2015-03-27 20:39:19,725 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Subject, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=EventType, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=Modality, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=Location, columnType=12, coldfusionType=String}, SQLField{columnName=HostCountry, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=ParticipantQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=Audience, columnType=12, coldfusionType=String}, SQLField{columnName=Topics, columnType=12, coldfusionType=String}]
+2015-03-27 20:39:19,726 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:39:19,726 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:39:19,737 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=InviteesQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=RespondentQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=ResponseRate, columnType=8, coldfusionType=numeric}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=TemplateId, columnType=4, coldfusionType=numeric}, SQLField{columnName=TemplateName, columnType=12, coldfusionType=String}, SQLField{columnName=ResultsAchievedBefore, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedAfter, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility1, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility2, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility3, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility4, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility5, columnType=4, coldfusionType=numeric}, SQLField{columnName=PercUtility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:39:19,739 [AWT-EventQueue-0] INFO - Output.DimFacilitators
+2015-03-27 20:39:19,739 [AWT-EventQueue-0] INFO - Processing table: Output.DimFacilitators
+2015-03-27 20:39:19,743 [AWT-EventQueue-0] INFO - [SQLField{columnName=FacilitatorID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=GeneralRating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:39:19,743 [AWT-EventQueue-0] INFO - General.DimDate
+2015-03-27 20:39:19,743 [AWT-EventQueue-0] INFO - Processing table: General.DimDate
+2015-03-27 20:39:19,751 [AWT-EventQueue-0] INFO - [SQLField{columnName=DateKey, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullDate, columnType=91, coldfusionType=date}, SQLField{columnName=DateName, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfWeek, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayNameOfWeek, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfMonth, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayOfYear, columnType=5, coldfusionType=Any}, SQLField{columnName=WeekdayWeekend, columnType=-15, coldfusionType=String}, SQLField{columnName=WeekOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=MonthName, columnType=-15, coldfusionType=String}, SQLField{columnName=MonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=IsLastDayOfMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=CalendarYear, columnType=5, coldfusionType=Any}, SQLField{columnName=CalendarYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarYearQtr, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalMonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalYear, columnType=4, coldfusionType=numeric}, SQLField{columnName=FiscalYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalYearQtr, columnType=-15, coldfusionType=String}]
+2015-03-27 20:39:40,592 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:40:54,451 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:40:54,451 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:40:54,451 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:40:54,452 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:40:54,452 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:40:54,452 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:41:08,962 [AWT-EventQueue-0] INFO - Output.DimExternalEvents:Output.LanguageInternalEvents:Registration.DimParticipants:Evaluation.FactEvaluationExternalEvents:Evaluation.FactEvalFacilitatorInternalEvents:General.DimInstitutions:Output.DimInternalEvents:Evaluation.FactEvaluationInternalEvents:Output.DimFacilitators:General.DimDate
+2015-03-27 20:41:09,118 [AWT-EventQueue-0] INFO - 10
+2015-03-27 20:41:09,118 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:41:09,118 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:41:09,496 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:41:09,548 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:41:09,623 [AWT-EventQueue-0] INFO - Output.LanguageInternalEvents
+2015-03-27 20:41:09,624 [AWT-EventQueue-0] INFO - Processing table: Output.LanguageInternalEvents
+2015-03-27 20:41:09,627 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Language, columnType=12, coldfusionType=String}]
+2015-03-27 20:41:09,629 [AWT-EventQueue-0] INFO - Registration.DimParticipants
+2015-03-27 20:41:09,629 [AWT-EventQueue-0] INFO - Processing table: Registration.DimParticipants
+2015-03-27 20:41:09,632 [AWT-EventQueue-0] INFO - [SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=ParticipantBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=Insitution, columnType=12, coldfusionType=String}, SQLField{columnName=Title, columnType=12, coldfusionType=String}, SQLField{columnName=WorkLocation, columnType=12, coldfusionType=String}, SQLField{columnName=Unit, columnType=12, coldfusionType=String}, SQLField{columnName=Department, columnType=12, coldfusionType=String}, SQLField{columnName=Section, columnType=12, coldfusionType=String}, SQLField{columnName=CareerTrack, columnType=12, coldfusionType=String}, SQLField{columnName=CareerPath, columnType=12, coldfusionType=String}, SQLField{columnName=WorkRole, columnType=12, coldfusionType=String}, SQLField{columnName=ContractType, columnType=12, coldfusionType=String}, SQLField{columnName=Gender, columnType=12, coldfusionType=String}]
+2015-03-27 20:41:09,634 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:41:09,634 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:41:09,637 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:41:09,640 [AWT-EventQueue-0] INFO - Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:41:09,640 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:41:09,645 [AWT-EventQueue-0] INFO - [SQLField{columnName=EvaluationId, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyId, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorId, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionId, columnType=4, coldfusionType=numeric}, SQLField{columnName=Role, columnType=12, coldfusionType=String}, SQLField{columnName=ModalityParticipation, columnType=12, coldfusionType=String}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Rating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:41:09,648 [AWT-EventQueue-0] INFO - General.DimInstitutions
+2015-03-27 20:41:09,649 [AWT-EventQueue-0] INFO - Processing table: General.DimInstitutions
+2015-03-27 20:41:09,652 [AWT-EventQueue-0] INFO - [SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Website, columnType=12, coldfusionType=String}, SQLField{columnName=Address, columnType=12, coldfusionType=String}, SQLField{columnName=Country, columnType=12, coldfusionType=String}, SQLField{columnName=City, columnType=12, coldfusionType=String}]
+2015-03-27 20:41:09,654 [AWT-EventQueue-0] INFO - Output.DimInternalEvents
+2015-03-27 20:41:09,654 [AWT-EventQueue-0] INFO - Processing table: Output.DimInternalEvents
+2015-03-27 20:41:09,658 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Subject, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=EventType, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=Modality, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=Location, columnType=12, coldfusionType=String}, SQLField{columnName=HostCountry, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=ParticipantQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=Audience, columnType=12, coldfusionType=String}, SQLField{columnName=Topics, columnType=12, coldfusionType=String}]
+2015-03-27 20:41:09,660 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:41:09,660 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:41:09,665 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=InviteesQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=RespondentQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=ResponseRate, columnType=8, coldfusionType=numeric}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=TemplateId, columnType=4, coldfusionType=numeric}, SQLField{columnName=TemplateName, columnType=12, coldfusionType=String}, SQLField{columnName=ResultsAchievedBefore, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedAfter, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility1, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility2, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility3, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility4, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility5, columnType=4, coldfusionType=numeric}, SQLField{columnName=PercUtility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:41:09,670 [AWT-EventQueue-0] INFO - Output.DimFacilitators
+2015-03-27 20:41:09,670 [AWT-EventQueue-0] INFO - Processing table: Output.DimFacilitators
+2015-03-27 20:41:09,673 [AWT-EventQueue-0] INFO - [SQLField{columnName=FacilitatorID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=GeneralRating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:41:09,674 [AWT-EventQueue-0] INFO - General.DimDate
+2015-03-27 20:41:09,674 [AWT-EventQueue-0] INFO - Processing table: General.DimDate
+2015-03-27 20:41:09,677 [AWT-EventQueue-0] INFO - [SQLField{columnName=DateKey, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullDate, columnType=91, coldfusionType=date}, SQLField{columnName=DateName, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfWeek, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayNameOfWeek, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfMonth, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayOfYear, columnType=5, coldfusionType=Any}, SQLField{columnName=WeekdayWeekend, columnType=-15, coldfusionType=String}, SQLField{columnName=WeekOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=MonthName, columnType=-15, coldfusionType=String}, SQLField{columnName=MonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=IsLastDayOfMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=CalendarYear, columnType=5, coldfusionType=Any}, SQLField{columnName=CalendarYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarYearQtr, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalMonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalYear, columnType=4, coldfusionType=numeric}, SQLField{columnName=FiscalYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalYearQtr, columnType=-15, coldfusionType=String}]
+2015-03-27 20:41:19,628 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:51:45,365 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:51:45,366 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:51:45,366 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:51:45,366 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:51:45,366 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:51:45,366 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:51:49,215 [AWT-EventQueue-0] INFO - Closing Application!!!
+2015-03-27 20:51:58,914 [AWT-EventQueue-0] INFO - Starting application, with config path: file:\D:\Work\Java\WorkspaceNuevoKNLSystem\xtecuannet-framework-templater\xtecuannet-framework-templater\xtecuannet-framework-templater.properties
+2015-03-27 20:51:58,915 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.entidades
+2015-03-27 20:51:58,915 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\entidades
+2015-03-27 20:51:58,916 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios
+2015-03-27 20:51:58,916 [AWT-EventQueue-0] INFO - C:\Users\ymarroquin.CSJ\Documents\NetBeansProjects\receptora-online-modelo\src\main\java\sv\gob\csj\usad\receptora\online\modelo\servicios\impl
+2015-03-27 20:51:58,916 [AWT-EventQueue-0] INFO - sv.gob.csj.usad.receptora.online.modelo.servicios.impl
+2015-03-27 20:52:08,933 [AWT-EventQueue-0] INFO - Output.DimExternalEvents:Output.LanguageInternalEvents:Registration.DimParticipants:Evaluation.FactEvaluationExternalEvents:Evaluation.FactEvalFacilitatorInternalEvents:General.DimInstitutions:Output.DimInternalEvents:Evaluation.FactEvaluationInternalEvents:Output.DimFacilitators:General.DimDate
+2015-03-27 20:52:09,087 [AWT-EventQueue-0] INFO - 10
+2015-03-27 20:52:09,087 [AWT-EventQueue-0] INFO - Output.DimExternalEvents
+2015-03-27 20:52:09,088 [AWT-EventQueue-0] INFO - Processing table: Output.DimExternalEvents
+2015-03-27 20:52:09,476 [AWT-EventQueue-0] INFO - Connected to: jdbc:sqlserver://hqta64\SQLEXPRESS;databaseName=KNL_DATAWAREHOUSE
+2015-03-27 20:52:09,528 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}]
+2015-03-27 20:52:09,541 [AWT-EventQueue-0] INFO - Output.LanguageInternalEvents
+2015-03-27 20:52:09,541 [AWT-EventQueue-0] INFO - Processing table: Output.LanguageInternalEvents
+2015-03-27 20:52:09,544 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Language, columnType=12, coldfusionType=String}]
+2015-03-27 20:52:09,545 [AWT-EventQueue-0] INFO - Registration.DimParticipants
+2015-03-27 20:52:09,545 [AWT-EventQueue-0] INFO - Processing table: Registration.DimParticipants
+2015-03-27 20:52:09,548 [AWT-EventQueue-0] INFO - [SQLField{columnName=ParticipantID, columnType=4, coldfusionType=numeric}, SQLField{columnName=ParticipantBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=Insitution, columnType=12, coldfusionType=String}, SQLField{columnName=Title, columnType=12, coldfusionType=String}, SQLField{columnName=WorkLocation, columnType=12, coldfusionType=String}, SQLField{columnName=Unit, columnType=12, coldfusionType=String}, SQLField{columnName=Department, columnType=12, coldfusionType=String}, SQLField{columnName=Section, columnType=12, coldfusionType=String}, SQLField{columnName=CareerTrack, columnType=12, coldfusionType=String}, SQLField{columnName=CareerPath, columnType=12, coldfusionType=String}, SQLField{columnName=WorkRole, columnType=12, coldfusionType=String}, SQLField{columnName=ContractType, columnType=12, coldfusionType=String}, SQLField{columnName=Gender, columnType=12, coldfusionType=String}]
+2015-03-27 20:52:09,550 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:52:09,550 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationExternalEvents
+2015-03-27 20:52:09,555 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Recommendation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:52:09,558 [AWT-EventQueue-0] INFO - Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:52:09,558 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvalFacilitatorInternalEvents
+2015-03-27 20:52:09,566 [AWT-EventQueue-0] INFO - [SQLField{columnName=EvaluationId, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyId, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorId, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionId, columnType=4, coldfusionType=numeric}, SQLField{columnName=Role, columnType=12, coldfusionType=String}, SQLField{columnName=ModalityParticipation, columnType=12, coldfusionType=String}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Rating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:52:09,573 [AWT-EventQueue-0] INFO - General.DimInstitutions
+2015-03-27 20:52:09,573 [AWT-EventQueue-0] INFO - Processing table: General.DimInstitutions
+2015-03-27 20:52:09,577 [AWT-EventQueue-0] INFO - [SQLField{columnName=InstitutionID, columnType=4, coldfusionType=numeric}, SQLField{columnName=InstitutionBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Website, columnType=12, coldfusionType=String}, SQLField{columnName=Address, columnType=12, coldfusionType=String}, SQLField{columnName=Country, columnType=12, coldfusionType=String}, SQLField{columnName=City, columnType=12, coldfusionType=String}]
+2015-03-27 20:52:09,578 [AWT-EventQueue-0] INFO - Output.DimInternalEvents
+2015-03-27 20:52:09,578 [AWT-EventQueue-0] INFO - Processing table: Output.DimInternalEvents
+2015-03-27 20:52:09,582 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=EventBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=Name, columnType=12, coldfusionType=String}, SQLField{columnName=Subject, columnType=12, coldfusionType=String}, SQLField{columnName=Objectives, columnType=12, coldfusionType=String}, SQLField{columnName=Comments, columnType=12, coldfusionType=String}, SQLField{columnName=EventType, columnType=12, coldfusionType=String}, SQLField{columnName=PresentationType, columnType=12, coldfusionType=String}, SQLField{columnName=Modality, columnType=12, coldfusionType=String}, SQLField{columnName=OPUSActivity, columnType=12, coldfusionType=String}, SQLField{columnName=Location, columnType=12, coldfusionType=String}, SQLField{columnName=HostCountry, columnType=12, coldfusionType=String}, SQLField{columnName=CreatedDate, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=EndDate, columnType=93, coldfusionType=Any}, SQLField{columnName=Duration, columnType=8, coldfusionType=numeric}, SQLField{columnName=ParticipantQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=BusinessPartner, columnType=12, coldfusionType=String}, SQLField{columnName=Audience, columnType=12, coldfusionType=String}, SQLField{columnName=Topics, columnType=12, coldfusionType=String}]
+2015-03-27 20:52:09,583 [AWT-EventQueue-0] INFO - Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:52:09,584 [AWT-EventQueue-0] INFO - Processing table: Evaluation.FactEvaluationInternalEvents
+2015-03-27 20:52:09,592 [AWT-EventQueue-0] INFO - [SQLField{columnName=EventID, columnType=4, coldfusionType=numeric}, SQLField{columnName=SurveyID, columnType=4, coldfusionType=numeric}, SQLField{columnName=DateCreated, columnType=93, coldfusionType=Any}, SQLField{columnName=StartDate, columnType=93, coldfusionType=Any}, SQLField{columnName=ExpirationDate, columnType=93, coldfusionType=Any}, SQLField{columnName=InviteesQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=RespondentQty, columnType=4, coldfusionType=numeric}, SQLField{columnName=ResponseRate, columnType=8, coldfusionType=numeric}, SQLField{columnName=Reportable, columnType=1, coldfusionType=String}, SQLField{columnName=Language, columnType=12, coldfusionType=String}, SQLField{columnName=TemplateId, columnType=4, coldfusionType=numeric}, SQLField{columnName=TemplateName, columnType=12, coldfusionType=String}, SQLField{columnName=ResultsAchievedBefore, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedAfter, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPercPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=ResultsAchievedPointGain, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Objectives, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility1, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility2, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility3, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility4, columnType=4, coldfusionType=numeric}, SQLField{columnName=Utility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsUtility5, columnType=4, coldfusionType=numeric}, SQLField{columnName=PercUtility4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercUtility4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Utility, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercInnovation4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Innovation, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorExpertise4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorExpertise, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorGroupDiscussion4&5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorGroupDiscussion, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse1, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse2, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse3, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercFacilitatorResponse4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=FacilitatorResponse, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercContent4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Content, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMethodology4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Methodology, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material1, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial1, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material2, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial2, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material3, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial3, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material4, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material5, columnType=8, coldfusionType=numeric}, SQLField{columnName=RespondentsMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial5, columnType=8, coldfusionType=numeric}, SQLField{columnName=PercMaterial4And5, columnType=8, coldfusionType=numeric}, SQLField{columnName=Material, columnType=8, coldfusionType=numeric}, SQLField{columnName=QualityIndex, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:52:09,599 [AWT-EventQueue-0] INFO - Output.DimFacilitators
+2015-03-27 20:52:09,599 [AWT-EventQueue-0] INFO - Processing table: Output.DimFacilitators
+2015-03-27 20:52:09,602 [AWT-EventQueue-0] INFO - [SQLField{columnName=FacilitatorID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FacilitatorBusID, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullName, columnType=12, coldfusionType=String}, SQLField{columnName=Email, columnType=12, coldfusionType=String}, SQLField{columnName=Phone1, columnType=12, coldfusionType=String}, SQLField{columnName=Phone2, columnType=12, coldfusionType=String}, SQLField{columnName=Type, columnType=12, coldfusionType=String}, SQLField{columnName=Extension, columnType=12, coldfusionType=String}, SQLField{columnName=GeneralRating, columnType=8, coldfusionType=numeric}]
+2015-03-27 20:52:09,603 [AWT-EventQueue-0] INFO - General.DimDate
+2015-03-27 20:52:09,603 [AWT-EventQueue-0] INFO - Processing table: General.DimDate
+2015-03-27 20:52:09,606 [AWT-EventQueue-0] INFO - [SQLField{columnName=DateKey, columnType=4, coldfusionType=numeric}, SQLField{columnName=FullDate, columnType=91, coldfusionType=date}, SQLField{columnName=DateName, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfWeek, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayNameOfWeek, columnType=-15, coldfusionType=String}, SQLField{columnName=DayOfMonth, columnType=-6, coldfusionType=numeric}, SQLField{columnName=DayOfYear, columnType=5, coldfusionType=Any}, SQLField{columnName=WeekdayWeekend, columnType=-15, coldfusionType=String}, SQLField{columnName=WeekOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=MonthName, columnType=-15, coldfusionType=String}, SQLField{columnName=MonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=IsLastDayOfMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=CalendarYear, columnType=5, coldfusionType=Any}, SQLField{columnName=CalendarYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=CalendarYearQtr, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalMonthOfYear, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalQuarter, columnType=-6, coldfusionType=numeric}, SQLField{columnName=FiscalYear, columnType=4, coldfusionType=numeric}, SQLField{columnName=FiscalYearMonth, columnType=-15, coldfusionType=String}, SQLField{columnName=FiscalYearQtr, columnType=-15, coldfusionType=String}]
+2015-03-27 20:52:18,316 [AWT-EventQueue-0] INFO - Closing Application!!!
