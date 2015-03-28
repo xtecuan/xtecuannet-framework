@@ -60,6 +60,7 @@ public class Templater extends javax.swing.JFrame {
         buttonCss = new javax.swing.JButton();
         buttonPomXmlModel = new javax.swing.JButton();
         buttonPomXmlWeb = new javax.swing.JButton();
+        coldfusionBeansButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -197,6 +198,13 @@ public class Templater extends javax.swing.JFrame {
             }
         });
 
+        coldfusionBeansButton.setText("Generate Fake Entity Templates Coldfusion");
+        coldfusionBeansButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                coldfusionBeansButtonActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -216,14 +224,15 @@ public class Templater extends javax.swing.JFrame {
                     .addComponent(buttonPomXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 342, Short.MAX_VALUE)
+                    .addComponent(backingbeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, 382, Short.MAX_VALUE)
                     .addComponent(bundleButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonRemotingServlet, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathModel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonClasspathWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonProjectXmlWeb, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(buttonCpImagesDesing, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(buttonCss, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(buttonCss, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(coldfusionBeansButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -272,10 +281,12 @@ public class Templater extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(buttonCss)
-                        .addContainerGap(33, Short.MAX_VALUE))
+                        .addContainerGap(81, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(buttonPomXmlWeb)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(buttonPomXmlWeb)
+                            .addComponent(coldfusionBeansButton))
                         .addGap(21, 21, 21))))
         );
 
@@ -283,7 +294,6 @@ public class Templater extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
-
 
         logger.info("Starting application, with config path: " + FilenameUtils.normalize(Constants.getConfig().getBasePath()));
         logger.info(config.getEntitiesPkg());
@@ -402,6 +412,12 @@ public class Templater extends javax.swing.JFrame {
         new PomXmlWebEnhancerFiller().filloutTemplate();
     }//GEN-LAST:event_buttonPomXmlWebActionPerformed
 
+    private void coldfusionBeansButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_coldfusionBeansButtonActionPerformed
+        // TODO add your handling code here:
+        config.refreshConfig();
+        new CFCFEntitiesFiller().filloutTemplate();
+    }//GEN-LAST:event_coldfusionBeansButtonActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -461,6 +477,7 @@ public class Templater extends javax.swing.JFrame {
     private javax.swing.JButton buttonPomXmlWeb;
     private javax.swing.JButton buttonProjectXmlWeb;
     private javax.swing.JButton buttonRemotingServlet;
+    private javax.swing.JButton coldfusionBeansButton;
     // End of variables declaration//GEN-END:variables
     private static final Logger logger = LoggerUtilPlus.getLogger(Templater.class, Constants.LOG_CONFIG);
     private TemplaterConfig config = new TemplaterConfig();
