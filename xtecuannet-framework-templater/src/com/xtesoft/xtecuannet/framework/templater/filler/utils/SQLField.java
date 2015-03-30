@@ -53,7 +53,7 @@ public final class SQLField {
             this.coldfusionType = "numeric";
         }
 
-        if (this.getColumnType() == Types.DATE) {
+        if (this.getColumnType() == Types.DATE || this.getColumnType() == Types.TIMESTAMP) {
             this.coldfusionType = "date";
         }
 
