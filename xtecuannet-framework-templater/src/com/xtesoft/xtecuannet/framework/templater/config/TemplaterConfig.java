@@ -96,6 +96,14 @@ public class TemplaterConfig implements Serializable {
     private String cfcSQLTables;
     private String cfcBeansPrefix;
     private String cfcBeansExtends;
+    private File javaBeansPath;
+    private String javaSQLDriver;
+    private String javaSQLUrl;
+    private String javaSQLUser;
+    private String javaSQLPass;
+    private String javaSQLTables;
+    private String javaBeansPrefix;
+    private String javaBeansImplementsClassName;
 
     public TemplaterConfig() {
         this.readConfig();
@@ -743,6 +751,70 @@ public class TemplaterConfig implements Serializable {
 
     public void setCfcBeansExtends(String cfcBeansExtends) {
         this.cfcBeansExtends = cfcBeansExtends;
+    }
+
+    public File getJavaBeansPath() {
+        return javaBeansPath;
+    }
+
+    public void setJavaBeansPath(File javaBeansPath) {
+        this.javaBeansPath = javaBeansPath;
+    }
+
+    public String getJavaSQLDriver() {
+        return javaSQLDriver;
+    }
+
+    public void setJavaSQLDriver(String javaSQLDriver) {
+        this.javaSQLDriver = javaSQLDriver;
+    }
+
+    public String getJavaSQLUrl() {
+        return javaSQLUrl;
+    }
+
+    public void setJavaSQLUrl(String javaSQLUrl) {
+        this.javaSQLUrl = javaSQLUrl;
+    }
+
+    public String getJavaSQLUser() {
+        return javaSQLUser;
+    }
+
+    public void setJavaSQLUser(String javaSQLUser) {
+        this.javaSQLUser = javaSQLUser;
+    }
+
+    public String getJavaSQLPass() {
+        return javaSQLPass;
+    }
+
+    public void setJavaSQLPass(String javaSQLPass) {
+        this.javaSQLPass = javaSQLPass;
+    }
+
+    public String getJavaSQLTables() {
+        return javaSQLTables;
+    }
+
+    public void setJavaSQLTables(String javaSQLTables) {
+        this.javaSQLTables = javaSQLTables;
+    }
+
+    public String getJavaBeansPrefix() {
+        return javaBeansPrefix;
+    }
+
+    public void setJavaBeansPrefix(String javaBeansPrefix) {
+        this.javaBeansPrefix = javaBeansPrefix;
+    }
+
+    public String getJavaBeansImplementsClassName() {
+        return javaBeansImplementsClassName;
+    }
+
+    public void setJavaBeansImplementsClassName(String javaBeansImplementsClassName) {
+        this.javaBeansImplementsClassName = javaBeansImplementsClassName;
     }
     
     

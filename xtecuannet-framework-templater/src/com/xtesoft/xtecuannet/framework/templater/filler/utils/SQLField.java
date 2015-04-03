@@ -16,6 +16,8 @@ public final class SQLField {
     private String columnName;
     private int columnType;
     private String coldfusionType;
+    private String javaType;
+    private String javaImport;
 
     public SQLField(String columnName, int columnType) {
         this.columnName = columnName;
@@ -62,13 +64,71 @@ public final class SQLField {
         }
     }
 
+    private void setJavaType() {
+
+        this.javaType = "String";
+
+        if (this.getColumnType() == Types.VARCHAR || this.getColumnType() == Types.CHAR || this.getColumnType() == Types.NCHAR) {
+
+            this.javaType = "String";
+        }
+
+        if (this.getColumnType() == Types.INTEGER || this.getColumnType() == Types.BIT) {
+            this.javaType = "Integer";
+        }
+
+        if (this.getColumnType() == Types.BIGINT) {
+            this.javaType = "Long";
+        }
+
+        if (this.getColumnType() == Types.FLOAT || this.getColumnType() == Types.DECIMAL || this.getColumnType() == Types.DOUBLE) {
+            this.javaType = "BigDecimal";
+        }
+
+        if (this.getColumnType() == Types.DATE || this.getColumnType() == Types.TIMESTAMP) {
+            this.javaType = "Date";
+        }
+
+        if (this.getColumnType() == Types.BOOLEAN) {
+            this.javaType = "Boolean";
+        }
+
+    }
+
+    private void setJavaImport() {
+        if (this.getColumnType() == Types.FLOAT || this.getColumnType() == Types.DECIMAL || this.getColumnType() == Types.DOUBLE) {
+
+            this.javaImport = "java.math.BigDecimal";
+        }
+
+        if (this.getColumnType() == Types.DATE || this.getColumnType() == Types.TIMESTAMP) {
+            this.javaImport = "java.util.Date";
+        }
+
+        if (this.getColumnType() == Types.VARCHAR || this.getColumnType() == Types.CHAR || this.getColumnType() == Types.NCHAR
+                || this.getColumnType() == Types.INTEGER || this.getColumnType() == Types.BIGINT || this.getColumnType() == Types.BIT || this.getColumnType() == Types.BOOLEAN) {
+            this.javaImport = "";
+        }
+    }
+
+    public String getJavaType() {
+        setJavaType();
+        return javaType;
+    }
+
     public String getColdfusionType() {
         setColdfusionType();
         return coldfusionType;
     }
 
+    public String getJavaImport() {
+        setJavaImport();
+        return javaImport;
+    }
+
     @Override
     public String toString() {
-        return "SQLField{" + "columnName=" + columnName + ", columnType=" + columnType + ", coldfusionType=" + getColdfusionType() + '}';
+        return "SQLField{" + "columnName=" + columnName + ", columnType=" + columnType + ", coldfusionType=" + coldfusionType + ", javaType=" + javaType + ", javaImport=" + javaImport + '}';
     }
+
 }
