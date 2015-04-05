@@ -1,11 +1,10 @@
 <#assign creationDate = .now>
 <#assign aTime = creationDate?time>
-package ${fakeentitypackage};
+package ${javaBeansPackage};
 
 import java.io.Serializable;
-import ${}
-<#list fakeentityProperties as fakeentityProperty>
-import ${fakeentityProperty.javaImport};
+<#list fakeentityImports as fakeentityImport>
+import ${fakeentityImport.javaImport};
 </#list>
 
 
@@ -13,11 +12,11 @@ import ${fakeentityProperty.javaImport};
  *
  * @author      ${autor}
  * @date        ${creationDate?iso_local}    
- * @description Fake Entity JavaBean:  ${className}  for table:  ${javaSQLTable}
+ * @description Fake Entity JavaBean:  ${javaName}  for table:  ${javaSQLTable}
  * @generated   ${scriptName} version ${scriptVersion}
  * 
  */
-public class ${className} implements Serializable, ${javaBeansImplementsClassName} {
+public class ${javaName} implements Serializable, ${javaBeansImplementsClassName} {
 
     private static final String SCHEMA = "${schemaName}";
     private static final String TABLE = "${tableName}";
@@ -26,7 +25,7 @@ public class ${className} implements Serializable, ${javaBeansImplementsClassNam
     private ${fakeentityProperty.javaType} ${fakeentityProperty.columnName};
     </#list>
     
-    public ${className}() {
+    public ${javaName}() {
     }
 
     @Override

@@ -6,6 +6,8 @@
 package com.xtesoft.xtecuannet.framework.templater.filler.utils;
 
 import java.sql.Types;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
@@ -129,6 +131,20 @@ public final class SQLField {
     @Override
     public String toString() {
         return "SQLField{" + "columnName=" + columnName + ", columnType=" + columnType + ", coldfusionType=" + coldfusionType + ", javaType=" + javaType + ", javaImport=" + javaImport + '}';
+    }
+
+    public static List<SQLField> getImportsFromList(List<SQLField> fields) {
+
+        List<SQLField> returnFields = new ArrayList<SQLField>(0);
+
+        for (SQLField field : fields) {
+
+            if (field != null && !field.getJavaImport().equals("") && !returnFields.contains(field)) {
+                returnFields.add(field);
+            }
+        }
+
+        return returnFields;
     }
 
 }

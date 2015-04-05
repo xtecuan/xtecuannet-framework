@@ -96,6 +96,7 @@ public class TemplaterConfig implements Serializable {
     private String cfcSQLTables;
     private String cfcBeansPrefix;
     private String cfcBeansExtends;
+    private String javaBeansPackage;
     private File javaBeansPath;
     private String javaSQLDriver;
     private String javaSQLUrl;
@@ -130,7 +131,6 @@ public class TemplaterConfig implements Serializable {
                     ClassUtils.setPropertyToInstance(this, field.getName(), Boolean.valueOf(Constants.getResolvedValue(field.getName(), this.getClass())));
                 }
             }
-
 
         } catch (Exception e) {
             logger.error("Error al configurar la aplicacion: ", e);
@@ -816,6 +816,13 @@ public class TemplaterConfig implements Serializable {
     public void setJavaBeansImplementsClassName(String javaBeansImplementsClassName) {
         this.javaBeansImplementsClassName = javaBeansImplementsClassName;
     }
-    
-    
+
+    public String getJavaBeansPackage() {
+        return javaBeansPackage;
+    }
+
+    public void setJavaBeansPackage(String javaBeansPackage) {
+        this.javaBeansPackage = javaBeansPackage;
+    }
+
 }

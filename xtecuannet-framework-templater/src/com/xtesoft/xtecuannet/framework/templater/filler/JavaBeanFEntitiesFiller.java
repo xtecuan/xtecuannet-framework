@@ -30,58 +30,95 @@ public final class JavaBeanFEntitiesFiller implements TemplaterFiller {
     public void filloutTemplate() {
         Template template = FillerUtils.getTemplate(TEMPLATE_NAME);
 
-        File cfcBeansPath = FillerUtils.config.getCfcBeansPath();
-        String cfcSQLDriver = FillerUtils.config.getCfcSQLDriver();
-        String cfcSQLUrl = FillerUtils.config.getCfcSQLUrl();
-        String cfcSQLUser = FillerUtils.config.getCfcSQLUser();
-        String cfcSQLPass = FillerUtils.config.getCfcSQLPass();
-        String sqlTables = FillerUtils.config.getCfcSQLTables();
+        String javaBeansPackage = FillerUtils.config.getJavaBeansPackage();
+        File javaBeansPath = FillerUtils.config.getJavaBeansPath();
+        String javaSQLDriver = FillerUtils.config.getJavaSQLDriver();
+        String javaSQLUrl = FillerUtils.config.getJavaSQLUrl();
+        String javaSQLUser = FillerUtils.config.getJavaSQLUser();
+        String javaSQLPass = FillerUtils.config.getJavaSQLPass();
+        String sqlTables = FillerUtils.config.getJavaSQLTables();
         logger.info(sqlTables);
-        String[] cfcSQLTables = StringUtils.split(sqlTables, ":");
+        String[] javaSQLTables = StringUtils.split(sqlTables, ":");
 
-        String cfcBeansPrefix = FillerUtils.config.getCfcBeansPrefix();
-        String cfcBeansExtends = FillerUtils.config.getCfcBeansExtends();
+        String javaBeansPrefix = FillerUtils.config.getJavaBeansPrefix();
+        String javaBeansImplementsClassName = FillerUtils.config.getJavaBeansImplementsClassName();
         Map root = FillerUtils.getRootConfigAsMap();
         root.put("FilenameUtils", FillerUtils.getModelFor("org.apache.commons.io.FilenameUtils"));
         root.put("autor", System.getProperty("user.name"));
-        root.put("extendsCfc", cfcBeansExtends);
-        SQLScanner scanner = new SQLScanner(cfcSQLDriver, cfcSQLUrl, cfcSQLUser, cfcSQLPass);
+        root.put("javaBeansImplementsClassName", javaBeansImplementsClassName);
+        root.put("javaBeansPackage", javaBeansPackage);
+        SQLScanner scanner = new SQLScanner(javaSQLDriver, javaSQLUrl, javaSQLUser, javaSQLPass);
         try {
-            logger.info(cfcSQLTables.length);
-            for (String cfcSQLTable : cfcSQLTables) {
-                logger.info(cfcSQLTable);
-                String cfcName = cfcBeansPrefix + cfcSQLTable.substring(cfcSQLTable.lastIndexOf(".") + 1);
+            logger.info(javaSQLTables.length);
+            int i = 0;
+            for (String javaSQLTable : javaSQLTables) {
+                logger.info(javaSQLTable);
+                String javaName = javaBeansPrefix + javaSQLTable.substring(javaSQLTable.lastIndexOf(".") + 1);
 
-                File cfcBean = new File(cfcBeansPath, cfcName + ".cfc");
+                File javaBean = new File(javaBeansPath, javaName + ".java");
 
-                if (root.containsKey("cfcName")) {
-                    root.replace("cfcName", cfcName);
+                if (root.containsKey("javaName")) {
+                    root.replace("javaName", javaName);
                 } else {
-                    root.put("cfcName", cfcName);
+                    root.put("javaName", javaName);
                 }
 
-                if (root.containsKey("cfcSQLTable")) {
-                    root.replace("cfcSQLTable", cfcSQLTable);
+                String schemaName = javaSQLTable.substring(0, javaSQLTable.lastIndexOf("."));
+
+                if (root.containsKey("schemaName")) {
+                    root.replace("schemaName", schemaName);
                 } else {
-                    root.put("cfcSQLTable", cfcSQLTable);
+                    root.put("schemaName", schemaName);
                 }
-                List<SQLField> cfcProperties = scanner.getSQLFields(cfcSQLTable);
 
-                logger.info(cfcProperties);
+                String tableName = javaSQLTable.substring(javaSQLTable.lastIndexOf(".") + 1);
 
-                if (root.containsKey("cfcProperties")) {
-                    root.replace("cfcProperties", cfcProperties);
+                if (root.containsKey("tableName")) {
+                    root.replace("tableName", tableName);
                 } else {
-                    root.put("cfcProperties", cfcProperties);
+                    root.put("tableName", tableName);
                 }
-                if (!cfcBean.exists()) {
 
-                    Writer out = new FileWriter(cfcBean);
+                if (root.containsKey("javaSQLTable")) {
+                    root.replace("javaSQLTable", javaSQLTable);
+                } else {
+                    root.put("javaSQLTable", javaSQLTable);
+                }
+                List<SQLField> fakeentityProperties = scanner.getSQLFields(javaSQLTable);
+
+                logger.info(fakeentityProperties);
+
+                String idName = fakeentityProperties.get(0).getColumnName();
+
+                if (root.containsKey("idName")) {
+                    root.replace("idName", idName);
+                } else {
+                    root.put("idName", idName);
+                }
+
+                if (root.containsKey("fakeentityProperties")) {
+                    root.replace("fakeentityProperties", fakeentityProperties);
+                } else {
+                    root.put("fakeentityProperties", fakeentityProperties);
+                }
+
+                List<SQLField> fakeentityImports = SQLField.getImportsFromList(fakeentityProperties);
+
+                if (root.containsKey("fakeentityImports")) {
+                    root.replace("fakeentityImports", fakeentityImports);
+                } else {
+                    root.put("fakeentityImports", fakeentityImports);
+                }
+
+                if (!javaBean.exists()) {
+
+                    Writer out = new FileWriter(javaBean);
                     template.process(root, out);
                     out.flush();
                 } else {
-                    logger.info("File: " + cfcBean.getName() + " already exists!!!!");
+                    logger.info("File: " + javaBean.getName() + " already exists!!!!");
                 }
+                i++;
             }
             scanner.closeConnection();
 
