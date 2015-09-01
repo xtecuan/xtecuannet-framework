@@ -18,8 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class MyApp {
 
-
-
   @RequestMapping("/hello")
   String hello(
       @RequestParam(value = "user", required = true, defaultValue = "anonymous") String user) {
